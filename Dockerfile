@@ -6,4 +6,4 @@ COPY . /ehelper/
 RUN cd ehelper
 WORKDIR /ehelper
 RUN pip install -r requirements.txt
-CMD [ "python", "bot.py"]
+CMD [ "python", "/ehelper/bot.py"]
