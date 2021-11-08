@@ -11,7 +11,7 @@ with open('iverbs.csv', 'r') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         # row格式为: {'Base Form': 'wring', 'Simple Past': 'wrung', 'Past Participle': 'wrung', 'Chinese': '拧', '': ''}
-        d = "Irregular Verbs:" 
+        d = "Irregular Verbs: " 
         for key, value in row.items():
             # 将row 变为 d格式 : awake awoke awoken 苏醒
             if value != "":
