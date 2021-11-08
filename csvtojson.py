@@ -17,8 +17,8 @@ with open('iverbs.csv', 'r') as csvfile:
             if value != "":
                 d += f"{value} "
         for key, value in row.items():
-            if key not in ['','Chinese']:
-                words = value.split('/')
+            if key not in ['','Chinese']: 
+                words = value.split('/')  # 处理 burn burned/burnt burned/burnt
                 for word in words:
                     # 将单词说明添加到word_dict中
                     if word not in word_dict:   # 如果单词不在word_dict中
