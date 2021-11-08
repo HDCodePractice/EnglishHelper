@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+    englishhelper:
+        image: hdcola/englishhelper:latest
+        env_file: 
+            - local.env
