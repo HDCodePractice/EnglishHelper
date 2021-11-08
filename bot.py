@@ -13,7 +13,9 @@ if __name__ == '__main__':
 
     commands = []
     from cmdproc import worddict
-    commands.append(worddict.add_dispatcher(dispatcher))
+    commands += worddict.add_dispatcher(dispatcher)
+
+    updater.bot.set_my_commands(commands)
 
     updater.start_polling()
     print('Started...')
