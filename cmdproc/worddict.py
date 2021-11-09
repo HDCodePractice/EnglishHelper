@@ -34,7 +34,7 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
     if str(update.effective_chat.id) not in ENV.CHATIDS:
         return
     question = update.message.reply_to_message.text.split("\n")[0]
-    answer = update.message.text
+    answer = update.message.text.lower()
     if question in word_dict:
         msg = ""
         correct = False
