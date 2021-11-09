@@ -10,6 +10,9 @@ with open('word_dict.json','r') as wd:
 def worddict_command(update: Update, context: CallbackContext) -> None:
     if str(update.effective_chat.id) not in ENV.CHATIDS:
         return
+    if  len(context.args) == 0:
+        update.message.reply_text("你没有提交单词，正确的打开方式为： /i word")
+        return
     query = context.args[0]
     if query in word_dict:
         msg = ""
