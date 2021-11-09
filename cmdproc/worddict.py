@@ -25,7 +25,7 @@ def wordtest_command(update: Update, context: CallbackContext) -> None:
     if str(update.effective_chat.id) not in ENV.CHATIDS:
         return
     word = random.choice(list(word_dict.keys()))
-    update.message.reply_text(f"{word}\n的同伴有谁？\n请回复本消息回答。")
+    update.message.reply_text(f"{word}\n的同伴有谁？\n请回复本消息回答你的答案。")
 
 def wordtest_reply(update: Update, context: CallbackContext) -> None:
     if str(update.effective_chat.id) not in ENV.CHATIDS:
@@ -49,4 +49,4 @@ def add_dispatcher(dp):
     dp.add_handler(CommandHandler("t", wordtest_command))
     dp.add_handler(MessageHandler(Filters.text | Filters.reply, wordtest_reply))
     return [BotCommand("i", "查询单词特殊形态"),
-            BotCommand("t", "为特殊形态的单词们找伴儿")]
+            BotCommand("t", "为特殊形态的单词们找伴儿游戏")]
