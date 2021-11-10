@@ -63,7 +63,6 @@ with open('picwords.csv','r') as csvfile:
                 if word not in word_dict:   # 如果单词不在word_dict中
                     word_dict[word] = [{'chapter':chapter,'topic':topic,'filename':filename,'number':num}]
                 else:
-                    if d not in word_dict[word]: # 如果单词在word_dict中，说明两个图里有相同的单词
-                        word_dict[word].append({'chapter':chapter,'topic':topic,'filename':filename,'number':num})
+                    word_dict[word].append({'chapter':chapter,'topic':topic,'filename':filename,'number':num})
 
 save_word_dict("pic_dict.json")
