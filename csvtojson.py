@@ -61,8 +61,8 @@ with open('picwords.csv','r') as csvfile:
             num , pre_word = word.split('.')  # 切出number和单词
             for word in pre_word.split('/'):    # 一个图有多个单词会使用/分割
                 if word not in word_dict:   # 如果单词不在word_dict中
-                    word_dict[word] = [{'chapter':chapter,'topic':topic,'filename':filename,'number':num}]
+                    word_dict[word.lower()] = [{'chapter':chapter,'topic':topic,'filename':filename,'number':num}]
                 else:
-                    word_dict[word].append({'chapter':chapter,'topic':topic,'filename':filename,'number':num})
+                    word_dict[word.lower()].append({'chapter':chapter,'topic':topic,'filename':filename,'number':num})
 
 save_word_dict("pic_dict.json")

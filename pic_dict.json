@@ -23,7 +23,7 @@
       "number": "3"
     }
   ],
-  "T-shirt": [
+  "t-shirt": [
     {
       "chapter": "Clothing",
       "topic": "Everyday Clothes",
@@ -135,7 +135,7 @@
       "number": "B"
     }
   ],
-  "January": [
+  "january": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -143,7 +143,7 @@
       "number": "25"
     }
   ],
-  "February": [
+  "february": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -151,7 +151,7 @@
       "number": "26"
     }
   ],
-  "March": [
+  "march": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -159,7 +159,7 @@
       "number": "27"
     }
   ],
-  "April": [
+  "april": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -167,7 +167,7 @@
       "number": "28"
     }
   ],
-  "May": [
+  "may": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -175,7 +175,7 @@
       "number": "29"
     }
   ],
-  "June": [
+  "june": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -183,7 +183,7 @@
       "number": "30"
     }
   ],
-  "July": [
+  "july": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -191,7 +191,7 @@
       "number": "31"
     }
   ],
-  "August": [
+  "august": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -199,7 +199,7 @@
       "number": "32"
     }
   ],
-  "September": [
+  "september": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -207,7 +207,7 @@
       "number": "33"
     }
   ],
-  "October": [
+  "october": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -215,7 +215,7 @@
       "number": "34"
     }
   ],
-  "November": [
+  "november": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",
@@ -223,7 +223,7 @@
       "number": "35"
     }
   ],
-  "December": [
+  "december": [
     {
       "chapter": "Everyday Language",
       "topic": "The Calendar",

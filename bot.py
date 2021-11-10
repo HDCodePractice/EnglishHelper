@@ -12,6 +12,8 @@ if __name__ == '__main__':
     print(f"Starting... ID: {str(CONFIG['ID'])} , Username: {CONFIG['Username']}")
 
     commands = []
+    from cmdproc import picword
+    commands += picword.add_dispatcher(dispatcher)
     from cmdproc import worddict
     commands += worddict.add_dispatcher(dispatcher)
 
