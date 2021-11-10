@@ -1,0 +1,274 @@
+{
+  "shirt": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "1"
+    }
+  ],
+  "jeans": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "2"
+    }
+  ],
+  "dress": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "3"
+    }
+  ],
+  "T-shirt": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "4"
+    }
+  ],
+  "baseball cap": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "5"
+    }
+  ],
+  "socks": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "6"
+    }
+  ],
+  "athletic shoes": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "7"
+    }
+  ],
+  "tie": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "A"
+    }
+  ],
+  "blouse": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "8"
+    }
+  ],
+  "handbag": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "9"
+    }
+  ],
+  "skirt": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "10"
+    }
+  ],
+  "suit": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "11"
+    }
+  ],
+  "slacks": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "12"
+    }
+  ],
+  "pants": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "12"
+    }
+  ],
+  "shoes": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "13"
+    }
+  ],
+  "sweater": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "14"
+    }
+  ],
+  "put on": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "B"
+    }
+  ],
+  "January": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "25"
+    }
+  ],
+  "February": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "26"
+    }
+  ],
+  "March": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "27"
+    }
+  ],
+  "April": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "28"
+    }
+  ],
+  "May": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "29"
+    }
+  ],
+  "June": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "30"
+    }
+  ],
+  "July": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "31"
+    }
+  ],
+  "August": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "32"
+    }
+  ],
+  "September": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "33"
+    }
+  ],
+  "October": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "34"
+    }
+  ],
+  "November": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "35"
+    }
+  ],
+  "December": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "36"
+    }
+  ],
+  "spring": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "37"
+    }
+  ],
+  "summer": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "38"
+    }
+  ],
+  "fall": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "39"
+    }
+  ],
+  "autumn": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "39"
+    }
+  ],
+  "winter": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "40"
+    }
+  ]
+}
