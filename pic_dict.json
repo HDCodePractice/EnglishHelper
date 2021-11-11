@@ -1166,5 +1166,459 @@
       "filename": "69.jpg",
       "number": "32"
     }
+  ],
+  "bacon": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "1"
+    }
+  ],
+  "sausage": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "2"
+    }
+  ],
+  "hash browns": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "3"
+    }
+  ],
+  "toast": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "4"
+    }
+  ],
+  "english muffin": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "5"
+    }
+  ],
+  "biscuits": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "6"
+    }
+  ],
+  "pancakes": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "7"
+    }
+  ],
+  "waffles": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "8"
+    }
+  ],
+  "hot cereal": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "9"
+    }
+  ],
+  "grilled cheese sandwich": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "10"
+    }
+  ],
+  "pickle": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "11"
+    }
+  ],
+  "club sandwich": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "12"
+    }
+  ],
+  "spinach salad": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "13"
+    }
+  ],
+  "chef's salad": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "14"
+    }
+  ],
+  "dinner salad": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "15"
+    }
+  ],
+  "soup": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "16"
+    }
+  ],
+  "rolls": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "17"
+    }
+  ],
+  "coleslaw": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "18"
+    }
+  ],
+  "potato salad": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "19"
+    }
+  ],
+  "pasta salad": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "20"
+    }
+  ],
+  "fruit salad": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "80.jpg",
+      "number": "21"
+    }
+  ],
+  "roast chicken": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "22"
+    }
+  ],
+  "mashed potatoes": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "23"
+    }
+  ],
+  "steak": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "24"
+    }
+  ],
+  "baked potato": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "25"
+    }
+  ],
+  "spaghetti": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "26"
+    }
+  ],
+  "meatballs": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "27"
+    }
+  ],
+  "garlic bread": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "28"
+    }
+  ],
+  "grilled fish": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "29"
+    }
+  ],
+  "rice": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "30"
+    },
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "10"
+    }
+  ],
+  "meatloaf": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "31"
+    }
+  ],
+  "steamed vegetables": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "32"
+    }
+  ],
+  "layer cake": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "33"
+    }
+  ],
+  "cheesecake": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "34"
+    }
+  ],
+  "pie": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "35"
+    }
+  ],
+  "mixed berries": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "36"
+    }
+  ],
+  "coffee": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "37"
+    }
+  ],
+  "decaf coffee": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "38"
+    }
+  ],
+  "tea": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "39"
+    }
+  ],
+  "herbal tea": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "40"
+    }
+  ],
+  "cread": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "41"
+    }
+  ],
+  "low-fat milk": [
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "42"
+    }
+  ],
+  "fish": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "1"
+    }
+  ],
+  "meat": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "2"
+    }
+  ],
+  "chicken": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "3"
+    }
+  ],
+  "cheese": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "4"
+    }
+  ],
+  "milk": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "5"
+    }
+  ],
+  "butter": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "6"
+    }
+  ],
+  "eggs": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "7"
+    }
+  ],
+  "vegetables": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "8"
+    }
+  ],
+  "fruit": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "9"
+    }
+  ],
+  "bread": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "11"
+    }
+  ],
+  "pasta": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "12"
+    }
+  ],
+  "grocery bag": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "13"
+    }
+  ],
+  "shopping list": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "14"
+    }
+  ],
+  "coupons": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "15"
+    }
   ]
 }
