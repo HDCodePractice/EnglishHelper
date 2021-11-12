@@ -1852,5 +1852,411 @@
       "filename": "53b.jpg",
       "number": "B"
     }
+  ],
+  "headache": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "1"
+    }
+  ],
+  "toothache": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "2"
+    }
+  ],
+  "earache": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "3"
+    }
+  ],
+  "stomachache": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "4"
+    }
+  ],
+  "backache": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "5"
+    }
+  ],
+  "sore throat": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "6"
+    }
+  ],
+  "nasal congestion": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "7"
+    }
+  ],
+  "fever": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "8"
+    }
+  ],
+  "temperature": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "8"
+    }
+  ],
+  "chills": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "9"
+    }
+  ],
+  "rash": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "10"
+    }
+  ],
+  "cough": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "A"
+    }
+  ],
+  "sneeze": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "B"
+    }
+  ],
+  "feel dizzy": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "C"
+    }
+  ],
+  "fell nauseous": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "D"
+    }
+  ],
+  "throw up": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "E"
+    }
+  ],
+  "vomit\n": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "E"
+    }
+  ],
+  "hot": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "1"
+    }
+  ],
+  "thirsty": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "2"
+    }
+  ],
+  "sleepy": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "3"
+    }
+  ],
+  "cold": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "4"
+    }
+  ],
+  "hungry": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "5"
+    }
+  ],
+  "full": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "6"
+    }
+  ],
+  "satisfied": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "6"
+    }
+  ],
+  "disgusted": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "7"
+    }
+  ],
+  "calm": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "8"
+    }
+  ],
+  "uncomfortable": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "9"
+    }
+  ],
+  "nervous": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "10"
+    }
+  ],
+  "in pain": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "11"
+    }
+  ],
+  "sick": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "12"
+    }
+  ],
+  "worried": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "13"
+    }
+  ],
+  "well": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "14"
+    }
+  ],
+  "relieved": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "15"
+    }
+  ],
+  "hurt": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "16"
+    }
+  ],
+  "lonely": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "17"
+    }
+  ],
+  "in love": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "18"
+    }
+  ],
+  "sad": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "19"
+    }
+  ],
+  "homesick": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "20"
+    },
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "21"
+    }
+  ],
+  "excited": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "22"
+    }
+  ],
+  "scared": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "23"
+    }
+  ],
+  "afraid": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "23"
+    }
+  ],
+  "embarrassed": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "24"
+    }
+  ],
+  "bored": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "25"
+    }
+  ],
+  "confused": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "26"
+    }
+  ],
+  "frustrated": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "27"
+    }
+  ],
+  "upset": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "28"
+    }
+  ],
+  "angry": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "29"
+    }
+  ],
+  "surprised": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "30"
+    }
+  ],
+  "happy": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "31"
+    }
+  ],
+  "tired": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "32"
+    }
   ]
 }
