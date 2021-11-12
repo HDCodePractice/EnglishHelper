@@ -44,7 +44,7 @@ with open('inouns.csv','r') as csvnounfile:
                     # 将单词说明添加到word_dict中
                     if word not in word_dict:
                         word_dict[word] = [g]
-print(f"单词条目：{len(word_dict)}个")
+print(f"Irregular单词条目：{len(word_dict)}个")
 save_word_dict("word_dict.json")
 
 word_dict={}
@@ -65,5 +65,5 @@ with open('picwords.csv','r') as csvfile:
                 else:
                     word_dict[word.lower()].append({'chapter':chapter,'topic':topic,'filename':filename,'number':num})
 
-print(f"单词条目：{len(word_dict)}个")
+print(f"看图识词单词条目：{len(word_dict)}个")
 save_word_dict("pic_dict.json")
