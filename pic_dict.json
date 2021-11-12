@@ -1620,5 +1620,237 @@
       "filename": "67.jpg",
       "number": "15"
     }
+  ],
+  "mailbox": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "1"
+    }
+  ],
+  "front walk": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "2"
+    }
+  ],
+  "steps": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "3"
+    }
+  ],
+  "gutter": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "4"
+    }
+  ],
+  "chimney": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "5"
+    }
+  ],
+  "satellite dish": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "6"
+    }
+  ],
+  "garage door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "7"
+    }
+  ],
+  "driveway": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "8"
+    }
+  ],
+  "gate": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "9"
+    }
+  ],
+  "storm door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "10"
+    }
+  ],
+  "front door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "11"
+    }
+  ],
+  "doorknob": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "12"
+    }
+  ],
+  "porch light": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "13"
+    }
+  ],
+  "doorbell": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "14"
+    }
+  ],
+  "screen door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "15"
+    }
+  ],
+  "patio": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "16"
+    }
+  ],
+  "grill": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "17"
+    }
+  ],
+  "sliding glass door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "18"
+    }
+  ],
+  "patio furniture": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "19"
+    }
+  ],
+  "flower bed": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "20"
+    }
+  ],
+  "hose": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "21"
+    }
+  ],
+  "sprinkler": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "22"
+    }
+  ],
+  "hammock": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "23"
+    }
+  ],
+  "garbage can": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "24"
+    }
+  ],
+  "compost pile": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "25"
+    }
+  ],
+  "lawn": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "26"
+    }
+  ],
+  "vegetable garden": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "27"
+    }
+  ],
+  "take a nap": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "A"
+    }
+  ],
+  "garden": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "B"
+    }
   ]
 }
