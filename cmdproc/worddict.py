@@ -65,6 +65,8 @@ def send_reply_msg(context : CallbackContext):
                     text=f'{word}\n的同伴有谁？\n请回复本消息回答你的答案。')
 
 def hour_game(update, context: CallbackContext) -> None:
+    if str(update.effective_chat.id) not in ENV.CHATIDS:
+        return
     context.job_queue.run_repeating(send_reply_msg, interval=3600, first=1)
 
 def add_dispatcher(dp):
