@@ -31,18 +31,6 @@ def pronounicing_command(update: Update, context: CallbackContext):
         update.effective_message.reply_text("请使用/p word来查询一个单词\n有关单词的发音规则参见 https://en.wikipedia.org/wiki/ARPABET ")
         return
     word = word[0]
-    reslt = get_pronouncing(word)
-    if len(reslt) == 0:
-        update.effective_message.reply_text("在库存中没有找到这个单词的发音规则")
-        return
-    msg = ""
-    count = 1
-    for p in reslt:
-        msg += f"{count}. [{p[0]}]\n"
-        for r in p[1]:
-            msg += f"{r} "
-        msg = f"{msg[:-1]}\n\n"
-        count += 1
     keyboard = [
         [InlineKeyboardButton(
             f"google pronunciation", 
@@ -57,6 +45,18 @@ def pronounicing_command(update: Update, context: CallbackContext):
             f"youtube pronunciation",
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
     ]
+    reslt = get_pronouncing(word)
+    if len(reslt) == 0:
+        update.effective_message.reply_text("在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～", reply_markup=InlineKeyboardMarkup(keyboard))
+        return
+    msg = ""
+    count = 1
+    for p in reslt:
+        msg += f"{count}. [{p[0]}]\n"
+        for r in p[1]:
+            msg += f"{r} "
+        msg = f"{msg[:-1]}\n\n"
+        count += 1
     update.effective_message.reply_text(msg, reply_markup=InlineKeyboardMarkup(keyboard))
     # TODO: 也许应该考虑使用多个按钮来分开，但是这样会比较麻烦
     # keyboard = []
