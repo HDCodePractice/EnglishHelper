@@ -1,7 +1,9 @@
 from telegram import Update, BotCommand, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler,CallbackContext,CallbackQueryHandler
+from cmdproc.picword import get_show_word
 from config import ENV
 import pronouncing
+import random
 
 def get_rhyme(p):
     """
@@ -20,11 +22,7 @@ def get_pronouncing(word):
         reslt.append([p, get_rhyme(p)])
     return reslt
 
-def pronounicing_callback(update: Update, context: CallbackContext):
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
-    query = update.callback_query
-    word = query.data.split(":")[1]
+def get_answer(word):
     keyboard = [
         [InlineKeyboardButton(
             f"google pronunciation", 
@@ -41,21 +39,31 @@ def pronounicing_callback(update: Update, context: CallbackContext):
     ]
     reslt = get_pronouncing(word)
     if len(reslt) == 0:
-        update.effective_message.reply_text(
-            "在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～", 
-            reply_markup=InlineKeyboardMarkup(keyboard),
-            quote=False
-            )
-        return
+        return ["在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～",keyboard]
     msg = ""
     count = 1
     for p in reslt:
         msg += f"{count}. [{p[0]}]\n"
-        for r in p[1]:
+        near = [w for w in p[1] if w != word]
+        if len(near) > 20:
+            near = random.sample(near, 20)
+        for r in near:
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
         count += 1
-    update.effective_message.reply_text(msg, quote=False, reply_markup=InlineKeyboardMarkup(keyboard))
+    return [msg,keyboard]
+
+def pronounicing_callback(update: Update, context: CallbackContext):
+    if str(update.effective_chat.id) not in ENV.CHATIDS:
+        return
+    query = update.callback_query
+    word = query.data.split(":")[1]
+    msg,keyboard = get_answer(word)
+    update.effective_message.reply_text(
+        msg, 
+        quote=False, 
+        reply_markup=InlineKeyboardMarkup(keyboard)
+        )
 
 def pronounicing_command(update: Update, context: CallbackContext):
     if str(update.effective_chat.id) not in ENV.CHATIDS:
@@ -65,37 +73,12 @@ def pronounicing_command(update: Update, context: CallbackContext):
         update.effective_message.reply_text("请使用/p word来查询一个单词\n有关单词的发音规则参见 https://en.wikipedia.org/wiki/ARPABET ")
         return
     word = word[0]
-    keyboard = [
-        [InlineKeyboardButton(
-            f"google pronunciation", 
-            url=f"https://www.google.com/search?q={word}+pronunciation")],
-        [InlineKeyboardButton(
-            f"google translate",
-            url=f"https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text={word}")],
-        [InlineKeyboardButton(
-            f"youglish",
-            url=f"https://youglish.com/pronounce/{word}/english/us?")],
-        [InlineKeyboardButton(
-            f"youtube pronunciation",
-            url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
-    ]
-    reslt = get_pronouncing(word)
-    if len(reslt) == 0:
-        update.effective_message.reply_text(
-            "在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～", 
-            reply_markup=InlineKeyboardMarkup(keyboard),
-            quote=False
-            )
-        return
-    msg = ""
-    count = 1
-    for p in reslt:
-        msg += f"{count}. [{p[0]}]\n"
-        for r in p[1]:
-            msg += f"{r} "
-        msg = f"{msg[:-1]}\n\n"
-        count += 1
-    update.effective_message.reply_text(msg,quote=False,reply_markup=InlineKeyboardMarkup(keyboard))
+    msg,keyboard = get_answer(word)
+    update.effective_message.reply_text(
+        msg,
+        quote=False,
+        reply_markup=InlineKeyboardMarkup(keyboard)
+        )
 
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("p", pronounicing_command))
