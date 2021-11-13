@@ -1,8 +1,8 @@
 singular,plural,Chinese
 addendum,addenda/addendums,附录
 aircraft,aircraft,飞机
-alumna,alumnae,校友
-alumnus,alumni,校友
+alumna,alumnae,校友（女）
+alumnus,alumni,校友（男）
 analysis,analyses,分析
 antenna,antennae/antennas,天线
 antithesis,antitheses,对立
@@ -58,7 +58,6 @@ loaf,loaves,面包
 locus,loci,轨迹
 louse,lice,虱
 man,men,男人
-man,men,男人
 matrix,matrices/matrixes,矩阵
 medium,media/mediums,中等的
 memorandum,memoranda/memorandums,备忘录
@@ -98,7 +97,6 @@ symposium,symposia/symposiums,座谈会
 synopsis,synopses,概要
 tableau,tableaux/tableaus,画报
 thesis,theses,论文
-thief,thieves,贼
 thief,thieves,贼
 tooth,teeth,齿
 trout,trout/trouts,鳟鱼
