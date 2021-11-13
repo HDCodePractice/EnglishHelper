@@ -1,274 +1,138 @@
 {
-  "shirt": [
+  "headache": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "1"
     }
   ],
-  "jeans": [
+  "toothache": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "2"
     }
   ],
-  "dress": [
+  "earache": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "3"
     }
   ],
-  "t-shirt": [
+  "stomachache": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "4"
     }
   ],
-  "baseball cap": [
+  "backache": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "5"
     }
   ],
-  "socks": [
+  "sore throat": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "6"
     }
   ],
-  "athletic shoes": [
+  "nasal congestion": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "7"
     }
   ],
-  "tie": [
+  "fever": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
-      "number": "A"
-    }
-  ],
-  "blouse": [
-    {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "8"
     }
   ],
-  "handbag": [
+  "temperature": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "8"
+    }
+  ],
+  "chills": [
+    {
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "9"
     }
   ],
-  "skirt": [
+  "rash": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "10"
     }
   ],
-  "suit": [
+  "cough": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
-      "number": "11"
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "A"
     }
   ],
-  "slacks": [
+  "sneeze": [
     {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
-      "number": "12"
-    }
-  ],
-  "pants": [
-    {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
-      "number": "12"
-    }
-  ],
-  "shoes": [
-    {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
-      "number": "13"
-    }
-  ],
-  "sweater": [
-    {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
-      "number": "14"
-    }
-  ],
-  "put on": [
-    {
-      "chapter": "Clothing",
-      "topic": "Everyday Clothes",
-      "filename": "86.jpg",
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
       "number": "B"
     }
   ],
-  "january": [
+  "feel dizzy": [
     {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "25"
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "C"
     }
   ],
-  "february": [
+  "fell nauseous": [
     {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "26"
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "D"
     }
   ],
-  "march": [
+  "throw up": [
     {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "27"
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "E"
     }
   ],
-  "april": [
+  "vomit\n": [
     {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "28"
-    }
-  ],
-  "may": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "29"
-    }
-  ],
-  "june": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "30"
-    }
-  ],
-  "july": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "31"
-    }
-  ],
-  "august": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "32"
-    }
-  ],
-  "september": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "33"
-    }
-  ],
-  "october": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "34"
-    }
-  ],
-  "november": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "35"
-    }
-  ],
-  "december": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "36"
-    }
-  ],
-  "spring": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "37"
-    }
-  ],
-  "summer": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "38"
-    }
-  ],
-  "fall": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "39"
-    }
-  ],
-  "autumn": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "39"
-    }
-  ],
-  "winter": [
-    {
-      "chapter": "Everyday Language",
-      "topic": "The Calendar",
-      "filename": "21.jpg",
-      "number": "40"
+      "chapter": "Health",
+      "topic": "Symptoms and Injuries",
+      "filename": "110a.jpg",
+      "number": "E"
     }
   ],
   "sunrise": [
@@ -535,6 +399,412 @@
       "number": "24"
     }
   ],
+  "january": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "25"
+    }
+  ],
+  "february": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "26"
+    }
+  ],
+  "march": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "27"
+    }
+  ],
+  "april": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "28"
+    }
+  ],
+  "may": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "29"
+    }
+  ],
+  "june": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "30"
+    }
+  ],
+  "july": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "31"
+    }
+  ],
+  "august": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "32"
+    }
+  ],
+  "september": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "33"
+    }
+  ],
+  "october": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "34"
+    }
+  ],
+  "november": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "35"
+    }
+  ],
+  "december": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "36"
+    }
+  ],
+  "spring": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "37"
+    }
+  ],
+  "summer": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "38"
+    }
+  ],
+  "fall": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "39"
+    }
+  ],
+  "autumn": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "39"
+    }
+  ],
+  "winter": [
+    {
+      "chapter": "Everyday Language",
+      "topic": "The Calendar",
+      "filename": "21.jpg",
+      "number": "40"
+    }
+  ],
+  "hot": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "1"
+    }
+  ],
+  "thirsty": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "2"
+    }
+  ],
+  "sleepy": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "3"
+    }
+  ],
+  "cold": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "4"
+    }
+  ],
+  "hungry": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "5"
+    }
+  ],
+  "full": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "6"
+    }
+  ],
+  "satisfied": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "6"
+    }
+  ],
+  "disgusted": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "7"
+    }
+  ],
+  "calm": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "8"
+    }
+  ],
+  "uncomfortable": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "9"
+    }
+  ],
+  "nervous": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "10"
+    }
+  ],
+  "in pain": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "11"
+    }
+  ],
+  "sick": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "12"
+    }
+  ],
+  "worried": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "13"
+    }
+  ],
+  "well": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "14"
+    }
+  ],
+  "relieved": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "15"
+    }
+  ],
+  "hurt": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "16"
+    }
+  ],
+  "lonely": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "17"
+    }
+  ],
+  "in love": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "42.jpg",
+      "number": "18"
+    }
+  ],
+  "sad": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "19"
+    }
+  ],
+  "homesick": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "20"
+    },
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "21"
+    }
+  ],
+  "excited": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "22"
+    }
+  ],
+  "scared": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "23"
+    }
+  ],
+  "afraid": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "23"
+    }
+  ],
+  "embarrassed": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "24"
+    }
+  ],
+  "bored": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "25"
+    }
+  ],
+  "confused": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "26"
+    }
+  ],
+  "frustrated": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "27"
+    }
+  ],
+  "upset": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "28"
+    }
+  ],
+  "angry": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "29"
+    }
+  ],
+  "surprised": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "30"
+    }
+  ],
+  "happy": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "31"
+    }
+  ],
+  "tired": [
+    {
+      "chapter": "People",
+      "topic": "Feelings",
+      "filename": "43.jpg",
+      "number": "32"
+    }
+  ],
   "roof": [
     {
       "chapter": "",
@@ -645,6 +915,364 @@
       "topic": "The Home",
       "filename": "46.jpg",
       "number": "14"
+    }
+  ],
+  "mailbox": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "1"
+    }
+  ],
+  "front walk": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "2"
+    }
+  ],
+  "steps": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "3"
+    }
+  ],
+  "gutter": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "4"
+    }
+  ],
+  "chimney": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "5"
+    }
+  ],
+  "satellite dish": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "6"
+    }
+  ],
+  "garage door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "7"
+    }
+  ],
+  "driveway": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "8"
+    }
+  ],
+  "gate": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "9"
+    }
+  ],
+  "storm door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "10"
+    }
+  ],
+  "front door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "11"
+    }
+  ],
+  "doorknob": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "12"
+    }
+  ],
+  "porch light": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "13"
+    }
+  ],
+  "doorbell": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "14"
+    }
+  ],
+  "screen door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53a.jpg",
+      "number": "15"
+    }
+  ],
+  "patio": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "16"
+    }
+  ],
+  "grill": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "17"
+    }
+  ],
+  "sliding glass door": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "18"
+    }
+  ],
+  "patio furniture": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "19"
+    }
+  ],
+  "flower bed": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "20"
+    }
+  ],
+  "hose": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "21"
+    }
+  ],
+  "sprinkler": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "22"
+    }
+  ],
+  "hammock": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "23"
+    }
+  ],
+  "garbage can": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "24"
+    }
+  ],
+  "compost pile": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "25"
+    }
+  ],
+  "lawn": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "26"
+    }
+  ],
+  "vegetable garden": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "27"
+    }
+  ],
+  "take a nap": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "A"
+    }
+  ],
+  "garden": [
+    {
+      "chapter": "Housing",
+      "topic": "A House and Yard",
+      "filename": "53b.jpg",
+      "number": "B"
+    }
+  ],
+  "fish": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "1"
+    }
+  ],
+  "meat": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "2"
+    }
+  ],
+  "chicken": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "3"
+    }
+  ],
+  "cheese": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "4"
+    }
+  ],
+  "milk": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "5"
+    }
+  ],
+  "butter": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "6"
+    }
+  ],
+  "eggs": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "7"
+    }
+  ],
+  "vegetables": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "66.jpg",
+      "number": "8"
+    }
+  ],
+  "fruit": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "9"
+    }
+  ],
+  "rice": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "10"
+    },
+    {
+      "chapter": "Food",
+      "topic": "A Coffee Shop Menu",
+      "filename": "81.jpg",
+      "number": "30"
+    }
+  ],
+  "bread": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "11"
+    }
+  ],
+  "pasta": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "12"
+    }
+  ],
+  "grocery bag": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "13"
+    }
+  ],
+  "shopping list": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "14"
+    }
+  ],
+  "coupons": [
+    {
+      "chapter": "Food",
+      "topic": "Back from the Market",
+      "filename": "67.jpg",
+      "number": "15"
     }
   ],
   "apples": [
@@ -1399,20 +2027,6 @@
       "number": "29"
     }
   ],
-  "rice": [
-    {
-      "chapter": "Food",
-      "topic": "A Coffee Shop Menu",
-      "filename": "81.jpg",
-      "number": "30"
-    },
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "10"
-    }
-  ],
   "meatloaf": [
     {
       "chapter": "Food",
@@ -1493,7 +2107,7 @@
       "number": "40"
     }
   ],
-  "cread": [
+  "cream": [
     {
       "chapter": "Food",
       "topic": "A Coffee Shop Menu",
@@ -1509,754 +2123,140 @@
       "number": "42"
     }
   ],
-  "fish": [
+  "shirt": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "1"
     }
   ],
-  "meat": [
+  "jeans": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "2"
     }
   ],
-  "chicken": [
+  "dress": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "3"
     }
   ],
-  "cheese": [
+  "t-shirt": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "4"
     }
   ],
-  "milk": [
+  "baseball cap": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "5"
     }
   ],
-  "butter": [
+  "socks": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "6"
     }
   ],
-  "eggs": [
+  "athletic shoes": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "7"
     }
   ],
-  "vegetables": [
+  "tie": [
     {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "66.jpg",
-      "number": "8"
-    }
-  ],
-  "fruit": [
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "9"
-    }
-  ],
-  "bread": [
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "11"
-    }
-  ],
-  "pasta": [
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "12"
-    }
-  ],
-  "grocery bag": [
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "13"
-    }
-  ],
-  "shopping list": [
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "14"
-    }
-  ],
-  "coupons": [
-    {
-      "chapter": "Food",
-      "topic": "Back from the Market",
-      "filename": "67.jpg",
-      "number": "15"
-    }
-  ],
-  "mailbox": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "1"
-    }
-  ],
-  "front walk": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "2"
-    }
-  ],
-  "steps": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "3"
-    }
-  ],
-  "gutter": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "4"
-    }
-  ],
-  "chimney": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "5"
-    }
-  ],
-  "satellite dish": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "6"
-    }
-  ],
-  "garage door": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "7"
-    }
-  ],
-  "driveway": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "8"
-    }
-  ],
-  "gate": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "9"
-    }
-  ],
-  "storm door": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "10"
-    }
-  ],
-  "front door": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "11"
-    }
-  ],
-  "doorknob": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "12"
-    }
-  ],
-  "porch light": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "13"
-    }
-  ],
-  "doorbell": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "14"
-    }
-  ],
-  "screen door": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53a.jpg",
-      "number": "15"
-    }
-  ],
-  "patio": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "16"
-    }
-  ],
-  "grill": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "17"
-    }
-  ],
-  "sliding glass door": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "18"
-    }
-  ],
-  "patio furniture": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "19"
-    }
-  ],
-  "flower bed": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "20"
-    }
-  ],
-  "hose": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "21"
-    }
-  ],
-  "sprinkler": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "22"
-    }
-  ],
-  "hammock": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "23"
-    }
-  ],
-  "garbage can": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "24"
-    }
-  ],
-  "compost pile": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "25"
-    }
-  ],
-  "lawn": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "26"
-    }
-  ],
-  "vegetable garden": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "27"
-    }
-  ],
-  "take a nap": [
-    {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "A"
     }
   ],
-  "garden": [
+  "blouse": [
     {
-      "chapter": "Housing",
-      "topic": "A House and Yard",
-      "filename": "53b.jpg",
-      "number": "B"
-    }
-  ],
-  "headache": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "1"
-    }
-  ],
-  "toothache": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "2"
-    }
-  ],
-  "earache": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "3"
-    }
-  ],
-  "stomachache": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "4"
-    }
-  ],
-  "backache": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "5"
-    }
-  ],
-  "sore throat": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "6"
-    }
-  ],
-  "nasal congestion": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "7"
-    }
-  ],
-  "fever": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "8"
     }
   ],
-  "temperature": [
+  "handbag": [
     {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "8"
-    }
-  ],
-  "chills": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "9"
     }
   ],
-  "rash": [
+  "skirt": [
     {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "10"
     }
   ],
-  "cough": [
+  "suit": [
     {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "A"
-    }
-  ],
-  "sneeze": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "B"
-    }
-  ],
-  "feel dizzy": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "C"
-    }
-  ],
-  "fell nauseous": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "D"
-    }
-  ],
-  "throw up": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "E"
-    }
-  ],
-  "vomit\n": [
-    {
-      "chapter": "Health",
-      "topic": "Symptoms and Injuries",
-      "filename": "110a.jpg",
-      "number": "E"
-    }
-  ],
-  "hot": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "1"
-    }
-  ],
-  "thirsty": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "2"
-    }
-  ],
-  "sleepy": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "3"
-    }
-  ],
-  "cold": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "4"
-    }
-  ],
-  "hungry": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "5"
-    }
-  ],
-  "full": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "6"
-    }
-  ],
-  "satisfied": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "6"
-    }
-  ],
-  "disgusted": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "7"
-    }
-  ],
-  "calm": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "8"
-    }
-  ],
-  "uncomfortable": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "9"
-    }
-  ],
-  "nervous": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "10"
-    }
-  ],
-  "in pain": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "11"
     }
   ],
-  "sick": [
+  "slacks": [
     {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "12"
     }
   ],
-  "worried": [
+  "pants": [
     {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "12"
+    }
+  ],
+  "shoes": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "13"
     }
   ],
-  "well": [
+  "sweater": [
     {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
       "number": "14"
     }
   ],
-  "relieved": [
+  "put on": [
     {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "15"
-    }
-  ],
-  "hurt": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "16"
-    }
-  ],
-  "lonely": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "17"
-    }
-  ],
-  "in love": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "42.jpg",
-      "number": "18"
-    }
-  ],
-  "sad": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "19"
-    }
-  ],
-  "homesick": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "20"
-    },
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "21"
-    }
-  ],
-  "excited": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "22"
-    }
-  ],
-  "scared": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "23"
-    }
-  ],
-  "afraid": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "23"
-    }
-  ],
-  "embarrassed": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "24"
-    }
-  ],
-  "bored": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "25"
-    }
-  ],
-  "confused": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "26"
-    }
-  ],
-  "frustrated": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "27"
-    }
-  ],
-  "upset": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "28"
-    }
-  ],
-  "angry": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "29"
-    }
-  ],
-  "surprised": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "30"
-    }
-  ],
-  "happy": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "31"
-    }
-  ],
-  "tired": [
-    {
-      "chapter": "People",
-      "topic": "Feelings",
-      "filename": "43.jpg",
-      "number": "32"
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "B"
     }
   ]
 }
