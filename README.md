@@ -8,9 +8,11 @@ English study corner小助手
 * inouns.csv Irregular plural nouns
 * iverbs.csv Irregular verbs
 
-你可以通过 /i word 来查询单词的Irregular形式。
+可以通过 /i word 来查询单词的Irregular形式。
 
-你也可以通过 /t 来启动一个测试小游戏，Bot会寻找任意一个单词让你去回复它的其它形式。
+可以通过 /t 来启动一个测试小游戏，Bot会寻找任意一个单词让你去回复它的其它形式。
+
+可以通过 /p word 来查询单词的读音和类似读音的单词。
 
 ## 使用说明
 
