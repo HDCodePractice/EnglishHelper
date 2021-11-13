@@ -8,7 +8,10 @@ word_dict = {}
 with open('pic_dict.json','r') as wd:
     word_dict = load(wd)
 
-again = InlineKeyboardMarkup([[InlineKeyboardButton("再来一把！",callback_data=f"getnewremember:")]])
+again = InlineKeyboardMarkup([
+    [InlineKeyboardButton("再来一把！",callback_data=f"getnewremember:"),
+    InlineKeyboardButton("教我发音",callback_data=f"getpron:")
+    ]])
 
 def check_answer(question,answer,filenumber):
     # 问题的答案是否正确
@@ -79,6 +82,8 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
         update.callback_query.edit_message_caption(msg,reply_markup=keyboard)
         query.answer("又多给你一个字母！")
     else:
+        print(again)
+        again.inline_keyboard[0][1].callback_data = f"getpron:{word}"
         update.callback_query.edit_message_caption(msg + "\n唉，没想到这一群人，竟都不知道如此简单的单词！真令人失望啊～",reply_markup=again)
         query.answer("全部答案都给你啦！老子家底都被你掏空了！",show_alert=True)
 

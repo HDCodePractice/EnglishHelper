@@ -21,7 +21,41 @@ def get_pronouncing(word):
     return reslt
 
 def pronounicing_callback(update: Update, context: CallbackContext):
-    pass
+    if str(update.effective_chat.id) not in ENV.CHATIDS:
+        return
+    query = update.callback_query
+    word = query.data.split(":")[1]
+    keyboard = [
+        [InlineKeyboardButton(
+            f"google pronunciation", 
+            url=f"https://www.google.com/search?q={word}+pronunciation")],
+        [InlineKeyboardButton(
+            f"google translate",
+            url=f"https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text={word}")],
+        [InlineKeyboardButton(
+            f"youglish",
+            url=f"https://youglish.com/pronounce/{word}/english?")],
+        [InlineKeyboardButton(
+            f"youtube pronunciation",
+            url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
+    ]
+    reslt = get_pronouncing(word)
+    if len(reslt) == 0:
+        update.effective_message.reply_text(
+            "在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～", 
+            reply_markup=InlineKeyboardMarkup(keyboard),
+            quote=False
+            )
+        return
+    msg = ""
+    count = 1
+    for p in reslt:
+        msg += f"{count}. [{p[0]}]\n"
+        for r in p[1]:
+            msg += f"{r} "
+        msg = f"{msg[:-1]}\n\n"
+        count += 1
+    update.effective_message.reply_text(msg, quote=False, reply_markup=InlineKeyboardMarkup(keyboard))
 
 def pronounicing_command(update: Update, context: CallbackContext):
     if str(update.effective_chat.id) not in ENV.CHATIDS:
@@ -47,7 +81,11 @@ def pronounicing_command(update: Update, context: CallbackContext):
     ]
     reslt = get_pronouncing(word)
     if len(reslt) == 0:
-        update.effective_message.reply_text("在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～", reply_markup=InlineKeyboardMarkup(keyboard))
+        update.effective_message.reply_text(
+            "在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～", 
+            reply_markup=InlineKeyboardMarkup(keyboard),
+            quote=False
+            )
         return
     msg = ""
     count = 1
@@ -57,19 +95,9 @@ def pronounicing_command(update: Update, context: CallbackContext):
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
         count += 1
-    update.effective_message.reply_text(msg, reply_markup=InlineKeyboardMarkup(keyboard))
-    # TODO: 也许应该考虑使用多个按钮来分开，但是这样会比较麻烦
-    # keyboard = []
-    # for p in reslt:
-    #     cbdata = ""
-    #     for r in p[1]:
-    #         cbdata += f"{r},"
-    #     cbdata = f"pron:{p[0]}:{cbdata[:-1]}"
-    #     keyboard.append([InlineKeyboardButton(p[0], callback_data=p[0])])
-    # reply_markup = InlineKeyboardMarkup(keyboard)
-    # update.message.reply_text(f'Pronouncing of {word}', reply_markup=reply_markup)
+    update.effective_message.reply_text(msg,quote=False,reply_markup=InlineKeyboardMarkup(keyboard))
 
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("p", pronounicing_command))
-    # dp.add_handler(CallbackQueryHandler(pronounicing_callback,pattern="^pron:[A-Za-z0-9_]*"))
+    dp.add_handler(CallbackQueryHandler(pronounicing_callback,pattern="^getpron:[A-Za-z0-9_]*"))
     return [BotCommand("p", "查询单词发音与类似发音的单词")]
