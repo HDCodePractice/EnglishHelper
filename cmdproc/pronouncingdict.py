@@ -71,5 +71,5 @@ def pronounicing_command(update: Update, context: CallbackContext):
 
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("p", pronounicing_command))
-    dp.add_handler(CallbackQueryHandler(pronounicing_callback,pattern="^pron:[A-Za-z0-9_]*"))
+    # dp.add_handler(CallbackQueryHandler(pronounicing_callback,pattern="^pron:[A-Za-z0-9_]*"))
     return [BotCommand("p", "查询单词发音与类似发音的单词")]
