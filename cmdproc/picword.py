@@ -82,7 +82,6 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
         update.callback_query.edit_message_caption(msg,reply_markup=keyboard)
         query.answer("又多给你一个字母！")
     else:
-        print(again)
         again.inline_keyboard[0][1].callback_data = f"getpron:{word}"
         update.callback_query.edit_message_caption(msg + "\n唉，没想到这一群人，竟都不知道如此简单的单词！真令人失望啊～",reply_markup=again)
         query.answer("全部答案都给你啦！老子家底都被你掏空了！",show_alert=True)
