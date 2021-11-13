@@ -2179,12 +2179,26 @@
       "number": "7"
     }
   ],
+  "sneakers": [
+    {
+      "chapter": "Clothing",
+      "topic": "Everyday Clothes",
+      "filename": "86.jpg",
+      "number": "7"
+    }
+  ],
   "tie": [
     {
       "chapter": "Clothing",
       "topic": "Everyday Clothes",
       "filename": "86.jpg",
       "number": "A"
+    },
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "12"
     }
   ],
   "blouse": [
@@ -2249,6 +2263,12 @@
       "topic": "Everyday Clothes",
       "filename": "86.jpg",
       "number": "14"
+    },
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "3"
     }
   ],
   "put on": [
@@ -2257,6 +2277,462 @@
       "topic": "Everyday Clothes",
       "filename": "86.jpg",
       "number": "B"
+    }
+  ],
+  "cap": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "1"
+    }
+  ],
+  "cardigan sweater": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "2"
+    }
+  ],
+  "pullover sweater": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "3"
+    }
+  ],
+  "sports shirt": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "4"
+    }
+  ],
+  "maternity dress": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "5"
+    }
+  ],
+  "overall": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "6"
+    }
+  ],
+  "knit top": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "7"
+    }
+  ],
+  "capris": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "8"
+    }
+  ],
+  "short pants": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "8"
+    }
+  ],
+  "sandals": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "9"
+    }
+  ],
+  "uniform": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "10"
+    }
+  ],
+  "business suit": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "11"
+    }
+  ],
+  "briefcase": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "88.jpg",
+      "number": "13"
+    }
+  ],
+  "sports jacket": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "14"
+    }
+  ],
+  "sports coat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "14"
+    }
+  ],
+  "vest": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "15"
+    }
+  ],
+  "bow tie": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "16"
+    }
+  ],
+  "tuxedo": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "17"
+    }
+  ],
+  "evening gown": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "18"
+    }
+  ],
+  "clutch bag": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "19"
+    }
+  ],
+  "cocktail dress": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "20"
+    }
+  ],
+  "high hells": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "21"
+    }
+  ],
+  "sweatshirt": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "22"
+    }
+  ],
+  "hoodie": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "22"
+    }
+  ],
+  "sweatpants": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "23"
+    }
+  ],
+  "tank top": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "24"
+    }
+  ],
+  "shorts": [
+    {
+      "chapter": "Clothing",
+      "topic": "Casual,Work,and Formal Clothes",
+      "filename": "89.jpg",
+      "number": "25"
+    }
+  ],
+  "hat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "1"
+    }
+  ],
+  "coat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "2"
+    }
+  ],
+  "over coat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "2"
+    }
+  ],
+  "headband": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "3"
+    }
+  ],
+  "leather jacket": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "4"
+    }
+  ],
+  "winter scarf": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "5"
+    }
+  ],
+  "gloves": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "6"
+    }
+  ],
+  "headwrap": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "7"
+    }
+  ],
+  "jacket": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "8"
+    }
+  ],
+  "parka": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "9"
+    }
+  ],
+  "mittens": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "10"
+    }
+  ],
+  "ski hat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "11"
+    }
+  ],
+  "tuque": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "11"
+    }
+  ],
+  "leggings": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "12"
+    }
+  ],
+  "earmuffs": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "13"
+    }
+  ],
+  "down vest": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "14"
+    }
+  ],
+  "ski mask": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "15"
+    }
+  ],
+  "down jacket": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90a.jpg",
+      "number": "16"
+    }
+  ],
+  "umbreal": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "17"
+    }
+  ],
+  "raincoat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "18"
+    }
+  ],
+  "poncho": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "19"
+    }
+  ],
+  "rain boots": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "20"
+    }
+  ],
+  "trench coat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "21"
+    }
+  ],
+  "swimming trunks": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "22"
+    }
+  ],
+  "straw hat": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "23"
+    }
+  ],
+  "windbreaker": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "24"
+    }
+  ],
+  "cover-up": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "25"
+    }
+  ],
+  "swimsuit": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "26"
+    }
+  ],
+  "bathing suit": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "26"
+    }
+  ],
+  "sunglasses": [
+    {
+      "chapter": "Clothing",
+      "topic": "Seasonal Clothing",
+      "filename": "90b.jpg",
+      "number": "27"
     }
   ]
 }
