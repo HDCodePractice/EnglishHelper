@@ -43,8 +43,21 @@ def pronounicing_command(update: Update, context: CallbackContext):
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
         count += 1
-    keyboard = [InlineKeyboardButton(f"google pronunciation:{word}", url=f"https://www.google.com/search?q={word}+pronunciation")]
-    update.effective_message.reply_text(msg, reply_markup=InlineKeyboardMarkup([keyboard]))
+    keyboard = [
+        [InlineKeyboardButton(
+            f"google pronunciation", 
+            url=f"https://www.google.com/search?q={word}+pronunciation")],
+        [InlineKeyboardButton(
+            f"google translate",
+            url=f"https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text={word}")],
+        [InlineKeyboardButton(
+            f"youglish",
+            url=f"https://youglish.com/pronounce/{word}/english?")],
+        [InlineKeyboardButton(
+            f"youtube pronunciation",
+            url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
+    ]
+    update.effective_message.reply_text(msg, reply_markup=InlineKeyboardMarkup(keyboard))
     # TODO: 也许应该考虑使用多个按钮来分开，但是这样会比较麻烦
     # keyboard = []
     # for p in reslt:
