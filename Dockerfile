@@ -1,9 +1,12 @@
 FROM python:latest
 
-RUN apt-get update && apt upgrade -y
-RUN cd /
-COPY . /ehelper/
-RUN cd ehelper
+RUN apt-get update && apt upgrade -y && \
+    adduser --disabled-password --gecos "" --shell /bin/bash ehelper
+
+USER ehelper
 WORKDIR /ehelper
-RUN pip install -r requirements.txt
+ENV PATH="/home/ehelper/.local/bin:${PATH}"
+COPY --chown=ehelper . ./
+
+RUN pip install --user -r requirements.txt
 CMD [ "python", "/ehelper/bot.py"]
