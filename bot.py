@@ -14,6 +14,8 @@ if __name__ == '__main__':
     commands = []
     from cmdproc import picword
     commands += picword.add_dispatcher(dispatcher)
+    from cmdproc import pronouncingdict
+    commands += pronouncingdict.add_dispatcher(dispatcher)
     from cmdproc import worddict
     commands += worddict.add_dispatcher(dispatcher)
 
