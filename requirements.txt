@@ -2,3 +2,4 @@ python-telegram-bot
 environs
 requests
 pronouncing
+pybadges

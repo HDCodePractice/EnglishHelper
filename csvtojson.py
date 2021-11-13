@@ -1,5 +1,6 @@
 import csv
 from json import dump
+from pybadges import badge
 
 word_dict= {}
 
@@ -46,6 +47,9 @@ with open('inouns.csv','r') as csvnounfile:
                         word_dict[word] = [g]
 print(f"Irregular单词条目：{len(word_dict)}个")
 save_word_dict("word_dict.json")
+s = badge(left_text="Irregular Words",right_text=f"{len(word_dict)}")
+with open('irregular.svg', 'w') as f:
+    f.write(s)
 
 word_dict={}
 
@@ -67,3 +71,6 @@ with open('picwords.csv','r') as csvfile:
 
 print(f"看图识词单词条目：{len(word_dict)}个")
 save_word_dict("pic_dict.json")
+s = badge(left_text="Picture Words",right_text=f"{len(word_dict)}")
+with open('picturewords.svg', 'w') as f:
+    f.write(s)
