@@ -34,7 +34,7 @@ def pronounicing_callback(update: Update, context: CallbackContext):
             url=f"https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text={word}")],
         [InlineKeyboardButton(
             f"youglish",
-            url=f"https://youglish.com/pronounce/{word}/english?")],
+            url=f"https://youglish.com/pronounce/{word}/english/us?")],
         [InlineKeyboardButton(
             f"youtube pronunciation",
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
@@ -74,7 +74,7 @@ def pronounicing_command(update: Update, context: CallbackContext):
             url=f"https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text={word}")],
         [InlineKeyboardButton(
             f"youglish",
-            url=f"https://youglish.com/pronounce/{word}/english?")],
+            url=f"https://youglish.com/pronounce/{word}/english/us?")],
         [InlineKeyboardButton(
             f"youtube pronunciation",
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
