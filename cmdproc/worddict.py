@@ -43,7 +43,7 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
         question = question.split("图中的")[1]
         filenumber = update.message.reply_to_message.caption.split("\n")[-1].split("Page:")[1]
         if picword.check_answer(question, answer, filenumber):
-            update.message.reply_text("回答正确！")
+            update.message.reply_text("回答正确！",reply_markup=picword.again)
         else:
             update.message.reply_text("回答错误，挖空脑髓再想想？")
     else:                     # 找同伴
