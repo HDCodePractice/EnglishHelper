@@ -51,7 +51,7 @@ def get_answer(word):
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
         count += 1
-    return [msg,keyboard]
+    return [f"{word:}\n{msg}",keyboard]
 
 def pronounicing_callback(update: Update, context: CallbackContext):
     if str(update.effective_chat.id) not in ENV.CHATIDS:
