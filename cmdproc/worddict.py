@@ -31,35 +31,6 @@ def wordtest_command(update: Update, context: CallbackContext) -> None:
     word = random.choice(list(word_dict.keys()))
     update.message.reply_text(f"{word}\n的同伴有谁？\n请回复本消息回答你的答案。")
 
-def wordtest_reply(update: Update, context: CallbackContext) -> None:
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
-    if update.message.reply_to_message.caption:
-        question = update.message.reply_to_message.caption.split("\n")[0]
-    else:
-        question = update.message.reply_to_message.text.split("\n")[0]
-    answer = update.message.text.lower()
-    if "图中的" in question:   # 看图识字
-        question = question.split("图中的")[1]
-        filenumber = update.message.reply_to_message.caption.split("\n")[-1].split("Page:")[1]
-        if picword.check_answer(question, answer, filenumber):
-            picword.again.inline_keyboard[0][1].callback_data = f"getpron:{answer}"
-            update.message.reply_text("回答正确！",reply_markup=picword.again)
-        else:
-            update.message.reply_text("回答错误，挖空脑髓再想想？")
-    else:                     # 找同伴
-        if question in word_dict:
-            msg = ""
-            correct = False
-            for i in word_dict[question]:
-                msg += i + "\n"
-                if answer in i.split(" "):
-                    correct = True
-            if correct:
-                update.message.reply_text(f"恭喜你，回答正确！\n{msg}")
-            else:
-                update.message.reply_text("回答错误，您可以再试一次。")
-
 def send_reply_msg(context : CallbackContext):
     word = random.choice(list(word_dict.keys()))
     context.bot.send_message(chat_id=-1001409640737, 
@@ -74,7 +45,6 @@ def add_dispatcher(dp):
     dp.add_handler(CommandHandler("i", worddict_command))
     dp.add_handler(CommandHandler("t", wordtest_command))
     dp.add_handler(CommandHandler("timer", hour_game))
-    dp.add_handler(MessageHandler(Filters.text | Filters.reply, wordtest_reply))
     return [BotCommand("i", "查询单词特殊形态"),
             BotCommand("t", "为特殊形态的单词们找伴儿游戏"),
             BotCommand("timer", "每小时推送个不规则形态单词给您")]

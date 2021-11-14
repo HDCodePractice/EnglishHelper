@@ -19,6 +19,10 @@ if __name__ == '__main__':
     from cmdproc import worddict
     commands += worddict.add_dispatcher(dispatcher)
 
+    # 这个import必须放在最后，因为它的MessageHandler会吃掉所有的消息
+    from cmdproc import replyanswer
+    commands += replyanswer.add_dispatcher(dispatcher)
+
     updater.bot.set_my_commands(commands)
 
     updater.start_polling()
