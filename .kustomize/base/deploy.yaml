@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ehelper
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ehelper
+  template:
+    metadata:
+      labels:
+        app: ehelper
+    spec:
+      containers:
+        - name: ehelper
+          image: hdcola/englishhelper:latest
+          imagePullPolicy: Always
+          # not listening to any port?
+          # ports:
+          #   - name: web
+          #     containerPort: 3000
+          envFrom:
+            - secretRef:
+                name: ehelper-envs
+          resources:
+            requests:
+              memory: 100Mi
+              cpu: 100m
+

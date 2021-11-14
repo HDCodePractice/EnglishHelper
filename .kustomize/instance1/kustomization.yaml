@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: ehelper
+bases:
+  - ../base
+
+resources:
+  - ns.yaml
+  # sealed secret is optional. The secret can also be created with kubectl, eg.
+  # kubectl create secret generic ehelper --from-literal=BOT_TOKEN=abcdefgh \
+  #   --from-literal=CHATIDS=-100123456789,-100987654321
+  - sealed-secret.yaml
+
+images:
+  # new tag or even new image source can be specified here
+  - name: hdcola/englishhelper
+    newTag: latest
+
