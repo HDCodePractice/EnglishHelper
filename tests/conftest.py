@@ -12,6 +12,7 @@ def go_to_tmpdir(request):
     # copy test data to tmpdir
     shutil.copyfile("pic_dict.json", str(tmpdir) + "/pic_dict.json")
     shutil.copyfile("word_dict.json", str(tmpdir) + "/word_dict.json")
+    shutil.copyfile("chapter_dict.json", str(tmpdir) + "/chapter_dict.json")
     # Chdir only for the duration of the test.
     with tmpdir.as_cwd():
         yield
