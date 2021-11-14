@@ -17,7 +17,7 @@ English study corner小助手
 可以通过 /p word 来查询单词的读音和类似读音的单词。
 
 ## 使用说明
-
+### Docker
 安装 Docker Compose，准备好你的[local.evn](blob/main/localenv.example)文件，并参照[docker-compose.yml](blob/main/docker-compose.yml)准备你自己的docker-compose.yml。
 
 更新 Image
@@ -43,3 +43,6 @@ docker-compose stop
 ```
 docker-compose logs -f
 ```
+
+### 部署到 Kubernetes 集群
+(试验阶段）参考 [README](.kustomize/README.md)
