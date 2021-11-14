@@ -7,6 +7,9 @@ import random
 word_dict = {}
 with open('pic_dict.json','r') as wd:
     word_dict = load(wd)
+chapter_dict = {}
+with open('chapter_dict.json','r') as wd:
+    chapter_dict = load(wd)
 
 again = InlineKeyboardMarkup([
     [InlineKeyboardButton("再来一把！",callback_data=f"getnewremember:"),
