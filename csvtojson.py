@@ -1,12 +1,8 @@
 import csv
-from json import dump
+from utils.fileproc import save_word_dict
 from pybadges import badge
 
 word_dict= {}
-
-def save_word_dict(filename,words_dict):
-    with open(filename, 'w') as configfile:
-        dump(words_dict, configfile, indent=2,ensure_ascii=False)
 
 with open('iverbs.csv', 'r') as csvfile:
     reader = csv.DictReader(csvfile)
