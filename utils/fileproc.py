@@ -5,7 +5,47 @@ def save_word_dict(filename,words_dict):
     with open(filename, 'w') as configfile:
         dump(words_dict, configfile, indent=2,ensure_ascii=False)
 
-def gen_pic_json_from_csv(csvfile,out_path="./"):
+def gen_irregular_dict_from_csv(iverbs_csv_file,inous_csv_file):
+    word_dict= {}
+
+    reader = csv.DictReader(iverbs_csv_file)
+    for row in reader:
+        # row格式为: {'Base Form': 'wring', 'Simple Past': 'wrung', 'Past Participle': 'wrung', 'Chinese': '拧', '': ''}
+        d = "Irregular Verbs: " 
+        for key, value in row.items():
+            # 将row 变为 d格式 : awake awoke awoken 苏醒
+            if value != "":
+                d += f"{value} "
+        for key, value in row.items():
+            if key not in ['','Chinese']: 
+                words = value.split('/')  # 处理 burn burned/burnt burned/burnt
+                for word in words:
+                    # 将单词说明添加到word_dict中
+                    if word not in word_dict:   # 如果单词不在word_dict中
+                        word_dict[word] = [d]
+                    else:
+                        if d not in word_dict[word]: # 如果单词在word_dict中，但是说明不在word_dict[word]中
+                            word_dict[word].append(d)
+
+    reader = csv.DictReader(inous_csv_file)
+    for row in reader:
+        # row格式为: {'singular': 'calf', 'plural': 'calves', 'Chinese': '小牛'}
+        g = "Irregular Plural Nouns: "
+        for key, value in row.items():
+            # 将row 变为 d格式 : calf calves 小牛
+            if value != "":
+                g += f"{value} "
+        for key, value in row.items():
+            if key not in ['','Chinese']:
+                words = value.split('/') 
+                for word in words:
+                    # 将单词说明添加到word_dict中
+                    if word not in word_dict:
+                        word_dict[word] = [g]
+    return word_dict
+
+
+def gen_pic_json_from_csv(csvfile):
     word_dict={}
     chapter_dict={}
 
@@ -36,7 +76,4 @@ def gen_pic_json_from_csv(csvfile,out_path="./"):
                     chapter_dict[chapter][topic][filenumber][num] = [word]
                 if word not in chapter_dict[chapter][topic][filenumber][num]:
                     chapter_dict[chapter][topic][filenumber][num].append(word)
-
-    print(f"看图识词单词条目：{len(word_dict)}个")
-    save_word_dict(f"{out_path}pic_dict.json",word_dict)
-    save_word_dict(f"{out_path}chapter_dict.json",chapter_dict)
+    return word_dict,chapter_dict
