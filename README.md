@@ -1,7 +1,7 @@
 # EnglishHelper
 English study corner小助手
 
-[![codecov](https://codecov.io/gh/HDCodePractice/EnglishHelper/branch/main/graph/badge.svg?token=X6E5R9NSdR)](https://codecov.io/gh/HDCodePractice/EnglishHelper) [![GitHub Test Action](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml) [![Build Publish Docker image](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml) ![Irregular Words Number](/irregular.svg?raw=true "Irregular Words Number") ![Picture Words Number](/picturewords.svg?raw=true "Picture Words Number")
+[![codecov](https://codecov.io/gh/HDCodePractice/EnglishHelper/branch/main/graph/badge.svg?token=X6E5R9NSdR)](https://codecov.io/gh/HDCodePractice/EnglishHelper) [![GitHub Test Action](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml) [![Build Publish Docker image](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml) ![Irregular Words Number](/irregular.svg?raw=true "Irregular Words Number") 
 
 ## 功能
 

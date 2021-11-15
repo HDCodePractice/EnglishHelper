@@ -81,6 +81,3 @@ with open('res/picwords.csv','r') as csvfile:
 print(f"看图识词单词条目：{len(word_dict)}个")
 save_word_dict("pic_dict.json",word_dict)
 save_word_dict("chapter_dict.json",chapter_dict)
-s = badge(left_text="Picture Words",right_text=f"{len(word_dict)}")
-with open('picturewords.svg', 'w') as f:
-    f.write(s)
