@@ -53,7 +53,7 @@ with open('irregular.svg', 'w') as f:
 word_dict={}
 chapter_dict={}
 
-with open('picwords.csv','r') as csvfile:
+with open('res/picwords.csv','r') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         # row格式为：{'File Name': '86.jpg', 'Chapter': 'Clothing', 'Topic': 'Everyday Clothes', 'words': '1.shirt|2.jeans|3.dress|4.T-shirt|5.baseball cap|6.socks|7.athletic shoes|A.tie|8.blouse|9.handbag|10.skirt|11.suit|12.slacks/pants|13.shoes|14.sweater|B.put on'}
