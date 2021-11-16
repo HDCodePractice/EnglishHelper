@@ -21,7 +21,7 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
             picword.again.inline_keyboard[0][1].callback_data = f"getpron:{answer}"
             update.message.reply_text(f"✌️ Bingo! {random.choice('👍🎉🎊')}",reply_markup=picword.again)
         else:
-            update.message.reply_text("💔 Wrong answer！ Try again! {random.choice('🤣🤦🏻‍♀️🤦🏻🤦🏻‍♂️😭😱')}")
+            update.message.reply_text(f"💔 Wrong answer！ Try again! {random.choice('🤣🤦🏻‍♀️🤦🏻🤦🏻‍♂️😭😱')}")
     else:  # 找同伴
         if question in worddict.word_dict:
             msg = ""
@@ -31,9 +31,9 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
                 if answer in i.split(" "):
                     correct = True
             if correct:
-                update.message.reply_text(f"恭喜你，回答正确！\n{msg}")
+                update.message.reply_text(f"✌️ Bingo! {random.choice('👍🎉🎊')}！\n{msg}")
             else:
-                update.message.reply_text("回答错误，您可以再试一次。")
+                update.message.reply_text(f"💔 Wrong answer！ Try again! {random.choice('🤣🤦🏻‍♀️🤦🏻🤦🏻‍♂️😭😱')}")
 
 def add_dispatcher(dp):
     dp.add_handler(MessageHandler(Filters.text | Filters.reply, wordtest_reply))
