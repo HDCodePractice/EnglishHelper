@@ -80,8 +80,10 @@ class ENV:
     WORKDIR=os.getcwd()
     # BotToken
     BOT_TOKEN = env.str("BOT_TOKEN", default="") 
-    # 毛毛投发送频道
+    # 支持使用Bot的ChatID列表
     CHATIDS = env.list("CHATIDS", [])
+    # 管理员ID列表
+    ADMIN_IDS = env.list("ADMIN_IDS", [])
 
 if __name__ == "__main__":
     print(ENV.CHATIDS)

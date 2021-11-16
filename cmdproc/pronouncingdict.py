@@ -1,9 +1,9 @@
 from telegram import Update, BotCommand, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler,CallbackContext,CallbackQueryHandler
-from cmdproc.picword import get_show_word
 from config import ENV
 import pronouncing
 import random
+from utils.filters import check_chatid_filter
 
 def get_rhyme(p):
     """
@@ -53,9 +53,8 @@ def get_answer(word):
         count += 1
     return [f"{word:}\n{msg}",keyboard]
 
+@check_chatid_filter
 def pronounicing_callback(update: Update, context: CallbackContext):
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
     query = update.callback_query
     word = query.data.split(":")[1]
     msg,keyboard = get_answer(word)
@@ -65,9 +64,8 @@ def pronounicing_callback(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(keyboard)
         )
 
+@check_chatid_filter
 def pronounicing_command(update: Update, context: CallbackContext):
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
     word = context.args
     if len(word) == 0:
         update.effective_message.reply_text("请使用/p word来查询一个单词\n有关单词的发音规则参见 https://en.wikipedia.org/wiki/ARPABET ")

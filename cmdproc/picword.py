@@ -3,6 +3,7 @@ from telegram.ext import CommandHandler,CallbackContext,CallbackQueryHandler
 from json import load
 from config import ENV
 import random
+from utils.filters import check_chatid_filter
 
 word_dict = {}
 with open('pic_dict.json','r') as wd:
@@ -50,9 +51,8 @@ def get_show_word(word,show_count):
             show_word = show_word[:b] + word[b] + show_word[b+1:]
     return show_word
 
+@check_chatid_filter
 def remember_command(update: Update, context: CallbackContext) -> None:
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
     rword = random.choice(list(word_dict.keys()))
     word = random.choice(word_dict[rword])
     filenumber = word["filename"].split(".")[0]
@@ -68,9 +68,8 @@ def remember_command(update: Update, context: CallbackContext) -> None:
         quote=False,
         reply_markup=InlineKeyboardMarkup(buttons))
 
+@check_chatid_filter
 def remember_hit_callback(update: Update, context: CallbackContext) -> None:
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
     query = update.callback_query
     data = query.data.split(":")
     if len(data) != 5:

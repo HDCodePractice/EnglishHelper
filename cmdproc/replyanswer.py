@@ -4,11 +4,11 @@ from config import ENV
 import random
 from cmdproc import picword
 from cmdproc import worddict
+from utils.filters import check_chatid_filter
 
+@check_chatid_filter
 def wordtest_reply(update: Update, context: CallbackContext) -> None:
     # 这个函数会处理所有的回复消息，独立出来，方便维护
-    if str(update.effective_chat.id) not in ENV.CHATIDS:
-        return
     if update.message.reply_to_message.caption:
         question = update.message.reply_to_message.caption.split("\n")[0]
     else:
