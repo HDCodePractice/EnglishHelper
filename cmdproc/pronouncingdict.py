@@ -39,7 +39,7 @@ def get_answer(word):
     ]
     reslt = get_pronouncing(word)
     if len(reslt) == 0:
-        return ["在库存中没有找到这个单词的发音规则，去浩瀚的互联网查询吧～",keyboard]
+        return ["Go to the vast Internet and look it up~",keyboard]
     msg = ""
     count = 1
     for p in reslt:
@@ -83,4 +83,4 @@ def pronounicing_command(update: Update, context: CallbackContext):
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("p", pronounicing_command))
     dp.add_handler(CallbackQueryHandler(pronounicing_callback,pattern="^getpron:[A-Za-z0-9_]*"))
-    return [BotCommand("p", "查询单词发音与类似发音的单词")]
+    return [BotCommand("p", "🧑🏻‍🏫 🗣Help 👩🏻‍🏫")]
