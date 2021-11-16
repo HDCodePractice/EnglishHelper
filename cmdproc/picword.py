@@ -13,7 +13,7 @@ with open('chapter_dict.json','r') as wd:
 
 again = InlineKeyboardMarkup([
     [InlineKeyboardButton("🎲 Play again 🕹",callback_data=f"getnewremember:"),
-    InlineKeyboardButton("🧑🏻‍🏫 📚Help 👩🏻‍🏫",callback_data=f"getpron:")
+    InlineKeyboardButton("🧑🏻‍🏫 🗣Help 👩🏻‍🏫",callback_data=f"getpron:")
     ]])
 
 def check_answer(question,answer,filenumber):
