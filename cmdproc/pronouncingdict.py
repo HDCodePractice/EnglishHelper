@@ -34,6 +34,9 @@ def get_answer(word):
             f"youglish",
             url=f"https://youglish.com/pronounce/{word}/english/us?")],
         [InlineKeyboardButton(
+            f"urban",
+            url=f"https://www.urbandictionary.com/define.php?term={word}")],
+        [InlineKeyboardButton(
             f"youtube pronunciation",
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
     ]
