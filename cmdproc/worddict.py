@@ -10,19 +10,12 @@ word_dict = {}
 with open('word_dict.json','r') as wd:
     word_dict = load(wd)
 
-@check_chatid_filter
-def worddict_command(update: Update, context: CallbackContext) -> None:
-    if  len(context.args) == 0:
-        update.message.reply_text("你没有提交单词，正确的打开方式为： /i word")
-        return
-    query = context.args[0]
-    if query in word_dict:
-        msg = ""
-        for i in word_dict[query]:
+def get_answer(word):
+    msg = ""
+    if word in word_dict:
+        for i in word_dict[word]:
             msg += i + "\n"
-        update.message.reply_text(msg)
-    else:
-        update.message.reply_text("您发的单词真的很普通，没啥特殊的。")
+    return msg
 
 @check_chatid_filter
 def wordtest_command(update: Update, context: CallbackContext) -> None:
@@ -40,9 +33,7 @@ def hour_game(update, context: CallbackContext) -> None:
     context.job_queue.run_repeating(send_reply_msg, interval=3600, first=1)
 
 def add_dispatcher(dp):
-    dp.add_handler(CommandHandler("i", worddict_command))
     dp.add_handler(CommandHandler("t", wordtest_command))
     dp.add_handler(CommandHandler("timer", hour_game))
-    return [BotCommand("i", "查询单词特殊形态"),
-            BotCommand("t", "为特殊形态的单词们找伴儿游戏"),
+    return [BotCommand("t", "为特殊形态的单词们找伴儿游戏"),
             BotCommand("timer", "每小时推送个不规则形态单词给您")]

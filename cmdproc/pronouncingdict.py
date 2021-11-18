@@ -5,6 +5,7 @@ from config import ENV
 import pronouncing
 import random
 from utils.filters import check_chatid_filter
+from cmdproc import worddict
 
 def get_rhyme(p):
     """
@@ -42,9 +43,13 @@ def get_answer(word):
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
     ]
     reslt = get_pronouncing(word)
+    # 单词提示产
+    msg = f"{word}:\n"
+    # 单词特殊形式说明
+    msg += worddict.get_answer(word)
+    # 单词发音
     if len(reslt) == 0:
-        return [f"{word}:\nGo to the vast Internet and look it up~",keyboard]
-    msg = ""
+        return [f"{msg}:\nGo to the vast Internet and look it up~",keyboard]
     count = 1
     for p in reslt:
         msg += f"{count}. [{p[0]}]\n"
@@ -55,7 +60,7 @@ def get_answer(word):
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
         count += 1
-    return [f"{word}:\n{msg}",keyboard]
+    return [msg,keyboard]
 
 @check_chatid_filter
 def pronounicing_callback(update: Update, context: CallbackContext):
