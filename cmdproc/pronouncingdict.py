@@ -1,3 +1,4 @@
+from functools import reduce
 from telegram import Update, BotCommand, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler,CallbackContext,CallbackQueryHandler
 from config import ENV
@@ -42,7 +43,7 @@ def get_answer(word):
     ]
     reslt = get_pronouncing(word)
     if len(reslt) == 0:
-        return ["Go to the vast Internet and look it up~",keyboard]
+        return [f"{word}:\nGo to the vast Internet and look it up~",keyboard]
     msg = ""
     count = 1
     for p in reslt:
@@ -54,7 +55,7 @@ def get_answer(word):
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
         count += 1
-    return [f"{word:}\n{msg}",keyboard]
+    return [f"{word}:\n{msg}",keyboard]
 
 @check_chatid_filter
 def pronounicing_callback(update: Update, context: CallbackContext):
@@ -73,7 +74,7 @@ def pronounicing_command(update: Update, context: CallbackContext):
     if len(word) == 0:
         update.effective_message.reply_text("请使用/p word来查询一个单词\n有关单词的发音规则参见 https://en.wikipedia.org/wiki/ARPABET ")
         return
-    word = word[0]
+    word = reduce(lambda x,y: x+" "+y, word)
     msg,keyboard = get_answer(word)
     update.effective_message.reply_text(
         msg,
