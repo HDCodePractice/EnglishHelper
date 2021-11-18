@@ -49,7 +49,7 @@ def get_answer(word):
     msg += worddict.get_answer(word)
     # 单词发音
     if len(reslt) == 0:
-        return [f"{msg}:\nGo to the vast Internet and look it up~",keyboard]
+        return [f"{msg}\nGo to the vast Internet and look it up~",keyboard]
     count = 1
     for p in reslt:
         msg += f"{count}. [{p[0]}]\n"
