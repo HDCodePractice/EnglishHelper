@@ -17,15 +17,18 @@ spec:
         - name: ehelper
           image: hdcola/englishhelper:latest
           imagePullPolicy: Always
-          # not listening to any port?
-          # ports:
-          #   - name: web
-          #     containerPort: 3000
+          # not listening to any port
           envFrom:
             - secretRef:
-                name: ehelper-envs
+                name: ehelper
+          volumeMounts:
+            - name: ehelper
+              mountPath: /data
           resources:
             requests:
               memory: 100Mi
               cpu: 100m
-
+      volumes:
+        - name: ehelper
+          persistentVolumeClaim:
+            claimName: ehelper

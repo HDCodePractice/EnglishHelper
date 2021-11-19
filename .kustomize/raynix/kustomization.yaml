@@ -6,6 +6,7 @@ bases:
 
 resources:
   - ns.yaml
+  - pv.yaml
   # sealed secret is optional. The secret can also be created with kubectl, eg.
   # kubectl create secret generic ehelper --from-literal=BOT_TOKEN=abcdefgh \
   #   --from-literal=CHATIDS=-100123456789,-100987654321
