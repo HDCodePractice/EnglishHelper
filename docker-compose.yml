@@ -6,6 +6,6 @@ services:
             dockerfile: Dockerfile
         image: hdcola/englishhelper:latest
         volumes:
-            - ".:/data"
+            - "/tmp:/data"
         env_file:
             - local.env
