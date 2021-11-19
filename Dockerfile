@@ -1,7 +1,9 @@
 FROM python:latest
 
 RUN apt-get update && apt upgrade -y && \
-    adduser --disabled-password --gecos "" --shell /bin/bash ehelper
+    adduser --disabled-password --gecos "" --shell /bin/bash ehelper && \
+    mkdir /data && \
+    chown ehelper:ehelper /data
 
 USER ehelper
 WORKDIR /ehelper
