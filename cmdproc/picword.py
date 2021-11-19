@@ -4,13 +4,27 @@ from json import load
 from config import ENV
 import random
 from utils.filters import check_chatid_filter
+from utils.fileproc import gen_pic_dict_from_csv
 
 word_dict = {}
-with open('pic_dict.json','r') as wd:
-    word_dict = load(wd)
 chapter_dict = {}
-with open('chapter_dict.json','r') as wd:
-    chapter_dict = load(wd)
+
+def reload_dict():
+    global word_dict
+    global chapter_dict
+    # 加载内置单词库
+    with open('pic_dict.json','r') as wd:
+        word_dict = load(wd)
+    with open('chapter_dict.json','r') as wd:
+        chapter_dict = load(wd)
+
+    # 加载用户自定义单词库
+    try:
+        with open(f"{ENV.DATA_DIR}/res/picwords.csv",'r') as csvfile:
+            word_dict,chapter_dict=gen_pic_dict_from_csv(csvfile,word_dict,chapter_dict)
+    except FileNotFoundError:
+        pass
+reload_dict()
 
 again = InlineKeyboardMarkup([
     [InlineKeyboardButton("🎲 Play again 🕹",callback_data=f"getnewremember:"),

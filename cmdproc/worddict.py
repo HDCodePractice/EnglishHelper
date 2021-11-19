@@ -4,11 +4,25 @@ from json import load
 from config import ENV
 import random
 from utils.filters import check_chatid_filter,check_admin_filter
-
+from utils.fileproc import gen_irregular_dict_from_csv
 
 word_dict = {}
-with open('word_dict.json','r') as wd:
-    word_dict = load(wd)
+
+def reload_dict():
+    global word_dict
+    with open('word_dict.json','r') as wd:
+        word_dict = load(wd)
+    
+    try:
+        with open(f"{ENV.DATA_DIR}/res/iverbs.csv", 'r') as iverb_csvfile:
+            with open(f'{ENV.DATA_DIR}/res/inouns.csv','r') as inouns_csvfile:
+                word_dict = gen_irregular_dict_from_csv(
+                    iverb_csvfile,
+                    inouns_csvfile,
+                    word_dict)
+    except FileNotFoundError:
+        pass
+reload_dict()
 
 def get_answer(word):
     msg = ""
