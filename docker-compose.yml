@@ -2,5 +2,7 @@ version: "3.9"
 services:
     englishhelper:
         image: hdcola/englishhelper:latest
+        volumes:
+            - ".:/data"
         env_file: 
             - local.env
