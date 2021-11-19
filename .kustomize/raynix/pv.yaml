@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ehelper
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Retain
+  claimRef:
+    namespace: ehelper
+    name: ehelper
+  mountOptions:
+    - hard
+    - nfsvers=4.1
+  csi:
+    # use your own CSI driver and settings here
+    driver: nfs.csi.k8s.io
+    readOnly: false
+    volumeHandle: pv-ehelper
+    volumeAttributes:
+      server: 192.168.1.51
+      share: /var/nfs/k8s/ehelper
