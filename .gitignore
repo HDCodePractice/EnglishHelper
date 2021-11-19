@@ -131,3 +131,4 @@ dmypy.json
 local.env
 .DS_Store
 .vscode
+tmp
