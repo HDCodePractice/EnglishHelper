@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.4"
 services:
     englishhelper:
         build:
@@ -6,6 +6,8 @@ services:
             dockerfile: Dockerfile
         image: hdcola/englishhelper:latest
         volumes:
-            - ".:/data"
+            - data:/data
         env_file:
             - local.env
+volumes:
+    data: {}
