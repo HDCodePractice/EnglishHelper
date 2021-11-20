@@ -33,4 +33,16 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: ${{ steps.meta.outputs.tags }}
+      - name: tag to env
+        run: |
+          echo BUILD_TAG=$(echo "${{ steps.meta.outputs.tags }}" |grep -E 'v[0-9\.]+' |head -n 1) >> $GITHUB_ENV
+      - name: Update deployment version
+        run: |
+          sed -i -E "s|(image: )hdcola/englishhelper:.*|\1$BUILD_TAG|g" .kustomize/base/deploy.yaml
 
+      - name: Auto commit & push changes
+        run: |
+          git config --global user.name 'GH Bot'
+          git config --global user.email 'notifications@github.com'
+          git commit -am "Automated commit"
+          git push
