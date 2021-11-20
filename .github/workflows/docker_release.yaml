@@ -1,10 +1,10 @@
-name: Build Publish Docker image
+name: Release Docker image wit tag
 on:
   push:
     tags:
       - 'v*'
 jobs:
-  push_to_registry:
+  release_with_tag:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
