@@ -30,7 +30,7 @@ jobs:
           push: true
           tags: |
             hdcola/englishhelper:latest
-            hdcola/englishhelper:$build_number
+            hdcola/englishhelper:${{ build_number }}
       - name: Update default kubernetes deploy version
         run: |
           sed -i -E "s|(image: hdcola/englishhelper:).*|\1$build_number|g" .kustomize/base/deploy.yaml
