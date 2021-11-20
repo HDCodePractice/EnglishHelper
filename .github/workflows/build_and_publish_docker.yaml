@@ -28,9 +28,11 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            hdcola/englishhelper:latest
-            hdcola/englishhelper:${{ build_number }}
+          tags: hdcola/englishhelper:latest
+      - name: tag with build number
+        run: |
+          docker tag hdcola/englishhelper:latest hdcola/englishhelper:$build_number
+          docker push hdcola/englishhelper:$build_number
       - name: Update default kubernetes deploy version
         run: |
           sed -i -E "s|(image: hdcola/englishhelper:).*|\1$build_number|g" .kustomize/base/deploy.yaml
