@@ -16,7 +16,6 @@ spec:
       containers:
         - name: ehelper
           image: hdcola/englishhelper:latest
-          imagePullPolicy: Always
           # not listening to any port
           envFrom:
             - secretRef:
