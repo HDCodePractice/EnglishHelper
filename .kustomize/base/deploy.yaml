@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ehelper
-          image: hdcola/englishhelper:latest
+          image: hdcola/englishhelper:v0.1.8
           # not listening to any port
           envFrom:
             - secretRef:
