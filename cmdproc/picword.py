@@ -5,9 +5,22 @@ from config import ENV
 import random
 from utils.filters import check_chatid_filter
 from utils.fileproc import gen_pic_dict_from_csv
+from pathlib import Path
 
 word_dict = {}
 chapter_dict = {}
+
+def check_extra_dict(dict_dir):
+    # 检查是否有用户自定义的单词库
+    if dict_dir is None:
+        return 0
+    try:
+        with open(f"{dict_dir}/res/picwords.csv",'r') as csvfile:
+            word_dict,chapter_dict=gen_pic_dict_from_csv(csvfile)
+            print(f"看图识词单词条目：{len(word_dict)}个")
+            return len(word_dict)
+    except FileNotFoundError:
+        return 0
 
 def reload_dict():
     global word_dict
@@ -70,7 +83,11 @@ def remember_command(update: Update, context: CallbackContext) -> None:
     rword = random.choice(list(word_dict.keys()))
     word = random.choice(word_dict[rword])
     filenumber = word["filename"].split(".")[0]
-    filename = f"res/picwords/{word['filename']}"
+    filename = f"{ENV.DATA_DIR}/res/picwords/{word['filename']}"
+    if not Path(filename).is_file():
+        filename = f"/res/picwords/{word['filename']}"
+        if not Path(filename).is_file():
+            update.effective_message.reply_text(f"图片文件{word['filename']}不存在，请检你的字典")
     number = word["number"]
     show_word = get_show_word(rword,0)
     msg = f"☝️What's #{number}\nHints💡: {show_word}\nPage:{filenumber}\nReply this msg to submit the answer"
