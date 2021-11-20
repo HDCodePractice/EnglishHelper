@@ -35,8 +35,9 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
       - name: tag to env
         run: |
-          echo BUILD_TAG=$(echo "${{ steps.meta.outputs.tags }}" |grep -E 'v[0-9\.]+' |head -n 1) >> $GITHUB_ENV
-          echo TAG_BRANCH=$(git branch --contains tags/${BUILD_TAG#*:} |grep -v detached |head -n 1)
+          BUILD_TAG=$(echo "${{ steps.meta.outputs.tags }}" |grep -E 'v[0-9\.]+' |head -n 1)
+          echo "BUILD_TAG=$BUILD_TAG">> $GITHUB_ENV
+          echo TAG_BRANCH=$(git branch --contains tags/${BUILD_TAG#*:} |grep -v detached |head -n 1) >> $GITHUB_ENV
       - name: Update deployment version
         run: |
           sed -i -E "s|(image: )hdcola/englishhelper:.*|\1$BUILD_TAG|g" .kustomize/base/deploy.yaml
