@@ -85,7 +85,7 @@ def remember_command(update: Update, context: CallbackContext) -> None:
     filenumber = word["filename"].split(".")[0]
     filename = f"{ENV.DATA_DIR}/res/picwords/{word['filename']}"
     if not Path(filename).is_file():
-        filename = f"/res/picwords/{word['filename']}"
+        filename = f"res/picwords/{word['filename']}"
         if not Path(filename).is_file():
             update.effective_message.reply_text(f"图片文件{word['filename']}不存在，请检你的字典")
     number = word["number"]
