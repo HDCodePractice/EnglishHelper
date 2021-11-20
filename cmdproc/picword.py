@@ -53,15 +53,24 @@ def get_show_word(word,show_count):
 
 @check_chatid_filter
 def remember_command(update: Update, context: CallbackContext) -> None:
-    rword = random.choice(list(word_dict.keys()))
+    rword = "slacks" #random.choice(list(word_dict.keys()))
     word = random.choice(word_dict[rword])
     filenumber = word["filename"].split(".")[0]
     filename = f"res/picwords/{word['filename']}"
     number = word["number"]
-    show_word = get_show_word(rword,0)
+    chapter = word["chapter"]
+    topic = word["topic"]
+    dict_words = chapter_dict[chapter][topic][filenumber][number]
+    show_word = "" 
+    data_word = ""
+    for word in dict_words:
+        show_word += f"{get_show_word(word,0)} / "
+        data_word += f"{word} / "
+    show_word = show_word[:-3]
+    data_word = data_word[:-3]
     msg = f"☝️What's #{number}\nHints💡: {show_word}\nPage:{filenumber}\nReply this msg to submit the answer"
     buttons = [[
-        InlineKeyboardButton("🙏 Click here for a 🔡 🙏",callback_data=f"rhit:{number}:{filenumber}:{rword}:0")]]
+        InlineKeyboardButton("🙏 Click here for a 🔡 🙏",callback_data=f"rhit:{number}:{filenumber}:{data_word}:0")]]
     update.effective_message.reply_photo(
         photo=open(filename,'rb'),
         caption=msg,
@@ -77,14 +86,26 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
     keyboard = query.message.reply_markup
     msgs = query.message.caption.split("\n")
     word = data[3]
-    show_count = int(data[4])+1
-    show_word = get_show_word(word,show_count)
+    words = word.split("/")
+    show_word = ""
+    for word in words:
+        word = word.strip()
+        show_count = int(data[4])+1
+        if show_count < len(word):
+            show_count = show_count
+        else:    
+            show_count = len(word)
+        print(show_count)
+        show_word += f"{get_show_word(word,show_count)} / "
+    show_word = show_word[:-3]
     msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
     keyboard.inline_keyboard[0][0].callback_data = f"rhit:{data[1]}:{data[2]}:{data[3]}:{show_count}"
-    if show_count < len(word):
+    print(keyboard)
+    print(len(max(words, key=len))-1)
+    if show_count < len(max(words, key=len))-1 and "*" in show_word:
         update.callback_query.edit_message_caption(msg,reply_markup=keyboard)
         query.answer("💡💡💡💡")
-    else:
+    if "*" not in show_word:
         again.inline_keyboard[0][1].callback_data = f"getpron:{word}"
         update.callback_query.edit_message_caption(msg + "\n😩 Are you kidding me! It’s sooooo easy! 😩",reply_markup=again)
         query.answer("All the answers are for you!",show_alert=True)
