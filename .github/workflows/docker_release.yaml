@@ -32,10 +32,10 @@ jobs:
         run: |
           echo "${{ steps.meta.outputs.tags }}"
           BUILD_TAG=$(echo "${{ steps.meta.outputs.tags }}" |grep -E 'v[0-9\.]+' |head -n 1)
-          echo "BUILD_TAG=$BUILD_TAG">> $GITHUB_ENV
+          echo "BUILD_TAG=$BUILD_TAG"
           git branch --contains tags/${BUILD_TAG#*:}
-          echo TAG_BRANCH=$(git branch --contains tags/${BUILD_TAG#*:} |grep -v detached |head -n 1) >> $GITHUB_ENV
-          echo $GITHUB_ENV
+          echo TAG_BRANCH=$(git branch --contains tags/${BUILD_TAG#*:} |grep -v detached |head -n 1)
+          echo TAG_BRANCH=$(git branch -r --contains tags/${BUILD_TAG#*:} |grep -v detached |head -n 1)
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
