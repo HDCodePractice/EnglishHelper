@@ -55,7 +55,16 @@ def update_dict(update: Update, context: CallbackContext):
         with ZipFile(down_file, 'r') as zip_file:
             # 解压
             zip_file.extractall(ENV.DATA_DIR)
-        update.message.reply_text("File extracted.")
+        # 检查picwords，如果有数据则更新
+        from cmdproc import picword
+        pic_word_number = picword.check_extra_dict(ENV.DATA_DIR)
+        if pic_word_number > 0:
+            picword.reload_dict()
+        from cmdproc import worddict
+        irr_word_number = worddict.check_extra_dict(ENV.DATA_DIR)
+        if irr_word_number > 0:
+            worddict.reload_dict()
+        update.message.reply_text(f"File extracted.\nload pic_word_number:{pic_word_number}\nload irr_word_number:{irr_word_number}")
     else:
         update.message.reply_text("Please reply to a zip file.")
         return

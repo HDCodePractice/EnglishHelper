@@ -9,6 +9,18 @@ from utils.fileproc import gen_pic_dict_from_csv
 word_dict = {}
 chapter_dict = {}
 
+def check_extra_dict(dict_dir):
+    # 检查是否有用户自定义的单词库
+    if dict_dir is None:
+        return 0
+    try:
+        with open(f"{dict_dir}/res/picwords.csv",'r') as csvfile:
+            word_dict,chapter_dict=gen_pic_dict_from_csv(csvfile)
+            print(f"看图识词单词条目：{len(word_dict)}个")
+            return len(word_dict)
+    except FileNotFoundError:
+        return 0
+
 def reload_dict():
     global word_dict
     global chapter_dict
