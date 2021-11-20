@@ -47,4 +47,4 @@ jobs:
           git config --global user.name 'GH Bot'
           git config --global user.email 'notifications@github.com'
           git commit -am "Automated commit"
-          git push origin HEAD:$TAG_BRANCH
+          git push origin $TAG_BRANCH
