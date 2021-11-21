@@ -1,10 +1,11 @@
-from telegram import Update, BotCommand
-from telegram.ext import CommandHandler, CallbackContext, MessageHandler, Filters
-from config import ENV
 import random
-from cmdproc import picword
-from cmdproc import worddict
+
+from config import ENV
+from telegram import BotCommand, Update
+from telegram.ext import CallbackContext, Filters, MessageHandler
 from utils.filters import check_chatid_filter
+
+from cmdproc import picword, worddict
 
 
 @check_chatid_filter
