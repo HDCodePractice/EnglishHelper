@@ -28,6 +28,7 @@ jobs:
           images: hdcola/englishhelper
           tags: |
             type=ref,event=tag
+            type=raw,value=stable
       - name: tag to env
         run: |
           BUILD_TAG=$(echo "${{ steps.meta.outputs.tags }}" |grep -E 'v[0-9\.]+' |head -n 1)
