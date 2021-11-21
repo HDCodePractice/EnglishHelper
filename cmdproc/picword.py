@@ -135,7 +135,7 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
         return
     keyboard = query.message.reply_markup
     msgs = query.message.caption.split("\n")
-    words = data[3].split(" / ")
+    word = data[3]
     show_count = int(data[4])+1
     show_word = ""
 
