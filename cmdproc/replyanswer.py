@@ -26,7 +26,7 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
                 f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=picword.again)
         else:
             update.message.reply_text(
-                f"💔 Wrong answer！ Try again! {random.choice('🤣🤦🏻‍♀️🤦🏻🤦🏻‍♂️😭😱')}")
+                f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
     else:  # 找同伴
         if question in worddict.word_dict:
             msg = ""
@@ -40,7 +40,7 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
                     f"✌️ Bingo! {random.choice('👍🎉🎊')}！\n{msg}")
             else:
                 update.message.reply_text(
-                    f"💔 Wrong answer！Try again! {random.choice('💔🤣🤦🏻‍♀️🤦🏻🤦🏻‍♂️😭😱')}")
+                    f"💔 Wrong answer！Try again! {random.choice('💔🤣🤦🏻😭😱')}")
 
 
 def add_dispatcher(dp):
