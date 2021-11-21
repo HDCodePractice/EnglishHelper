@@ -46,6 +46,11 @@ def reload_dict():
 
 reload_dict()
 
+again = InlineKeyboardMarkup([
+    [InlineKeyboardButton("🎲 Play again 🕹", callback_data=f"getnewremember:"),
+     InlineKeyboardButton("🧑🏻‍🏫 🗣Help 👩🏻‍🏫", callback_data=f"getpron:")
+     ]])
+
 again_button = [[InlineKeyboardButton(
     "🎲 Play again 🕹", callback_data=f"getnewremember:")]]
 
