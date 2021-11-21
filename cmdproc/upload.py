@@ -1,14 +1,15 @@
 from zipfile import ZipFile
 from utils.fileproc import gen_pic_dict_from_csv
 from pathlib import Path
-from telegram.ext import CommandHandler,CallbackContext
+from telegram.ext import CommandHandler, CallbackContext
 from telegram import Update
 from utils.filters import check_admin_filter
 from config import ENV
 from shutil import rmtree
 
 if not Path(ENV.DATA_DIR).exists():
-    Path(ENV.DATA_DIR).mkdir()
+    Path(ENV.DATA_DIR).mkdir(parents=True, exist_ok=True)
+
 
 def get_zip_file(file_path):
     """
@@ -19,11 +20,13 @@ def get_zip_file(file_path):
             return zip_file
     return None
 
+
 def get_csv_files(zip_file):
     """
     Returns a list of CSV files in the given ZipFile object.
     """
     return [file for file in zip_file.namelist() if file.endswith('.csv')]
+
 
 def get_jpg_files(zip_file):
     """
@@ -35,14 +38,15 @@ def get_jpg_files(zip_file):
 @check_admin_filter
 def update_dict(update: Update, context: CallbackContext):
     if update.effective_message.reply_to_message is None:
-        update.message.reply_text("请将你的res目录使用zip压缩发送上来，然后使用/u回复上传的zip文件，注意大小不能超过20MB")
+        update.message.reply_text(
+            "请将你的res目录使用zip压缩发送上来，然后使用/u回复上传的zip文件，注意大小不能超过20MB")
         return
     if update.effective_message.reply_to_message.document is None:
         update.message.reply_text("Please reply to a file.")
         return
     document = update.effective_message.reply_to_message.document
     file_name = document.file_name
-    if file_name.endswith((".zip","ZIP")):
+    if file_name.endswith((".zip", "ZIP")):
         file = update.effective_message.reply_to_message.document.get_file()
         if file.file_size > 20*1024*1024:
             update.message.reply_text("File size too big(20MB).")
@@ -64,10 +68,12 @@ def update_dict(update: Update, context: CallbackContext):
         irr_word_number = worddict.check_extra_dict(ENV.DATA_DIR)
         if irr_word_number > 0:
             worddict.reload_dict()
-        update.message.reply_text(f"File extracted.\nload pic_word_number:{pic_word_number}\nload irr_word_number:{irr_word_number}")
+        update.message.reply_text(
+            f"File extracted.\nload pic_word_number:{pic_word_number}\nload irr_word_number:{irr_word_number}")
     else:
         update.message.reply_text("Please reply to a zip file.")
         return
+
 
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("u", update_dict))
