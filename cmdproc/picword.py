@@ -53,7 +53,7 @@ def get_show_word(word,show_count):
 
 @check_chatid_filter
 def remember_command(update: Update, context: CallbackContext) -> None:
-    rword = "slacks" #random.choice(list(word_dict.keys()))
+    rword = random.choice(list(word_dict.keys()))
     word = random.choice(word_dict[rword])
     filenumber = word["filename"].split(".")[0]
     filename = f"res/picwords/{word['filename']}"
@@ -95,13 +95,10 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
             show_count = show_count
         else:    
             show_count = len(word)
-        print(show_count)
         show_word += f"{get_show_word(word,show_count)} / "
     show_word = show_word[:-3]
     msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
     keyboard.inline_keyboard[0][0].callback_data = f"rhit:{data[1]}:{data[2]}:{data[3]}:{show_count}"
-    print(keyboard)
-    print(len(max(words, key=len))-1)
     if show_count < len(max(words, key=len))-1 and "*" in show_word:
         update.callback_query.edit_message_caption(msg,reply_markup=keyboard)
         query.answer("💡💡💡💡")
