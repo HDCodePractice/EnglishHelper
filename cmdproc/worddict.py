@@ -4,11 +4,40 @@ from json import load
 from config import ENV
 import random
 from utils.filters import check_chatid_filter,check_admin_filter
-
+from utils.fileproc import gen_irregular_dict_from_csv
 
 word_dict = {}
-with open('word_dict.json','r') as wd:
-    word_dict = load(wd)
+
+def check_extra_dict(dict_dir):
+    # 检查是否有用户自定义的单词库
+    if dict_dir is None:
+        return 0
+    try:
+        with open(f"{ENV.DATA_DIR}/res/iverbs.csv", 'r') as iverb_csvfile:
+            with open(f'{ENV.DATA_DIR}/res/inouns.csv','r') as inouns_csvfile:
+                word_dict = gen_irregular_dict_from_csv(
+                    iverb_csvfile,
+                    inouns_csvfile)
+                print(f"Irregular单词条目：{len(word_dict)}个")
+                return len(word_dict)
+    except FileNotFoundError:
+        return 0
+
+def reload_dict():
+    global word_dict
+    with open('word_dict.json','r') as wd:
+        word_dict = load(wd)
+    
+    try:
+        with open(f"{ENV.DATA_DIR}/res/iverbs.csv", 'r') as iverb_csvfile:
+            with open(f'{ENV.DATA_DIR}/res/inouns.csv','r') as inouns_csvfile:
+                word_dict = gen_irregular_dict_from_csv(
+                    iverb_csvfile,
+                    inouns_csvfile,
+                    word_dict)
+    except FileNotFoundError:
+        pass
+reload_dict()
 
 def get_answer(word):
     msg = ""

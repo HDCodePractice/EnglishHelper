@@ -5,9 +5,7 @@ def save_word_dict(filename,words_dict):
     with open(filename, 'w') as configfile:
         dump(words_dict, configfile, indent=2,ensure_ascii=False)
 
-def gen_irregular_dict_from_csv(iverbs_csv_file,inous_csv_file):
-    word_dict= {}
-
+def gen_irregular_dict_from_csv(iverbs_csv_file,inous_csv_file,word_dict={}):
     reader = csv.DictReader(iverbs_csv_file)
     for row in reader:
         # row格式为: {'Base Form': 'wring', 'Simple Past': 'wrung', 'Past Participle': 'wrung', 'Chinese': '拧', '': ''}
@@ -45,10 +43,7 @@ def gen_irregular_dict_from_csv(iverbs_csv_file,inous_csv_file):
     return word_dict
 
 
-def gen_pic_json_from_csv(csvfile):
-    word_dict={}
-    chapter_dict={}
-
+def gen_pic_dict_from_csv(csvfile,word_dict={},chapter_dict={}):
     reader = csv.DictReader(csvfile)
     for row in reader:
         # row格式为：{'File Name': '86.jpg', 'Chapter': 'Clothing', 'Topic': 'Everyday Clothes', 'words': '1.shirt|2.jeans|3.dress|4.T-shirt|5.baseball cap|6.socks|7.athletic shoes|A.tie|8.blouse|9.handbag|10.skirt|11.suit|12.slacks/pants|13.shoes|14.sweater|B.put on'}

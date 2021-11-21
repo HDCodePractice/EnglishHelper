@@ -31,7 +31,7 @@ def get_answer(word):
             url=f"https://www.google.com/search?q={word}+pronunciation")],
         [InlineKeyboardButton(
             f"google translate",
-            url=f"https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text={word}")],
+            url=f"https://translate.google.com/#view=home&op=translate&sl=en&text={word}")],
         [InlineKeyboardButton(
             f"youglish",
             url=f"https://youglish.com/pronounce/{word}/english/us?")],

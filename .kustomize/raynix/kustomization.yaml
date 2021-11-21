@@ -6,13 +6,14 @@ bases:
 
 resources:
   - ns.yaml
+  - pv.yaml
   # sealed secret is optional. The secret can also be created with kubectl, eg.
   # kubectl create secret generic ehelper --from-literal=BOT_TOKEN=abcdefgh \
   #   --from-literal=CHATIDS=-100123456789,-100987654321
   - sealed-secret.yaml
 
-images:
+# images:
   # new tag or even new image source can be specified here
-  - name: hdcola/englishhelper
-    newTag: latest
+  # - name: hdcola/englishhelper
+  #   newTag: latest
 

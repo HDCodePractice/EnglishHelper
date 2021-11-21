@@ -10,6 +10,6 @@ def test_get_show_word():
 
 def test_check_answer():
     from cmdproc.picword import check_answer
-    assert check_answer("3","neck","104") == True
-    assert check_answer("3","Neck","104") == True
-    assert check_answer("3","Necka","104") == False
+    assert check_answer("5","slash","hd001") == True
+    assert check_answer("5","slash","hd001") == True
+    assert check_answer("5","slasha","hd001") == False

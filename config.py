@@ -84,6 +84,8 @@ class ENV:
     CHATIDS = env.list("CHATIDS", [])
     # 管理员ID列表
     ADMIN_IDS = env.list("ADMIN_IDS", [])
+    # 存储自定义数据的文件夹
+    DATA_DIR = env.str("DATA_DIR", default="/data/user_dict")
 
 if __name__ == "__main__":
     print(ENV.CHATIDS)
