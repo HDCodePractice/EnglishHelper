@@ -44,6 +44,8 @@ again = InlineKeyboardMarkup([
     InlineKeyboardButton("🧑🏻‍🏫 🗣Help 👩🏻‍🏫",callback_data=f"getpron:")
     ]])
 
+again_button = [[InlineKeyboardButton("🎲 Play again 🕹",callback_data=f"getnewremember:")]]
+
 def check_answer(question,answer,filenumber):
     # 问题的答案是否正确
     # question : 图中的号码
@@ -55,6 +57,14 @@ def check_answer(question,answer,filenumber):
             if question == word["number"] and f"{filenumber}.jpg" == word["filename"]:
                 return True
     return False
+
+def get_show_words(words,show_count):
+    # 将一组词变化为*和原型
+    # 如 [slacks,pants],show_count=3，则返回 "sl***s / pa**s"
+    show_words = ""
+    for w in words:
+        show_words += f"{get_show_word(w,show_count)} / "
+    return show_words[:-3]
 
 def get_show_word(word,show_count):
     # 将一个单词的字母显示出来show_count个
@@ -116,27 +126,27 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
         return
     keyboard = query.message.reply_markup
     msgs = query.message.caption.split("\n")
-    word = data[3]
-    words = word.split("/")
+    words = data[3].split(" / ")
+    show_count = int(data[4])+1
     show_word = ""
-    for word in words:
-        word = word.strip()
-        show_count = int(data[4])+1
-        if show_count < len(word):
-            show_count = show_count
-        else:    
-            show_count = len(word)
-        show_word += f"{get_show_word(word,show_count)} / "
-    show_word = show_word[:-3]
-    msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
-    keyboard.inline_keyboard[0][0].callback_data = f"rhit:{data[1]}:{data[2]}:{data[3]}:{show_count}"
-    if show_count < len(max(words, key=len))-1 and "*" in show_word:
-        update.callback_query.edit_message_caption(msg,reply_markup=keyboard)
-        query.answer("💡💡💡💡")
-    if "*" not in show_word:
-        again.inline_keyboard[0][1].callback_data = f"getpron:{word}"
-        update.callback_query.edit_message_caption(msg + "\n😩 Are you kidding me! It’s sooooo easy! 😩",reply_markup=again)
+
+    if show_count >= len(min(words, key=len)):
+        # 要显示的已经达到了所有的word里最少的长度
+        show_word = data[3]
+        msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
+        # TODO: getpron 需要能适配多个
+        for w in words:
+            again_button.append([InlineKeyboardButton(f"🧑🏻‍🏫 🗣Help {w} 👩🏻‍🏫",callback_data=f"getpron:{w}")])
+        kb = InlineKeyboardMarkup(again_button)
+
+        update.callback_query.edit_message_caption(msg + "\n😩 Are you kidding me! It’s sooooo easy! 😩",reply_markup=kb)
         query.answer("All the answers are for you!",show_alert=True)
+    else:
+        show_word = get_show_words(words,show_count)
+        msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
+        keyboard.inline_keyboard[0][0].callback_data = f"rhit:{data[1]}:{data[2]}:{data[3]}:{show_count}"
+        query.answer("💡💡💡💡")
+        update.callback_query.edit_message_caption(msg,reply_markup=keyboard)
 
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("m", remember_command))
