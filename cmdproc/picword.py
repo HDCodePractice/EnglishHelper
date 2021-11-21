@@ -51,9 +51,6 @@ again = InlineKeyboardMarkup([
      InlineKeyboardButton("🧑🏻‍🏫 🗣Help 👩🏻‍🏫", callback_data=f"getpron:")
      ]])
 
-again_button = [[InlineKeyboardButton(
-    "🎲 Play again 🕹", callback_data=f"getnewremember:")]]
-
 
 def check_answer(question, answer, filenumber):
     # 问题的答案是否正确
@@ -147,6 +144,8 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
     if show_count >= len(min(words, key=len)):
         # 要显示的已经达到了所有的word里最少的长度
         show_word = data[3]
+        again_button = [[InlineKeyboardButton(
+            "🎲 Play again 🕹", callback_data=f"getnewremember:")]]
         msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
         for w in words:
             again_button.append([InlineKeyboardButton(
