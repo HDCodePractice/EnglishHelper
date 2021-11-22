@@ -34,8 +34,8 @@ def dict(word):
     for p in reslt:
         msg += f"{count}. [{p[0]}]\n"
         near = [w for w in p[1] if w != word]
-        if len(near) > 20:
-            near = random.sample(near, 20)
+        if len(near) > 10:
+            near = random.sample(near, 10)
         for r in near:
             msg += f"{r} "
         msg = f"{msg[:-1]}\n\n"
