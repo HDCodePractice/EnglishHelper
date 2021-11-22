@@ -4,7 +4,7 @@ from dict.wordnet_dict import dict, download_wordnet
 
 
 def test_dict():
-    ENV.NLTK_DATA_DIR = None
+    ENV.NLTK_DATA_DIR = "wordnet"
     download_wordnet()
     d = dict("dog")
     # print(d)
