@@ -40,7 +40,7 @@ def get_answer(word):
     if len(p) > 0:
         msg += f"{p}\n\n"
     # 单词词义
-    msg += f"{msg}{wordnet_dict.dict(word)}"
+    msg += f"{wordnet_dict.dict(word)}"
     return [msg, keyboard]
 
 
