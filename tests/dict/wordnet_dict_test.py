@@ -3,9 +3,8 @@ from config import ENV
 from dict.wordnet_dict import dict, download_wordnet
 
 
-def test_dict():
-    ENV.NLTK_DATA_DIR = None
-    download_wordnet()
+def test_dict(shared_datadir):
+    ENV.NLTK_DATA_DIR = f"{shared_datadir}/wordnet"
     d = dict("dog")
     # print(d)
     assert d.find("noun") == 0
