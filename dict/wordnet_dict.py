@@ -1,4 +1,4 @@
-import os
+import random
 from pathlib import Path
 
 import nltk
@@ -17,14 +17,17 @@ def download_wordnet():
 
 
 def dict(word):
-    download_wordnet()
     description = ""
     ws = wn.synsets(word, pos=wn.NOUN)
     d = ""
     count = 1
     for w in ws:
         d += f"{count}.{w.definition()}\n"
+        if len(w.examples()) > 0:
+            d += f"E: {random.choice(w.examples())}\n"
         count += 1
+        if count > 5:
+            break
     if len(d) > 0:
         description += f"noun:\n{d}\n"
 
@@ -33,7 +36,11 @@ def dict(word):
     count = 1
     for w in ws:
         d += f"{count}.{w.definition()}\n"
+        if len(w.examples()) > 0:
+            d += f"E: {random.choice(w.examples())}\n"
         count += 1
+        if count > 5:
+            break
     if len(d) > 0:
         description += f"verb:\n{d}\n"
 
@@ -42,7 +49,11 @@ def dict(word):
     count = 1
     for w in ws:
         d += f"{count}.{w.definition()}\n"
+        if len(w.examples()) > 0:
+            d += f"E: {random.choice(w.examples())}\n"
         count += 1
+        if count > 5:
+            break
     if len(d) > 0:
         description += f"adj:\n{d}\n"
 
@@ -51,7 +62,11 @@ def dict(word):
     count = 1
     for w in ws:
         d += f"{count}.{w.definition()}\n"
+        if len(w.examples()) > 0:
+            d += f"E: {random.choice(w.examples())}\n"
         count += 1
+        if count > 5:
+            break
     if len(d) > 0:
         description += f"adv:\n{d}\n"
 
