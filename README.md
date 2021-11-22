@@ -16,6 +16,8 @@ English study corner小助手
 
 本Bot收录了 https://en.wikipedia.org/wiki/ARPABET 拼读标识出的词库。来源自[The CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict)
 
+本Bot收录了 WordNet 提供的字典。来源自[WordNet](http://wordnet.princeton.edu/)
+
 ### Bot 命令
 
 * 可以通过 /t 来启动一个测试小游戏，Bot会寻找任意一个单词让你去回复它的其它形式。
