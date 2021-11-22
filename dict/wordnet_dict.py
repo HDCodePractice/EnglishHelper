@@ -7,6 +7,7 @@ from nltk.corpus import wordnet as wn
 
 
 def download_wordnet():
+    print(ENV.NLTK_DATA_DIR)
     if ENV.NLTK_DATA_DIR is None:
         nltk.download("wordnet")
     else:
@@ -16,6 +17,7 @@ def download_wordnet():
 
 
 def dict(word):
+    download_wordnet()
     description = ""
     ws = wn.synsets(word, pos=wn.NOUN)
     d = ""

@@ -1,21 +1,22 @@
 from telegram.ext import Updater, dispatcher
-from config import ENV
-from config import CONFIG
+
+from config import CONFIG, ENV
 
 if __name__ == '__main__':
-    updater = Updater(token=ENV.BOT_TOKEN,use_context=True)
+    updater = Updater(token=ENV.BOT_TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
     me = updater.bot.get_me()
     CONFIG['ID'] = me.id
     CONFIG['Username'] = '@' + me.username
-    print(f"Starting... ID: {str(CONFIG['ID'])} , Username: {CONFIG['Username']}")
+    print(
+        f"Starting... ID: {str(CONFIG['ID'])} , Username: {CONFIG['Username']}")
 
     commands = []
     from cmdproc import picword
     commands += picword.add_dispatcher(dispatcher)
-    from cmdproc import pronouncingdict
-    commands += pronouncingdict.add_dispatcher(dispatcher)
+    from cmdproc import word_dict
+    commands += word_dict.add_dispatcher(dispatcher)
     from cmdproc import worddict
     commands += worddict.add_dispatcher(dispatcher)
     from cmdproc import upload

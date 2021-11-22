@@ -1,34 +1,13 @@
-import random
 from functools import reduce
 
-import pronouncing
 from config import ENV
-from dict import wordnet_dict
+from dict import pronouncing_dict, wordnet_dict
 from telegram import (BotCommand, InlineKeyboardButton, InlineKeyboardMarkup,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
 from utils.filters import check_chatid_filter
 
 from cmdproc import worddict
-
-
-def get_rhyme(p):
-    """
-    Returns the rhyme of the pronouncing.
-    """
-    return [w for w in pronouncing.rhyme_lookup.get(pronouncing.rhyming_part(p), [])
-            if w != p]
-
-
-def get_pronouncing(word):
-    """
-    Returns the pronunciation of the word.
-    """
-    reslt = []
-    ps = pronouncing.phones_for_word(word)
-    for p in ps:
-        reslt.append([p, get_rhyme(p)])
-    return reslt
 
 
 def get_answer(word):
@@ -49,25 +28,14 @@ def get_answer(word):
             f"youtube pronunciation",
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
     ]
-    reslt = get_pronouncing(word)
+
     # 单词提示产
     msg = f"{word}:\n"
     # 单词特殊形式说明
     msg += worddict.get_answer(word)
     # 单词发音
-    if len(reslt) == 0:
-        return [f"{msg}\nGo to the vast Internet and look it up~", keyboard]
-    count = 1
-    for p in reslt:
-        msg += f"{count}. [{p[0]}]\n"
-        near = [w for w in p[1] if w != word]
-        if len(near) > 20:
-            near = random.sample(near, 20)
-        for r in near:
-            msg += f"{r} "
-        msg = f"{msg[:-1]}\n\n"
-        count += 1
-
+    msg += f"{pronouncing_dict.dict(word)}"
+    # 单词词义
     msg += f"{msg}{wordnet_dict.dict(word)}"
     return [msg, keyboard]
 
