@@ -50,7 +50,7 @@ def get_answer(word):
     if word in word_dict:
         for i in word_dict[word]:
             msg += i + "\n"
-    return msg
+    return msg[:-1]
 
 
 @check_chatid_filter

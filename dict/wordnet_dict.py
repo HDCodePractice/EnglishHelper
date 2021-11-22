@@ -55,4 +55,4 @@ def dict(word):
     if len(d) > 0:
         description += f"adv:\n{d}\n"
 
-    return description
+    return description[:-1]

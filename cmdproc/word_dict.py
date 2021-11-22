@@ -32,9 +32,13 @@ def get_answer(word):
     # 单词提示产
     msg = f"{word}:\n"
     # 单词特殊形式说明
-    msg += worddict.get_answer(word)
+    irg = worddict.get_answer(word)
+    if len(irg) > 0:
+        msg += f"{irg}\n\n"
     # 单词发音
-    msg += f"{pronouncing_dict.dict(word)}"
+    p = pronouncing_dict.dict(word)
+    if len(p) > 0:
+        msg += f"{p}\n\n"
     # 单词词义
     msg += f"{msg}{wordnet_dict.dict(word)}"
     return [msg, keyboard]
