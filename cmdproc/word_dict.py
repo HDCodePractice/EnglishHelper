@@ -41,6 +41,9 @@ def get_answer(word):
         msg += f"{p}\n\n"
     # 单词词义
     msg += f"{wordnet_dict.dict(word)}"
+
+    if msg == f"{word}:\n":
+        msg = f"{word}:\nGo to Internet ~"
     return [msg, keyboard]
 
 
@@ -73,6 +76,7 @@ def pronounicing_command(update: Update, context: CallbackContext):
 
 
 def add_dispatcher(dp):
+    wordnet_dict.download_wordnet()
     dp.add_handler(CommandHandler("p", pronounicing_command))
     dp.add_handler(CallbackQueryHandler(
         pronounicing_callback, pattern="^getpron:[A-Za-z0-9_]*"))
