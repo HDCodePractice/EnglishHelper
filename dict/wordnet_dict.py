@@ -16,6 +16,30 @@ def download_wordnet():
         nltk.download("wordnet", download_dir=ENV.NLTK_DATA_DIR)
 
 
+def get_synonyms_antonyms(word):
+    synonyms = {word}
+    antonyms = {word}
+    for syn in wn.synsets(word):
+        for l in syn.lemmas():
+            if l.antonyms():
+                antonyms.add(l.antonyms()[0].name().replace("_", " "))
+            else:
+                synonyms.add(l.name().replace("_", " "))
+    synonyms.remove(word)
+    antonyms.remove(word)
+    return list(synonyms), list(antonyms)
+
+
+def get_synonyms_antonyms_msg(word):
+    synonyms, antonyms = get_synonyms_antonyms(word)
+    msg = ""
+    if len(synonyms) > 0:
+        msg += f"Synonyms: {', '.join(synonyms)}\n\n"
+    if len(antonyms) > 0:
+        msg += f"Antonyms: {', '.join(antonyms)}\n\n"
+    return msg[:-2]
+
+
 def get_definition_examples(word, pos):
     ws = wn.synsets(word, pos=pos)
     d = ""
