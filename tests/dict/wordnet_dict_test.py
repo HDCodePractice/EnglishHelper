@@ -34,6 +34,11 @@ def test_get_synonyms_antonyms(shared_datadir):
     assert len(d[0]) > 0
     assert len(d[1]) > 0
     d = wordnet_dict.get_synonyms_antonyms_msg("like")
-    # print(d)
     assert d.find("Synonyms:") == 0
     assert d.find("Antonyms:") > 0
+    d = wordnet_dict.get_synonyms_antonyms_msg("like", wn.synset("like.n.01"))
+    # print(d)
+    assert d.find("Synonyms:") == 0
+    d = wordnet_dict.get_synonyms_antonyms_msg("like", wn.synset("wish.v.02"))
+    # print(d)
+    assert d.find("Synonyms:") == 0
