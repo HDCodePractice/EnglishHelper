@@ -3,3 +3,4 @@ environs
 requests
 pronouncing
 pybadges
+nltk
