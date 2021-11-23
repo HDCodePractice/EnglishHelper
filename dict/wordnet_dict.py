@@ -34,9 +34,9 @@ def get_synonyms_antonyms_msg(word):
     synonyms, antonyms = get_synonyms_antonyms(word)
     msg = ""
     if len(synonyms) > 0:
-        msg += f"Synonyms: /n{', '.join(synonyms)}\n\n"
+        msg += f"Synonyms: \n{', '.join(synonyms)}\n\n"
     if len(antonyms) > 0:
-        msg += f"Antonyms: /n{', '.join(antonyms)}\n\n"
+        msg += f"Antonyms: \n{', '.join(antonyms)}\n\n"
     return msg[:-2]
 
 
