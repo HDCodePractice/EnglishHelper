@@ -79,7 +79,7 @@ def stop_hour_game(update, context: CallbackContext):
 
 def add_dispatcher(dp):
     dp.add_handler(CommandHandler("t", wordtest_command))
-    dp.add_handler(CommandHandler("timer", hour_game))
-    return [BotCommand("t", "为特殊形态的单词们找伴儿游戏"),
-            BotCommand("timer", "每小时推送个不规则形态单词给您"),
-            BotCommand("stop", "终止每小时推送个不规则形态单词给您")]
+    # dp.add_handler(CommandHandler("timer", hour_game))
+    return [BotCommand("t", "为特殊形态的单词们找伴儿游戏")]
+    # BotCommand("timer", "每小时推送个不规则形态单词给您"),
+    # BotCommand("stop", "终止每小时推送个不规则形态单词给您")]
