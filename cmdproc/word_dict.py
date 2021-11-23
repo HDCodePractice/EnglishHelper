@@ -39,6 +39,9 @@ def get_answer(word):
     p = pronouncing_dict.dict(word)
     if len(p) > 0:
         msg += f"{p}\n\n"
+    s = wordnet_dict.get_synonyms_antonyms_msg(word)
+    if len(s) > 0:
+        msg += f"{s}\n\n"
     # 单词词义
     msg += f"{wordnet_dict.dict(word)}"
 
