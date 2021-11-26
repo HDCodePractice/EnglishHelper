@@ -1,8 +1,10 @@
-import sys
-import pytest
 import shutil
-from config import ENV
+import sys
 from pathlib import Path
+
+import pytest
+from config import ENV
+
 
 # each test runs on cwd to its temp dir
 @pytest.fixture(autouse=True)
@@ -15,6 +17,7 @@ def go_to_tmpdir(request):
     shutil.copyfile("pic_dict.json", str(tmpdir) + "/pic_dict.json")
     shutil.copyfile("word_dict.json", str(tmpdir) + "/word_dict.json")
     shutil.copyfile("chapter_dict.json", str(tmpdir) + "/chapter_dict.json")
+    shutil.copyfile("grammar_dict.json", str(tmpdir) + "/grammar_dict.json")
     # Chdir only for the duration of the test.
     Path(str(tmpdir) + "/res").mkdir(parents=True, exist_ok=True)
     ENV.DATA_DIR = str(tmpdir) + "/res"
