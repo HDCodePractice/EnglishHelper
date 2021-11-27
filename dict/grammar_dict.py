@@ -41,7 +41,7 @@ def get_grammar_list():
     return list(grammar_dict.keys())
 
 
-def get_grammar_button_list(callback_prefix, exclude=""):
+def get_grammar_button_list(callback_prefix, exclude=[]):
     """
     callback_prefix: callback_data回调前缀
     exclude: 不需要列出的语法，可以是list或者str
@@ -49,10 +49,9 @@ def get_grammar_button_list(callback_prefix, exclude=""):
     gl = get_grammar_list()
     buttons = []
     for g in gl:
-        if g == exclude or g in exclude:
-            continue
-        buttons.append([InlineKeyboardButton(
-            g, callback_data=f"{callback_prefix}{g}")])
+        if g not in exclude:
+            buttons.append([InlineKeyboardButton(
+                g, callback_data=f"{callback_prefix}{g}")])
     return buttons
 
 

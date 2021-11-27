@@ -15,7 +15,8 @@ def rgrammar_callback(update: Update, context: CallbackContext):
     msg = grammar_dict.get_grammar(g)
     buttons = grammar_dict.get_grammar_button_list(
         "gram:", exclude=[g])
-    query.edit_message_text(text=msg, parse_mode="HTML")
+    query.edit_message_text(text=msg, parse_mode="HTML",
+                            reply_markup=InlineKeyboardMarkup(buttons))
 
 
 @check_chatid_filter
