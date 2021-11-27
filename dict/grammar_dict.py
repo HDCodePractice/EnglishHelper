@@ -48,10 +48,12 @@ def get_grammar_button_list(callback_prefix, exclude=[]):
     """
     gl = get_grammar_list()
     buttons = []
+    count = 1
     for g in gl:
         if g not in exclude:
             buttons.append([InlineKeyboardButton(
-                g, callback_data=f"{callback_prefix}{g}")])
+                f"{count}.{g}", callback_data=f"{callback_prefix}{g}")])
+        count += 1
     return buttons
 
 
