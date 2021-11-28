@@ -1,184 +1,41 @@
-type,description
-Simple Past,"Past Simple (I walked, she rang)
+type,description,url
+Simple Past,"*Positive* 
+ base verb \+ \-ed
+ *talked* to my friends for hours yesterday\.
 
-1 We form the Past Simple of regular verbs by adding <b>-ed</b> to the verb:
-walk→walked
-watch→watched
-open→opened
-ask→asked
+*Negative*
+ did not\/didn't \+ base verb
+ He *did not study* French at school\.
 
-There are some exceptions:
-* verbs ending with -e:
-+ -d:  live→lived like→liked
-verbs ending with a consonant and -y:
--y→-ied: apply→applied try→tried
-most verbs ending with one vowel and one consonant:
--P→-pped: stop→stopped
-plan→planned
+*Question*
+ did \+ subject \+ base verb
+ *Did* you *call* me last night?
 
-2The Past Simple form of many verbs is
-irregular:
-do→did
-have→had
-take→took
-buy→bought
-come→came
-stand→stood
-find→found
-ring→rang
-go→went
-say→said
+*Wh\- Question*
+ Wh\- word \+ did \+ subject \+ base verb
+ When *did* you *leave*?
 
-3 We form the negative with didn't and the infinitive (e.g. do, take, understand):
-I didn't understand. (Not didn't understood)
-We form questions with did and the infinitive (e.g. watch):
-Did you watch the film?
+[Simple Past](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Past)",https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Past
+Past Continuous,"*POSITIVE*
+I\/he\/she\/it *was* *waiting\.*
+You\/we\/they *were* *waiting\.*
 
-4 The Past Simple of be is like this:
-I/he/she/it     was/wasn't    very good.
-You/we/they were/weren't very good.
+*NEGATIVE*
+I\/he\/she\/it *was not/wasn't* *waiting\.*
+You\/we\/they *were* not\/weren't *waiting\.*
 
-Was     I/he/she/it    very good?
-Were   you/we/they very good?
+*QUESTIONS*
+*Was* I\/he\/she\/it *waiting?*
+*Were* you\/we\/they *waiting?*
 
-5 We use the Past Simple to talk about a completed event in the past. We often say when it happened (e.g. yesterday, last night):
-Chris phoned me yesterday. He wanted to discuss something with me.
-Did you enjoy the concert last night?
+[Past Continuous](https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Continuous)",https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Continuous
+Word order,"SUBJECT \+VERB \+OBJECT
+Our firm       makes        computers\.
+I                   posted        the letter\.
+She             caught        the train\.
+The phone  doesn't        work\.
+He               was eating  a sandwich\.
 
-6 We can use the Past Simple with for to talk about something that continued for a period of time, and ended in the past:
-I lived in Rome for two years. Then I went to work in Japan."
-Past Continuous,"<b>Past Continuous</b>
-
-<b>1.</b>We form the Past Continuous in this way:
-POSITIVE
-I/he/she/it      <b>was</b>    <b>waiting.</b>
-You/we/they  <b>were</b>  <b>waiting.</b>
-
-NEGATIVE
-I/he/she/it       <b>was not/wasn't</b>         <b>waiting.</b>
-You/we/they   <b>were not/weren't y</b>   <b>waiting.</b>
-
-QUESTIONS
-<b>Was</b>     /he/she/it        <b>waiting?</b>
-<b>Were</b>   you/we/they    <b>waiting?</b>
-
-<b>2.</b> Look at this example:
-I <b>was living</b> in Japan in 1991. (I lived there from 1990 to 1993.)
-We use the Past Continuous for an action or situation that was in progress at a particular time in the past (e.g. <b>at 7 p.m., in 1991</b>).
-
-<b>3.</b> 
-When I<b> walked</b> into the room, Ann <b>was writing</b> postcards and Keith <b>was reading</b>.
-We use the Past Simple (walked) for a completed action. We use the Past Continuous (was writing) for an action in progress in the past.
-
-<b>4.</b>We can use <b>when</b> or <b>while</b> before the Past Continuous:
- I met her when/while we were working for the same company. (when = during the
-time)
-We can only use when (not while ) before the Past Simple:
-When I met her, we were working for the same company. (when = at the time)"
-Word order SVO,"1 Look at this table:
-
-SUBJECT + VERB + OBJECT
-Our firm      makes       computers.
-I                  posted       the letter.
-She            caught       the train.
-The phone doesn't work.
-He              was eating  a sandwich.
-
-Sentences must have a subject and a verb.If there is an object, it usually goes after the verb. Any other information, such as a time,a place etc, usually follows the object:
-
-SUBJECT + VERB + OBJECT + PLACE
-She              met         Tom      in Rome.
-
-(Not She met in Rome Tom.)
-
-to find the SUBJECT and OBJECT, ask  What or Who.
-Chen loves Mary.
-Who loves Mary?
-Whom does Chen love?
-
-My dog loves my daughters. 
-Who loves my daughters
-Whom does my dog love?
-
-2 We put an adjective before a noun:
-
-            ARTICLE + ADJECTIVE + NOUN
-She has   a             blue                dress.
-
-We put an adjective after be, get, and seem:
-
-            VERB     + ADJECTIVE
-She     is            clever.
-He      seems     nice.
-
-3 We usually put a place before a time:
-
-                      + PLACE          + TIME
-He worked     in a factory        for a year.
-They've been here                   since 2.
-We met          in France           last Tune.
-I walked        around the town yesterday.
-
-4 We usually put a direction before a time:
-                         + DIRECTION   + TIME
-The bus arrived from Liverpool at 10.30.
-He came            to this country in 1985.
-They moved      into the flat      yesterday.
-
-5 Look at the word order in these questions:
-
-          VERB + SUBJECT + VERB + OBJECT
-When did     you                join      the club?
-                                                      + PLACE
-           Can   you               come  here?
-                                                + DIRECTION
-When are     you              going  to the USA?
-                                               + TIME
-What are      you             doing   tonight?"
-Spelling Rules -er/-est,"Spelling Rules for the Comparative(-er) and Superlative(-est)Forms of Adjectives                
-                
-1.Add -er to one-syllable adjectives to form the comparative.                
-Add -est to one-syllable adjectives to form the superlative.                
-cheap    cheaper    cheapest
-bright     brighter    brightest
-                
-2.If the adjective ends in -e, add -r or -st.                
-nice        nicer        nicest
-                
-3.If the adjective ends in a consonant +y,change y to i before you add -er or -est.                
-pretty        prettier        prettiest
-Exception:                
-shy        shyer        shyest
-                
-4.If the adjective ends in a consonant-vowel-consonant combination(CVC),double the final consonant before adding -er or -est.                
-CVC                
-↓↓↓                
-big        bigger        biggest
-However,do not double the consonant in words ending in -w or -y.                
-slow        slower        slowest"
-Spelling Rules -ing,"1.Add -ing to the base form of the verb.		
-read	reading	
-stand	standing	
-		
-2.If a verb ends in a silent -e,drop the final -e and add -ing		
-leave	leaving	
-take	taking	
-		
-3. In a one-syllable word,if the last three letters are a consonant-vowel-consonant combination(CVC),double the last consonant before adding -ing.		
-CVC		
-↓↓↓		
-sit	sitting	
-CVC		
-↓↓↓		
-run	running	
-However,do not double the last consonant in words that end in w,x,or y		
-sew	sewing	
-fix	fixing	
-enjoy	enjoying	
-		
-4. In words of two or more syllables that end in a CVC,double the last consonant only if the last syllable is stressed.		
-admit	admitting	The last syllable is stressed
-whisper	whispering	The last syllable is stressed,so you don't double the-r.
-		
-5.If a verb ends in -ie,change the ie to y before adding -ing.		
-die	dying"
+[Word order](https://github.com/HDCodePractice/EnglishHelper/wiki/Word-order)",https://github.com/HDCodePractice/EnglishHelper/wiki/Word-order
+Spelling Rules -ing,[Spelling Rules \-ing](https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Present-Progressive),https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Present-Progressive
+Spelling Rules -er/-est,[Spelling Rules \-er\/\-est](https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Comparative-and-Superlative-Forms-of-Adjectives),https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Comparative-and-Superlative-Forms-of-Adjectives

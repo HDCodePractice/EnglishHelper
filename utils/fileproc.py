@@ -84,5 +84,6 @@ def gen_grammar_dict_from_csv(csvfile, word_dict={}):
     for row in reader:
         g_type = row['type']
         description = row['description']
-        word_dict[g_type] = {'description': description}
+        url = row['url']
+        word_dict[g_type] = {'description': description, 'url': url}
     return word_dict

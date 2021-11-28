@@ -21,4 +21,4 @@ def test_gen_pic_dict_from_csv(shared_datadir):
 def test_gen_grammar_dict_from_csv(shared_datadir):
     with open(f"{shared_datadir}/grammar.csv") as csvfile:
         word_dict = fileproc.gen_grammar_dict_from_csv(csvfile)
-        assert len(word_dict) == 1
+        assert len(word_dict) > 0
