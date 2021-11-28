@@ -12,7 +12,7 @@ def check_extra_dict(dict_dir):
     if dict_dir is None:
         return 0
     try:
-        with open(f"{ENV.DATA_DIR}/res/grammar.csv", 'r') as csvfile:
+        with open(f"{dict_dir}/res/grammar.csv", 'r') as csvfile:
             word_dict = gen_grammar_dict_from_csv(
                 csvfile)
             print(f"Grammar条目：{len(word_dict)}个")
