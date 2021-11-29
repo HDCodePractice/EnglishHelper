@@ -10,9 +10,9 @@ bet,bet,bet,下注
 bite,bit,bitten,咬
 bleed,bled,bled,流血
 blow,blew,blown,吹
-broadcast,broadcast,broadcast,播送
 break,broke,broken,打破
 bring,brought,brought,带来
+broadcast,broadcast,broadcast,播送
 build,built,built,建造
 burn,burned/burnt,burned/burnt,烧伤
 burst,burst,burst,爆裂
@@ -64,8 +64,8 @@ knit,knit/knitted,knit/knitted,针织
 know,knew,known,知道
 lay,laid,laid,放下、躺下、下蛋
 lead,led,led,带领
-learn,learned/learnt,learned/learnt,学习
 leap,leapt,leapt,飞跃
+learn,learned/learnt,learned/learnt,学习
 leave,left,left,离开
 lend,lent,lent,借
 let,let,let,让
@@ -75,6 +75,7 @@ lose,lost,lost,失去
 make,made,made,制作
 mean,meant,meant,意思
 meet,met,met,遇见
+must,had to,,必须
 pay,paid,paid,支付
 prove,proved,proved/proven,证明
 put,put,put,放

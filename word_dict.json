@@ -83,9 +83,6 @@
   "blown": [
     "Irregular Verbs: blow blew blown 吹 "
   ],
-  "broadcast": [
-    "Irregular Verbs: broadcast broadcast broadcast 播送 "
-  ],
   "break": [
     "Irregular Verbs: break broke broken 打破 "
   ],
@@ -100,6 +97,9 @@
   ],
   "brought": [
     "Irregular Verbs: bring brought brought 带来 "
+  ],
+  "broadcast": [
+    "Irregular Verbs: broadcast broadcast broadcast 播送 "
   ],
   "build": [
     "Irregular Verbs: build built built 建造 "
@@ -459,6 +459,12 @@
   "led": [
     "Irregular Verbs: lead led led 带领 "
   ],
+  "leap": [
+    "Irregular Verbs: leap leapt leapt 飞跃 "
+  ],
+  "leapt": [
+    "Irregular Verbs: leap leapt leapt 飞跃 "
+  ],
   "learn": [
     "Irregular Verbs: learn learned/learnt learned/learnt 学习 "
   ],
@@ -467,12 +473,6 @@
   ],
   "learnt": [
     "Irregular Verbs: learn learned/learnt learned/learnt 学习 "
-  ],
-  "leap": [
-    "Irregular Verbs: leap leapt leapt 飞跃 "
-  ],
-  "leapt": [
-    "Irregular Verbs: leap leapt leapt 飞跃 "
   ],
   "leave": [
     "Irregular Verbs: leave left left 离开 "
@@ -527,6 +527,15 @@
   ],
   "met": [
     "Irregular Verbs: meet met met 遇见 "
+  ],
+  "must": [
+    "Irregular Verbs: must had to 必须 "
+  ],
+  "had to": [
+    "Irregular Verbs: must had to 必须 "
+  ],
+  "": [
+    "Irregular Verbs: must had to 必须 "
   ],
   "pay": [
     "Irregular Verbs: pay paid paid 支付 "

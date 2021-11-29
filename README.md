@@ -18,6 +18,7 @@ English study corner小助手
 * 支持通过Google Translate查询单词翻译
 * 支持通过youglish去听数千以上的包含有此单词的视频
 * 支持通过urban查询俚语说明
+* 支持了语法查询
 
 ### 收录
 

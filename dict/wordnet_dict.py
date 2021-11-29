@@ -16,10 +16,14 @@ def download_wordnet():
         nltk.download("wordnet", download_dir=ENV.NLTK_DATA_DIR)
 
 
-def get_synonyms_antonyms(word):
+def get_synonyms_antonyms(word, synset=None):
     synonyms = {word}
     antonyms = {word}
-    for syn in wn.synsets(word):
+    if synset is None:
+        synset = wn.synsets(word)
+    else:
+        synset = [synset]
+    for syn in synset:
         for l in syn.lemmas():
             if l.antonyms():
                 antonyms.add(l.antonyms()[0].name().replace("_", " "))
@@ -30,14 +34,23 @@ def get_synonyms_antonyms(word):
     return list(synonyms), list(antonyms)
 
 
-def get_synonyms_antonyms_msg(word):
-    synonyms, antonyms = get_synonyms_antonyms(word)
+def get_synonyms_antonyms_msg(word, synset=None):
+    synonyms, antonyms = get_synonyms_antonyms(word, synset)
     msg = ""
-    if len(synonyms) > 0:
-        msg += f"Synonyms: \n{', '.join(synonyms)}\n\n"
-    if len(antonyms) > 0:
-        msg += f"Antonyms: \n{', '.join(antonyms)}\n\n"
-    return msg[:-2]
+    if synset is None:
+        # 查一个单词的正反义词
+        if len(synonyms) > 0:
+            msg += f"Synonyms: \n{', '.join(synonyms)}\n\n"
+        if len(antonyms) > 0:
+            msg += f"Antonyms: \n{', '.join(antonyms)}\n\n"
+        return msg[:-2]
+    else:
+        # 查一个单词词义的正反义词
+        if len(synonyms) > 0:
+            msg += f" Synonyms: {', '.join(synonyms)}\n"
+        if len(antonyms) > 0:
+            msg += f" Antonyms: {', '.join(antonyms)}\n"
+        return msg[:-1]
 
 
 def get_definition_examples(word, pos):
@@ -45,14 +58,17 @@ def get_definition_examples(word, pos):
     d = ""
     count = 1
     for w in ws:
-        d += f"{count}. {w.definition()}\n"
+        d += f"<b>{count}.</b> {w.definition()}\n"
         if len(w.examples()) > 0:
             examples = w.examples()
             e = random.choice(examples)
             if e[-1] in ["?", "!"]:
-                d += f"E: {e}\n"
+                d += f" E: {e}\n"
             else:
-                d += f"E: {e}.\n"
+                d += f" E: {e}.\n"
+        sa = get_synonyms_antonyms_msg(word, w)
+        if len(sa) > 0:
+            d += f"{sa}\n"
         count += 1
         if count > 5:
             break

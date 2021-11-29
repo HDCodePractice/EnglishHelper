@@ -30,7 +30,7 @@ def get_answer(word):
     ]
 
     # 单词提示产
-    msg = f"{word}:\n"
+    msg = f"<b>{word}:</b>\n"
     # 单词特殊形式说明
     irg = worddict.get_answer(word)
     if len(irg) > 0:
@@ -39,9 +39,6 @@ def get_answer(word):
     p = pronouncing_dict.dict(word)
     if len(p) > 0:
         msg += f"{p}\n\n"
-    s = wordnet_dict.get_synonyms_antonyms_msg(word)
-    if len(s) > 0:
-        msg += f"{s}\n\n"
     # 单词词义
     msg += f"{wordnet_dict.dict(word)}"
 
@@ -58,7 +55,8 @@ def pronounicing_callback(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
         msg,
         quote=False,
-        reply_markup=InlineKeyboardMarkup(keyboard)
+        reply_markup=InlineKeyboardMarkup(keyboard),
+        parse_mode="HTML"
     )
 
 
@@ -74,7 +72,8 @@ def pronounicing_command(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
         msg,
         quote=False,
-        reply_markup=InlineKeyboardMarkup(keyboard)
+        reply_markup=InlineKeyboardMarkup(keyboard),
+        parse_mode="HTML"
     )
 
 
