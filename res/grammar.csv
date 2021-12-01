@@ -1,6 +1,6 @@
 type,description,url
 Simple Present,"*Positive* 
-I\/You\/WeThey *start* at eight o'clock\.
+I\/You\/We\/They *start* at eight o'clock\.
 He\/She\/It *starts* at eight o'clock\.
 
 *Negative*
@@ -12,7 +12,7 @@ They\/He\/She\/It *does not*\/*doesn't* *start* at eight o'clock\.
 *Does* he\/she *start* at 8?
 
 [Simple Present](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present)",https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present
-Present Continuous,"Positive
+Present Progressive,"Positive
 I *am\/'m* *working* now\.
 You\/We\/They *are\/'re* *working* now\.
 He\/She\/It *is\/'s* *working* now\.
@@ -27,7 +27,7 @@ Where *am* I *working* now?
 Where *are* you\/we\/they *working* now?
 Where *Is* he\/she\/it *working* now?
 
-[Present Continuous](https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Continuous)",https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Continuous
+[Present Progressive](https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Progressive)",https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Progressive
 Simple Past,"*Positive* 
  base verb \+ \-ed
  *talked* to my friends for hours yesterday\.
@@ -45,7 +45,7 @@ Simple Past,"*Positive*
  When *did* you *leave*?
 
 [Simple Past](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Past)",https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Past
-Past Continuous,"*POSITIVE*
+Past Progressive,"*POSITIVE*
 I\/he\/she\/it *was* *waiting\.*
 You\/we\/they *were* *waiting\.*
 
@@ -57,7 +57,7 @@ You\/we\/they *were* not\/weren't *waiting\.*
 *Was* I\/he\/she\/it *waiting?*
 *Were* you\/we\/they *waiting?*
 
-[Past Continuous](https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Continuous)",https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Continuous
+[Past Progressive](https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Progressive)",https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Progressive
 Word order,"SUBJECT \+VERB \+OBJECT
 Our firm       makes        computers\.
 I                   posted        the letter\.
@@ -66,5 +66,6 @@ The phone  doesn't        work\.
 He               was eating  a sandwich\.
 
 [Word order](https://github.com/HDCodePractice/EnglishHelper/wiki/Word-order)",https://github.com/HDCodePractice/EnglishHelper/wiki/Word-order
+Modal Verbs,,https://github.com/HDCodePractice/EnglishHelper/wiki/Modal-Verbs
 Spelling Rules -ing,[Spelling Rules \-ing](https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Present-Progressive),https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Present-Progressive
 Spelling Rules -er/-est,[Spelling Rules \-er\/\-est](https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Comparative-and-Superlative-Forms-of-Adjectives),https://github.com/HDCodePractice/EnglishHelper/wiki/Spelling-Rules-for-the-Comparative-and-Superlative-Forms-of-Adjectives
