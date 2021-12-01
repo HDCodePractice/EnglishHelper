@@ -1,7 +1,11 @@
 {
   "Simple Present": {
-    "description": "*Positive* \nI\\/You\\/WeThey *start* at eight o'clock\\.\nHe\\/She\\/It *starts* at eight o'clock\\.\n\n*Negative*\nI\\/You\\/We *do not*\\/*don't* *start* at eight o clock\\.\nThey\\/He\\/She\\/It *does not*\\/*doesn't* *start* at eight o'clock\\.\n\n*Question*\n*Do* I\\/you\\/we\\/they *start* at 8?\n*Does* he\\/she *start* at 8?\n\n\n[Simple Present](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present)",
+    "description": "*Positive* \nI\\/You\\/WeThey *start* at eight o'clock\\.\nHe\\/She\\/It *starts* at eight o'clock\\.\n\n*Negative*\nI\\/You\\/We *do not*\\/*don't* *start* at eight o clock\\.\nThey\\/He\\/She\\/It *does not*\\/*doesn't* *start* at eight o'clock\\.\n\n*Question*\n*Do* I\\/you\\/we\\/they *start* at 8?\n*Does* he\\/she *start* at 8?\n\n[Simple Present](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present)",
     "url": "https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present"
+  },
+  "Present Continuous": {
+    "description": "Positive\nI *am\\/'m* *working* now\\.\nYou\\/We\\/They *are\\/'re* *working* now\\.\nHe\\/She\\/It *is\\/'s* *working* now\\.\n\nNegative\nI *am not\\/'m not* *working* now\\.\nYou\\/We\\/They *are not\\/'re not\\/aren't* *working* now\\.\nHe\\/She\\/It *is not\\/'snot\\/isn't* *working* now\\.\n\nQuestions\nWhere *am* I *working* now?\nWhere *are* you\\/we\\/they *working* now?\nWhere *Is* he\\/she\\/it *working* now?\n\n[Present Continuous](https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Continuous)",
+    "url": "https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Continuous"
   },
   "Simple Past": {
     "description": "*Positive* \n base verb \\+ \\-ed\n *talked* to my friends for hours yesterday\\.\n\n*Negative*\n did not\\/didn't \\+ base verb\n He *did not study* French at school\\.\n\n*Question*\n did \\+ subject \\+ base verb\n *Did* you *call* me last night?\n\n*Wh\\- Question*\n Wh\\- word \\+ did \\+ subject \\+ base verb\n When *did* you *leave*?\n\n[Simple Past](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Past)",
