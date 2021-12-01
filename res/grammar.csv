@@ -1,4 +1,33 @@
 type,description,url
+Simple Present,"*Positive* 
+I\/You\/WeThey *start* at eight o'clock\.
+He\/She\/It *starts* at eight o'clock\.
+
+*Negative*
+I\/You\/We *do not*\/*don't* *start* at eight o clock\.
+They\/He\/She\/It *does not*\/*doesn't* *start* at eight o'clock\.
+
+*Question*
+*Do* I\/you\/we\/they *start* at 8?
+*Does* he\/she *start* at 8?
+
+[Simple Present](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present)",https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Present
+Present Continuous,"Positive
+I *am\/'m* *working* now\.
+You\/We\/They *are\/'re* *working* now\.
+He\/She\/It *is\/'s* *working* now\.
+
+Negative
+I *am not\/'m not* *working* now\.
+You\/We\/They *are not\/'re not\/aren't* *working* now\.
+He\/She\/It *is not\/'snot\/isn't* *working* now\.
+
+Questions
+Where *am* I *working* now?
+Where *are* you\/we\/they *working* now?
+Where *Is* he\/she\/it *working* now?
+
+[Present Continuous](https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Continuous)",https://github.com/HDCodePractice/EnglishHelper/wiki/Present-Continuous
 Simple Past,"*Positive* 
  base verb \+ \-ed
  *talked* to my friends for hours yesterday\.
