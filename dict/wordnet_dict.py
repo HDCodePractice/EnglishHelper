@@ -76,8 +76,19 @@ def get_definition_examples(word, pos):
     return d[:-1]
 
 
+def get_morphy_definitions(word, pos=None):
+    base_from = []
+    if pos is None:
+        base_from = wn.morphy(word)
+    else:
+        base_from = wn.morphy(word, pos)
+    if base_from == word or base_from is None:
+        return ""
+    return f"Base Form: {base_from}\n\n"
+
+
 def dict(word):
-    description = ""
+    description = get_morphy_definitions(word)
     d = get_definition_examples(word, pos=wn.NOUN)
     if len(d) > 0:
         description += f"noun:\n{d}\n\n"
