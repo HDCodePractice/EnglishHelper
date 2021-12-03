@@ -4,9 +4,7 @@ from nltk.corpus import wordnet as wn
 from dict import wordnet_dict
 
 
-def test_dict(shared_datadir):
-    ENV.NLTK_DATA_DIR = f"{shared_datadir}/wordnet"
-    wordnet_dict.download_wordnet()
+def test_dict():
     d = wordnet_dict.dict("dog")
     assert d.find("noun") == 0
     d = wordnet_dict.dict("look")
@@ -15,9 +13,7 @@ def test_dict(shared_datadir):
     assert d.find("verb:") > 0
 
 
-def test_get_definition_examples(shared_datadir):
-    ENV.NLTK_DATA_DIR = f"{shared_datadir}/wordnet"
-    wordnet_dict.download_wordnet()
+def test_get_definition_examples():
     d = wordnet_dict.get_definition_examples("like", pos=wn.NOUN)
     # print(d)
     assert d.find("a similar kind") > 0
@@ -26,9 +22,7 @@ def test_get_definition_examples(shared_datadir):
     assert d.find("perceive with attention") > 0
 
 
-def test_get_synonyms_antonyms(shared_datadir):
-    ENV.NLTK_DATA_DIR = f"{shared_datadir}/wordnet"
-    wordnet_dict.download_wordnet()
+def test_get_synonyms_antonyms():
     d = wordnet_dict.get_synonyms_antonyms("like")
     # print(d)
     assert len(d[0]) > 0
@@ -42,3 +36,16 @@ def test_get_synonyms_antonyms(shared_datadir):
     d = wordnet_dict.get_synonyms_antonyms_msg("like", wn.synset("wish.v.02"))
     # print(d)
     assert d.find("Synonyms:") > 0
+
+
+def test_get_morphy_definitions():
+    d = wordnet_dict.get_morphy_definitions("like")
+    # print(d)
+    assert len(d) == 0
+    d = wordnet_dict.get_morphy_definitions("took", wn.NOUN)
+    assert len(d) == 0
+    d = wordnet_dict.get_morphy_definitions("took")
+    print(d)
+    assert len(d) > 0
+    d = wordnet_dict.get_morphy_definitions("took", wn.VERB)
+    assert len(d) > 0
