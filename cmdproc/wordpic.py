@@ -9,42 +9,10 @@ from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
 from utils.fileproc import gen_pic_dict_from_csv
 from utils.filters import check_chatid_filter
 
-word_dict = {}
-chapter_dict = {}
+from cmdproc import picword
 
-
-def check_extra_dict(dict_dir):
-    # 检查是否有用户自定义的单词库
-    if dict_dir is None:
-        return 0
-    try:
-        with open(f"{dict_dir}/res/picwords.csv", 'r') as csvfile:
-            word_dict, chapter_dict = gen_pic_dict_from_csv(csvfile)
-            print(f"看图识词单词条目：{len(word_dict)}个")
-            return len(word_dict)
-    except FileNotFoundError:
-        return 0
-
-
-def reload_dict():
-    global word_dict
-    global chapter_dict
-    # 加载内置单词库
-    with open('pic_dict.json', 'r') as wd:
-        word_dict = load(wd)
-    with open('chapter_dict.json', 'r') as wd:
-        chapter_dict = load(wd)
-
-    # 加载用户自定义单词库
-    try:
-        with open(f"{ENV.DATA_DIR}/res/picwords.csv", 'r') as csvfile:
-            word_dict, chapter_dict = gen_pic_dict_from_csv(
-                csvfile, word_dict, chapter_dict)
-    except FileNotFoundError:
-        pass
-
-
-reload_dict()
+picword.word_dict
+picword.chapter_dict
 
 again = InlineKeyboardMarkup([
     [InlineKeyboardButton("🎲 Play again 🕹", callback_data=f"getnew:mm"),
@@ -57,28 +25,41 @@ def check_answer(question, answer, filenumber):
     # question : 图中的单词
     # answer : 用户回答的号码
     # filenumber : 图片的页数编号
-    if question.lower() in word_dict:
-        words = word_dict[question.lower()]
-        for word in words:
-            if answer == word["number"] and f"{filenumber}.jpg" == word["filename"]:
-                return True
+    for x in question.lower().split("/"):
+        if x in picword.word_dict:
+            words = picword.word_dict[x]
+            for word in words:
+                if answer == word["number"] and f"{filenumber}.jpg" == word["filename"]:
+                    return True
     return False
 
 
-def mm_command(update: Update, context: CallbackContext) -> None:
-    chapter = random.choice(list(chapter_dict.keys()))
-    topic = random.choice(list(chapter_dict[chapter].keys()))
-    filenumber = random.choice(list(chapter_dict[chapter][topic].keys()))
+def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
+    chapter = random.choice(list(picword.chapter_dict.keys()))
+    # chapter = "Clothing"
+    topic = random.choice(list(picword.chapter_dict[chapter].keys()))
+    # topic = "Everyday Clothes"
+    filenumber = random.choice(
+        list(picword.chapter_dict[chapter][topic].keys()))
+    # filenumber = "86"
     number = random.choice(
-        list(chapter_dict[chapter][topic][filenumber].keys()))
-    word = chapter_dict[chapter][topic][filenumber][number]
-    slice = word_dict[word[0]][0]
-    filename = f"{ENV.DATA_DIR}/res/picwords/{slice['filename']}"
-    if not Path(filename).is_file():
-        filename = f"res/picwords/{slice['filename']}"
+        list(picword.chapter_dict[chapter][topic][filenumber].keys()))
+    # number = "12"
+    word = picword.chapter_dict[chapter][topic][filenumber][number]
+    # print(word)
+    # word = ["slacks/pants"]
+    words = word[0].split("/")
+    print(words)
+    print(picword.word_dict)
+    for iword in words:
+        slice = picword.word_dict[iword]
+        print(slice[0])
+        filename = f"{ENV.DATA_DIR}/res/picwords/{slice[0]['filename']}"
         if not Path(filename).is_file():
-            update.effective_message.reply_text(
-                f"图片文件{slice['filename']}不存在，请检你的字典")
+            filename = f"res/picwords/{slice[0]['filename']}"
+            if not Path(filename).is_file():
+                update.effective_message.reply_text(
+                    f"图片文件{slice['filename']}不存在，请检你的字典")
     msg = f"☝️What's {word[0]}\nPage:{filenumber}\nReply this msg using the matched number"
     buttons = [[
         InlineKeyboardButton("🙏 Click here for an answer 🙏", callback_data=f"ahit:{number}:{filenumber}:{word[0]}")]]
@@ -89,18 +70,22 @@ def mm_command(update: Update, context: CallbackContext) -> None:
         reply_markup=InlineKeyboardMarkup(buttons))
 
 
-def mm_hit_callback(update: Update, context: CallbackContext) -> None:
+def map_word_to_pic_hit_callback(update: Update, context: CallbackContext) -> None:
     query = update.callback_query
     data = query.data.split(":")
+    print(data)
     if len(data) != 4:
         return
     keyboard = query.message.reply_markup
     msgs = query.message.caption.split("\n")
     again_button = [[InlineKeyboardButton(
         "🎲 Play again 🕹", callback_data=f"getnew:mm")]]
-    msg = f"☝️{data[3]} is at {data[1]}" + msgs[1] + "\n" + msgs[2]
-    again_button.append([InlineKeyboardButton(
-        f"🧑🏻‍🏫 🗣Help {data[3]} 👩🏻‍🏫", callback_data=f"getpron:{data[3]}")])
+    msg = f"☝️{data[3]} is at {data[1]}" + " " + msgs[1] + "\n" + msgs[2]
+    print(data[3].split("/"))
+    for word in data[3].split("/"):
+        print(word)
+        again_button.append([InlineKeyboardButton(
+            f"🧑🏻‍🏫 🗣Help {word} 👩🏻‍🏫", callback_data=f"getpron:{word}")])
     kb = InlineKeyboardMarkup(again_button)
     update.callback_query.edit_message_caption(
         msg + "\n😩 Are you kidding me! It’s sooooo easy! 😩", reply_markup=kb)
@@ -108,9 +93,9 @@ def mm_hit_callback(update: Update, context: CallbackContext) -> None:
 
 
 def add_dispatcher(dp):
-    dp.add_handler(CommandHandler("mm", mm_command))
+    dp.add_handler(CommandHandler("mm", map_word_to_pic_command))
     dp.add_handler(CallbackQueryHandler(
-        mm_hit_callback, pattern="^ahit:[A-Za-z0-9_]*"))
+        map_word_to_pic_hit_callback, pattern="^ahit:[A-Za-z0-9_]*"))
     dp.add_handler(CallbackQueryHandler(
-        mm_command, pattern="^getnew:mm"))
+        map_word_to_pic_command, pattern="^getnew:mm"))
     return [BotCommand("mm", "🎲 Play word-pic Games 🕹")]
