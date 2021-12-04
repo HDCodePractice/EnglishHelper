@@ -17,16 +17,21 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
         question = update.message.reply_to_message.text.split("\n")[0]
     answer = update.message.text.lower()
     if "☝️What's #" in question:   # 看图识字
-        question = question.split("☝️What's #")[1]
-        filenumber = update.message.reply_to_message.caption.split(
-            "\n")[-2].split("Page:")[1]
-        if picword.check_answer(question, answer, filenumber):
-            picword.again.inline_keyboard[0][1].callback_data = f"getpron:{answer}"
-            update.message.reply_text(
-                f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=picword.again)
+        question_data = update.message.reply_to_message.reply_markup.inline_keyboard[
+            0][0].callback_data
+        if "rhit:" in question_data:
+            # rhit:{number}:{filenumber}:{data_word}:0
+            questions = question_data.split(":")[3].split("/")
+            questions = [q.lower() for q in questions]
+            if answer in questions:
+                picword.again.inline_keyboard[0][1].callback_data = f"getpron:{answer}"
+                update.message.reply_text(
+                    f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=picword.again)
+            else:
+                update.message.reply_text(
+                    f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
         else:
-            update.message.reply_text(
-                f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
+            return
     else:  # 找同伴
         if question in worddict.word_dict:
             msg = ""
