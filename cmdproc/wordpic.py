@@ -48,7 +48,7 @@ def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
             if not Path(filename).is_file():
                 update.effective_message.reply_text(
                     f"图片文件{slice['filename']}不存在，请检你的字典")
-    msg = f"☝️What's {word[0]}\nPage:{filenumber}\nReply this msg using the matched number"
+    msg = f"☝️What's {word[0]}\nPage: {filenumber}\nReply this msg using the matched number"
     buttons = [[
         InlineKeyboardButton("🙏 Click here for an answer 🙏", callback_data=f"ahit:{number}:{filenumber}:{word[0]}")]]
     update.effective_message.reply_photo(
@@ -67,7 +67,7 @@ def map_word_to_pic_hit_callback(update: Update, context: CallbackContext) -> No
     msgs = query.message.caption.split("\n")
     again_button = [[InlineKeyboardButton(
         "🎲 Play again 🕹", callback_data=f"getnew:mm")]]
-    msg = f"☝️{data[3]} is at {data[1]}" + " " + msgs[1] + "\n" + msgs[2]
+    msg = f"☝️{data[3]} is at {data[1]}" + "\n" + msgs[1] + "\n" + msgs[2]
     for word in data[3].split("/"):
         again_button.append([InlineKeyboardButton(
             f"🧑🏻‍🏫 🗣Help {word} 👩🏻‍🏫", callback_data=f"getpron:{word}")])
