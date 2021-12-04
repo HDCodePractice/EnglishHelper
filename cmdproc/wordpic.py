@@ -36,24 +36,15 @@ def check_answer(question, answer, filenumber):
 
 def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
     chapter = random.choice(list(picword.chapter_dict.keys()))
-    # chapter = "Clothing"
     topic = random.choice(list(picword.chapter_dict[chapter].keys()))
-    # topic = "Everyday Clothes"
     filenumber = random.choice(
         list(picword.chapter_dict[chapter][topic].keys()))
-    # filenumber = "86"
     number = random.choice(
         list(picword.chapter_dict[chapter][topic][filenumber].keys()))
-    # number = "12"
     word = picword.chapter_dict[chapter][topic][filenumber][number]
-    # print(word)
-    # word = ["slacks/pants"]
     words = word[0].split("/")
-    print(words)
-    print(picword.word_dict)
     for iword in words:
         slice = picword.word_dict[iword]
-        print(slice[0])
         filename = f"{ENV.DATA_DIR}/res/picwords/{slice[0]['filename']}"
         if not Path(filename).is_file():
             filename = f"res/picwords/{slice[0]['filename']}"
@@ -73,7 +64,6 @@ def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
 def map_word_to_pic_hit_callback(update: Update, context: CallbackContext) -> None:
     query = update.callback_query
     data = query.data.split(":")
-    print(data)
     if len(data) != 4:
         return
     keyboard = query.message.reply_markup
@@ -81,9 +71,7 @@ def map_word_to_pic_hit_callback(update: Update, context: CallbackContext) -> No
     again_button = [[InlineKeyboardButton(
         "🎲 Play again 🕹", callback_data=f"getnew:mm")]]
     msg = f"☝️{data[3]} is at {data[1]}" + " " + msgs[1] + "\n" + msgs[2]
-    print(data[3].split("/"))
     for word in data[3].split("/"):
-        print(word)
         again_button.append([InlineKeyboardButton(
             f"🧑🏻‍🏫 🗣Help {word} 👩🏻‍🏫", callback_data=f"getpron:{word}")])
     kb = InlineKeyboardMarkup(again_button)
