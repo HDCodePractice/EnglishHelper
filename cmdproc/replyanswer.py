@@ -39,7 +39,7 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
         if "ahit:" in question_data:
             # ahit:{number}:{filenumber}:{word[0]
             data1 = question_data.split(":")[1]
-            if answer == data1:
+            if answer == data1.lower():
                 wordpic.again.inline_keyboard[0][1].callback_data = f"getpron:{question}"
                 update.message.reply_text(
                     f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=wordpic.again)
