@@ -32,14 +32,17 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
                     f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
         else:
             return
-    elif "☝️What's" in question and "#" not in question:  # 看字识图
-        question = question.split("☝️What's ")[1]
+    elif "☝️Where is " in question and "#" not in question:  # 看字识图
+        question = question.split("☝️Where is ")[1]
+        filenumber = update.message.reply_to_message.caption.split(
+            "\n")[-2].split("Page: ")[1]
         question_data = update.message.reply_to_message.reply_markup.inline_keyboard[
             0][0].callback_data
         if "ahit:" in question_data:
-            # ahit:{number}:{filenumber}:{word[0]
+            # ahit:{number}:{filenumber}:{word}
             data1 = question_data.split(":")[1]
-            if answer == data1.lower():
+            data2 = question_data.split(":")[2]
+            if answer == data1.lower() and filenumber == data2.lower():
                 wordpic.again.inline_keyboard[0][1].callback_data = f"getpron:{question}"
                 update.message.reply_text(
                     f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=wordpic.again)
