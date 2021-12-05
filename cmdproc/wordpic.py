@@ -6,8 +6,6 @@ from config import ENV
 from telegram import (BotCommand, InlineKeyboardButton, InlineKeyboardMarkup,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-from utils.fileproc import gen_pic_dict_from_csv
-from utils.filters import check_chatid_filter
 
 from cmdproc import picword
 
