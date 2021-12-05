@@ -5,7 +5,7 @@ from telegram import BotCommand, Update
 from telegram.ext import CallbackContext, Filters, MessageHandler
 from utils.filters import check_chatid_filter
 
-from cmdproc import picword, worddict
+from cmdproc import picword, worddict, wordpic
 
 
 @check_chatid_filter
@@ -32,6 +32,20 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
                     f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
         else:
             return
+    elif "☝️What's" in question and "#" not in question:  # 看字识图
+        question = question.split("☝️What's ")[1]
+        question_data = update.message.reply_to_message.reply_markup.inline_keyboard[
+            0][0].callback_data
+        if "ahit:" in question_data:
+            # ahit:{number}:{filenumber}:{word[0]
+            data1 = question_data.split(":")[1]
+            if answer == data1:
+                wordpic.again.inline_keyboard[0][1].callback_data = f"getpron:{question}"
+                update.message.reply_text(
+                    f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=wordpic.again)
+            else:
+                update.message.reply_text(
+                    f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
     else:  # 找同伴
         if question in worddict.word_dict:
             msg = ""
