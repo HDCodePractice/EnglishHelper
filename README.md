@@ -3,6 +3,8 @@ English study corner小助手
 
 [![codecov](https://codecov.io/gh/HDCodePractice/EnglishHelper/branch/main/graph/badge.svg?token=X6E5R9NSdR)](https://codecov.io/gh/HDCodePractice/EnglishHelper) [![GitHub Test Action](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml) [![Build Publish Docker image](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml) ![Irregular Words Number](/irregular.svg?raw=true "Irregular Words Number") 
 
+你可以第一时间在[EnglishHelper Update频道](https://t.me/englisherupdate)中看到最新的更新，或者在[English Helper Group](https://t.me/+5B_J3oVYRYMyM2E1)试用最新测试版本（不保证正常服务）或提出你的问题。
+
 ## 功能
 
 * 支持自己上传图形字典
