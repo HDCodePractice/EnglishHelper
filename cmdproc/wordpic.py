@@ -30,25 +30,22 @@ again = InlineKeyboardMarkup([
 
 
 def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
-    chapter = random.choice(list(picword.chapter_dict.keys()))
-    topic = random.choice(list(picword.chapter_dict[chapter].keys()))
-    filenumber = random.choice(
-        list(picword.chapter_dict[chapter][topic].keys()))
-    number = random.choice(
-        list(picword.chapter_dict[chapter][topic][filenumber].keys()))
-    word = picword.chapter_dict[chapter][topic][filenumber][number]
-    words = word[0].split("/")
-    for iword in words:
-        slice = picword.word_dict[iword]
-        filename = f"{ENV.DATA_DIR}/res/picwords/{slice[0]['filename']}"
+    word = random.choice(list(picword.word_dict.keys()))
+    slices = picword.word_dict[word]
+    for slice in slices:
+        filename = f"{ENV.DATA_DIR}/res/picwords/{slice['filename']}"
         if not Path(filename).is_file():
             filename = f"res/picwords/{slice[0]['filename']}"
             if not Path(filename).is_file():
                 update.effective_message.reply_text(
                     f"图片文件{slice['filename']}不存在，请检你的字典")
-    msg = f"☝️What's {word[0]}\nPage: {filenumber}\nReply this msg using the matched number"
+    slice = random.choice(picword.word_dict[word])
+    filenumber = slice["filename"].split(".")[0]
+    filename = f"{ENV.DATA_DIR}/res/picwords/{slice['filename']}"
+    msg = f"☝️Where is {word}\nPage: {filenumber}\nReply this msg using the matched number"
+    number = slice["number"]
     buttons = [[
-        InlineKeyboardButton("🙏 Click here for an answer 🙏", callback_data=f"ahit:{number}:{filenumber}:{word[0]}")]]
+        InlineKeyboardButton("🙏 Click here for an answer 🙏", callback_data=f"ahit:{number}:{filenumber}:{word}")]]
     update.effective_message.reply_photo(
         photo=open(filename, 'rb'),
         caption=msg,
