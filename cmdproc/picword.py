@@ -81,6 +81,8 @@ def get_show_word(word, show_count):
     for i in word:
         if i == " ":
             show_word += " "
+        elif i == "-":
+            show_word += "-"
         else:
             show_word += "*"
     for i in range(show_count):
