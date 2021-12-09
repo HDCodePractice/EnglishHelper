@@ -3,7 +3,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "1"
     }
   ],
@@ -11,7 +11,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "2"
     }
   ],
@@ -19,7 +19,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "3"
     }
   ],
@@ -27,7 +27,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "4"
     }
   ],
@@ -35,7 +35,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "5"
     }
   ],
@@ -43,7 +43,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "6"
     }
   ],
@@ -51,7 +51,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "7"
     }
   ],
@@ -59,7 +59,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "8"
     }
   ],
@@ -67,7 +67,7 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "9"
     }
   ],
@@ -75,8 +75,88 @@
     {
       "chapter": "Computer",
       "topic": "Program",
-      "filename": "hd001.jpg",
+      "filename": "punctuation1.jpg",
       "number": "10"
+    }
+  ],
+  "period": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "1"
+    }
+  ],
+  "comma": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "2"
+    }
+  ],
+  "double quotation mark": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "3"
+    }
+  ],
+  "apostrophe": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "4"
+    }
+  ],
+  "single quotation mark": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "4"
+    }
+  ],
+  "hyphen": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "5"
+    }
+  ],
+  "question mark": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "6"
+    }
+  ],
+  "colon": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "7"
+    }
+  ],
+  "exclamation mark": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "8"
+    }
+  ],
+  "semicolon": [
+    {
+      "chapter": "Computer",
+      "topic": "Program",
+      "filename": "punctuation2.jpg",
+      "number": "9"
     }
   ]
 }
