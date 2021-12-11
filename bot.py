@@ -21,6 +21,8 @@ if __name__ == '__main__':
     commands += worddict.add_dispatcher(dispatcher)
     from cmdproc import upload
     commands += upload.add_dispatcher(dispatcher)
+    from cmdproc import wordpic
+    commands += wordpic.add_dispatcher(dispatcher)
     from cmdproc import grammar_cmd
     commands += grammar_cmd.add_dispatcher(dispatcher)
     from cmdproc import markdown_cmd

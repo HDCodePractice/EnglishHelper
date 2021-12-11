@@ -3,22 +3,36 @@ English study corner小助手
 
 [![codecov](https://codecov.io/gh/HDCodePractice/EnglishHelper/branch/main/graph/badge.svg?token=X6E5R9NSdR)](https://codecov.io/gh/HDCodePractice/EnglishHelper) [![GitHub Test Action](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_test.yaml) [![Build Publish Docker image](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml/badge.svg)](https://github.com/HDCodePractice/EnglishHelper/actions/workflows/build_and_publish_docker.yaml) ![Irregular Words Number](/irregular.svg?raw=true "Irregular Words Number") 
 
+你可以第一时间在[EnglishHelper Update频道](https://t.me/englisherupdate)中看到最新的更新，或者在[English Helper Group](https://t.me/+5B_J3oVYRYMyM2E1)试用最新测试版本（不保证正常服务）或提出你的问题。
+
 ## 功能
 
-* 支持自己上传图形字典
+/m
+
+* 支持通过图形做拼写单词的游戏
+
+/mm
+
+* 支持了在图形中寻找单词的游戏
+
+/p
+
 * 支持查询Irregular过去时、过去分词、复数形式
 * 支持单词词义查询和解释说明
 * 为不同单词含义加入例句
 * 支持单词的同义词和反义词查询
-* 支持通过图形记忆单词的游戏
 * 支持查询单词的多种不同发音拼读
 * 支持查询类似拼读单词，方便记忆
-* 支持了一图多义的单词
 * 支持通过Google听发音（标准速度和慢速发音）
 * 支持通过Google Translate查询单词翻译
 * 支持通过youglish去听数千以上的包含有此单词的视频
 * 支持通过urban查询俚语说明
 * 支持了语法查询
+
+
+* 支持自己上传图形字典
+* 支持了一图多义的单词
+* 支持一个单词在多个图中出现
 
 ### 收录
 

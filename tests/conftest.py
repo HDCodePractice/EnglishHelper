@@ -1,4 +1,4 @@
-import shutil
+import os
 import sys
 from pathlib import Path
 
@@ -8,18 +8,9 @@ from config import ENV
 
 # each test runs on cwd to its temp dir
 @pytest.fixture(autouse=True)
-def go_to_tmpdir(request):
-    # Get the fixture dynamically by its name.
-    tmpdir = request.getfixturevalue("tmpdir")
+def go_to_tmpdir(shared_datadir):
+    tmpdir = shared_datadir
     # ensure local test created packages can be imported
     sys.path.insert(0, str(tmpdir))
-    # copy test data to tmpdir
-    shutil.copyfile("pic_dict.json", str(tmpdir) + "/pic_dict.json")
-    shutil.copyfile("word_dict.json", str(tmpdir) + "/word_dict.json")
-    shutil.copyfile("chapter_dict.json", str(tmpdir) + "/chapter_dict.json")
-    shutil.copyfile("grammar_dict.json", str(tmpdir) + "/grammar_dict.json")
-    # Chdir only for the duration of the test.
-    Path(str(tmpdir) + "/res").mkdir(parents=True, exist_ok=True)
-    ENV.DATA_DIR = str(tmpdir) + "/res"
-    with tmpdir.as_cwd():
-        yield
+    ENV.DATA_DIR = str(tmpdir) + "/ext"
+    os.chdir(str(tmpdir))
