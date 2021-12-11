@@ -24,9 +24,6 @@ def check_extra_dict(dict_dir):
 def reload_dict():
     global word_dict
     global chapter_dict
-    import os
-    p = os.getcwd()
-    print(p)
     # 加载内置单词库
     with open('pic_dict.json', 'r') as wd:
         word_dict = load(wd)
