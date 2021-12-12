@@ -31,8 +31,8 @@ def preview_chapter_dict(uid):
 def fetch_user_data(uid):
     user_chapter_dict = read_file_to_dict("user_chapter_dict.json")
     if user_chapter_dict:
-        if str(uid) in list(user_chapter_dict.keys()):
-            return user_chapter_dict[str(uid)]
+        if uid in list(user_chapter_dict.keys()) and user_chapter_dict[uid]: 
+            return user_chapter_dict[uid]
     return None
 
 def update_data_to_file(data,filename):
@@ -150,7 +150,7 @@ def custom_chapter_command(update: Update, context: CallbackContext) -> None:
     global stored_data
     incoming_message = update.effective_message
     user_id = incoming_message.from_user.id
-    stored_data = preview_chapter_dict(user_id)
+    stored_data = preview_chapter_dict(str(user_id))
     chapter_preview_msg,menu_keyboard = update_chapter_list(user_id,stored_data)
     incoming_message.reply_markdown_v2(text=chapter_preview_msg,reply_markup=InlineKeyboardMarkup(menu_keyboard))
 
@@ -184,11 +184,15 @@ def handle_menu_callback(update: Update, context: CallbackContext) -> None:
         saved_data = {}
         saved_data[user_id] = stored_data
         update_data_to_file(saved_data,"user_chapter_dict.json")
-        query.edit_message_text(text=f"设置已保存!\n您所选择的设置为\n{str(stored_data)}\n\n请使用/m开始游戏!\n\n您也可以使用/c再次更改您的设置")
+        display_data={}
+        for key,value in stored_data.items():
+            if value[0]:
+                display_data[key]=value[0]
+        query.edit_message_text(text=f"设置已保存!\n您所选择的设置为\n{str(display_data)}\n\n请使用/m开始游戏!\n\n您也可以使用/c再次更改您的设置")
 
 
 
-
+@check_chatid_filter
 def handle_topic_callback(update: Update, context: CallbackContext):
     global stored_data
     query = update.callback_query
