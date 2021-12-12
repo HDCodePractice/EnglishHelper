@@ -3,11 +3,10 @@ from json import load
 from pathlib import Path
 
 from config import ENV
+from dict import picture_dict
 from telegram import (BotCommand, InlineKeyboardButton, InlineKeyboardMarkup,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-
-from cmdproc import picword
 
 again = InlineKeyboardMarkup([
     [InlineKeyboardButton("🎲 Play again 🕹", callback_data=f"getnew:mm"),
@@ -30,8 +29,8 @@ again = InlineKeyboardMarkup([
 
 
 def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
-    word = random.choice(list(picword.word_dict.keys()))
-    slices = picword.word_dict[word]
+    word = random.choice(list(picture_dict.word_dict.keys()))
+    slices = picture_dict.word_dict[word]
     for slice in slices:
         filename = f"{ENV.DATA_DIR}/res/picwords/{slice['filename']}"
         if not Path(filename).is_file():
@@ -39,7 +38,7 @@ def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
             if not Path(filename).is_file():
                 update.effective_message.reply_text(
                     f"图片文件{slice['filename']}不存在，请检你的字典")
-    slice = random.choice(picword.word_dict[word])
+    slice = random.choice(picture_dict.word_dict[word])
     filenumber = slice["filename"].split(".")[0]
     filename = f"{ENV.DATA_DIR}/res/picwords/{slice['filename']}"
     msg = f"☝️Where is {word}\nPage: {filenumber}\nReply this msg using the matched number"
