@@ -1,12 +1,13 @@
 import random
 from json import load
 from pathlib import Path
+from re import U
 
 from config import ENV
 from telegram import (BotCommand, InlineKeyboardButton, InlineKeyboardMarkup,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-from utils.fileproc import gen_pic_dict_from_csv
+from utils.fileproc import gen_pic_dict_from_csv, read_file_to_dict
 from utils.filters import check_chatid_filter
 
 word_dict = {}
@@ -51,6 +52,18 @@ again = InlineKeyboardMarkup([
      InlineKeyboardButton("🧑🏻‍🏫 🗣Help 👩🏻‍🏫", callback_data=f"getpron:")
      ]])
 
+
+def load_user_config(uid):
+    # 加载用户自定义的配置
+    user_config = read_file_to_dict("user_chapter_dict.json")
+    user_word_dict= {}
+    if uid not in list(user_config.keys()):
+        user_word_dict = word_dict.copy()
+    else:
+        for key, value in word_dict.items():
+            if value[0]["topic"] in user_config[uid][value[0]["chapter"]][0]:
+                user_word_dict[key] = value
+    return user_word_dict
 
 def check_answer(question, answer, filenumber):
     # 问题的答案是否正确
@@ -101,8 +114,10 @@ def get_show_word(word, show_count):
 
 @check_chatid_filter
 def remember_command(update: Update, context: CallbackContext) -> None:
-    rword = random.choice(list(word_dict.keys()))
-    word = random.choice(word_dict[rword])
+    user_id = update.effective_message.from_user.id
+    user_word_dict = load_user_config(str(user_id)) # 加载用户自定义的单词库
+    rword = random.choice(list(user_word_dict.keys()))
+    word = random.choice(user_word_dict[rword])
     filenumber = word["filename"].split(".")[0]
     filename = f"{ENV.DATA_DIR}/res/picwords/{word['filename']}"
     if not Path(filename).is_file():

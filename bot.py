@@ -29,6 +29,8 @@ if __name__ == '__main__':
     commands += markdown_cmd.add_dispatcher(dispatcher)
     from cmdproc import customize_cmd
     commands += customize_cmd.add_dispatcher(dispatcher)
+    from cmdproc import preview_cmd
+    commands += preview_cmd.add_dispatcher(dispatcher)
 
     # 这个import必须放在最后，因为它的MessageHandler会吃掉所有的消息
     from cmdproc import replyanswer

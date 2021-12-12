@@ -1,5 +1,5 @@
 import csv
-from json import dump
+from json import dump, load
 
 
 def save_word_dict(filename, words_dict):
@@ -87,3 +87,12 @@ def gen_grammar_dict_from_csv(csvfile, word_dict={}):
         url = row['url']
         word_dict[g_type] = {'description': description, 'url': url}
     return word_dict
+
+def read_file_to_dict(filename): #读取数据文件，并转换为字典
+    try:
+        with open(filename, 'r') as wd:
+            user_chapter_dict = load(wd)
+        return user_chapter_dict
+    except Exception as e:
+        return None
+
