@@ -1,11 +1,12 @@
-from zipfile import ZipFile
-from utils.fileproc import gen_pic_dict_from_csv
 from pathlib import Path
-from telegram.ext import CommandHandler, CallbackContext
-from telegram import Update
-from utils.filters import check_admin_filter
-from config import ENV
 from shutil import rmtree
+from zipfile import ZipFile
+
+from config import ENV
+from telegram import Update
+from telegram.ext import CallbackContext, CommandHandler
+from utils.fileproc import gen_pic_dict_from_csv
+from utils.filters import check_admin_filter
 
 if not Path(ENV.DATA_DIR).exists():
     Path(ENV.DATA_DIR).mkdir(parents=True, exist_ok=True)
@@ -60,10 +61,10 @@ def update_dict(update: Update, context: CallbackContext):
             # 解压
             zip_file.extractall(ENV.DATA_DIR)
         # 检查picwords，如果有数据则更新
-        from cmdproc import picword
-        pic_word_number = picword.check_extra_dict(ENV.DATA_DIR)
+        from dict import picture_dict
+        pic_word_number = picture_dict.check_extra_dict(ENV.DATA_DIR)
         if pic_word_number > 0:
-            picword.reload_dict()
+            picture_dict.reload_dict()
         from cmdproc import worddict
         irr_word_number = worddict.check_extra_dict(ENV.DATA_DIR)
         if irr_word_number > 0:
