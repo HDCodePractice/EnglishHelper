@@ -13,16 +13,16 @@ if __name__ == '__main__':
         f"Starting... ID: {str(CONFIG['ID'])} , Username: {CONFIG['Username']}")
 
     commands = []
-    from cmdproc import picword
-    commands += picword.add_dispatcher(dispatcher)
+    from cmdproc import word_in_pic_cmd
+    commands += word_in_pic_cmd.add_dispatcher(dispatcher)
+    from cmdproc import spell_picword_cmd
+    commands += spell_picword_cmd.add_dispatcher(dispatcher)
     from cmdproc import word_dict
     commands += word_dict.add_dispatcher(dispatcher)
     from cmdproc import worddict
     commands += worddict.add_dispatcher(dispatcher)
     from cmdproc import upload
     commands += upload.add_dispatcher(dispatcher)
-    from cmdproc import wordpic
-    commands += wordpic.add_dispatcher(dispatcher)
     from cmdproc import grammar_cmd
     commands += grammar_cmd.add_dispatcher(dispatcher)
     from cmdproc import markdown_cmd

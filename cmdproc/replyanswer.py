@@ -5,7 +5,7 @@ from telegram import BotCommand, Update
 from telegram.ext import CallbackContext, Filters, MessageHandler
 from utils.filters import check_chatid_filter
 
-from cmdproc import picword, worddict, wordpic
+from cmdproc import spell_picword_cmd, word_in_pic_cmd, worddict
 
 
 @check_chatid_filter
@@ -24,9 +24,10 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
             questions = question_data.split(":")[3].split("/")
             questions = [q.lower() for q in questions]
             if answer in questions:
-                picword.again.inline_keyboard[0][1].callback_data = f"getpron:{answer}"
+                spell_picword_cmd.again.inline_keyboard[0][
+                    1].callback_data = f"getpron:{answer}"
                 update.message.reply_text(
-                    f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=picword.again)
+                    f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=spell_picword_cmd.again)
             else:
                 update.message.reply_text(
                     f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")
@@ -40,9 +41,10 @@ def wordtest_reply(update: Update, context: CallbackContext) -> None:
             number = question_data.split(":")[1]
             word = question_data.split(":")[-1]
             if answer == number.lower():
-                wordpic.again.inline_keyboard[0][1].callback_data = f"getpron:{word}"
+                word_in_pic_cmd.again.inline_keyboard[0][
+                    1].callback_data = f"getpron:{word}"
                 update.message.reply_text(
-                    f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=wordpic.again)
+                    f"✌️ Bingo! {random.choice('👍🎉🎊')}", reply_markup=word_in_pic_cmd.again)
             else:
                 update.message.reply_text(
                     f"💔 Wrong answer！ Try again! {random.choice('💔🤣🤦🏻😭😱')}")

@@ -14,20 +14,6 @@ again = InlineKeyboardMarkup([
      ]])
 
 
-# def check_answer(question, answer, filenumber):
-#     # 问题的答案是否正确
-#     # question : 图中的单词
-#     # answer : 用户回答的号码
-#     # filenumber : 图片的页数编号
-#     for x in question.lower().split("/"):
-#         if x in picword.word_dict:
-#             words = picword.word_dict[x]
-#             for word in words:
-#                 if answer == word["number"] and f"{filenumber}.jpg" == word["filename"]:
-#                     return True
-#     return False
-
-
 def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
     word = random.choice(list(picture_dict.word_dict.keys()))
     slices = picture_dict.word_dict[word]
