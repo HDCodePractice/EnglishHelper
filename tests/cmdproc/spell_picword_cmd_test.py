@@ -11,6 +11,27 @@ def test_get_show_word():
     assert get_show_word("test", 4) == "test"
 
 
+def test_get_hint_view_other_words():
+    from cmdproc.spell_picword_cmd import get_hint_view
+    msgs = ["第一行", "第二行", "第三行", "第四行"]
+    show_count = 1
+
+    number = 0
+    filenumber = "1"
+    data_word = "ab cd-ef"
+    words = data_word.split(" / ")
+
+    buttons = [[InlineKeyboardButton(
+        "🙏 Click here for a 🔡 🙏", callback_data=f"rhit:{number}:{filenumber}:{data_word}:0")]]
+    keyboard = InlineKeyboardMarkup(buttons)
+    data = f"rhit:{number}:{filenumber}:{data_word}:0".split(":")
+
+    msg, kb = get_hint_view(msgs, words, show_count,
+                            keyboard, data)
+    assert msg == "第一行\nHints💡: a* **-**\n第三行\n第四行"
+    assert kb.inline_keyboard[0][0].callback_data == "rhit:0:1:ab cd-ef:1"
+
+
 def test_get_hint_view():
     from cmdproc.spell_picword_cmd import get_hint_view
     msgs = ["第一行", "第二行", "第三行", "第四行"]
