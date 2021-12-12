@@ -61,7 +61,9 @@ def get_finish_view(msgs, words, data):
     return msg, kb
 
 
-def get_hint_view(msgs, words, show_count, keyboard, data):
+def get_hint_view(msgs, show_count, keyboard):
+    data = keyboard.inline_keyboard[0][0].callback_data.split(":")
+    words = data[-2].split(" / ")
     show_word = get_show_words(words, show_count)
     msg = msgs[0] + f"\nHints💡: {show_word}\n" + msgs[2] + "\n" + msgs[3]
     keyboard.inline_keyboard[0][0].callback_data = f"rhit:{data[1]}:{data[2]}:{data[3]}:{show_count}"
@@ -117,7 +119,7 @@ def remember_hit_callback(update: Update, context: CallbackContext) -> None:
             msg + "\n😩 Are you kidding me! It’s sooooo easy! 😩", reply_markup=kb)
         query.answer("All the answers are for you!", show_alert=True)
     else:
-        msg, keyboard = get_hint_view(msgs, words, show_count, keyboard, data)
+        msg, keyboard = get_hint_view(msgs, show_count, keyboard)
         query.answer("💡💡💡💡")
         update.callback_query.edit_message_caption(msg, reply_markup=keyboard)
 
