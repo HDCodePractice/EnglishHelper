@@ -8,6 +8,19 @@ word_dict = {}
 chapter_dict = {}
 
 
+def check_answer(question, answer, filenumber):
+    # 问题的答案是否正确
+    # question : 图中的号码
+    # answer : 用户回答的答案
+    # filenumber : 图片的编号
+    if answer.lower() in word_dict:
+        words = word_dict[answer.lower()]
+        for word in words:
+            if question == word["number"] and f"{filenumber}.jpg" == word["filename"]:
+                return True
+    return False
+
+
 def check_extra_dict(dict_dir):
     # 检查是否有用户自定义的单词库
     if dict_dir is None:
