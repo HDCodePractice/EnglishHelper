@@ -7,19 +7,15 @@ from telegram import (BotCommand, InlineKeyboardButton, InlineKeyboardMarkup,
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
 from utils.fileproc import gen_pic_dict_from_csv,read_file_to_dict
 from utils.filters import check_chatid_filter
-from cmdproc.picword import chapter_dict
-#reload_dict()
-#stored_data is to save previous status of configuration; for completed topic list, use chapter_dict
-#data format should like this: {chapter1:[topic1,topic2,...,status],chapter2:[topic1,topic2,...,status],...}
+from dict.picture_dict import chapter_dict
 
-def gen_chapter_list(user_id,stored_data): #更新章节列表和按钮
+def gen_chapter_list(user_id): #更新章节列表和按钮
     menu_keyboard= []
     chapter_preview_msg = "Chapter List\n\n"
     count = 1
-    for key,value in stored_data.items():
-        chapter_preview_msg += f"{count} {key}\n"
+    for key,value in chapter_dict.items():
         menu_keyboard.append([ 
-            InlineKeyboardButton(text=f"Choose {count} Topic", callback_data=f"preview-chapter-topic:{key}:{user_id}")
+            InlineKeyboardButton(text=f"Chapter {count}: {key}", callback_data=f"preview-chapter-topic:{key}:{user_id}")
             ])
         count += 1
     
@@ -28,7 +24,7 @@ def gen_chapter_list(user_id,stored_data): #更新章节列表和按钮
         ])
     return chapter_preview_msg,menu_keyboard
 
-def gen_topic_list(chapter_id,user_id,stored_data):
+def gen_topic_list(chapter_id,user_id):
     topic_list = list(chapter_dict[chapter_id].keys()) #获取数据库中的所有topic列表
     chap_num = list(chapter_dict.keys()).index(chapter_id) #获取用户选取的topic
     if chap_num == 0:
@@ -37,7 +33,7 @@ def gen_topic_list(chapter_id,user_id,stored_data):
         next_chap = "None"
     if chap_num > 0:
         prev_chap = list(chapter_dict.keys())[chap_num - 1]
-    if chap_num < len(list(chapter_dict.keys())):
+    if chap_num < len(list(chapter_dict.keys())) - 1:
         next_chap = list(chapter_dict.keys())[chap_num + 1]
     topic_preview_msg = f"Topic List\nChapter Name:{chapter_id}\n\n"
     topic_menu_keyboard = []
@@ -58,7 +54,7 @@ def gen_topic_list(chapter_id,user_id,stored_data):
 def preview_chapter_command(update: Update, context: CallbackContext) -> None:
     incoming_message = update.effective_message
     user_id = incoming_message.from_user.id
-    chapter_preview_msg,menu_keyboard = gen_chapter_list(user_id,chapter_dict)
+    chapter_preview_msg,menu_keyboard = gen_chapter_list(user_id)
     incoming_message.reply_markdown_v2(text=chapter_preview_msg,reply_markup=InlineKeyboardMarkup(menu_keyboard))
 
 @check_chatid_filter
@@ -69,7 +65,7 @@ def handle_preview_chapter_callback(update: Update, context: CallbackContext) ->
     if len(data) <=1:
         return
     if data[0] == "preview-chapter-topic":
-        topic_preview_msg,topic_menu_keyboard = gen_topic_list(data[1],data[-1],chapter_dict)  
+        topic_preview_msg,topic_menu_keyboard = gen_topic_list(data[1],data[-1])  
         query.edit_message_text(text=topic_preview_msg,reply_markup=InlineKeyboardMarkup(topic_menu_keyboard))
 
     if data[0] == "preview-chapter-finish":
@@ -85,10 +81,10 @@ def handle_preview_topic_callback(update: Update, context: CallbackContext):
         return
     if data[0] == "preview-topic-page":
         if data[1] != "None":
-            topic_preview_msg,topic_menu_keyboard = gen_topic_list(data[1],data[-1],chapter_dict)
+            topic_preview_msg,topic_menu_keyboard = gen_topic_list(data[1],data[-1])
             query.edit_message_text(text=topic_preview_msg,reply_markup=InlineKeyboardMarkup(topic_menu_keyboard))
     if data[0] == "preview-topic-back":
-        chapter_preview_msg,menu_keyboard = gen_chapter_list(data[-1],chapter_dict)    
+        chapter_preview_msg,menu_keyboard = gen_chapter_list(data[-1])    
         query.edit_message_text(text=chapter_preview_msg,reply_markup=InlineKeyboardMarkup(menu_keyboard))
 
 
