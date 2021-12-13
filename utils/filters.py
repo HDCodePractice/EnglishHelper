@@ -20,6 +20,11 @@ def check_chatids_valid(chatids):
             return False
     return True
 
+def check_callback_user(uid,data):
+    if str(uid) == data:
+        return True
+    else:
+        return False
 
 def _check_chatid_valid(chatid):
     if len(chatid) > 1 and (chatid[0] == '-' or chatid[0].isnumeric()) and chatid[1:].isnumeric():
