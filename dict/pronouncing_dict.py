@@ -22,22 +22,34 @@ def get_pronouncing(word):
     return reslt
 
 
-def dict(word):
+def dict(words):
     """
     Returns the definition of the word.
     """
-    reslt = get_pronouncing(word)
-    if len(reslt) == 0:
-        return ""
+    reslt = []
     msg = ""
-    count = 1
-    for p in reslt:
-        msg += f"{count}. [{p[0]}]\n"
-        near = [w for w in p[1] if w != word]
-        if len(near) > 10:
-            near = random.sample(near, 10)
-        for r in near:
-            msg += f"{r} "
-        msg = f"{msg[:-1]}\n\n"
-        count += 1
-    return msg[:-2]
+    words = words.split()
+    for iword in words:
+        reslt.append(get_pronouncing(iword))
+    print(reslt)
+    print(reslt[0])
+    print(len(reslt))
+    if len(reslt[0]) == 0:
+        return ""
+    if len(reslt) == 1:
+        count = 1
+        for p in reslt:
+            print(p)
+            msg += f"{count}. [{p[0][0]}]\n"
+            near = [w for w in p[0][1] if w != words]
+            if len(near) > 10:
+                near = random.sample(near, 10)
+            for r in near:
+                msg += f"{r} "
+            msg = f"{msg[:-1]}\n\n"
+            count += 1
+        return msg[:-2]
+    if len(reslt) > 1:
+        for i in range(len(reslt)):
+            msg += f"{reslt[i][0][0]} . "
+        return msg[:-3]
