@@ -9,3 +9,5 @@ def test_dict():
 announcing bouncing denouncing mispronouncing pouncing renouncing trouncing"""
     # 查到的相关拼读多于20
     assert pronouncing_dict.dict('read') != pronouncing_dict.dict('read')
+    # 查出一句话的音标
+    assert pronouncing_dict.dict('i am god') == "AY1 . AE1 M . G AA1 D"

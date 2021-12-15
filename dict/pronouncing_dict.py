@@ -31,17 +31,13 @@ def dict(words):
     words = words.split()
     for iword in words:
         reslt.append(get_pronouncing(iword))
-    print(reslt)
-    print(reslt[0])
-    print(len(reslt))
     if len(reslt[0]) == 0:
         return ""
     if len(reslt) == 1:
         count = 1
         for p in reslt:
-            print(p)
             msg += f"{count}. [{p[0][0]}]\n"
-            near = [w for w in p[0][1] if w != words]
+            near = [w for w in p[0][1] if w != words[0]]
             if len(near) > 10:
                 near = random.sample(near, 10)
             for r in near:
