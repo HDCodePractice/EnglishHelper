@@ -29,7 +29,7 @@ def get_answer(word):
             url=f"https://www.youtube.com/results?search_query={word}+pronunciation")],
     ]
 
-    # 单词提示产
+    # 单词提示
     msg = f"<b>{word}:</b>\n"
     # 单词特殊形式说明
     irg = worddict.get_answer(word)
