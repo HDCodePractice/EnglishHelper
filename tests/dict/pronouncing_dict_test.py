@@ -13,3 +13,8 @@ announcing bouncing denouncing mispronouncing pouncing renouncing trouncing"""
     assert pronouncing_dict.dict('i am god') == "AY1 . AE1 M . G AA1 D"
     # 测试一句话的标点符号
     assert pronouncing_dict.dict('I am god!') == "AY1 . AE1 M . G AA1 D"
+    assert pronouncing_dict.dict('I am, god!') == "AY1 . AE1 M . G AA1 D"
+    assert pronouncing_dict.dict('I am , god!') == "AY1 . AE1 M . G AA1 D"
+    assert pronouncing_dict.dict('I am-god!') == "AY1 . AE1 M . G AA1 D"
+    assert pronouncing_dict.dict('I am,god!') == "AY1 . AE1 M . G AA1 D"
+    assert pronouncing_dict.dict('flip-flops') == "F L IH1 P . F L AA1 P S"
