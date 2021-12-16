@@ -1,4 +1,5 @@
 import random
+import string
 
 import pronouncing
 
@@ -28,6 +29,9 @@ def dict(words):
     """
     reslt = []
     msg = ""
+    punct = string.punctuation
+    for i in punct:
+        words = words.replace(i, "")
     words = words.split()
     for iword in words:
         reslt.append(get_pronouncing(iword))
