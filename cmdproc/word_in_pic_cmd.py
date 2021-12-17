@@ -29,8 +29,10 @@ def map_word_to_pic_command(update: Update, context: CallbackContext) -> None:
     filename = f"{ENV.DATA_DIR}/res/picwords/{slice['filename']}"
     msg = f"☝️Where is {word}\nPage: {filenumber}\nReply this msg using the matched number"
     number = slice["number"]
-    buttons = [[
-        InlineKeyboardButton("🙏 Click here for an answer 🙏", callback_data=f"ahit:{number}:{filenumber}:{word}")]]
+    buttons = [
+        [InlineKeyboardButton("🙏 Click here for an answer 🙏",
+                              callback_data=f"ahit:{number}:{filenumber}:{word}")],
+        [InlineKeyboardButton("🧑🏻‍🏫 🗣Help 👩🏻‍🏫", callback_data=f"getpron:{word}")]]
     update.effective_message.reply_photo(
         photo=open(filename, 'rb'),
         caption=msg,
