@@ -31,7 +31,7 @@ def dict(words):
     msg = ""
     punct = string.punctuation
     for i in punct:
-        words = words.replace(i, "")
+        words = words.replace(i, " ")
     words = words.split()
     for iword in words:
         reslt.append(get_pronouncing(iword))
