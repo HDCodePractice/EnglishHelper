@@ -91,8 +91,8 @@ def gen_grammar_dict_from_csv(csvfile, word_dict={}):
 def read_file_to_dict(filename): #读取数据文件，并转换为字典
     try:
         with open(filename, 'r') as wd:
-            user_chapter_dict = load(wd)
-        return user_chapter_dict
+            read_dict = load(wd)
+        return read_dict
     except Exception as e:
         return None
 

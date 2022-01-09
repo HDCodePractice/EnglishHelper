@@ -54,7 +54,7 @@ def gen_topic_list(chapter_id,user_id):
 def preview_chapter_command(update: Update, context: CallbackContext) -> None:
     incoming_message = update.effective_message
     user_id = incoming_message.from_user.id
-    chapter_preview_msg,menu_keyboard = gen_chapter_list(user_id)
+    chapter_preview_msg,menu_keyboard = gen_chapter_list(str(user_id))
     incoming_message.reply_markdown_v2(text=chapter_preview_msg,reply_markup=InlineKeyboardMarkup(menu_keyboard))
 
 @check_chatid_filter

@@ -1,6 +1,5 @@
 import random
 from pathlib import Path
-from re import U
 
 from config import ENV
 from dict.picture_dict import chapter_dict, word_dict

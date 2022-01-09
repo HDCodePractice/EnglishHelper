@@ -18,7 +18,7 @@ def update_chapter_list(user_id,stored_data): #更新章节列表和按钮
     menu_keyboard= []
     chapter_preview_msg = "Chapter List\n\n"
     count = 1
-    for key,value in stored_data[str(user_id)].items():
+    for key,value in stored_data[user_id].items():
         if not value[0]:
             over_status = status["1"]
         elif not value[1]:
@@ -79,7 +79,7 @@ def custom_chapter_command(update: Update, context: CallbackContext) -> None:
     incoming_message = update.effective_message
     user_id = incoming_message.from_user.id
     gen_user_chapter_dict(str(user_id))
-    chapter_preview_msg,menu_keyboard = update_chapter_list(user_id,stored_data)
+    chapter_preview_msg,menu_keyboard = update_chapter_list(str(user_id),stored_data)
     incoming_message.reply_markdown_v2(text=chapter_preview_msg,reply_markup=InlineKeyboardMarkup(menu_keyboard))
 
 @check_chatid_filter
@@ -90,7 +90,7 @@ def handle_menu_callback(update: Update, context: CallbackContext) -> None:
     reply_user_name = update.effective_user.full_name
     #如果不是提问人的id， 回复信息
     alert_msg = f"亲爱的{reply_user_name}, 这个不是你的游戏设置，请不要随意点击!\n如果想要设置单词游戏，请自己输入命令/c\n"
-    if check_callback_user(reply_user_id,data[-1]) == False:
+    if check_callback_user(str(reply_user_id),data[-1]) == False:
         update.callback_query.answer(alert_msg,show_alert=True)
         return
     if len(data) <=1:
@@ -108,7 +108,8 @@ def handle_menu_callback(update: Update, context: CallbackContext) -> None:
         query.edit_message_text(text=topic_preview_msg,reply_markup=InlineKeyboardMarkup(topic_menu_keyboard))
 
     if data[0] == "custom-finish":
-        update_data_to_file(data[-1],"user_chapter_dict.json")
+        filename = f"{ENV.DATA_DIR}/user_chapter_dict.json"
+        update_data_to_file(data[-1],filename)
         display_data={}
         for key,value in stored_data[data[-1]].items():
             if value[0]:
@@ -125,7 +126,7 @@ def handle_topic_callback(update: Update, context: CallbackContext):
     reply_user_name = update.effective_user.full_name
     #如果不是提问人的id， 回复信息
     alert_msg = f"亲爱的{reply_user_name}, 这个不是你的游戏设置，请不要随意点击!\n如果想要设置单词游戏，请自己输入命令/c\n"
-    if check_callback_user(reply_user_id,data[-1]) == False:
+    if check_callback_user(str(reply_user_id),data[-1]) == False:
         update.callback_query.answer(alert_msg,show_alert=True)
         return
     if len(data) <=2:

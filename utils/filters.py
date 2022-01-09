@@ -21,7 +21,7 @@ def check_chatids_valid(chatids):
     return True
 
 def check_callback_user(uid,data):
-    if str(uid) == data:
+    if uid == data:
         return True
     else:
         return False
@@ -49,3 +49,15 @@ def check_admin_filter(func):
         if check_admin_permission(uid):
             func(*args, **kwargs)
     return decorator_check_admin
+
+# def check_user_filter(func):
+#     @wraps(func)
+#     def decorator_check_user(*args, **kwargs):
+#         update = args[0]
+#         uid = update.effective_user.id
+#         query = update.callback_query
+#         data = query.data.split(":")
+#         print(uid,data)
+#         if check_callback_user(uid,data[-1]):
+#             func(*args, **kwargs)
+#     return decorator_check_user

@@ -95,6 +95,5 @@ class ENV:
     # 存储NLTK数据的文件夹
     NLTK_DATA_DIR = env.str("NLTK_DATA_DIR", default=None)
 
-
 if __name__ == "__main__":
     print(ENV.CHATIDS)
