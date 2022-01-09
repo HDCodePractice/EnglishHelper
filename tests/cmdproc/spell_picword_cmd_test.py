@@ -26,8 +26,7 @@ def test_get_hint_view_other_words():
     keyboard = InlineKeyboardMarkup(buttons)
     data = f"rhit:{number}:{filenumber}:{data_word}:0".split(":")
 
-    msg, kb = get_hint_view(msgs, words, show_count,
-                            keyboard, data)
+    msg, kb = get_hint_view(msgs, show_count, keyboard)
     assert msg == "第一行\nHints💡: a* **-**\n第三行\n第四行"
     assert kb.inline_keyboard[0][0].callback_data == "rhit:0:1:ab cd-ef:1"
 
