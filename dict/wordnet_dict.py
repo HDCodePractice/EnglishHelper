@@ -14,6 +14,7 @@ def download_wordnet():
         Path(ENV.NLTK_DATA_DIR).mkdir(parents=True, exist_ok=True)
         nltk.data.path.append(ENV.NLTK_DATA_DIR)
         nltk.download("wordnet", download_dir=ENV.NLTK_DATA_DIR)
+        nltk.download("omw-1.4", download_dir=ENV.NLTK_DATA_DIR)
 
 
 def get_synonyms_antonyms(word, synset=None):
