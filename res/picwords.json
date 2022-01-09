@@ -1,0 +1,98 @@
+[
+  {
+    "name": "punctuation1",
+    "chapter": "Computer",
+    "topic": "Program",
+    "filename": "punctuation1.jpg",
+    "words": [
+      {
+        "index": "1",
+        "name": "brackets"
+      },
+      {
+        "index": "2",
+        "name": "square brackets"
+      },
+      {
+        "index": "3",
+        "name": "braces"
+      },
+      {
+        "index": "4",
+        "name": "angle brackets"
+      },
+      {
+        "index": "5",
+        "name": "slash"
+      },
+      {
+        "index": "6",
+        "name": "backslash"
+      },
+      {
+        "index": "7",
+        "name": "pipe"
+      },
+      {
+        "index": "8",
+        "name": "tilde"
+      },
+      {
+        "index": "9",
+        "name": "backtick"
+      },
+      {
+        "index": "10",
+        "name": "carat"
+      }
+    ]
+  },
+  {
+    "name": "punctuation2",
+    "chapter": "Computer",
+    "topic": "Program",
+    "filename": "punctuation2.jpg",
+    "words": [
+      {
+        "index": "1",
+        "name": "period"
+      },
+      {
+        "index": "2",
+        "name": "comma"
+      },
+      {
+        "index": "3",
+        "name": "double quotation mark"
+      },
+      {
+        "index": "4",
+        "name": "apostrophe"
+      },
+      {
+        "index": "4",
+        "name": "single quotation mark"
+      },
+      {
+        "index": "5",
+        "name": "hyphen"
+      },
+      {
+        "index": "6",
+        "name": "question mark"
+      },
+      {
+        "index": "7",
+        "name": "colon"
+      },
+      {
+        "index": "8",
+        "name": "exclamation mark"
+      },
+      {
+        "index": "9",
+        "name": "semicolon"
+      }
+    ]
+  }
+]

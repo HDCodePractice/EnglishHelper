@@ -15,6 +15,10 @@
     "description": "*POSITIVE*\nI\\/he\\/she\\/it *was* *waiting\\.*\nYou\\/we\\/they *were* *waiting\\.*\n\n*NEGATIVE*\nI\\/he\\/she\\/it *was not/wasn't* *waiting\\.*\nYou\\/we\\/they *were* not\\/weren't *waiting\\.*\n\n*QUESTIONS*\n*Was* I\\/he\\/she\\/it *waiting?*\n*Were* you\\/we\\/they *waiting?*\n\n[Past Progressive](https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Progressive)",
     "url": "https://github.com/HDCodePractice/EnglishHelper/wiki/Past-Progressive"
   },
+  "Simple Future": {
+    "description": "*Postive*\nYes, I *will go* to the movies with you tonight\\.\nHe *is going to study* all weekend for his test\\.\nShe *is giving* her presentation tomorrow\\.\n\n*Negative*\nNo, I *will not be* ready to go at 5:00\\.\nThey *are not going to* go to the party because they have school tomorrow\\.\nWe *are not leaving* until we get an answer\\.\n\n*Questions*\n*Will* you *call* me later?\n*Is* she *going to read* that entire book tonight?\n*Are* they *coming* over for dinner on Friday?\n\n[Simple Future](https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Future)",
+    "url": "https://github.com/HDCodePractice/EnglishHelper/wiki/Simple-Future"
+  },
   "Word order": {
     "description": "SUBJECT \\+VERB \\+OBJECT\nOur firm       makes        computers\\.\nI                   posted        the letter\\.\nShe             caught        the train\\.\nThe phone  doesn't        work\\.\nHe               was eating  a sandwich\\.\n\n[Word order](https://github.com/HDCodePractice/EnglishHelper/wiki/Word-order)",
     "url": "https://github.com/HDCodePractice/EnglishHelper/wiki/Word-order"

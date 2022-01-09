@@ -79,6 +79,33 @@ def gen_pic_dict_from_csv(csvfile, word_dict={}, chapter_dict={}):
     return word_dict, chapter_dict
 
 
+def gen_iospic_dict_from_csv(csvfile, picwords_dict=[]):
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        # row格式为：{'File Name': '86.jpg', 'Chapter': 'Clothing', 'Topic': 'Everyday Clothes', 'words': '1.shirt|2.jeans|3.dress|4.T-shirt|5.baseball cap|6.socks|7.athletic shoes|A.tie|8.blouse|9.handbag|10.skirt|11.suit|12.slacks/pants|13.shoes|14.sweater|B.put on'}
+        filename = row['File Name']
+        filenumber = filename.split('.')[0]
+        chapter = row['Chapter']
+        topic = row['Topic']
+        words = row['words']
+        ws = []
+        for word in words.split('|'):  # 切出所有的带number的单词
+            num, pre_word = word.split('.')  # 切出number和单词
+            for word in pre_word.split('/'):    # 一个图有多个单词会使用/分割
+                w = {'index': num, 'name': word}
+                ws.append(w)
+        picwords_dict.append(
+            {
+                'name': filenumber,
+                'chapter': chapter,
+                'topic': topic,
+                'filename': filename,
+                'words': ws
+            }
+        )
+    return picwords_dict
+
+
 def gen_grammar_dict_from_csv(csvfile, word_dict={}):
     reader = csv.DictReader(csvfile)
     for row in reader:

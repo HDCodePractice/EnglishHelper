@@ -23,6 +23,12 @@ with open('res/picwords.csv', 'r') as csvfile:
     fileproc.save_word_dict("pic_dict.json", word_dict)
     fileproc.save_word_dict("chapter_dict.json", chapter_dict)
 
+with open('res/picwords.csv', 'r') as csvfile:
+    # 生成ios app的json文件
+    picwords_dict = []
+    picwords_dict = fileproc.gen_iospic_dict_from_csv(csvfile)
+    fileproc.save_word_dict("res/picwords.json", picwords_dict)
+
 with open('res/grammar.csv', 'r') as csvfile:
     grammar_dict = {}
     grammar_dict = fileproc.gen_grammar_dict_from_csv(csvfile)
