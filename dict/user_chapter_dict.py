@@ -17,7 +17,7 @@ def check_user_config_file():
     
 
 def gen_user_chapter_dict(uid):
-    fetch_user_data(uid)
+    stored_data = fetch_user_data(uid)
     if not stored_data: #如果stored_data是空的，就根据chapter_dict重新生成stored_data
         stored_data[uid] = {}
         for key,val in chapter_dict.items():
@@ -27,9 +27,7 @@ def gen_user_chapter_dict(uid):
     return stored_data
 
 
-
 def fetch_user_data(uid):
-    global stored_data
     user_chapter_dict = read_file_to_dict(f"{ENV.DATA_DIR}/user_chapter_dict.json")
     if user_chapter_dict:
         if uid in list(user_chapter_dict.keys()) and user_chapter_dict[uid]:
@@ -48,7 +46,6 @@ def fetch_user_data(uid):
     return None
 
 def update_data_to_file(uid,filename):
-    global stored_data
     try:
         check_user_config_file()
         user_chapter_dict = read_file_to_dict(f"{ENV.DATA_DIR}/user_chapter_dict.json")
@@ -87,3 +84,30 @@ def get_user_word_dict(uid):
 def clear_user_config(uid):
     stored_data.pop(uid)
     return True
+
+#将所有的数据操作都放入func中，方便调用
+def get_stored_data():
+    return stored_data
+
+def get_chapter_list(uid):
+    if not stored_data:
+        gen_user_chapter_dict(uid)
+    return stored_data[uid]
+def get_user_chapter_config(uid):
+    if not stored_data:
+        gen_user_chapter_dict(uid)    
+    return stored_data[uid]
+
+def get_user_topic_config(uid,chapter_id):
+    if not stored_data:
+        gen_user_chapter_dict(uid)
+    return stored_data[uid][chapter_id]
+
+def display_user_config(uid):
+    display_data = {}
+    if not stored_data:
+        gen_user_chapter_dict(uid)
+    for key, value in stored_data[uid].items():
+        if value[0]:
+            display_data[key] = value[0]
+    return display_data
