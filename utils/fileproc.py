@@ -114,3 +114,15 @@ def gen_grammar_dict_from_csv(csvfile, word_dict={}):
         url = row['url']
         word_dict[g_type] = {'description': description, 'url': url}
     return word_dict
+
+
+def gen_ios_grammar_list_from_csv(csvfile, grammar_list=[]):
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        g_type = row['type']
+        description = row['description']
+        url = row['url']
+        markdown = f"https://raw.githubusercontent.com/wiki/HDCodePractice/EnglishHelper/{url.split('/')[-1]}.md"
+        grammar_list.append(
+            {'type': g_type, 'description': description, 'url': url, 'markdown': markdown})
+    return grammar_list
