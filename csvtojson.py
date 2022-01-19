@@ -34,3 +34,8 @@ with open('res/grammar.csv', 'r') as csvfile:
     grammar_dict = fileproc.gen_grammar_dict_from_csv(csvfile)
     print(f"语法条目：{len(grammar_dict)}个")
     fileproc.save_word_dict("grammar_dict.json", grammar_dict)
+
+with open('res/grammar.csv', 'r') as csvfile:
+    grammar_list = []
+    grammar_list = fileproc.gen_ios_grammar_list_from_csv(csvfile)
+    fileproc.save_word_dict("res/grammar_dict.json", grammar_list)
