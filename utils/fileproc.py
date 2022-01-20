@@ -124,5 +124,5 @@ def gen_ios_grammar_list_from_csv(csvfile, grammar_list=[]):
         url = row['url']
         markdown = f"https://raw.githubusercontent.com/wiki/HDCodePractice/EnglishHelper/{url.split('/')[-1]}.md"
         grammar_list.append(
-            {'type': g_type, 'description': description, 'url': url, 'markdown': markdown})
+            {'name': g_type, 'description': description, 'url': url, 'markdown': markdown})
     return grammar_list
