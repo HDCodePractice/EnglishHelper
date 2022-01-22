@@ -106,6 +106,40 @@ def gen_iospic_dict_from_csv(csvfile, picwords_dict=[]):
     return picwords_dict
 
 
+def gen_picture_dict_from_csv(csvfile, picwords_dict=[]):
+    reader = csv.DictReader(csvfile)
+    ws_dict = {}
+    for row in reader:
+        chapter = row['Chapter']
+        topic = row['Topic']
+        words = row['words'].split('/')
+        name = row['File Name']
+        get_from = row['From']
+        if chapter not in ws_dict:
+            ws_dict[chapter] = {}
+        if topic not in ws_dict[chapter]:
+            ws_dict[chapter][topic] = {}
+        if name not in ws_dict[chapter][topic]:
+            ws_dict[chapter][topic][name] = []
+        for word in words:
+            ws_dict[chapter][topic][name].append(word)
+    for key in ws_dict:
+        chapter_dict = ws_dict[key]
+        chapter_name = key
+        topic_list = []
+        for key in chapter_dict:
+            topic_dict = chapter_dict[key]
+            topic_name = key
+            file_name_list = []
+            for key in topic_dict:
+                file_name = key
+                words = topic_dict[key]
+                file_name_list.append({'name': file_name, 'words': words})
+            topic_list.append({'name': topic_name, 'files': file_name_list})
+        picwords_dict.append({'name': chapter_name, 'topics': topic_list})
+    return picwords_dict
+
+
 def gen_grammar_dict_from_csv(csvfile, word_dict={}):
     reader = csv.DictReader(csvfile)
     for row in reader:

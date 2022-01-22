@@ -39,3 +39,9 @@ with open('res/grammar.csv', 'r') as csvfile:
     grammar_list = []
     grammar_list = fileproc.gen_ios_grammar_list_from_csv(csvfile)
     fileproc.save_word_dict("res/grammar_dict.json", grammar_list)
+
+with open('res/picture.csv', 'r') as csvfile:
+    # 生成ios app的json文件
+    picwords_dict = []
+    picwords_dict = fileproc.gen_picture_dict_from_csv(csvfile)
+    fileproc.save_word_dict("res/picture.json", picwords_dict)
