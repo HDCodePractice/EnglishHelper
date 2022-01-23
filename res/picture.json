@@ -173,6 +173,54 @@
             "words": [
               "foot"
             ]
+          },
+          {
+            "name": "leg.jpg",
+            "words": [
+              "leg"
+            ]
+          },
+          {
+            "name": "toe.jpg",
+            "words": [
+              "toe"
+            ]
+          },
+          {
+            "name": "eye.jpg",
+            "words": [
+              "eye"
+            ]
+          },
+          {
+            "name": "ear.jpg",
+            "words": [
+              "ear"
+            ]
+          },
+          {
+            "name": "shoulder.jpg",
+            "words": [
+              "shoulder"
+            ]
+          },
+          {
+            "name": "arm.jpg",
+            "words": [
+              "arm"
+            ]
+          },
+          {
+            "name": "hand.jpg",
+            "words": [
+              "hand"
+            ]
+          },
+          {
+            "name": "finger.jpg",
+            "words": [
+              "finger"
+            ]
           }
         ]
       }
