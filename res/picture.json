@@ -223,6 +223,103 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Symptoms and Injuries",
+        "pictureFiles": [
+          {
+            "name": "headache.jpg",
+            "words": [
+              "headache"
+            ]
+          },
+          {
+            "name": "toothache.jpg",
+            "words": [
+              "toothache"
+            ]
+          },
+          {
+            "name": "earache.jpg",
+            "words": [
+              "earache"
+            ]
+          },
+          {
+            "name": "stomachache.png",
+            "words": [
+              "stomachache"
+            ]
+          },
+          {
+            "name": "backache.jpg",
+            "words": [
+              "backache"
+            ]
+          },
+          {
+            "name": "sore throa.jpg",
+            "words": [
+              "sore throa"
+            ]
+          },
+          {
+            "name": "nasal congestion.jpeg",
+            "words": [
+              "nasal congestion"
+            ]
+          },
+          {
+            "name": "fever.jpeg",
+            "words": [
+              "fever",
+              "temperature"
+            ]
+          },
+          {
+            "name": "chills.jpg",
+            "words": [
+              "chills"
+            ]
+          },
+          {
+            "name": "rash.jpg",
+            "words": [
+              "rash"
+            ]
+          },
+          {
+            "name": "cough.jpg",
+            "words": [
+              "cough"
+            ]
+          },
+          {
+            "name": "sneeze.jpg",
+            "words": [
+              "sneeze"
+            ]
+          },
+          {
+            "name": "feel dizzy.jpeg",
+            "words": [
+              "feel dizzy"
+            ]
+          },
+          {
+            "name": "feel nauseous.png",
+            "words": [
+              "feel nauseous"
+            ]
+          },
+          {
+            "name": "throw up.png",
+            "words": [
+              "throw up",
+              "vomit"
+            ]
+          }
+        ]
       }
     ]
   }
