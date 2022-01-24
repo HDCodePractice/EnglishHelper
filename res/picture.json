@@ -322,5 +322,57 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Community",
+    "topics": [
+      {
+        "name": "Downtown",
+        "pictureFiles": [
+          {
+            "name": "parking garage.jpg",
+            "words": [
+              "parking garage"
+            ]
+          },
+          {
+            "name": "office building.jpg",
+            "words": [
+              "office building"
+            ]
+          },
+          {
+            "name": "hotel.jpeg",
+            "words": [
+              "hotel"
+            ]
+          },
+          {
+            "name": "bank.jpg",
+            "words": [
+              "bank"
+            ]
+          },
+          {
+            "name": "police station.jpeg",
+            "words": [
+              "police station"
+            ]
+          },
+          {
+            "name": "bus station.jpg",
+            "words": [
+              "bus station"
+            ]
+          },
+          {
+            "name": "city hall.jpg",
+            "words": [
+              "city hall"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
