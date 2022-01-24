@@ -370,6 +370,48 @@
             "words": [
               "city hall"
             ]
+          },
+          {
+            "name": "hospital.jpg",
+            "words": [
+              "hospital"
+            ]
+          },
+          {
+            "name": "gas station.jpg",
+            "words": [
+              "gas station"
+            ]
+          },
+          {
+            "name": "post office.jpg",
+            "words": [
+              "post office"
+            ]
+          },
+          {
+            "name": "fire station.jpg",
+            "words": [
+              "fire station"
+            ]
+          },
+          {
+            "name": "courthouse.jpg",
+            "words": [
+              "courthouse"
+            ]
+          },
+          {
+            "name": "restaurant.jpg",
+            "words": [
+              "restaurant"
+            ]
+          },
+          {
+            "name": "library.jpg",
+            "words": [
+              "library"
+            ]
           }
         ]
       }
