@@ -1,5 +1,99 @@
 [
   {
+    "name": "Community",
+    "topics": [
+      {
+        "name": "Downtown",
+        "pictureFiles": [
+          {
+            "name": "parking garage.jpg",
+            "words": [
+              "parking garage"
+            ]
+          },
+          {
+            "name": "office building.jpg",
+            "words": [
+              "office building"
+            ]
+          },
+          {
+            "name": "hotel.jpeg",
+            "words": [
+              "hotel"
+            ]
+          },
+          {
+            "name": "bank.jpg",
+            "words": [
+              "bank"
+            ]
+          },
+          {
+            "name": "police station.jpeg",
+            "words": [
+              "police station"
+            ]
+          },
+          {
+            "name": "bus station.jpg",
+            "words": [
+              "bus station"
+            ]
+          },
+          {
+            "name": "city hall.jpg",
+            "words": [
+              "city hall"
+            ]
+          },
+          {
+            "name": "hospital.jpg",
+            "words": [
+              "hospital"
+            ]
+          },
+          {
+            "name": "gas station.jpg",
+            "words": [
+              "gas station"
+            ]
+          },
+          {
+            "name": "post office.jpg",
+            "words": [
+              "post office"
+            ]
+          },
+          {
+            "name": "fire station.jpg",
+            "words": [
+              "fire station"
+            ]
+          },
+          {
+            "name": "courthouse.jpg",
+            "words": [
+              "courthouse"
+            ]
+          },
+          {
+            "name": "restaurant.jpg",
+            "words": [
+              "restaurant"
+            ]
+          },
+          {
+            "name": "library.jpg",
+            "words": [
+              "library"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Computer",
     "topics": [
       {
@@ -221,6 +315,152 @@
             "words": [
               "finger"
             ]
+          },
+          {
+            "name": "ponytail.jpg",
+            "words": [
+              "ponytail"
+            ]
+          },
+          {
+            "name": "dimple.jpg",
+            "words": [
+              "dimple"
+            ]
+          },
+          {
+            "name": "bald.jpg",
+            "words": [
+              "bald"
+            ]
+          },
+          {
+            "name": "freckle.jpg",
+            "words": [
+              "freckle"
+            ]
+          },
+          {
+            "name": "straight hair.jpg",
+            "words": [
+              "straight hair"
+            ]
+          },
+          {
+            "name": "thin.jpg",
+            "words": [
+              "thin",
+              "silm"
+            ]
+          },
+          {
+            "name": "fat.jpg",
+            "words": [
+              "fat",
+              "overweight"
+            ]
+          },
+          {
+            "name": "average build.jpg",
+            "words": [
+              "average build"
+            ]
+          },
+          {
+            "name": "muscular.jpg",
+            "words": [
+              "muscular"
+            ]
+          },
+          {
+            "name": "chubby.jpg",
+            "words": [
+              "chubby"
+            ]
+          },
+          {
+            "name": "mustache.jpg",
+            "words": [
+              "mustache"
+            ]
+          },
+          {
+            "name": "beard.jpg",
+            "words": [
+              "beard"
+            ]
+          },
+          {
+            "name": "goatee.jpg",
+            "words": [
+              "goatee"
+            ]
+          },
+          {
+            "name": "sideburns.jpg",
+            "words": [
+              "sideburns"
+            ]
+          },
+          {
+            "name": "clean shaven.jpg",
+            "words": [
+              "clean shaven"
+            ]
+          },
+          {
+            "name": "shoulder length hair.jpg",
+            "words": [
+              "shoulder length hair"
+            ]
+          },
+          {
+            "name": "curly hair.jpg",
+            "words": [
+              "curly hair"
+            ]
+          },
+          {
+            "name": "wavy hair.jpg",
+            "words": [
+              "wavy hair"
+            ]
+          },
+          {
+            "name": "braids.jpg",
+            "words": [
+              "braids"
+            ]
+          },
+          {
+            "name": "bun.jpg",
+            "words": [
+              "bun"
+            ]
+          },
+          {
+            "name": "wrinkles.jpg",
+            "words": [
+              "wrinkles"
+            ]
+          },
+          {
+            "name": "pimples.jpg",
+            "words": [
+              "pimples"
+            ]
+          },
+          {
+            "name": "mole.jpg",
+            "words": [
+              "mole"
+            ]
+          },
+          {
+            "name": "scar.jpg",
+            "words": [
+              "scar"
+            ]
           }
         ]
       },
@@ -324,93 +564,98 @@
     ]
   },
   {
-    "name": "Community",
+    "name": "Undefined",
     "topics": [
       {
-        "name": "Downtown",
+        "name": "Undefined",
         "pictureFiles": [
           {
-            "name": "parking garage.jpg",
+            "name": "pine.jpg",
             "words": [
-              "parking garage"
+              "pine"
             ]
           },
           {
-            "name": "office building.jpg",
+            "name": "scent.jpg",
             "words": [
-              "office building"
+              "scent"
             ]
           },
           {
-            "name": "hotel.jpeg",
+            "name": "river.jpg",
             "words": [
-              "hotel"
+              "river"
             ]
           },
           {
-            "name": "bank.jpg",
+            "name": "dragonfly.jpg",
             "words": [
-              "bank"
+              "dragonfly"
             ]
           },
           {
-            "name": "police station.jpeg",
+            "name": "butterflies.jpg",
             "words": [
-              "police station"
+              "butterflies"
             ]
           },
           {
-            "name": "bus station.jpg",
+            "name": "young.jpg",
             "words": [
-              "bus station"
+              "young"
             ]
           },
           {
-            "name": "city hall.jpg",
+            "name": "old.jpg",
             "words": [
-              "city hall"
+              "old"
             ]
           },
           {
-            "name": "hospital.jpg",
+            "name": "middle age.jpg",
             "words": [
-              "hospital"
+              "middle age"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Everyday Language",
+    "topics": [
+      {
+        "name": "Time",
+        "pictureFiles": [
+          {
+            "name": "sunrise.jpg",
+            "words": [
+              "dawn",
+              "sunrise"
             ]
           },
           {
-            "name": "gas station.jpg",
+            "name": "sunset.jpg",
             "words": [
-              "gas station"
+              "sunset"
             ]
           },
           {
-            "name": "post office.jpg",
+            "name": "morning.jpg",
             "words": [
-              "post office"
+              "morning"
             ]
           },
           {
-            "name": "fire station.jpg",
+            "name": "noon.jpg",
             "words": [
-              "fire station"
+              "noon"
             ]
           },
           {
-            "name": "courthouse.jpg",
+            "name": "afternoon.jpg",
             "words": [
-              "courthouse"
-            ]
-          },
-          {
-            "name": "restaurant.jpg",
-            "words": [
-              "restaurant"
-            ]
-          },
-          {
-            "name": "library.jpg",
-            "words": [
-              "library"
+              "afternoon"
             ]
           }
         ]
