@@ -657,6 +657,24 @@
             "words": [
               "afternoon"
             ]
+          },
+          {
+            "name": "evening.jpg",
+            "words": [
+              "evening"
+            ]
+          },
+          {
+            "name": "night.jpg",
+            "words": [
+              "night"
+            ]
+          },
+          {
+            "name": "midnight.jpg",
+            "words": [
+              "midnight"
+            ]
           }
         ]
       }
