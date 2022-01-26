@@ -679,5 +679,94 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Recreation",
+    "topics": [
+      {
+        "name": "Winter and Water Sports",
+        "pictureFiles": [
+          {
+            "name": "downhill skiing.jpg",
+            "words": [
+              "downhill skiing"
+            ]
+          },
+          {
+            "name": "snowboarding.jpg",
+            "words": [
+              "snowboarding"
+            ]
+          },
+          {
+            "name": "cross-country skiing.jpg",
+            "words": [
+              "cross-country skiing"
+            ]
+          },
+          {
+            "name": "ice skating.jpg",
+            "words": [
+              "ice skating"
+            ]
+          },
+          {
+            "name": "figure skating.jpg",
+            "words": [
+              "figure skating"
+            ]
+          },
+          {
+            "name": "sledding.jpg",
+            "words": [
+              "sledding",
+              "tobogganing"
+            ]
+          },
+          {
+            "name": "tubing.jpg",
+            "words": [
+              "tubing"
+            ]
+          },
+          {
+            "name": "waterskiing.jpg",
+            "words": [
+              "waterskiing"
+            ]
+          },
+          {
+            "name": "sailing.jpg",
+            "words": [
+              "sailing"
+            ]
+          },
+          {
+            "name": "surfing.jpg",
+            "words": [
+              "surfing"
+            ]
+          },
+          {
+            "name": "windsurfing.jpg",
+            "words": [
+              "windsurfing"
+            ]
+          },
+          {
+            "name": "snorkeling.jpg",
+            "words": [
+              "snorkeling"
+            ]
+          },
+          {
+            "name": "scuba diving.jpg",
+            "words": [
+              "scuba diving"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
