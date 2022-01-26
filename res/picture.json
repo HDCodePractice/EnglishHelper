@@ -947,8 +947,18 @@
             "name": "bison.jpg",
             "words": [
               "buffalo",
-              "bison",
-              "armadillo",
+              "bison"
+            ]
+          },
+          {
+            "name": "armadillo.jpg",
+            "words": [
+              "armadillo"
+            ]
+          },
+          {
+            "name": "skunk.jpg",
+            "words": [
               "skunk"
             ]
           }
@@ -961,6 +971,42 @@
             "name": "plants.jpg",
             "words": [
               "plants"
+            ]
+          },
+          {
+            "name": "soil.jpg",
+            "words": [
+              "soil"
+            ]
+          },
+          {
+            "name": "rock.jpg",
+            "words": [
+              "rock"
+            ]
+          },
+          {
+            "name": "flowers.jpg",
+            "words": [
+              "flowers"
+            ]
+          },
+          {
+            "name": "mammals.jpg",
+            "words": [
+              "mammals"
+            ]
+          },
+          {
+            "name": "insects.jpg",
+            "words": [
+              "insects"
+            ]
+          },
+          {
+            "name": "nest.jpg",
+            "words": [
+              "nest"
             ]
           }
         ]
