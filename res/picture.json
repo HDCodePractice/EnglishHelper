@@ -764,6 +764,30 @@
             "words": [
               "scuba diving"
             ]
+          },
+          {
+            "name": "skidoo.jpg",
+            "words": [
+              "skidoo"
+            ]
+          },
+          {
+            "name": "seadoo.jpg",
+            "words": [
+              "seadoo"
+            ]
+          },
+          {
+            "name": "kayak.jpg",
+            "words": [
+              "kayak"
+            ]
+          },
+          {
+            "name": "canoe.jpg",
+            "words": [
+              "canoe"
+            ]
           }
         ]
       }
