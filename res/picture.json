@@ -616,6 +616,120 @@
             "words": [
               "middle age"
             ]
+          },
+          {
+            "name": "wilderness.jpg",
+            "words": [
+              "wilderness"
+            ]
+          },
+          {
+            "name": "garbage.jpg",
+            "words": [
+              "garbage"
+            ]
+          },
+          {
+            "name": "rummage.jpg",
+            "words": [
+              "rummage"
+            ]
+          },
+          {
+            "name": "predator.jpg",
+            "words": [
+              "predator"
+            ]
+          },
+          {
+            "name": "catch.jpg",
+            "words": [
+              "catch"
+            ]
+          },
+          {
+            "name": "apart.jpg",
+            "words": [
+              "apart"
+            ]
+          },
+          {
+            "name": "together.jpg",
+            "words": [
+              "together"
+            ]
+          },
+          {
+            "name": "pleasant.jpg",
+            "words": [
+              "pleasant"
+            ]
+          },
+          {
+            "name": "criminal justice.jpg",
+            "words": [
+              "criminal justice"
+            ]
+          },
+          {
+            "name": "reach end.jpg",
+            "words": [
+              "reach end"
+            ]
+          },
+          {
+            "name": "adult school.jpg",
+            "words": [
+              "adult school"
+            ]
+          },
+          {
+            "name": "volunteer.jpg",
+            "words": [
+              "volunteer"
+            ]
+          },
+          {
+            "name": "vocational courses.jpg",
+            "words": [
+              "vocational courses"
+            ]
+          },
+          {
+            "name": "spend.jpg",
+            "words": [
+              "spend"
+            ]
+          },
+          {
+            "name": "clothes.jpg",
+            "words": [
+              "clothes"
+            ]
+          },
+          {
+            "name": "haircut.jpg",
+            "words": [
+              "haircut"
+            ]
+          },
+          {
+            "name": "hike.jpg",
+            "words": [
+              "hike"
+            ]
+          },
+          {
+            "name": "graduation.jpg",
+            "words": [
+              "graduation"
+            ]
+          },
+          {
+            "name": "damage.jpg",
+            "words": [
+              "damage"
+            ]
           }
         ]
       }
@@ -787,6 +901,66 @@
             "name": "canoe.jpg",
             "words": [
               "canoe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plants and Animals",
+    "topics": [
+      {
+        "name": "Mammals",
+        "pictureFiles": [
+          {
+            "name": "Raccoon.jpg",
+            "words": [
+              "Raccoon"
+            ]
+          },
+          {
+            "name": "moose.jpg",
+            "words": [
+              "moose"
+            ]
+          },
+          {
+            "name": "wolf.jpg",
+            "words": [
+              "wolf"
+            ]
+          },
+          {
+            "name": "beaver.jpg",
+            "words": [
+              "beaver"
+            ]
+          },
+          {
+            "name": "deer.jpg",
+            "words": [
+              "deer"
+            ]
+          },
+          {
+            "name": "bison.jpg",
+            "words": [
+              "buffalo",
+              "bison",
+              "armadillo",
+              "skunk"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nature Center",
+        "pictureFiles": [
+          {
+            "name": "plants.jpg",
+            "words": [
+              "plants"
             ]
           }
         ]
