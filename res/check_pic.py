@@ -1,7 +1,6 @@
 import csv
 from pathlib import Path
 
-
 # res/pictures/Health/Symptoms and Injuries
 # res/pictures/chapter/topic/words/filename
 
@@ -11,13 +10,15 @@ from pathlib import Path
 
 
 def find_all_file(src_dir) -> list:
+    ignores = ['.DS_Store', 'Thumbs.db']
     result = []
     for i in Path(src_dir).iterdir():
-        if i.is_file():
-            result.append(i)
-        else:
-            for x in find_all_file(i):
-                result.append(x)
+        if not i.name in ignores:
+            if i.is_file():
+                result.append(i)
+            else:
+                for x in find_all_file(i):
+                    result.append(x)
     return result
 
 
@@ -40,13 +41,13 @@ def get_theory_path(res_file, file_chapter, file_topic, file_name):
 # def move_file(res_file, file_chapter, file_topic, file_name):
 #     return ''
 with open('res/picture.csv', newline='') as f:
-    reader = csv.reader(f)
+    reader = csv.DictReader(f)
     theoty_path_list = []
     for row in reader:
         theoty_path_list.append(get_theory_path(
-            'res/pictures', row[0], row[1], row[3]))
+            'res/pictures', row["Chapter"], row["Topic"], row["File Name"]))
 
-    for i in check_csv(find_all_file('res'), theoty_path_list):
+    for i in check_csv(find_all_file('res/pictures'), theoty_path_list):
         print(f"{i.name} is not in place")
 
 
