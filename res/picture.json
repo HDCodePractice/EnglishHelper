@@ -94,6 +94,12 @@
             "words": [
               "museum"
             ]
+          },
+          {
+            "name": "stadium.jpg",
+            "words": [
+              "stadium"
+            ]
           }
         ]
       }
@@ -512,7 +518,8 @@
           {
             "name": "sore throa.jpg",
             "words": [
-              "sore throa"
+              "sore throa",
+              "laryngitis"
             ]
           },
           {
@@ -569,6 +576,48 @@
             "words": [
               "throw up",
               "vomit"
+            ]
+          },
+          {
+            "name": "stiff neck.jpg",
+            "words": [
+              "stiff neck"
+            ]
+          },
+          {
+            "name": "cramp.jpg",
+            "words": [
+              "cramp"
+            ]
+          },
+          {
+            "name": "bruise.jpg",
+            "words": [
+              "bruise"
+            ]
+          },
+          {
+            "name": "sprain.jpg",
+            "words": [
+              "sprain"
+            ]
+          },
+          {
+            "name": "scrape.jpg",
+            "words": [
+              "scrape"
+            ]
+          },
+          {
+            "name": "diarrhea.jpg",
+            "words": [
+              "diarrhea"
+            ]
+          },
+          {
+            "name": "callous.jpg",
+            "words": [
+              "callous"
             ]
           }
         ]
@@ -875,6 +924,24 @@
             "words": [
               "decorate"
             ]
+          },
+          {
+            "name": "give a presentation.jpg",
+            "words": [
+              "give a presentation"
+            ]
+          },
+          {
+            "name": "drill.jpg",
+            "words": [
+              "drill"
+            ]
+          },
+          {
+            "name": "essay.jpg",
+            "words": [
+              "essay"
+            ]
           }
         ]
       }
@@ -933,6 +1000,124 @@
             "name": "midnight.jpg",
             "words": [
               "midnight"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weather",
+        "pictureFiles": [
+          {
+            "name": "bitterly cold.jpg",
+            "words": [
+              "bitterly cold"
+            ]
+          },
+          {
+            "name": "rain.jpg",
+            "words": [
+              "precipitation",
+              "raining"
+            ]
+          },
+          {
+            "name": "sleet.jpg",
+            "words": [
+              "sleet"
+            ]
+          },
+          {
+            "name": "condensation.jpg",
+            "words": [
+              "condensation"
+            ]
+          },
+          {
+            "name": "freezing.jpg",
+            "words": [
+              "freezing"
+            ]
+          },
+          {
+            "name": "evaporation.jpg",
+            "words": [
+              "evaporation"
+            ]
+          },
+          {
+            "name": "sunny.jpg",
+            "words": [
+              "sunny",
+              "clear"
+            ]
+          },
+          {
+            "name": "lightning.jpg",
+            "words": [
+              "lightning",
+              "thunderstorm"
+            ]
+          },
+          {
+            "name": "hail.jpg",
+            "words": [
+              "hailstorm",
+              "hail"
+            ]
+          },
+          {
+            "name": "foggy.jpg",
+            "words": [
+              "foggy"
+            ]
+          },
+          {
+            "name": "icy.jpg",
+            "words": [
+              "icy"
+            ]
+          },
+          {
+            "name": "smoggy.jpg",
+            "words": [
+              "smoggy"
+            ]
+          },
+          {
+            "name": "snowstorm.jpg",
+            "words": [
+              "snowstorm",
+              "blizzard"
+            ]
+          },
+          {
+            "name": "dust storm.jpg",
+            "words": [
+              "dust storm"
+            ]
+          },
+          {
+            "name": "hurricanes.jpg",
+            "words": [
+              "hurricanes"
+            ]
+          },
+          {
+            "name": "heat wave.jpg",
+            "words": [
+              "heat wave"
+            ]
+          },
+          {
+            "name": "cloudy.jpg",
+            "words": [
+              "cloudy"
+            ]
+          },
+          {
+            "name": "warm.jpg",
+            "words": [
+              "warm"
             ]
           }
         ]
@@ -1052,6 +1237,12 @@
             "name": "surfboard.jpg",
             "words": [
               "surfboard"
+            ]
+          },
+          {
+            "name": "marathon.jpg",
+            "words": [
+              "marathon"
             ]
           }
         ]
