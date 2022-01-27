@@ -1,4 +1,22 @@
 Chapter,Topic,words,File Name,From
+Areas of study,English Composition,brackets,brackets.jpg,none
+Areas of study,English Composition,braces/curly bracket,braces.png,none
+Areas of study,English Composition,square brackets,square-brackets.png,none
+Areas of study,English Composition,angle brackets,angle-brackets.jpg,none
+Areas of study,English Composition,slash,slash.png,none
+Areas of study,English Composition,backslash,backslash.png,none
+Areas of study,English Composition,pipe,pipe.png,none
+Areas of study,English Composition,tilde,tilde.png,none
+Areas of study,English Composition,backtick,backtick.png,none
+Areas of study,English Composition,carat,caret.png,none
+Areas of study,English Composition,period,period.png,none
+Areas of study,English Composition,comma,comma.png,none
+Areas of study,English Composition,double quotation mark,double-quotation-mark.png,none
+Areas of study,English Composition,apostrophe/single quotation mark,single-quote.png,none
+Areas of study,English Composition,hyphen/minus sign,hyphen.jpg,none
+Areas of study,English Composition,colon,colon.png,none
+Areas of study,English Composition,exclamation mark,exclamation-mark.png,apple
+Areas of study,English Composition,semicolon,semicolon.png,none
 Community,Downtown,parking garage,parking garage.jpg,https://unsplash.com/photos/olo97u6_j3s?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,office building,office building.jpg,https://unsplash.com/photos/_jFDQJfCTyA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,hotel,hotel.jpeg,https://unsplash.com/photos/6xeMf4bg0eA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -13,24 +31,35 @@ Community,Downtown,fire station,fire station.jpg,https://unsplash.com/photos/HAZ
 Community,Downtown,courthouse,courthouse.jpg,https://www.rawpixel.com/image/434200/free-photo-image-courthouse-judge-courtroom
 Community,Downtown,restaurant,restaurant.jpg,https://unsplash.com/photos/0uAVsDcyD0M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,library,library.jpg,https://unsplash.com/photos/ln_slYqaMiI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Computer,Program,brackets,brackets.jpg,none
-Computer,Program,braces/curly bracket,braces.png,none
-Computer,Program,square brackets,square-brackets.png,none
-Computer,Program,angle brackets,angle-brackets.jpg,none
-Computer,Program,slash,slash.png,none
-Computer,Program,backslash,backslash.png,none
-Computer,Program,pipe,pipe.png,none
-Computer,Program,tilde,tilde.png,none
-Computer,Program,backtick,backtick.png,none
-Computer,Program,carat,caret.png,none
-Computer,Program,period,period.png,none
-Computer,Program,comma,comma.png,none
-Computer,Program,double quotation mark,double-quotation-mark.png,none
-Computer,Program,apostrophe/single quotation mark,single-quote.png,none
-Computer,Program,hyphen/minus sign,hyphen.jpg,none
-Computer,Program,colon,colon.png,none
-Computer,Program,exclamation mark,exclamation-mark.png,apple
-Computer,Program,semicolon,semicolon.png,none
+Community,Downtown,museum,museum.jpg,https://unsplash.com/photos/tXmc2mVDxJc
+Community,Downtown,stadium,stadium.jpg,https://unsplash.com/photos/bY4cqxp7vos
+Community,Downtown,movie theater,movie theater.jpg,https://unsplash.com/photos/23LET4Hxj_U
+Everyday Language,Time,dawn/sunrise,sunrise.jpg,https://unsplash.com/photos/EAvS-4KnGrk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,sunset,sunset.jpg,https://unsplash.com/photos/K2u71wv2eI4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,morning,morning.jpg,https://unsplash.com/photos/wBuPCQiweuA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,noon,noon.jpg,https://unsplash.com/photos/_m_QJcaNdDs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,afternoon,afternoon.jpg,https://unsplash.com/photos/-NFJWktqvIY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,evening,evening.jpg,https://unsplash.com/photos/Cf-M2FD4pOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,night,night.jpg,https://unsplash.com/photos/ilfsT5p_qvA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Time,midnight,midnight.jpg,https://unsplash.com/photos/D9FQYwAclwQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Everyday Language,Weather,bitterly cold,bitterly cold.jpg,https://unsplash.com/photos/8Ycf67yYReM
+Everyday Language,Weather,precipitation/raining,rain.jpg,https://unsplash.com/photos/Nw_D8v79PM4
+Everyday Language,Weather,sleet,sleet.jpg,https://pixabay.com/zh/photos/rain-weather-poorly-background-2775032/
+Everyday Language,Weather,condensation,condensation.jpg,https://unsplash.com/photos/Y9awChpvLRo
+Everyday Language,Weather,freezing,freezing.jpg,https://unsplash.com/photos/sCH-WMJRdxk
+Everyday Language,Weather,evaporation/vapor,evaporation.jpg,https://unsplash.com/photos/5QefmfNlUdQ
+Everyday Language,Weather,sunny/clear,sunny.jpg,https://unsplash.com/photos/zjoydJb17mE
+Everyday Language,Weather,lightning/thunderstorm,lightning.jpg,https://unsplash.com/photos/nbqlWhOVu6k
+Everyday Language,Weather,hailstorm/hail,hail.jpg,https://pixabay.com/zh/photos/first-snow-hail-summerotakoeleto-1821255/
+Everyday Language,Weather,foggy,foggy.jpg,https://unsplash.com/photos/NLGtLHoP8UY
+Everyday Language,Weather,icy,icy.jpg,https://unsplash.com/photos/H0SrbnXZ4Yk
+Everyday Language,Weather,smoggy,smoggy.jpg,https://unsplash.com/photos/x18KXZZi790
+Everyday Language,Weather,snowstorm/blizzard,snowstorm.jpg,https://unsplash.com/photos/auKUoQcwQfs
+Everyday Language,Weather,dust storm,dust storm.jpg,https://unsplash.com/photos/epRe09tKr_4
+Everyday Language,Weather,hurricanes,hurricanes.jpg,https://unsplash.com/photos/5477L9Z5eqI
+Everyday Language,Weather,heat wave,heat wave.jpg,https://unsplash.com/photos/1e_V3R9GYQQ
+Everyday Language,Weather,cloudy,cloudy.jpg,https://unsplash.com/photos/MnnXMvs4cQo
+Everyday Language,Weather,warm,warm.jpg,https://unsplash.com/photos/A7nK49HCqSI
 Health,The Body,head,head.jpg,https://unsplash.com/photos/bhoj9tHlsiY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,hair,hair.jpg,https://unsplash.com/photos/dnpa8k6TGRE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,neck,neck.jpg,https://images.unsplash.com/photo-1599817878414-43ef36677cf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
@@ -69,22 +98,9 @@ Health,The Body,freckle,freckle.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_
 Health,The Body,straight hair,straight hair.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,thin/silm,thin.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,fat/overweight,fat.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,pine,pine.jpg,https://unsplash.com/photos/JQzNAoy9fTA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,scent,scent.jpg,https://unsplash.com/photos/t0ZfzT8FopE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,dawn/sunrise,sunrise.jpg,https://unsplash.com/photos/EAvS-4KnGrk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,sunset,sunset.jpg,https://unsplash.com/photos/K2u71wv2eI4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,river,river.jpg,https://unsplash.com/photos/HtUBBdNDxpQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,dragonfly,dragonfly.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,butterflies,butterflies.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,morning,morning.jpg,https://unsplash.com/photos/wBuPCQiweuA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,noon,noon.jpg,https://unsplash.com/photos/_m_QJcaNdDs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,afternoon,afternoon.jpg,https://unsplash.com/photos/-NFJWktqvIY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,average build,average build.jpg,https://unsplash.com/photos/rga1zrpJd8o?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,muscular,muscular.jpg,https://unsplash.com/photos/22L7do1cOho?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,chubby,chubby.jpg,https://unsplash.com/photos/gX-bQbm37ZI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,young,young.jpg,https://unsplash.com/photos/MMrkoReI4d8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,old,old.jpg,https://unsplash.com/photos/cKT0oJL9vMI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Undefined,Undefined,middle age,middle age.jpg,https://unsplash.com/photos/SJvDxw0azqw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,mustache,mustache.jpg,https://unsplash.com/photos/LnUwl4-HnAs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,beard,beard.jpg,https://unsplash.com/photos/pV6BUQRWJ6w?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,goatee,goatee.jpg,https://unsplash.com/photos/IXlnSE8Bw88?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -99,9 +115,29 @@ Health,The Body,wrinkles,wrinkles.jpg,https://unsplash.com/photos/NlHGKAZ3jCI?ut
 Health,The Body,pimples,pimples.jpg,https://www.pexels.com/zh-cn/photo/6476081/
 Health,The Body,mole,mole.jpg,https://www.pexels.com/zh-cn/photo/6567934/
 Health,The Body,scar,scar.jpg,https://www.pexels.com/zh-cn/photo/3115523/
-Everyday Language,Time,evening,evening.jpg,https://unsplash.com/photos/Cf-M2FD4pOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,night,night.jpg,https://unsplash.com/photos/ilfsT5p_qvA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Time,midnight,midnight.jpg,https://unsplash.com/photos/D9FQYwAclwQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Health,The Body,stomach,stomach.png,https://pixabay.com/zh/vectors/stomach-icon-stomach-icon-gut-2316627/
+Health,Symptoms and Injuries,stiff neck,stiff neck.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392172/
+Health,Symptoms and Injuries,cramp,cramp.jpg,https://pixabay.com/zh/photos/boo-swindon-town-football-pain-2399974/
+Health,Symptoms and Injuries,bruise,bruise.jpg,https://unsplash.com/photos/hs6XhCjBMz0
+Health,Symptoms and Injuries,sprain,sprain.jpg,https://unsplash.com/photos/YGE42qjlWjE
+Health,Symptoms and Injuries,scrape,scrape.jpg,https://pixabay.com/zh/photos/injury-arm-injured-hurt-man-elbow-199025/
+Health,Symptoms and Injuries,diarrhea,diarrhea.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Diarrhea.png
+Health,Symptoms and Injuries,callous,callous.jpg,https://unsplash.com/photos/OUULalUWP3o
+Plants and Animals,Mammals,Raccoon,Raccoon.jpg,https://unsplash.com/photos/lLNyzqcfcyc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Plants and Animals,Nature Center,plants,plants.jpg,https://unsplash.com/photos/S7viz8JWxwY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Plants and Animals,Mammals,moose,moose.jpg,https://unsplash.com/photos/Du8sGaNHVMc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Plants and Animals,Mammals,wolf,wolf.jpg,https://unsplash.com/photos/dtfyRuKG7UY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Plants and Animals,Mammals,beaver,beaver.jpg,https://unsplash.com/photos/mhXop68UAGk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Plants and Animals,Mammals,deer,deer.jpg,https://unsplash.com/photos/favQn8WgRyk
+Plants and Animals,Mammals,buffalo/bison,bison.jpg,https://unsplash.com/photos/Rr24aBqhq9k
+Plants and Animals,Mammals,armadillo,armadillo.jpg,https://unsplash.com/photos/vCvLfnvUGJw
+Plants and Animals,Mammals,skunk,skunk.jpg,https://unsplash.com/photos/Tm-EWw4403w
+Plants and Animals,Nature Center,soil,soil.jpg,https://unsplash.com/photos/jin4W1HqgL4
+Plants and Animals,Nature Center,rock,rock.jpg,https://unsplash.com/photos/ctWw2S9VqOI
+Plants and Animals,Nature Center,flowers,flowers.jpg,https://unsplash.com/photos/pGr7g4l8EOI
+Plants and Animals,Nature Center,mammals,mammals.jpg,https://pixabay.com/zh/photos/piglet-litter-pig-young-animal-1639587/
+Plants and Animals,Nature Center,insects,insects.jpg,https://unsplash.com/photos/1P_rsdwdx0c
+Plants and Animals,Nature Center,nest,nest.jpg,https://unsplash.com/photos/_UQgnpzyVo0
 Recreation,Winter and Water Sports,downhill skiing,downhill skiing.jpg,https://unsplash.com/photos/VXiG4N229uY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Recreation,Winter and Water Sports,snowboarding,snowboarding.jpg,https://unsplash.com/photos/VBLJ-zQmlSM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Recreation,Winter and Water Sports,cross-country skiing,cross-country skiing.jpg,https://unsplash.com/photos/PcVqr8v4XaA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -119,15 +155,20 @@ Recreation,Winter and Water Sports,skidoo,skidoo.jpg,https://unsplash.com/photos
 Recreation,Winter and Water Sports,seadoo,seadoo.jpg,https://unsplash.com/photos/ynRImHi8LnY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Recreation,Winter and Water Sports,kayak,kayak.jpg,https://unsplash.com/photos/zK049OFP4uI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Recreation,Winter and Water Sports,canoe,canoe.jpg,https://unsplash.com/photos/koQ5FXyakWA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Plants and Animals,Mammals,Raccoon,Raccoon.jpg,https://unsplash.com/photos/lLNyzqcfcyc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Recreation,Winter and Water Sports,surfboard,surfboard.jpg,https://unsplash.com/photos/4rvc6HWITpY
+Recreation,Winter and Water Sports,marathon,marathon.jpg,https://unsplash.com/photos/QDv-uBc-poY
+Undefined,Undefined,pine,pine.jpg,https://unsplash.com/photos/JQzNAoy9fTA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,scent,scent.jpg,https://unsplash.com/photos/t0ZfzT8FopE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,river,river.jpg,https://unsplash.com/photos/HtUBBdNDxpQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,dragonfly,dragonfly.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,butterflies,butterflies.jpg,https://unsplash.com/photos/-6lGrOUTQBw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,young,young.jpg,https://unsplash.com/photos/MMrkoReI4d8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,old,old.jpg,https://unsplash.com/photos/cKT0oJL9vMI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Undefined,Undefined,middle age,middle age.jpg,https://unsplash.com/photos/SJvDxw0azqw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Undefined,Undefined,wilderness,wilderness.jpg,https://unsplash.com/photos/WRbMkwf2zjM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Plants and Animals,Nature Center,plants,plants.jpg,https://unsplash.com/photos/S7viz8JWxwY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Undefined,Undefined,garbage,garbage.jpg,https://unsplash.com/photos/DR2jtLy8Fe4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Undefined,Undefined,rummage,rummage.jpg,https://unsplash.com/photos/9Y1PYmvutb0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Undefined,Undefined,predator,predator.jpg,https://unsplash.com/photos/OjE4RtaibFc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Plants and Animals,Mammals,moose,moose.jpg,https://unsplash.com/photos/Du8sGaNHVMc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Plants and Animals,Mammals,wolf,wolf.jpg,https://unsplash.com/photos/dtfyRuKG7UY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Plants and Animals,Mammals,beaver,beaver.jpg,https://unsplash.com/photos/mhXop68UAGk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Undefined,Undefined,catch,catch.jpg,https://unsplash.com/photos/2VH0ymGTpCI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Undefined,Undefined,apart,apart.jpg,https://pixabay.com/zh/illustrations/breakup-divorce-separation-couple-3869065/
 Undefined,Undefined,together,together.jpg,https://unsplash.com/photos/Y5bvRlcCx8k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -143,18 +184,7 @@ Undefined,Undefined,haircut,haircut.jpg,https://unsplash.com/photos/sS3qRFsKZlg
 Undefined,Undefined,hike,hike.jpg,https://unsplash.com/photos/7MrXw_o7Eo4
 Undefined,Undefined,graduation,graduation.jpg,https://unsplash.com/photos/8CqDvPuo_kI
 Undefined,Undefined,damage,damage.jpg,https://unsplash.com/photos/AuPRHJe8Mhs
-Plants and Animals,Mammals,deer,deer.jpg,https://unsplash.com/photos/favQn8WgRyk
-Plants and Animals,Mammals,buffalo/bison,bison.jpg,https://unsplash.com/photos/Rr24aBqhq9k
-Plants and Animals,Mammals,armadillo,armadillo.jpg,https://unsplash.com/photos/vCvLfnvUGJw
-Plants and Animals,Mammals,skunk,skunk.jpg,https://unsplash.com/photos/Tm-EWw4403w
-Plants and Animals,Nature Center,soil,soil.jpg,https://unsplash.com/photos/jin4W1HqgL4
-Plants and Animals,Nature Center,rock,rock.jpg,https://unsplash.com/photos/ctWw2S9VqOI
-Plants and Animals,Nature Center,flowers,flowers.jpg,https://unsplash.com/photos/pGr7g4l8EOI
-Plants and Animals,Nature Center,mammals,mammals.jpg,https://pixabay.com/zh/photos/piglet-litter-pig-young-animal-1639587/
-Plants and Animals,Nature Center,insects,insects.jpg,https://unsplash.com/photos/1P_rsdwdx0c
-Plants and Animals,Nature Center,nest,nest.jpg,https://unsplash.com/photos/_UQgnpzyVo0
 Undefined,Undefined,nowhere to shelter,nowhere to shelter.jpg,https://pixabay.com/zh/photos/question-mark-knowledge-question-3255136/
-Health,The Body,stomach,stomach.png,https://pixabay.com/zh/vectors/stomach-icon-stomach-icon-gut-2316627/
 Undefined,Undefined,get wet,get wet.jpg,https://unsplash.com/photos/FtZL0r4DZYk
 Undefined,Undefined,snooker,snooker.jpg,https://pixabay.com/zh/photos/snooker-balls-billiards-pool-game-4516624/
 Undefined,Undefined,unexpected,unexpected.jpg,https://pixabay.com/zh/photos/mistake-spill-slip-up-accident-876597/
@@ -164,11 +194,9 @@ Undefined,Undefined,picnic,picnic.jpg,https://unsplash.com/photos/1RWOsCxqe0k
 Undefined,Undefined,thirsty,thirsty.jpg,https://unsplash.com/photos/c01oPaDbxWw
 Undefined,Undefined,veggies,veggies.jpg,https://unsplash.com/photos/bRdRUUtbxO0
 Undefined,Undefined,cut grass,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
-Recreation,Winter and Water Sports,surfboard,surfboard.jpg,https://unsplash.com/photos/4rvc6HWITpY
 Undefined,Undefined,explode,explode.jpg,https://unsplash.com/photos/-lLWCvEoFJM
 Undefined,Undefined,boring,boring.jpg,https://unsplash.com/photos/F8sCVSW4t4E
 Undefined,Undefined,bit messy,bit messy.jpg,https://unsplash.com/photos/Np_nvRuhpUo
-Community,Downtown,museum,museum.jpg,https://unsplash.com/photos/tXmc2mVDxJc
 Undefined,Undefined,difficult,difficult.jpg,https://unsplash.com/photos/Jiyoj5B72iU
 Undefined,Undefined,quiz,quiz.jpg,https://unsplash.com/photos/cbEvoHbJnIE
 Undefined,Undefined,female,female.jpg,https://unsplash.com/photos/A3MleA0jtoE
@@ -178,33 +206,6 @@ Undefined,Undefined,laundry,laundry.jpg,https://unsplash.com/photos/lgrM1t4rxWQ
 Undefined,Undefined,mad,mad.jpg,https://unsplash.com/photos/_LZbDkRaedE
 Undefined,Undefined,Grand Canyon,Grand Canyon.jpg,https://unsplash.com/photos/ZZnH4GOzDgc
 Undefined,Undefined,decorate,decorate.jpg,https://unsplash.com/photos/CTukx4jfWac?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Health,Symptoms and Injuries,stiff neck,stiff neck.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392172/
-Health,Symptoms and Injuries,cramp,cramp.jpg,https://pixabay.com/zh/photos/boo-swindon-town-football-pain-2399974/
-Health,Symptoms and Injuries,bruise,bruise.jpg,https://unsplash.com/photos/hs6XhCjBMz0
-Health,Symptoms and Injuries,sprain,sprain.jpg,https://unsplash.com/photos/YGE42qjlWjE
-Health,Symptoms and Injuries,scrape,scrape.jpg,https://pixabay.com/zh/photos/injury-arm-injured-hurt-man-elbow-199025/
-Health,Symptoms and Injuries,diarrhea,diarrhea.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Diarrhea.png
-Health,Symptoms and Injuries,callous,callous.jpg,https://unsplash.com/photos/OUULalUWP3o
-Everyday Language,Weather,bitterly cold,bitterly cold.jpg,https://unsplash.com/photos/8Ycf67yYReM
 Undefined,Undefined,give a presentation,give a presentation.jpg,https://unsplash.com/photos/K_VeavYEfdA
-Community,Downtown,stadium,stadium.jpg,https://unsplash.com/photos/bY4cqxp7vos
 Undefined,Undefined,drill,drill.jpg,https://pixabay.com/zh/photos/heavy-water-factory-1053775/
-Recreation,Winter and Water Sports,marathon,marathon.jpg,https://unsplash.com/photos/QDv-uBc-poY
-Everyday Language,Weather,precipitation/raining,rain.jpg,https://unsplash.com/photos/Nw_D8v79PM4
-Everyday Language,Weather,sleet,sleet.jpg,https://pixabay.com/zh/photos/rain-weather-poorly-background-2775032/
-Everyday Language,Weather,condensation,condensation.jpg,https://unsplash.com/photos/Y9awChpvLRo
-Everyday Language,Weather,freezing,freezing.jpg,https://unsplash.com/photos/sCH-WMJRdxk
-Everyday Language,Weather,evaporation,evaporation.jpg,https://unsplash.com/photos/5QefmfNlUdQ
-Everyday Language,Weather,sunny/clear,sunny.jpg,https://unsplash.com/photos/zjoydJb17mE
-Everyday Language,Weather,lightning/thunderstorm,lightning.jpg,https://unsplash.com/photos/nbqlWhOVu6k
-Everyday Language,Weather,hailstorm/hail,hail.jpg,https://pixabay.com/zh/photos/first-snow-hail-summerotakoeleto-1821255/
-Everyday Language,Weather,foggy,foggy.jpg,https://unsplash.com/photos/NLGtLHoP8UY
-Everyday Language,Weather,icy,icy.jpg,https://unsplash.com/photos/H0SrbnXZ4Yk
-Everyday Language,Weather,smoggy,smoggy.jpg,https://unsplash.com/photos/x18KXZZi790
-Everyday Language,Weather,snowstorm/blizzard,snowstorm.jpg,https://unsplash.com/photos/auKUoQcwQfs
-Everyday Language,Weather,dust storm,dust storm.jpg,https://unsplash.com/photos/epRe09tKr_4
-Everyday Language,Weather,hurricanes,hurricanes.jpg,https://unsplash.com/photos/5477L9Z5eqI
-Everyday Language,Weather,heat wave,heat wave.jpg,https://unsplash.com/photos/1e_V3R9GYQQ
-Everyday Language,Weather,cloudy,cloudy.jpg,https://unsplash.com/photos/MnnXMvs4cQo
-Everyday Language,Weather,warm,warm.jpg,https://unsplash.com/photos/A7nK49HCqSI
-Undefined,Undefined,essay,essay.jpg,https://unsplash.com/photos/zIwAchjDirM
+Areas of study,English Composition,essay,essay.jpg,https://unsplash.com/photos/zIwAchjDirM
