@@ -24,15 +24,16 @@ def find_all_file(src_dir) -> list:
 def check_csv(existing_file, csv_file):
     exclude_list = []
     for i in existing_file:
-        if i in csv_file:
+        if not i in csv_file:
             exclude_list.append(i)
+
     return exclude_list
 
 
 def get_theory_path(res_file, file_chapter, file_topic, file_name):
     image_path = Path(res_file, file_chapter, file_topic, file_name)
-    # if not image_path.exists():
-    #    print(f"{image_path} not exists")
+    if not image_path.exists():
+        print(f"{image_path} not exists")
     return image_path
 
 
