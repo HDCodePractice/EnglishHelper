@@ -48,7 +48,7 @@ with open('res/picture.csv', newline='') as f:
             'res/pictures', row["Chapter"], row["Topic"], row["File Name"]))
 
     for i in check_csv(find_all_file('res/pictures'), theoty_path_list):
-        print(f"{i.name} is not in place")
+        print(f"{i} is not in place")
 
 
 # search_all_file(find_all_file("res/pictures"), "courthouse.jpg")
