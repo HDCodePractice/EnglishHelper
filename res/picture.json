@@ -88,6 +88,12 @@
             "words": [
               "library"
             ]
+          },
+          {
+            "name": "museum.jpg",
+            "words": [
+              "museum"
+            ]
           }
         ]
       }
@@ -461,6 +467,12 @@
             "words": [
               "scar"
             ]
+          },
+          {
+            "name": "stomach.png",
+            "words": [
+              "stomach"
+            ]
           }
         ]
       },
@@ -730,6 +742,139 @@
             "words": [
               "damage"
             ]
+          },
+          {
+            "name": "nowhere to shelter.jpg",
+            "words": [
+              "nowhere to shelter"
+            ]
+          },
+          {
+            "name": "get wet.jpg",
+            "words": [
+              "get wet"
+            ]
+          },
+          {
+            "name": "snooker.jpg",
+            "words": [
+              "snooker"
+            ]
+          },
+          {
+            "name": "unexpected.jpg",
+            "words": [
+              "unexpected"
+            ]
+          },
+          {
+            "name": "trophy.jpg",
+            "words": [
+              "prize",
+              "trophy"
+            ]
+          },
+          {
+            "name": "journey.jpg",
+            "words": [
+              "journey"
+            ]
+          },
+          {
+            "name": "picnic.jpg",
+            "words": [
+              "picnic"
+            ]
+          },
+          {
+            "name": "thirsty.jpg",
+            "words": [
+              "thirsty"
+            ]
+          },
+          {
+            "name": "veggies.jpg",
+            "words": [
+              "veggies"
+            ]
+          },
+          {
+            "name": "cut grass.jpg",
+            "words": [
+              "cut grass"
+            ]
+          },
+          {
+            "name": "explode.jpg",
+            "words": [
+              "explode"
+            ]
+          },
+          {
+            "name": "boring.jpg",
+            "words": [
+              "boring"
+            ]
+          },
+          {
+            "name": "bit messy.jpg",
+            "words": [
+              "bit messy"
+            ]
+          },
+          {
+            "name": "difficult.jpg",
+            "words": [
+              "difficult"
+            ]
+          },
+          {
+            "name": "quiz.jpg",
+            "words": [
+              "quiz"
+            ]
+          },
+          {
+            "name": "female.jpg",
+            "words": [
+              "female"
+            ]
+          },
+          {
+            "name": "male.jpg",
+            "words": [
+              "male"
+            ]
+          },
+          {
+            "name": "blouse.jpg",
+            "words": [
+              "blouse"
+            ]
+          },
+          {
+            "name": "laundry.jpg",
+            "words": [
+              "laundry"
+            ]
+          },
+          {
+            "name": "mad.jpg",
+            "words": [
+              "mad"
+            ]
+          },
+          {
+            "name": "Grand Canyon.jpg",
+            "words": [
+              "Grand Canyon"
+            ]
+          },
+          {
+            "name": "decorate.jpg",
+            "words": [
+              "decorate"
+            ]
           }
         ]
       }
@@ -901,6 +1046,12 @@
             "name": "canoe.jpg",
             "words": [
               "canoe"
+            ]
+          },
+          {
+            "name": "surfboard.jpg",
+            "words": [
+              "surfboard"
             ]
           }
         ]
