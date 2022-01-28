@@ -292,6 +292,43 @@
             "words": [
               "midnight"
             ]
+          },
+          {
+            "name": "spring.jpg",
+            "words": [
+              "spring"
+            ]
+          },
+          {
+            "name": "summer.jpg",
+            "words": [
+              "summer"
+            ]
+          },
+          {
+            "name": "autumn.jpg",
+            "words": [
+              "fall",
+              "autumn"
+            ]
+          },
+          {
+            "name": "winter.jpg",
+            "words": [
+              "winter"
+            ]
+          },
+          {
+            "name": "anniversary.jpg",
+            "words": [
+              "anniversary"
+            ]
+          },
+          {
+            "name": "vacation.jpg",
+            "words": [
+              "vacation"
+            ]
           }
         ]
       },
@@ -1034,11 +1071,90 @@
             "words": [
               "surfboard"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Individual Sports",
+        "pictureFiles": [
           {
             "name": "marathon.jpg",
             "words": [
               "marathon"
+            ]
+          },
+          {
+            "name": "hike.jpg",
+            "words": [
+              "hike"
+            ]
+          },
+          {
+            "name": "snooker.jpg",
+            "words": [
+              "snooker",
+              "billiards",
+              "pool"
+            ]
+          },
+          {
+            "name": "archery.jpg",
+            "words": [
+              "archery"
+            ]
+          },
+          {
+            "name": "badminton.jpg",
+            "words": [
+              "badminton"
+            ]
+          },
+          {
+            "name": "fencing.jpg",
+            "words": [
+              "fencing"
+            ]
+          },
+          {
+            "name": "foil fencing.png",
+            "words": [
+              "foil fencing"
+            ]
+          },
+          {
+            "name": "sabre fencing.png",
+            "words": [
+              "sabre fencing"
+            ]
+          },
+          {
+            "name": "epee fencing.png",
+            "words": [
+              "épée fencing"
+            ]
+          },
+          {
+            "name": "skateboarding.jpg",
+            "words": [
+              "skateboarding"
+            ]
+          },
+          {
+            "name": "racqueball.jpg",
+            "words": [
+              "racqueball"
+            ]
+          },
+          {
+            "name": "tennis.jpg",
+            "words": [
+              "tennis"
+            ]
+          },
+          {
+            "name": "table tennis.jpg",
+            "words": [
+              "table tennis"
             ]
           }
         ]
@@ -1196,12 +1312,6 @@
             ]
           },
           {
-            "name": "hike.jpg",
-            "words": [
-              "hike"
-            ]
-          },
-          {
             "name": "graduation.jpg",
             "words": [
               "graduation"
@@ -1223,12 +1333,6 @@
             "name": "get wet.jpg",
             "words": [
               "get wet"
-            ]
-          },
-          {
-            "name": "snooker.jpg",
-            "words": [
-              "snooker"
             ]
           },
           {
@@ -1356,6 +1460,98 @@
             "name": "drill.jpg",
             "words": [
               "drill"
+            ]
+          },
+          {
+            "name": "encyclopedia.jpg",
+            "words": [
+              "encyclopedia"
+            ]
+          },
+          {
+            "name": "alphabetical.jpg",
+            "words": [
+              "alphabetical"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clothing",
+    "topics": [
+      {
+        "name": "Everyday Clothes",
+        "pictureFiles": [
+          {
+            "name": "toque.jpg",
+            "words": [
+              "toque",
+              "ski hat"
+            ]
+          },
+          {
+            "name": "shirt.jpg",
+            "words": [
+              "shirt"
+            ]
+          },
+          {
+            "name": "sneakers.jpg",
+            "words": [
+              "athletic shoes",
+              "sneakers"
+            ]
+          },
+          {
+            "name": "blouse.jpg",
+            "words": [
+              "blouse"
+            ]
+          },
+          {
+            "name": "skirt.jpg",
+            "words": [
+              "skirt"
+            ]
+          },
+          {
+            "name": "suit.jpg",
+            "words": [
+              "suit"
+            ]
+          },
+          {
+            "name": "pants.jpg",
+            "words": [
+              "slacks",
+              "pants"
+            ]
+          },
+          {
+            "name": "jeans.jpg",
+            "words": [
+              "jeans"
+            ]
+          },
+          {
+            "name": "dress.jpg",
+            "words": [
+              "dress"
+            ]
+          },
+          {
+            "name": "cap.jpg",
+            "words": [
+              "baseball cap",
+              "cap"
+            ]
+          },
+          {
+            "name": "sweater.jpg",
+            "words": [
+              "sweater"
             ]
           }
         ]
