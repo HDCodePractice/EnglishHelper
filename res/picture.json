@@ -1473,6 +1473,43 @@
             "words": [
               "alphabetical"
             ]
+          },
+          {
+            "name": "material.jpg",
+            "words": [
+              "material"
+            ]
+          },
+          {
+            "name": "journal.jpg",
+            "words": [
+              "journal"
+            ]
+          },
+          {
+            "name": "journalist.jpg",
+            "words": [
+              "journalist"
+            ]
+          },
+          {
+            "name": "odd number.jpg",
+            "words": [
+              "odd number"
+            ]
+          },
+          {
+            "name": "even number.jpg",
+            "words": [
+              "even number"
+            ]
+          },
+          {
+            "name": "tasty food.jpg",
+            "words": [
+              "tasty food",
+              "delicous"
+            ]
           }
         ]
       }
