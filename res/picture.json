@@ -1,103 +1,9 @@
 [
   {
-    "name": "Community",
+    "name": "Areas of study",
     "topics": [
       {
-        "name": "Downtown",
-        "pictureFiles": [
-          {
-            "name": "parking garage.jpg",
-            "words": [
-              "parking garage"
-            ]
-          },
-          {
-            "name": "office building.jpg",
-            "words": [
-              "office building"
-            ]
-          },
-          {
-            "name": "hotel.jpeg",
-            "words": [
-              "hotel"
-            ]
-          },
-          {
-            "name": "bank.jpg",
-            "words": [
-              "bank"
-            ]
-          },
-          {
-            "name": "police station.jpeg",
-            "words": [
-              "police station"
-            ]
-          },
-          {
-            "name": "bus station.jpg",
-            "words": [
-              "bus station"
-            ]
-          },
-          {
-            "name": "city hall.jpg",
-            "words": [
-              "city hall"
-            ]
-          },
-          {
-            "name": "hospital.jpg",
-            "words": [
-              "hospital"
-            ]
-          },
-          {
-            "name": "gas station.jpg",
-            "words": [
-              "gas station"
-            ]
-          },
-          {
-            "name": "post office.jpg",
-            "words": [
-              "post office"
-            ]
-          },
-          {
-            "name": "fire station.jpg",
-            "words": [
-              "fire station"
-            ]
-          },
-          {
-            "name": "courthouse.jpg",
-            "words": [
-              "courthouse"
-            ]
-          },
-          {
-            "name": "restaurant.jpg",
-            "words": [
-              "restaurant"
-            ]
-          },
-          {
-            "name": "library.jpg",
-            "words": [
-              "library"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Computer",
-    "topics": [
-      {
-        "name": "Program",
+        "name": "English Composition",
         "pictureFiles": [
           {
             "name": "brackets.jpg",
@@ -208,6 +114,339 @@
             "name": "semicolon.png",
             "words": [
               "semicolon"
+            ]
+          },
+          {
+            "name": "essay.jpg",
+            "words": [
+              "essay"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Community",
+    "topics": [
+      {
+        "name": "Downtown",
+        "pictureFiles": [
+          {
+            "name": "parking garage.jpg",
+            "words": [
+              "parking garage"
+            ]
+          },
+          {
+            "name": "office building.jpg",
+            "words": [
+              "office building"
+            ]
+          },
+          {
+            "name": "hotel.jpeg",
+            "words": [
+              "hotel"
+            ]
+          },
+          {
+            "name": "bank.jpg",
+            "words": [
+              "bank"
+            ]
+          },
+          {
+            "name": "police station.jpeg",
+            "words": [
+              "police station"
+            ]
+          },
+          {
+            "name": "bus station.jpg",
+            "words": [
+              "bus station"
+            ]
+          },
+          {
+            "name": "city hall.jpg",
+            "words": [
+              "city hall"
+            ]
+          },
+          {
+            "name": "hospital.jpg",
+            "words": [
+              "hospital"
+            ]
+          },
+          {
+            "name": "gas station.jpg",
+            "words": [
+              "gas station"
+            ]
+          },
+          {
+            "name": "post office.jpg",
+            "words": [
+              "post office"
+            ]
+          },
+          {
+            "name": "fire station.jpg",
+            "words": [
+              "fire station"
+            ]
+          },
+          {
+            "name": "courthouse.jpg",
+            "words": [
+              "courthouse"
+            ]
+          },
+          {
+            "name": "restaurant.jpg",
+            "words": [
+              "restaurant"
+            ]
+          },
+          {
+            "name": "library.jpg",
+            "words": [
+              "library"
+            ]
+          },
+          {
+            "name": "museum.jpg",
+            "words": [
+              "museum"
+            ]
+          },
+          {
+            "name": "stadium.jpg",
+            "words": [
+              "stadium"
+            ]
+          },
+          {
+            "name": "movie theater.jpg",
+            "words": [
+              "movie theater"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Everyday Language",
+    "topics": [
+      {
+        "name": "Time",
+        "pictureFiles": [
+          {
+            "name": "sunrise.jpg",
+            "words": [
+              "dawn",
+              "sunrise"
+            ]
+          },
+          {
+            "name": "sunset.jpg",
+            "words": [
+              "sunset"
+            ]
+          },
+          {
+            "name": "morning.jpg",
+            "words": [
+              "morning"
+            ]
+          },
+          {
+            "name": "noon.jpg",
+            "words": [
+              "noon"
+            ]
+          },
+          {
+            "name": "afternoon.jpg",
+            "words": [
+              "afternoon"
+            ]
+          },
+          {
+            "name": "evening.jpg",
+            "words": [
+              "evening"
+            ]
+          },
+          {
+            "name": "night.jpg",
+            "words": [
+              "night"
+            ]
+          },
+          {
+            "name": "midnight.jpg",
+            "words": [
+              "midnight"
+            ]
+          },
+          {
+            "name": "spring.jpg",
+            "words": [
+              "spring"
+            ]
+          },
+          {
+            "name": "summer.jpg",
+            "words": [
+              "summer"
+            ]
+          },
+          {
+            "name": "autumn.jpg",
+            "words": [
+              "fall",
+              "autumn"
+            ]
+          },
+          {
+            "name": "winter.jpg",
+            "words": [
+              "winter"
+            ]
+          },
+          {
+            "name": "anniversary.jpg",
+            "words": [
+              "anniversary"
+            ]
+          },
+          {
+            "name": "vacation.jpg",
+            "words": [
+              "vacation"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weather",
+        "pictureFiles": [
+          {
+            "name": "bitterly cold.jpg",
+            "words": [
+              "bitterly cold"
+            ]
+          },
+          {
+            "name": "rain.jpg",
+            "words": [
+              "precipitation",
+              "raining"
+            ]
+          },
+          {
+            "name": "sleet.jpg",
+            "words": [
+              "sleet"
+            ]
+          },
+          {
+            "name": "condensation.jpg",
+            "words": [
+              "condensation"
+            ]
+          },
+          {
+            "name": "freezing.jpg",
+            "words": [
+              "freezing"
+            ]
+          },
+          {
+            "name": "evaporation.jpg",
+            "words": [
+              "evaporation",
+              "vapor"
+            ]
+          },
+          {
+            "name": "sunny.jpg",
+            "words": [
+              "sunny",
+              "clear"
+            ]
+          },
+          {
+            "name": "lightning.jpg",
+            "words": [
+              "lightning",
+              "thunderstorm"
+            ]
+          },
+          {
+            "name": "hail.jpg",
+            "words": [
+              "hailstorm",
+              "hail"
+            ]
+          },
+          {
+            "name": "foggy.jpg",
+            "words": [
+              "foggy"
+            ]
+          },
+          {
+            "name": "icy.jpg",
+            "words": [
+              "icy"
+            ]
+          },
+          {
+            "name": "smoggy.jpg",
+            "words": [
+              "smoggy"
+            ]
+          },
+          {
+            "name": "snowstorm.jpg",
+            "words": [
+              "snowstorm",
+              "blizzard"
+            ]
+          },
+          {
+            "name": "dust storm.jpg",
+            "words": [
+              "dust storm"
+            ]
+          },
+          {
+            "name": "hurricanes.jpg",
+            "words": [
+              "hurricanes"
+            ]
+          },
+          {
+            "name": "heat wave.jpg",
+            "words": [
+              "heat wave"
+            ]
+          },
+          {
+            "name": "cloudy.jpg",
+            "words": [
+              "cloudy"
+            ]
+          },
+          {
+            "name": "warm.jpg",
+            "words": [
+              "warm"
             ]
           }
         ]
@@ -461,6 +700,12 @@
             "words": [
               "scar"
             ]
+          },
+          {
+            "name": "stomach.png",
+            "words": [
+              "stomach"
+            ]
           }
         ]
       },
@@ -500,7 +745,8 @@
           {
             "name": "sore throa.jpg",
             "words": [
-              "sore throa"
+              "sore throa",
+              "laryngitis"
             ]
           },
           {
@@ -557,6 +803,358 @@
             "words": [
               "throw up",
               "vomit"
+            ]
+          },
+          {
+            "name": "stiff neck.jpg",
+            "words": [
+              "stiff neck"
+            ]
+          },
+          {
+            "name": "cramp.jpg",
+            "words": [
+              "cramp"
+            ]
+          },
+          {
+            "name": "bruise.jpg",
+            "words": [
+              "bruise"
+            ]
+          },
+          {
+            "name": "sprain.jpg",
+            "words": [
+              "sprain"
+            ]
+          },
+          {
+            "name": "scrape.jpg",
+            "words": [
+              "scrape"
+            ]
+          },
+          {
+            "name": "diarrhea.jpg",
+            "words": [
+              "diarrhea"
+            ]
+          },
+          {
+            "name": "callous.jpg",
+            "words": [
+              "callous"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plants and Animals",
+    "topics": [
+      {
+        "name": "Mammals",
+        "pictureFiles": [
+          {
+            "name": "Raccoon.jpg",
+            "words": [
+              "Raccoon"
+            ]
+          },
+          {
+            "name": "moose.jpg",
+            "words": [
+              "moose"
+            ]
+          },
+          {
+            "name": "wolf.jpg",
+            "words": [
+              "wolf"
+            ]
+          },
+          {
+            "name": "beaver.jpg",
+            "words": [
+              "beaver"
+            ]
+          },
+          {
+            "name": "deer.jpg",
+            "words": [
+              "deer"
+            ]
+          },
+          {
+            "name": "bison.jpg",
+            "words": [
+              "buffalo",
+              "bison"
+            ]
+          },
+          {
+            "name": "armadillo.jpg",
+            "words": [
+              "armadillo"
+            ]
+          },
+          {
+            "name": "skunk.jpg",
+            "words": [
+              "skunk"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nature Center",
+        "pictureFiles": [
+          {
+            "name": "plants.jpg",
+            "words": [
+              "plants"
+            ]
+          },
+          {
+            "name": "soil.jpg",
+            "words": [
+              "soil"
+            ]
+          },
+          {
+            "name": "rock.jpg",
+            "words": [
+              "rock"
+            ]
+          },
+          {
+            "name": "flowers.jpg",
+            "words": [
+              "flowers"
+            ]
+          },
+          {
+            "name": "mammals.jpg",
+            "words": [
+              "mammals"
+            ]
+          },
+          {
+            "name": "insects.jpg",
+            "words": [
+              "insects"
+            ]
+          },
+          {
+            "name": "nest.jpg",
+            "words": [
+              "nest"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Recreation",
+    "topics": [
+      {
+        "name": "Winter and Water Sports",
+        "pictureFiles": [
+          {
+            "name": "downhill skiing.jpg",
+            "words": [
+              "downhill skiing"
+            ]
+          },
+          {
+            "name": "snowboarding.jpg",
+            "words": [
+              "snowboarding"
+            ]
+          },
+          {
+            "name": "cross-country skiing.jpg",
+            "words": [
+              "cross-country skiing"
+            ]
+          },
+          {
+            "name": "ice skating.jpg",
+            "words": [
+              "ice skating"
+            ]
+          },
+          {
+            "name": "figure skating.jpg",
+            "words": [
+              "figure skating"
+            ]
+          },
+          {
+            "name": "sledding.jpg",
+            "words": [
+              "sledding",
+              "tobogganing"
+            ]
+          },
+          {
+            "name": "tubing.jpg",
+            "words": [
+              "tubing"
+            ]
+          },
+          {
+            "name": "waterskiing.jpg",
+            "words": [
+              "waterskiing"
+            ]
+          },
+          {
+            "name": "sailing.jpg",
+            "words": [
+              "sailing"
+            ]
+          },
+          {
+            "name": "surfing.jpg",
+            "words": [
+              "surfing"
+            ]
+          },
+          {
+            "name": "windsurfing.jpg",
+            "words": [
+              "windsurfing"
+            ]
+          },
+          {
+            "name": "snorkeling.jpg",
+            "words": [
+              "snorkeling"
+            ]
+          },
+          {
+            "name": "scuba diving.jpg",
+            "words": [
+              "scuba diving"
+            ]
+          },
+          {
+            "name": "skidoo.jpg",
+            "words": [
+              "skidoo"
+            ]
+          },
+          {
+            "name": "seadoo.jpg",
+            "words": [
+              "seadoo"
+            ]
+          },
+          {
+            "name": "kayak.jpg",
+            "words": [
+              "kayak"
+            ]
+          },
+          {
+            "name": "canoe.jpg",
+            "words": [
+              "canoe"
+            ]
+          },
+          {
+            "name": "surfboard.jpg",
+            "words": [
+              "surfboard"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Individual Sports",
+        "pictureFiles": [
+          {
+            "name": "marathon.jpg",
+            "words": [
+              "marathon"
+            ]
+          },
+          {
+            "name": "hike.jpg",
+            "words": [
+              "hike"
+            ]
+          },
+          {
+            "name": "snooker.jpg",
+            "words": [
+              "snooker",
+              "billiards",
+              "pool"
+            ]
+          },
+          {
+            "name": "archery.jpg",
+            "words": [
+              "archery"
+            ]
+          },
+          {
+            "name": "badminton.jpg",
+            "words": [
+              "badminton"
+            ]
+          },
+          {
+            "name": "fencing.jpg",
+            "words": [
+              "fencing"
+            ]
+          },
+          {
+            "name": "foil fencing.png",
+            "words": [
+              "foil fencing"
+            ]
+          },
+          {
+            "name": "sabre fencing.png",
+            "words": [
+              "sabre fencing"
+            ]
+          },
+          {
+            "name": "epee fencing.png",
+            "words": [
+              "épée fencing"
+            ]
+          },
+          {
+            "name": "skateboarding.jpg",
+            "words": [
+              "skateboarding"
+            ]
+          },
+          {
+            "name": "racqueball.jpg",
+            "words": [
+              "racqueball"
+            ]
+          },
+          {
+            "name": "tennis.jpg",
+            "words": [
+              "tennis"
+            ]
+          },
+          {
+            "name": "table tennis.jpg",
+            "words": [
+              "table tennis"
             ]
           }
         ]
@@ -714,12 +1312,6 @@
             ]
           },
           {
-            "name": "hike.jpg",
-            "words": [
-              "hike"
-            ]
-          },
-          {
             "name": "graduation.jpg",
             "words": [
               "graduation"
@@ -730,177 +1322,156 @@
             "words": [
               "damage"
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Everyday Language",
-    "topics": [
-      {
-        "name": "Time",
-        "pictureFiles": [
+          },
           {
-            "name": "sunrise.jpg",
+            "name": "nowhere to shelter.jpg",
             "words": [
-              "dawn",
-              "sunrise"
+              "nowhere to shelter"
             ]
           },
           {
-            "name": "sunset.jpg",
+            "name": "get wet.jpg",
             "words": [
-              "sunset"
+              "get wet"
             ]
           },
           {
-            "name": "morning.jpg",
+            "name": "unexpected.jpg",
             "words": [
-              "morning"
+              "unexpected"
             ]
           },
           {
-            "name": "noon.jpg",
+            "name": "trophy.jpg",
             "words": [
-              "noon"
+              "prize",
+              "trophy"
             ]
           },
           {
-            "name": "afternoon.jpg",
+            "name": "journey.jpg",
             "words": [
-              "afternoon"
+              "journey"
             ]
           },
           {
-            "name": "evening.jpg",
+            "name": "picnic.jpg",
             "words": [
-              "evening"
+              "picnic"
             ]
           },
           {
-            "name": "night.jpg",
+            "name": "thirsty.jpg",
             "words": [
-              "night"
+              "thirsty"
             ]
           },
           {
-            "name": "midnight.jpg",
+            "name": "veggies.jpg",
             "words": [
-              "midnight"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Recreation",
-    "topics": [
-      {
-        "name": "Winter and Water Sports",
-        "pictureFiles": [
-          {
-            "name": "downhill skiing.jpg",
-            "words": [
-              "downhill skiing"
+              "veggies"
             ]
           },
           {
-            "name": "snowboarding.jpg",
+            "name": "cut grass.jpg",
             "words": [
-              "snowboarding"
+              "cut grass"
             ]
           },
           {
-            "name": "cross-country skiing.jpg",
+            "name": "explode.jpg",
             "words": [
-              "cross-country skiing"
+              "explode"
             ]
           },
           {
-            "name": "ice skating.jpg",
+            "name": "boring.jpg",
             "words": [
-              "ice skating"
+              "boring"
             ]
           },
           {
-            "name": "figure skating.jpg",
+            "name": "bit messy.jpg",
             "words": [
-              "figure skating"
+              "bit messy"
             ]
           },
           {
-            "name": "sledding.jpg",
+            "name": "difficult.jpg",
             "words": [
-              "sledding",
-              "tobogganing"
+              "difficult"
             ]
           },
           {
-            "name": "tubing.jpg",
+            "name": "quiz.jpg",
             "words": [
-              "tubing"
+              "quiz"
             ]
           },
           {
-            "name": "waterskiing.jpg",
+            "name": "female.jpg",
             "words": [
-              "waterskiing"
+              "female"
             ]
           },
           {
-            "name": "sailing.jpg",
+            "name": "male.jpg",
             "words": [
-              "sailing"
+              "male"
             ]
           },
           {
-            "name": "surfing.jpg",
+            "name": "blouse.jpg",
             "words": [
-              "surfing"
+              "blouse"
             ]
           },
           {
-            "name": "windsurfing.jpg",
+            "name": "laundry.jpg",
             "words": [
-              "windsurfing"
+              "laundry"
             ]
           },
           {
-            "name": "snorkeling.jpg",
+            "name": "mad.jpg",
             "words": [
-              "snorkeling"
+              "mad"
             ]
           },
           {
-            "name": "scuba diving.jpg",
+            "name": "Grand Canyon.jpg",
             "words": [
-              "scuba diving"
+              "Grand Canyon"
             ]
           },
           {
-            "name": "skidoo.jpg",
+            "name": "decorate.jpg",
             "words": [
-              "skidoo"
+              "decorate"
             ]
           },
           {
-            "name": "seadoo.jpg",
+            "name": "give a presentation.jpg",
             "words": [
-              "seadoo"
+              "give a presentation"
             ]
           },
           {
-            "name": "kayak.jpg",
+            "name": "drill.jpg",
             "words": [
-              "kayak"
+              "drill"
             ]
           },
           {
-            "name": "canoe.jpg",
+            "name": "encyclopedia.jpg",
             "words": [
-              "canoe"
+              "encyclopedia"
+            ]
+          },
+          {
+            "name": "alphabetical.jpg",
+            "words": [
+              "alphabetical"
             ]
           }
         ]
@@ -908,105 +1479,79 @@
     ]
   },
   {
-    "name": "Plants and Animals",
+    "name": "Clothing",
     "topics": [
       {
-        "name": "Mammals",
+        "name": "Everyday Clothes",
         "pictureFiles": [
           {
-            "name": "Raccoon.jpg",
+            "name": "toque.jpg",
             "words": [
-              "Raccoon"
+              "toque",
+              "ski hat"
             ]
           },
           {
-            "name": "moose.jpg",
+            "name": "shirt.jpg",
             "words": [
-              "moose"
+              "shirt"
             ]
           },
           {
-            "name": "wolf.jpg",
+            "name": "sneakers.jpg",
             "words": [
-              "wolf"
+              "athletic shoes",
+              "sneakers"
             ]
           },
           {
-            "name": "beaver.jpg",
+            "name": "blouse.jpg",
             "words": [
-              "beaver"
+              "blouse"
             ]
           },
           {
-            "name": "deer.jpg",
+            "name": "skirt.jpg",
             "words": [
-              "deer"
+              "skirt"
             ]
           },
           {
-            "name": "bison.jpg",
+            "name": "suit.jpg",
             "words": [
-              "buffalo",
-              "bison"
+              "suit"
             ]
           },
           {
-            "name": "armadillo.jpg",
+            "name": "pants.jpg",
             "words": [
-              "armadillo"
+              "slacks",
+              "pants"
             ]
           },
           {
-            "name": "skunk.jpg",
+            "name": "jeans.jpg",
             "words": [
-              "skunk"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Nature Center",
-        "pictureFiles": [
-          {
-            "name": "plants.jpg",
-            "words": [
-              "plants"
+              "jeans"
             ]
           },
           {
-            "name": "soil.jpg",
+            "name": "dress.jpg",
             "words": [
-              "soil"
+              "dress"
             ]
           },
           {
-            "name": "rock.jpg",
+            "name": "cap.jpg",
             "words": [
-              "rock"
+              "baseball cap",
+              "cap"
             ]
           },
           {
-            "name": "flowers.jpg",
+            "name": "sweater.jpg",
             "words": [
-              "flowers"
-            ]
-          },
-          {
-            "name": "mammals.jpg",
-            "words": [
-              "mammals"
-            ]
-          },
-          {
-            "name": "insects.jpg",
-            "words": [
-              "insects"
-            ]
-          },
-          {
-            "name": "nest.jpg",
-            "words": [
-              "nest"
+              "sweater"
             ]
           }
         ]
