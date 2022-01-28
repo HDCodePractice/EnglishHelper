@@ -1,13 +1,6 @@
 import csv
 from pathlib import Path
 
-# res/pictures/Health/Symptoms and Injuries
-# res/pictures/chapter/topic/words/filename
-
-
-# def move_log(res_path, dest_path):
-#     return ''
-
 
 def find_all_file(src_dir) -> list:
     ignores = ['.DS_Store', 'Thumbs.db']
@@ -38,17 +31,29 @@ def get_theory_path(res_file, file_chapter, file_topic, file_name):
     return image_path
 
 
-# def move_file(res_file, file_chapter, file_topic, file_name):
-#     return ''
+def find_file_using_name(file_name, file_library):
+    for item in file_library:
+        if file_name == item.name:
+            return item
+    return Path("res/pictures", file_name)
+
+
 with open('res/picture.csv', newline='') as f:
     reader = csv.DictReader(f)
     theoty_path_list = []
     for row in reader:
         theoty_path_list.append(get_theory_path(
             'res/pictures', row["Chapter"], row["Topic"], row["File Name"]))
+    print("========================! ( ⊙ o ⊙ ) !===========================")
 
+    auto_path_result = []
     for i in check_csv(find_all_file('res/pictures'), theoty_path_list):
         print(f"{i} is not in place")
 
+        auto_path = find_file_using_name(i.name, theoty_path_list)
+        i.rename(auto_path)
+        auto_path_result.append(f"moved {i} to {auto_path}")
 
-# search_all_file(find_all_file("res/pictures"), "courthouse.jpg")
+    if not auto_path_result == []:
+        for x in auto_path_result:
+            print(x)
