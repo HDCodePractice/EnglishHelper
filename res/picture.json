@@ -1510,6 +1510,42 @@
               "tasty food",
               "delicous"
             ]
+          },
+          {
+            "name": "gift certificate.jpg",
+            "words": [
+              "gift certificate"
+            ]
+          },
+          {
+            "name": "flat tire.jpg",
+            "words": [
+              "flat tire"
+            ]
+          },
+          {
+            "name": "take a nap.jpg",
+            "words": [
+              "take a nap"
+            ]
+          },
+          {
+            "name": "vet.jpg",
+            "words": [
+              "vet"
+            ]
+          },
+          {
+            "name": "sightseeing.jpg",
+            "words": [
+              "sightseeing"
+            ]
+          },
+          {
+            "name": "physical activity.jpg",
+            "words": [
+              "physical activity"
+            ]
           }
         ]
       }
