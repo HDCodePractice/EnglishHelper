@@ -1546,6 +1546,30 @@
             "words": [
               "physical activity"
             ]
+          },
+          {
+            "name": "burritos.jpg",
+            "words": [
+              "burritos"
+            ]
+          },
+          {
+            "name": "lottery.jpg",
+            "words": [
+              "lottery"
+            ]
+          },
+          {
+            "name": "dentist.jpg",
+            "words": [
+              "dentist"
+            ]
+          },
+          {
+            "name": "floss.jpg",
+            "words": [
+              "floss"
+            ]
           }
         ]
       }
