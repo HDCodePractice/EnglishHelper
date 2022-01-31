@@ -127,6 +127,86 @@
     ]
   },
   {
+    "name": "Clothing",
+    "topics": [
+      {
+        "name": "Everyday Clothes",
+        "pictureFiles": [
+          {
+            "name": "toque.jpg",
+            "words": [
+              "toque",
+              "ski hat"
+            ]
+          },
+          {
+            "name": "shirt.jpg",
+            "words": [
+              "shirt"
+            ]
+          },
+          {
+            "name": "sneakers.jpg",
+            "words": [
+              "athletic shoes",
+              "sneakers"
+            ]
+          },
+          {
+            "name": "blouse.jpg",
+            "words": [
+              "blouse"
+            ]
+          },
+          {
+            "name": "skirt.jpg",
+            "words": [
+              "skirt"
+            ]
+          },
+          {
+            "name": "suit.jpg",
+            "words": [
+              "suit"
+            ]
+          },
+          {
+            "name": "pants.jpg",
+            "words": [
+              "slacks",
+              "pants"
+            ]
+          },
+          {
+            "name": "jeans.jpg",
+            "words": [
+              "jeans"
+            ]
+          },
+          {
+            "name": "dress.jpg",
+            "words": [
+              "dress"
+            ]
+          },
+          {
+            "name": "cap.jpg",
+            "words": [
+              "baseball cap",
+              "cap"
+            ]
+          },
+          {
+            "name": "sweater.jpg",
+            "words": [
+              "sweater"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Community",
     "topics": [
       {
@@ -1047,6 +1127,18 @@
             "words": [
               "nest"
             ]
+          },
+          {
+            "name": "grasshopper.jpg",
+            "words": [
+              "grasshopper"
+            ]
+          },
+          {
+            "name": "an ear of corn.jpg",
+            "words": [
+              "an ear of corn"
+            ]
           }
         ]
       }
@@ -1665,85 +1757,17 @@
             "words": [
               "floss"
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Clothing",
-    "topics": [
-      {
-        "name": "Everyday Clothes",
-        "pictureFiles": [
+          },
           {
-            "name": "toque.jpg",
+            "name": "timid.jpg",
             "words": [
-              "toque",
-              "ski hat"
+              "timid"
             ]
           },
           {
-            "name": "shirt.jpg",
+            "name": "hop.jpg",
             "words": [
-              "shirt"
-            ]
-          },
-          {
-            "name": "sneakers.jpg",
-            "words": [
-              "athletic shoes",
-              "sneakers"
-            ]
-          },
-          {
-            "name": "blouse.jpg",
-            "words": [
-              "blouse"
-            ]
-          },
-          {
-            "name": "skirt.jpg",
-            "words": [
-              "skirt"
-            ]
-          },
-          {
-            "name": "suit.jpg",
-            "words": [
-              "suit"
-            ]
-          },
-          {
-            "name": "pants.jpg",
-            "words": [
-              "slacks",
-              "pants"
-            ]
-          },
-          {
-            "name": "jeans.jpg",
-            "words": [
-              "jeans"
-            ]
-          },
-          {
-            "name": "dress.jpg",
-            "words": [
-              "dress"
-            ]
-          },
-          {
-            "name": "cap.jpg",
-            "words": [
-              "baseball cap",
-              "cap"
-            ]
-          },
-          {
-            "name": "sweater.jpg",
-            "words": [
-              "sweater"
+              "hop"
             ]
           }
         ]
