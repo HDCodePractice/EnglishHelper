@@ -1809,7 +1809,9 @@
           {
             "name": "treasure.jpg",
             "words": [
-              "treasure"
+              "treasure",
+              "reserve",
+              "fortune"
             ]
           },
           {
@@ -1840,6 +1842,89 @@
             "name": "pirate.jpg",
             "words": [
               "pirate"
+            ]
+          },
+          {
+            "name": "shout.jpg",
+            "words": [
+              "shout"
+            ]
+          },
+          {
+            "name": "atlas.jpg",
+            "words": [
+              "atlas"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "New this week",
+        "pictureFiles": [
+          {
+            "name": "elementary education.jpg",
+            "words": [
+              "elementary education"
+            ]
+          },
+          {
+            "name": "calf.jpg",
+            "words": [
+              "calf"
+            ]
+          },
+          {
+            "name": "striped.jpg",
+            "words": [
+              "striped"
+            ]
+          },
+          {
+            "name": "checked.jpg",
+            "words": [
+              "checked"
+            ]
+          },
+          {
+            "name": "plaid.jpg",
+            "words": [
+              "plaid"
+            ]
+          },
+          {
+            "name": "crumple.jpg",
+            "words": [
+              "crumple"
+            ]
+          },
+          {
+            "name": "rip.jpg",
+            "words": [
+              "rip"
+            ]
+          },
+          {
+            "name": "tear down.jpg",
+            "words": [
+              "tear down"
+            ]
+          },
+          {
+            "name": "tear.jpg",
+            "words": [
+              "tear"
+            ]
+          },
+          {
+            "name": "camouflage.jpg",
+            "words": [
+              "camouflage"
+            ]
+          },
+          {
+            "name": "puffy cloud.jpg",
+            "words": [
+              "puffy cloud"
             ]
           }
         ]
