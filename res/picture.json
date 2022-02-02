@@ -87,8 +87,13 @@
           {
             "name": "single-quote.png",
             "words": [
-              "apostrophe",
               "single quotation mark"
+            ]
+          },
+          {
+            "name": "apostrophe.png",
+            "words": [
+              "apostrophe"
             ]
           },
           {
