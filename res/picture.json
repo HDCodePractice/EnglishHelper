@@ -1910,7 +1910,7 @@
             ]
           },
           {
-            "name": "tear.jpg",
+            "name": "tear.png",
             "words": [
               "tear"
             ]
@@ -1925,6 +1925,12 @@
             "name": "puffy cloud.jpg",
             "words": [
               "puffy cloud"
+            ]
+          },
+          {
+            "name": "beat making.jpg",
+            "words": [
+              "beat making"
             ]
           }
         ]
