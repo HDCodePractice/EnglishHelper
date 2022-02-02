@@ -512,7 +512,7 @@
             ]
           },
           {
-            "name": "heat wave.jpg",
+            "name": "heat wave.png",
             "words": [
               "heat wave"
             ]
@@ -1937,6 +1937,86 @@
             "name": "chemical.jpg",
             "words": [
               "chemical"
+            ]
+          },
+          {
+            "name": "groundhog.jpg",
+            "words": [
+              "groundhog"
+            ]
+          },
+          {
+            "name": "prediction.jpg",
+            "words": [
+              "prediction",
+              "prognostication",
+              "superstitious"
+            ]
+          },
+          {
+            "name": "held high.jpg",
+            "words": [
+              "held high"
+            ]
+          },
+          {
+            "name": "stump.jpg",
+            "words": [
+              "stump"
+            ]
+          },
+          {
+            "name": "shadow.jpg",
+            "words": [
+              "shadow"
+            ]
+          },
+          {
+            "name": "hibernate.jpg",
+            "words": [
+              "hibernate"
+            ]
+          },
+          {
+            "name": "fed up with.jpg",
+            "words": [
+              "fed up with",
+              "to be frustrated with",
+              "no more patience"
+            ]
+          },
+          {
+            "name": "rodent.jpg",
+            "words": [
+              "rodent"
+            ]
+          },
+          {
+            "name": "the blues.jpg",
+            "words": [
+              "the blues",
+              "feeling of sadness or depression"
+            ]
+          },
+          {
+            "name": "peek.jpg",
+            "words": [
+              "to become visible",
+              "emerge",
+              "peek"
+            ]
+          },
+          {
+            "name": "burrow.jpg",
+            "words": [
+              "burrow"
+            ]
+          },
+          {
+            "name": "hope.jpg",
+            "words": [
+              "fingers crossed",
+              "hope"
             ]
           }
         ]
