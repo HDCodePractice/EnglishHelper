@@ -489,7 +489,8 @@
           {
             "name": "icy.jpg",
             "words": [
-              "icy"
+              "icy",
+              "slippery"
             ]
           },
           {
@@ -2072,6 +2073,13 @@
             "name": "currency.png",
             "words": [
               "currency"
+            ]
+          },
+          {
+            "name": "silent.jpg",
+            "words": [
+              "silent",
+              "quiet"
             ]
           }
         ]
