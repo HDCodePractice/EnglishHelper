@@ -2081,6 +2081,38 @@
               "silent",
               "quiet"
             ]
+          },
+          {
+            "name": "sentences.jpg",
+            "words": [
+              "sentences"
+            ]
+          },
+          {
+            "name": "jewelry.jpg",
+            "words": [
+              "jewelry"
+            ]
+          },
+          {
+            "name": "safety deposit box.jpg",
+            "words": [
+              "safety deposit box"
+            ]
+          },
+          {
+            "name": "security guard.jpg",
+            "words": [
+              "security guard"
+            ]
+          },
+          {
+            "name": "robber.jpg",
+            "words": [
+              "robber",
+              "thief",
+              "steal"
+            ]
           }
         ]
       }
