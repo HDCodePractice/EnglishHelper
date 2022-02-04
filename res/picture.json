@@ -412,7 +412,8 @@
           {
             "name": "vacation.jpg",
             "words": [
-              "vacation"
+              "vacation",
+              "leisure"
             ]
           }
         ]
@@ -2018,10 +2019,59 @@
             ]
           },
           {
-            "name": "hope.jpg",
+            "name": "fingers crossed.jpg",
             "words": [
-              "fingers crossed",
-              "hope"
+              "crossed fingers",
+              "wish for luck"
+            ]
+          },
+          {
+            "name": "signature.jpg",
+            "words": [
+              "signature"
+            ]
+          },
+          {
+            "name": "deposited.jpg",
+            "words": [
+              "deposited"
+            ]
+          },
+          {
+            "name": "withdraw.jpg",
+            "words": [
+              "withdraw"
+            ]
+          },
+          {
+            "name": "teller.png",
+            "words": [
+              "teller"
+            ]
+          },
+          {
+            "name": "bills.jpg",
+            "words": [
+              "bills"
+            ]
+          },
+          {
+            "name": "coins.jpg",
+            "words": [
+              "coins"
+            ]
+          },
+          {
+            "name": "cheque.jpg",
+            "words": [
+              "cheque",
+              "check"
+            ]
+          },
+          {
+            "name": "currency.png",
+            "words": [
+              "currency"
             ]
           }
         ]

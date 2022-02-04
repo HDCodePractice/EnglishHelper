@@ -55,7 +55,7 @@ Everyday Language,Time,afternoon,afternoon.jpg,https://unsplash.com/photos/-NFJW
 Everyday Language,Time,evening,evening.jpg,https://unsplash.com/photos/Cf-M2FD4pOQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Everyday Language,Time,night,night.jpg,https://unsplash.com/photos/ilfsT5p_qvA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Everyday Language,Time,midnight,midnight.jpg,https://unsplash.com/photos/D9FQYwAclwQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Everyday Language,Weather,bitterly cold,bitterly cold.jpg,https://unsplash.com/photos/8Ycf67yYReM
+Everyday Language,Weather,bitterly cold,bitterly cold.jpg,https://pixabay.com/zh/photos/protractor-thermometer-cold-snow-1753780/
 Everyday Language,Weather,precipitation/raining,rain.jpg,https://unsplash.com/photos/Nw_D8v79PM4
 Everyday Language,Weather,sleet,sleet.jpg,https://pixabay.com/zh/photos/rain-weather-poorly-background-2775032/
 Everyday Language,Weather,condensation,condensation.jpg,https://unsplash.com/photos/Y9awChpvLRo
@@ -78,7 +78,7 @@ Everyday Language,Time,summer,summer.jpg,https://unsplash.com/photos/y5PG8ZecXQI
 Everyday Language,Time,fall/autumn,autumn.jpg,https://unsplash.com/photos/wITd9_eDTw8
 Everyday Language,Time,winter,winter.jpg,https://unsplash.com/photos/xtIYGB0KEqc
 Everyday Language,Time,anniversary,anniversary.jpg,https://unsplash.com/s/photos/anniversary
-Everyday Language,Time,vacation,vacation.jpg,https://unsplash.com/photos/UBe-M4bBxjw
+Everyday Language,Time,vacation/leisure,vacation.jpg,https://unsplash.com/photos/UBe-M4bBxjw
 Health,The Body,head,head.jpg,https://unsplash.com/photos/bhoj9tHlsiY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,hair,hair.jpg,https://unsplash.com/photos/dnpa8k6TGRE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,neck,neck.jpg,https://images.unsplash.com/photo-1599817878414-43ef36677cf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
@@ -91,7 +91,7 @@ Health,The Body,leg,leg.jpg,https://unsplash.com/photos/CvYZwRRifzo?utm_source=u
 Health,The Body,toe,toe.jpg,https://unsplash.com/photos/TeH-ZqwwNT0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,eye,eye.jpg,https://unsplash.com/photos/iXspFCVXoaw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,ear,ear.jpg,https://unsplash.com/photos/WaMMo0it6Vg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Health,The Body,shoulder,shoulder.jpg,https://unsplash.com/photos/iXspFCVXoaw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Health,The Body,shoulder,shoulder.jpg,https://unsplash.com/photos/5TcVAZmmxpY
 Health,The Body,arm,arm.jpg,https://unsplash.com/photos/iXspFCVXoaw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,hand,hand.jpg,https://unsplash.com/photos/iXspFCVXoaw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,finger,finger.jpg,https://unsplash.com/photos/G3CcxmXGmmo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -312,4 +312,12 @@ Undefined,New this week,rodent,rodent.jpg,https://unsplash.com/photos/-dtKoaHpi9
 Undefined,New this week,the blues/feeling of sadness or depression,the blues.jpg,https://pixabay.com/zh/photos/jazz-concert-singer-blues-music-1658886/
 Undefined,New this week,to become visible/emerge/peek,peek.jpg,https://unsplash.com/photos/-J8m0X_A1a8
 Undefined,New this week,burrow,burrow.jpg,https://pixabay.com/zh/photos/hollow-burrow-hole-passage-shelter-802722/
-Undefined,New this week,fingers crossed/hope,hope.jpg,https://unsplash.com/photos/nYGVN45DOHg
+Undefined,New this week,crossed fingers/wish for luck,fingers crossed.jpg,https://unsplash.com/photos/xdx5hIHGt4A
+Undefined,New this week,signature,signature.jpg,https://unsplash.com/photos/XQaqV5qYcXg
+Undefined,New this week,deposited,deposited.jpg,https://pixabay.com/zh/photos/atm-money-euro-withdraw-cash-cash-1524871/
+Undefined,New this week,withdraw,withdraw.jpg,https://pixabay.com/zh/photos/atm-withdraw-cash-map-ec-card-1524870/
+Undefined,New this week,teller,teller.png,https://pixabay.com/zh/illustrations/bank-teller-bank-service-6330466/
+Undefined,New this week,bills,bills.jpg,https://unsplash.com/photos/1pJSWFdyJ98
+Undefined,New this week,coins,coins.jpg,https://unsplash.com/photos/Sw2XNTgA-wc
+Undefined,New this week,cheque/check,cheque.jpg,https://pixabay.com/zh/photos/cheques-administration-hand-2672195/
+Undefined,New this week,currency,currency.png,https://pixabay.com/zh/vectors/currency-dollar-euro-yen-pound-1680786/
