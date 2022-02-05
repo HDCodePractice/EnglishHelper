@@ -2111,7 +2111,34 @@
             "words": [
               "robber",
               "thief",
-              "steal"
+              "steal",
+              "thieves"
+            ]
+          },
+          {
+            "name": "acronym.jpg",
+            "words": [
+              "acronym"
+            ]
+          },
+          {
+            "name": "advantage.png",
+            "words": [
+              "advantage",
+              "like"
+            ]
+          },
+          {
+            "name": "disadvantage.png",
+            "words": [
+              "disadvantage",
+              "dislike"
+            ]
+          },
+          {
+            "name": "fill.jpg",
+            "words": [
+              "fill"
             ]
           }
         ]

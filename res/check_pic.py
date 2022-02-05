@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 def find_all_file(src_dir) -> list:
-    ignores = ['.DS_Store', 'Thumbs.db']
+    ignores = [".DS_Store", "Thumbs.db"]
     result = []
     for i in Path(src_dir).iterdir():
         if not i.name in ignores:
@@ -38,16 +38,19 @@ def find_file_using_name(file_name, file_library):
     return Path("res/pictures", file_name)
 
 
-with open('res/picture.csv', newline='') as f:
+with open("res/picture.csv", newline="") as f:
     reader = csv.DictReader(f)
     theoty_path_list = []
     for row in reader:
-        theoty_path_list.append(get_theory_path(
-            'res/pictures', row["Chapter"], row["Topic"], row["File Name"]))
+        theoty_path_list.append(
+            get_theory_path(
+                "res/pictures", row["Chapter"], row["Topic"], row["File Name"]
+            )
+        )
     print("========================! ( ⊙ o ⊙ ) !===========================")
 
     auto_path_result = []
-    for i in check_csv(find_all_file('res/pictures'), theoty_path_list):
+    for i in check_csv(find_all_file("res/pictures"), theoty_path_list):
         print(f"{i} is not in place")
 
         auto_path = find_file_using_name(i.name, theoty_path_list)
