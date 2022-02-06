@@ -790,7 +790,7 @@
             ]
           },
           {
-            "name": "stomach.png",
+            "name": "stomach.jpg",
             "words": [
               "stomach"
             ]
@@ -936,15 +936,9 @@
             ]
           },
           {
-            "name": "medicine.jpg",
+            "name": "medicines.jpg",
             "words": [
-              "medicine"
-            ]
-          },
-          {
-            "name": "drugs.jpg",
-            "words": [
-              "drugs"
+              "medicines"
             ]
           },
           {
@@ -983,9 +977,10 @@
             ]
           },
           {
-            "name": "prescription medication.jpg",
+            "name": "prescription medicine.jpg",
             "words": [
-              "prescription medication"
+              "prescription medicine",
+              "prescription drug"
             ]
           },
           {
@@ -1071,7 +1066,7 @@
             ]
           },
           {
-            "name": "bison.jpg",
+            "name": "buffalo.jpg",
             "words": [
               "buffalo",
               "bison"
@@ -1387,9 +1382,9 @@
             ]
           },
           {
-            "name": "butterflies.jpg",
+            "name": "butterfly.jpg",
             "words": [
-              "butterflies"
+              "butterfly"
             ]
           },
           {
@@ -1811,7 +1806,8 @@
           {
             "name": "fed.jpg",
             "words": [
-              "fed"
+              "fed",
+              "feed"
             ]
           },
           {
@@ -2009,9 +2005,9 @@
           {
             "name": "peek.jpg",
             "words": [
+              "peek",
               "to become visible",
-              "emerge",
-              "peek"
+              "emerge"
             ]
           },
           {
