@@ -12,56 +12,56 @@
             ]
           },
           {
-            "name": "braces.png",
+            "name": "braces.jpg",
             "words": [
               "braces",
               "curly bracket"
             ]
           },
           {
-            "name": "square-brackets.png",
+            "name": "square brackets.jpg",
             "words": [
               "square brackets"
             ]
           },
           {
-            "name": "angle-brackets.jpg",
+            "name": "angle brackets.jpg",
             "words": [
               "angle brackets"
             ]
           },
           {
-            "name": "slash.png",
+            "name": "slash.jpg",
             "words": [
               "slash"
             ]
           },
           {
-            "name": "backslash.png",
+            "name": "backslash.jpg",
             "words": [
               "backslash"
             ]
           },
           {
-            "name": "pipe.png",
+            "name": "pipe.jpg",
             "words": [
               "pipe"
             ]
           },
           {
-            "name": "tilde.png",
+            "name": "tilde.jpg",
             "words": [
               "tilde"
             ]
           },
           {
-            "name": "backtick.png",
+            "name": "backtick.jpg",
             "words": [
               "backtick"
             ]
           },
           {
-            "name": "caret.png",
+            "name": "carat.jpg",
             "words": [
               "carat"
             ]
@@ -73,25 +73,25 @@
             ]
           },
           {
-            "name": "comma.png",
+            "name": "comma.jpg",
             "words": [
               "comma"
             ]
           },
           {
-            "name": "double-quotation-mark.png",
+            "name": "double quotation mark.jpg",
             "words": [
               "double quotation mark"
             ]
           },
           {
-            "name": "single-quote.png",
+            "name": "single quotation mark.jpg",
             "words": [
               "single quotation mark"
             ]
           },
           {
-            "name": "apostrophe.png",
+            "name": "apostrophe.jpg",
             "words": [
               "apostrophe"
             ]
@@ -104,19 +104,19 @@
             ]
           },
           {
-            "name": "colon.png",
+            "name": "colon.jpg",
             "words": [
               "colon"
             ]
           },
           {
-            "name": "exclamation-mark.png",
+            "name": "exclamation mark.jpg",
             "words": [
               "exclamation mark"
             ]
           },
           {
-            "name": "semicolon.png",
+            "name": "semicolon.jpg",
             "words": [
               "semicolon"
             ]
@@ -332,7 +332,7 @@
         "name": "Time",
         "pictureFiles": [
           {
-            "name": "sunrise.jpg",
+            "name": "dawn.jpg",
             "words": [
               "dawn",
               "sunrise"
@@ -393,7 +393,7 @@
             ]
           },
           {
-            "name": "autumn.jpg",
+            "name": "fall.jpg",
             "words": [
               "fall",
               "autumn"
@@ -430,7 +430,7 @@
             ]
           },
           {
-            "name": "rain.jpg",
+            "name": "precipitation.jpg",
             "words": [
               "precipitation",
               "raining"
@@ -476,7 +476,7 @@
             ]
           },
           {
-            "name": "hail.jpg",
+            "name": "hailstorm.jpg",
             "words": [
               "hailstorm",
               "hail"
@@ -521,7 +521,7 @@
             ]
           },
           {
-            "name": "heat wave.png",
+            "name": "heat wave.jpg",
             "words": [
               "heat wave"
             ]
@@ -637,12 +637,6 @@
             "name": "hand.jpg",
             "words": [
               "hand"
-            ]
-          },
-          {
-            "name": "finger.jpg",
-            "words": [
-              "finger"
             ]
           },
           {
@@ -803,12 +797,6 @@
         "name": "Symptoms and Injuries",
         "pictureFiles": [
           {
-            "name": "headache.jpg",
-            "words": [
-              "headache"
-            ]
-          },
-          {
             "name": "toothache.jpg",
             "words": [
               "toothache"
@@ -821,7 +809,7 @@
             ]
           },
           {
-            "name": "stomachache.png",
+            "name": "stomachache.jpg",
             "words": [
               "stomachache"
             ]
@@ -840,13 +828,13 @@
             ]
           },
           {
-            "name": "nasal congestion.jpeg",
+            "name": "nasal congestion.jpg",
             "words": [
               "nasal congestion"
             ]
           },
           {
-            "name": "fever.jpeg",
+            "name": "fever.jpg",
             "words": [
               "fever",
               "temperature"
@@ -877,19 +865,20 @@
             ]
           },
           {
-            "name": "feel dizzy.jpeg",
+            "name": "feel dizzy.jpg",
             "words": [
-              "feel dizzy"
+              "feel dizzy",
+              "headache"
             ]
           },
           {
-            "name": "feel nauseous.png",
+            "name": "feel nauseous.jpg",
             "words": [
               "feel nauseous"
             ]
           },
           {
-            "name": "throw up.png",
+            "name": "throw up.jpg",
             "words": [
               "throw up",
               "vomit"
@@ -1308,19 +1297,19 @@
             ]
           },
           {
-            "name": "foil fencing.png",
+            "name": "foil fencing.jpg",
             "words": [
               "foil fencing"
             ]
           },
           {
-            "name": "sabre fencing.png",
+            "name": "sabre fencing.jpg",
             "words": [
               "sabre fencing"
             ]
           },
           {
-            "name": "epee fencing.png",
+            "name": "epee fencing.jpg",
             "words": [
               "épée fencing"
             ]
@@ -1405,12 +1394,6 @@
             "name": "middle age.jpg",
             "words": [
               "middle age"
-            ]
-          },
-          {
-            "name": "wilderness.jpg",
-            "words": [
-              "wilderness"
             ]
           },
           {
@@ -1534,7 +1517,7 @@
             ]
           },
           {
-            "name": "trophy.jpg",
+            "name": "prize.jpg",
             "words": [
               "prize",
               "trophy"
@@ -1633,7 +1616,8 @@
           {
             "name": "Grand Canyon.jpg",
             "words": [
-              "Grand Canyon"
+              "Grand Canyon",
+              "wilderness"
             ]
           },
           {
@@ -1917,7 +1901,7 @@
             ]
           },
           {
-            "name": "tear.png",
+            "name": "tear.jpg",
             "words": [
               "tear"
             ]
@@ -1949,7 +1933,8 @@
           {
             "name": "groundhog.jpg",
             "words": [
-              "groundhog"
+              "groundhog",
+              "rodent"
             ]
           },
           {
@@ -1989,18 +1974,7 @@
             "words": [
               "fed up with",
               "to be frustrated with",
-              "no more patience"
-            ]
-          },
-          {
-            "name": "rodent.jpg",
-            "words": [
-              "rodent"
-            ]
-          },
-          {
-            "name": "the blues.jpg",
-            "words": [
+              "no more patience",
               "the blues",
               "feeling of sadness or depression"
             ]
@@ -2020,7 +1994,7 @@
             ]
           },
           {
-            "name": "fingers crossed.jpg",
+            "name": "crossed fingers.jpg",
             "words": [
               "crossed fingers",
               "wish for luck"
@@ -2046,7 +2020,7 @@
             ]
           },
           {
-            "name": "teller.png",
+            "name": "teller.jpg",
             "words": [
               "teller"
             ]
@@ -2071,7 +2045,7 @@
             ]
           },
           {
-            "name": "currency.png",
+            "name": "currency.jpg",
             "words": [
               "currency"
             ]
@@ -2123,14 +2097,14 @@
             ]
           },
           {
-            "name": "advantage.png",
+            "name": "advantage.jpg",
             "words": [
               "advantage",
               "like"
             ]
           },
           {
-            "name": "disadvantage.png",
+            "name": "disadvantage.jpg",
             "words": [
               "disadvantage",
               "dislike"
