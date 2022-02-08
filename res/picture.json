@@ -1886,7 +1886,8 @@
           {
             "name": "checked.jpg",
             "words": [
-              "checked"
+              "checked",
+              "checker pattern"
             ]
           },
           {
@@ -2038,7 +2039,8 @@
           {
             "name": "withdraw.jpg",
             "words": [
-              "withdraw"
+              "withdraw",
+              "withdrawal"
             ]
           },
           {
@@ -2136,6 +2138,52 @@
             "name": "fill.jpg",
             "words": [
               "fill"
+            ]
+          },
+          {
+            "name": "till.jpg",
+            "words": [
+              "till",
+              "moneybox",
+              "cash register"
+            ]
+          },
+          {
+            "name": "purse.jpg",
+            "words": [
+              "purse"
+            ]
+          },
+          {
+            "name": "purchase.jpg",
+            "words": [
+              "purchase"
+            ]
+          },
+          {
+            "name": "annual ring.jpg",
+            "words": [
+              "annual ring"
+            ]
+          },
+          {
+            "name": "lend.jpg",
+            "words": [
+              "lend",
+              "borrow",
+              "earn"
+            ]
+          },
+          {
+            "name": "opinion.jpg",
+            "words": [
+              "opinion"
+            ]
+          },
+          {
+            "name": "caribou.jpg",
+            "words": [
+              "caribou"
             ]
           }
         ]
