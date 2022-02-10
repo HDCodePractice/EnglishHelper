@@ -2147,7 +2147,8 @@
             "words": [
               "lend",
               "borrow",
-              "earn"
+              "earn",
+              "loan"
             ]
           },
           {
@@ -2163,21 +2164,28 @@
             ]
           },
           {
-            "name": "staplter.jpg",
+            "name": "stapler.jpg",
             "words": [
-              "staplter"
+              "stapler"
             ]
           },
           {
-            "name": "monoral.jpg",
+            "name": "monorail.jpg",
             "words": [
-              "monoral"
+              "monorail"
             ]
           },
           {
             "name": "red envelope.jpg",
             "words": [
               "red envelope"
+            ]
+          },
+          {
+            "name": "cheer.jpg",
+            "words": [
+              "cheer",
+              "cheerful"
             ]
           }
         ]
