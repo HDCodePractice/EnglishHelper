@@ -333,6 +333,12 @@
             ]
           },
           {
+            "name": "a fine.jpg",
+            "words": [
+              "a fine"
+            ]
+          },
+          {
             "name": "safety deposit box.jpg",
             "words": [
               "safety deposit box"
@@ -362,16 +368,35 @@
           {
             "name": "deposited.jpg",
             "words": [
-              "deposited",
-              "credit"
+              "deposited"
             ]
           },
           {
             "name": "withdraw.jpg",
             "words": [
               "withdraw",
-              "withdrawal",
-              "debit"
+              "withdrawal"
+            ]
+          },
+          {
+            "name": "debit.jpg",
+            "words": [
+              "debit",
+              "a decrease in money"
+            ]
+          },
+          {
+            "name": "credit.jpg",
+            "words": [
+              "credit",
+              "an increase in money"
+            ]
+          },
+          {
+            "name": "balance.jpg",
+            "words": [
+              "balance",
+              "the remaining money"
             ]
           },
           {
@@ -384,6 +409,20 @@
             "name": "coins.jpg",
             "words": [
               "coins"
+            ]
+          },
+          {
+            "name": "horizontal.jpg",
+            "words": [
+              "horizontal",
+              "row"
+            ]
+          },
+          {
+            "name": "vertical.jpg",
+            "words": [
+              "vertical",
+              "column"
             ]
           },
           {
@@ -422,14 +461,42 @@
             "words": [
               "lend",
               "borrow",
-              "earn",
               "loan"
+            ]
+          },
+          {
+            "name": "earn.jpg",
+            "words": [
+              "earn",
+              "payroll"
+            ]
+          },
+          {
+            "name": "consuming.jpg",
+            "words": [
+              "consuming"
             ]
           },
           {
             "name": "slot.jpg",
             "words": [
               "slot"
+            ]
+          },
+          {
+            "name": "pay it off.jpg",
+            "words": [
+              "pay it off",
+              "payback",
+              "repayment",
+              "owe",
+              "debt"
+            ]
+          },
+          {
+            "name": "signature.jpg",
+            "words": [
+              "signature"
             ]
           }
         ]
@@ -784,7 +851,8 @@
           {
             "name": "rash.jpg",
             "words": [
-              "rash"
+              "rash",
+              "allergy"
             ]
           },
           {
@@ -1690,12 +1758,6 @@
             "words": [
               "crossed fingers",
               "wish for luck"
-            ]
-          },
-          {
-            "name": "signature.jpg",
-            "words": [
-              "signature"
             ]
           },
           {

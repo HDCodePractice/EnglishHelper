@@ -48,21 +48,31 @@ Community,Downtown,museum,museum.jpg,https://unsplash.com/photos/tXmc2mVDxJc
 Community,Downtown,stadium,stadium.jpg,https://unsplash.com/photos/bY4cqxp7vos
 Community,Downtown,movie theater,movie theater.jpg,https://unsplash.com/photos/23LET4Hxj_U
 Community,The Bank,teller,teller.jpg,https://pixabay.com/zh/illustrations/bank-teller-bank-service-6330466/
+Community,The Bank,a fine,a fine.jpg,https://unsplash.com/photos/crGG3QXuyPc
 Community,The Bank,safety deposit box,safety deposit box.jpg,https://unsplash.com/photos/Uf-c4u1usFQ
 Community,The Bank,security guard,security guard.jpg,https://unsplash.com/photos/JEBeXUHm1c4
 Community,The Bank,robber/thief/steal/thieves,robber.jpg,https://pixabay.com/zh/photos/money-heist-thieves-robbery-gun-6632767/
 Community,The Bank,vault,vault.jpg,https://unsplash.com/photos/3wPJxh-piRw
-Community,The Bank,deposited/credit,deposited.jpg,https://pixabay.com/zh/photos/atm-money-euro-withdraw-cash-cash-1524871/
-Community,The Bank,withdraw/withdrawal/debit,withdraw.jpg,https://pixabay.com/zh/photos/atm-withdraw-cash-map-ec-card-1524870/
+Community,The Bank,deposited,deposited.jpg,hd
+Community,The Bank,withdraw/withdrawal,withdraw.jpg,hd
+Community,The Bank,debit/a decrease in money,debit.jpg,hd
+Community,The Bank,credit/an increase in money,credit.jpg,hd
+Community,The Bank,balance/the remaining money,balance.jpg,hd
 Community,The Bank,bills,bills.jpg,https://unsplash.com/photos/1pJSWFdyJ98
 Community,The Bank,coins,coins.jpg,https://unsplash.com/photos/Sw2XNTgA-wc
+Community,The Bank,horizontal/row,horizontal.jpg,hd
+Community,The Bank,vertical/column,vertical.jpg,hd
 Community,The Bank,cheque/check,cheque.jpg,https://pixabay.com/zh/photos/cheques-administration-hand-2672195/
 Community,The Bank,currency,currency.jpg,https://pixabay.com/zh/vectors/currency-dollar-euro-yen-pound-1680786/
 Community,The Bank,red envelope,red envelope.jpg,https://pixabay.com/zh/vectors/red-envelope-festive-new-year-4180773/
 Community,The Bank,piggy bank,piggy bank.jpg,https://unsplash.com/photos/EmGF98ckNSU
 Community,The Bank,spend,spend.jpg,https://pixabay.com/zh/illustrations/invoice-cash-payments-concept-3739354/
-Community,The Bank,lend/borrow/earn/loan,lend.jpg,https://pixabay.com/zh/illustrations/salary-payout-donation-payroll-man-3038325/
+Community,The Bank,lend/borrow/loan,lend.jpg,https://pixabay.com/zh/illustrations/salary-payout-donation-payroll-man-3038325/
+Community,The Bank,earn/payroll,earn.jpg,hd
+Community,The Bank,consuming,consuming.jpg,hd
 Community,The Bank,slot,slot.jpg,https://unsplash.com/photos/QtTKfb23nBc
+Community,The Bank,pay it off/payback/repayment/owe/debt,pay it off.jpg,hd
+Community,The Bank,signature,signature.jpg,https://unsplash.com/photos/XQaqV5qYcXg
 Everyday Language,Time,dawn/sunrise,dawn.jpg,https://unsplash.com/photos/EAvS-4KnGrk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Everyday Language,Time,sunset,sunset.jpg,https://unsplash.com/photos/K2u71wv2eI4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Everyday Language,Time,morning,morning.jpg,https://unsplash.com/photos/wBuPCQiweuA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -114,7 +124,7 @@ Health,Symptoms and Injuries,sore throa/laryngitis,sore throa.jpg,https://pixaba
 Health,Symptoms and Injuries,nasal congestion,nasal congestion.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Nasal_Congestion.png
 Health,Symptoms and Injuries,fever/temperature,fever.jpg,https://pixabay.com/zh/vectors/fever-sick-thermometer-woman-bed-310721/
 Health,Symptoms and Injuries,chills,chills.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392162/
-Health,Symptoms and Injuries,rash,rash.jpg,https://www.flickr.com/photos/75491103@N00/2271711501
+Health,Symptoms and Injuries,rash/allergy,rash.jpg,https://www.flickr.com/photos/75491103@N00/2271711501
 Health,Symptoms and Injuries,cough,cough.jpg,https://unsplash.com/photos/_S0XzuaZLas?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,Symptoms and Injuries,sneeze,sneeze.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392137/
 Health,Symptoms and Injuries,feel dizzy/headache,feel dizzy.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_feeling_dizzy.png
@@ -252,7 +262,6 @@ Undefined,New this week,hibernate,hibernate.jpg,https://unsplash.com/photos/WxmZ
 Undefined,New this week,fed up with/to be frustrated with/no more patience/the blues/feeling of sadness or depression,fed up with.jpg,https://unsplash.com/photos/_sh9vkVbVgo
 Undefined,New this week,peek/to become visible/emerge,peek.jpg,https://unsplash.com/photos/-J8m0X_A1a8
 Undefined,New this week,crossed fingers/wish for luck,crossed fingers.jpg,https://unsplash.com/photos/xdx5hIHGt4A
-Undefined,New this week,signature,signature.jpg,https://unsplash.com/photos/XQaqV5qYcXg
 Undefined,New this week,silent/quiet,silent.jpg,https://unsplash.com/photos/BcjdbyKWquw
 Undefined,New this week,sentences,sentences.jpg,https://unsplash.com/photos/Fd5B3nn3TpM
 Undefined,New this week,jewelry,jewelry.jpg,https://unsplash.com/photos/202NAwjisYA
