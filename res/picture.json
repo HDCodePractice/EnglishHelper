@@ -7,83 +7,125 @@
         "pictureFiles": [
           {
             "name": "brackets.jpg",
-            "words": ["brackets"]
+            "words": [
+              "brackets"
+            ]
           },
           {
             "name": "braces.jpg",
-            "words": ["braces", "curly bracket"]
+            "words": [
+              "braces",
+              "curly bracket"
+            ]
           },
           {
             "name": "square brackets.jpg",
-            "words": ["square brackets"]
+            "words": [
+              "square brackets"
+            ]
           },
           {
             "name": "angle brackets.jpg",
-            "words": ["angle brackets"]
+            "words": [
+              "angle brackets"
+            ]
           },
           {
             "name": "slash.jpg",
-            "words": ["slash"]
+            "words": [
+              "slash"
+            ]
           },
           {
             "name": "backslash.jpg",
-            "words": ["backslash"]
+            "words": [
+              "backslash"
+            ]
           },
           {
             "name": "pipe.jpg",
-            "words": ["pipe"]
+            "words": [
+              "pipe"
+            ]
           },
           {
             "name": "tilde.jpg",
-            "words": ["tilde"]
+            "words": [
+              "tilde"
+            ]
           },
           {
             "name": "backtick.jpg",
-            "words": ["backtick"]
+            "words": [
+              "backtick"
+            ]
           },
           {
             "name": "carat.jpg",
-            "words": ["carat"]
+            "words": [
+              "carat"
+            ]
           },
           {
             "name": "period.jpg",
-            "words": ["period"]
+            "words": [
+              "period"
+            ]
           },
           {
             "name": "comma.jpg",
-            "words": ["comma"]
+            "words": [
+              "comma"
+            ]
           },
           {
             "name": "double quotation mark.jpg",
-            "words": ["double quotation mark"]
+            "words": [
+              "double quotation mark"
+            ]
           },
           {
             "name": "single quotation mark.jpg",
-            "words": ["single quotation mark"]
+            "words": [
+              "single quotation mark"
+            ]
           },
           {
             "name": "apostrophe.jpg",
-            "words": ["apostrophe"]
+            "words": [
+              "apostrophe"
+            ]
           },
           {
             "name": "hyphen.jpg",
-            "words": ["hyphen", "minus sign"]
+            "words": [
+              "hyphen",
+              "minus sign"
+            ]
           },
           {
             "name": "colon.jpg",
-            "words": ["colon"]
+            "words": [
+              "colon"
+            ]
           },
           {
             "name": "exclamation mark.jpg",
-            "words": ["exclamation mark"]
+            "words": [
+              "exclamation mark"
+            ]
           },
           {
             "name": "semicolon.jpg",
-            "words": ["semicolon"]
+            "words": [
+              "semicolon"
+            ]
           },
           {
             "name": "essay.jpg",
-            "words": ["essay"]
+            "words": [
+              "essay"
+            ]
           }
         ]
       }
@@ -97,47 +139,75 @@
         "pictureFiles": [
           {
             "name": "toque.jpg",
-            "words": ["toque", "ski hat"]
+            "words": [
+              "toque",
+              "ski hat"
+            ]
           },
           {
             "name": "shirt.jpg",
-            "words": ["shirt"]
+            "words": [
+              "shirt"
+            ]
           },
           {
             "name": "sneakers.jpg",
-            "words": ["sneakers", "runing shoes", "trainers", "athletic shoes"]
+            "words": [
+              "sneakers",
+              "runing shoes",
+              "trainers",
+              "athletic shoes"
+            ]
           },
           {
             "name": "blouse.jpg",
-            "words": ["blouse"]
+            "words": [
+              "blouse"
+            ]
           },
           {
             "name": "skirt.jpg",
-            "words": ["skirt"]
+            "words": [
+              "skirt"
+            ]
           },
           {
             "name": "suit.jpg",
-            "words": ["suit"]
+            "words": [
+              "suit"
+            ]
           },
           {
             "name": "pants.jpg",
-            "words": ["pants", "slacks"]
+            "words": [
+              "pants",
+              "slacks"
+            ]
           },
           {
             "name": "jeans.jpg",
-            "words": ["jeans"]
+            "words": [
+              "jeans"
+            ]
           },
           {
             "name": "dress.jpg",
-            "words": ["dress"]
+            "words": [
+              "dress"
+            ]
           },
           {
             "name": "cap.jpg",
-            "words": ["cap", "baseball cap"]
+            "words": [
+              "cap",
+              "baseball cap"
+            ]
           },
           {
             "name": "sweater.jpg",
-            "words": ["sweater"]
+            "words": [
+              "sweater"
+            ]
           }
         ]
       }
@@ -151,71 +221,105 @@
         "pictureFiles": [
           {
             "name": "parking garage.jpg",
-            "words": ["parking garage"]
+            "words": [
+              "parking garage"
+            ]
           },
           {
             "name": "office building.jpg",
-            "words": ["office building"]
+            "words": [
+              "office building"
+            ]
           },
           {
             "name": "hotel.jpg",
-            "words": ["hotel"]
+            "words": [
+              "hotel"
+            ]
           },
           {
             "name": "bank.jpg",
-            "words": ["bank"]
+            "words": [
+              "bank"
+            ]
           },
           {
             "name": "police station.jpg",
-            "words": ["police station"]
+            "words": [
+              "police station"
+            ]
           },
           {
             "name": "bus station.jpg",
-            "words": ["bus station"]
+            "words": [
+              "bus station"
+            ]
           },
           {
             "name": "city hall.jpg",
-            "words": ["city hall"]
+            "words": [
+              "city hall"
+            ]
           },
           {
             "name": "hospital.jpg",
-            "words": ["hospital"]
+            "words": [
+              "hospital"
+            ]
           },
           {
             "name": "gas station.jpg",
-            "words": ["gas station"]
+            "words": [
+              "gas station"
+            ]
           },
           {
             "name": "post office.jpg",
-            "words": ["post office"]
+            "words": [
+              "post office"
+            ]
           },
           {
             "name": "fire station.jpg",
-            "words": ["fire station"]
+            "words": [
+              "fire station"
+            ]
           },
           {
             "name": "courthouse.jpg",
-            "words": ["courthouse"]
+            "words": [
+              "courthouse"
+            ]
           },
           {
             "name": "restaurant.jpg",
-            "words": ["restaurant"]
+            "words": [
+              "restaurant"
+            ]
           },
           {
             "name": "library.jpg",
-            "words": ["library"]
+            "words": [
+              "library"
+            ]
           },
           {
             "name": "museum.jpg",
-            "words": ["museum"]
+            "words": [
+              "museum"
+            ]
           },
           {
             "name": "stadium.jpg",
-            "words": ["stadium"]
+            "words": [
+              "stadium"
+            ]
           },
           {
             "name": "movie theater.jpg",
-            "words": ["movie theater"]
+            "words": [
+              "movie theater"
+            ]
           }
         ]
       }
@@ -229,59 +333,90 @@
         "pictureFiles": [
           {
             "name": "dawn.jpg",
-            "words": ["dawn", "sunrise"]
+            "words": [
+              "dawn",
+              "sunrise"
+            ]
           },
           {
             "name": "sunset.jpg",
-            "words": ["sunset"]
+            "words": [
+              "sunset"
+            ]
           },
           {
             "name": "morning.jpg",
-            "words": ["morning"]
+            "words": [
+              "morning"
+            ]
           },
           {
             "name": "noon.jpg",
-            "words": ["noon"]
+            "words": [
+              "noon"
+            ]
           },
           {
             "name": "afternoon.jpg",
-            "words": ["afternoon"]
+            "words": [
+              "afternoon"
+            ]
           },
           {
             "name": "evening.jpg",
-            "words": ["evening"]
+            "words": [
+              "evening"
+            ]
           },
           {
             "name": "night.jpg",
-            "words": ["night"]
+            "words": [
+              "night"
+            ]
           },
           {
             "name": "midnight.jpg",
-            "words": ["midnight"]
+            "words": [
+              "midnight"
+            ]
           },
           {
             "name": "spring.jpg",
-            "words": ["spring"]
+            "words": [
+              "spring"
+            ]
           },
           {
             "name": "summer.jpg",
-            "words": ["summer"]
+            "words": [
+              "summer"
+            ]
           },
           {
             "name": "fall.jpg",
-            "words": ["fall", "autumn"]
+            "words": [
+              "fall",
+              "autumn"
+            ]
           },
           {
             "name": "winter.jpg",
-            "words": ["winter"]
+            "words": [
+              "winter"
+            ]
           },
           {
             "name": "anniversary.jpg",
-            "words": ["anniversary"]
+            "words": [
+              "anniversary"
+            ]
           },
           {
             "name": "vacation.jpg",
-            "words": ["vacation", "leisure"]
+            "words": [
+              "vacation",
+              "leisure"
+            ]
           }
         ]
       },
@@ -290,75 +425,118 @@
         "pictureFiles": [
           {
             "name": "bitterly cold.jpg",
-            "words": ["bitterly cold"]
+            "words": [
+              "bitterly cold"
+            ]
           },
           {
             "name": "precipitation.jpg",
-            "words": ["precipitation", "raining"]
+            "words": [
+              "precipitation",
+              "raining"
+            ]
           },
           {
             "name": "sleet.jpg",
-            "words": ["sleet"]
+            "words": [
+              "sleet"
+            ]
           },
           {
             "name": "condensation.jpg",
-            "words": ["condensation"]
+            "words": [
+              "condensation"
+            ]
           },
           {
             "name": "freezing.jpg",
-            "words": ["freezing"]
+            "words": [
+              "freezing"
+            ]
           },
           {
             "name": "evaporation.jpg",
-            "words": ["evaporation", "vapor"]
+            "words": [
+              "evaporation",
+              "vapor"
+            ]
           },
           {
             "name": "sunny.jpg",
-            "words": ["sunny", "clear"]
+            "words": [
+              "sunny",
+              "clear"
+            ]
           },
           {
             "name": "lightning.jpg",
-            "words": ["lightning", "thunderstorm"]
+            "words": [
+              "lightning",
+              "thunderstorm"
+            ]
           },
           {
             "name": "hailstorm.jpg",
-            "words": ["hailstorm", "hail"]
+            "words": [
+              "hailstorm",
+              "hail"
+            ]
           },
           {
             "name": "foggy.jpg",
-            "words": ["foggy"]
+            "words": [
+              "foggy"
+            ]
           },
           {
             "name": "icy.jpg",
-            "words": ["icy", "slippery"]
+            "words": [
+              "icy",
+              "slippery"
+            ]
           },
           {
             "name": "smoggy.jpg",
-            "words": ["smoggy"]
+            "words": [
+              "smoggy"
+            ]
           },
           {
             "name": "snowstorm.jpg",
-            "words": ["snowstorm", "blizzard"]
+            "words": [
+              "snowstorm",
+              "blizzard"
+            ]
           },
           {
             "name": "dust storm.jpg",
-            "words": ["dust storm"]
+            "words": [
+              "dust storm"
+            ]
           },
           {
             "name": "hurricanes.jpg",
-            "words": ["hurricanes"]
+            "words": [
+              "hurricanes"
+            ]
           },
           {
             "name": "heat wave.jpg",
-            "words": ["heat wave"]
+            "words": [
+              "heat wave"
+            ]
           },
           {
             "name": "cloudy.jpg",
-            "words": ["cloudy"]
+            "words": [
+              "cloudy"
+            ]
           },
           {
             "name": "warm.jpg",
-            "words": ["warm"]
+            "words": [
+              "warm"
+            ]
           }
         ]
       }
@@ -372,163 +550,247 @@
         "pictureFiles": [
           {
             "name": "head.jpg",
-            "words": ["head"]
+            "words": [
+              "head"
+            ]
           },
           {
             "name": "hair.jpg",
-            "words": ["hair"]
+            "words": [
+              "hair"
+            ]
           },
           {
             "name": "neck.jpg",
-            "words": ["neck"]
+            "words": [
+              "neck"
+            ]
           },
           {
             "name": "chest.jpg",
-            "words": ["chest"]
+            "words": [
+              "chest"
+            ]
           },
           {
             "name": "back.jpg",
-            "words": ["back"]
+            "words": [
+              "back"
+            ]
           },
           {
             "name": "nose.jpg",
-            "words": ["nose"]
+            "words": [
+              "nose"
+            ]
           },
           {
             "name": "mouth.jpg",
-            "words": ["mouth"]
+            "words": [
+              "mouth"
+            ]
           },
           {
             "name": "foot.jpg",
-            "words": ["foot", "feet", "toe"]
+            "words": [
+              "foot",
+              "feet",
+              "toe"
+            ]
           },
           {
             "name": "leg.jpg",
-            "words": ["leg"]
+            "words": [
+              "leg"
+            ]
           },
           {
             "name": "eye.jpg",
-            "words": ["eye"]
+            "words": [
+              "eye"
+            ]
           },
           {
             "name": "ear.jpg",
-            "words": ["ear"]
+            "words": [
+              "ear"
+            ]
           },
           {
             "name": "shoulder.jpg",
-            "words": ["shoulder"]
+            "words": [
+              "shoulder"
+            ]
           },
           {
             "name": "arm.jpg",
-            "words": ["arm"]
+            "words": [
+              "arm"
+            ]
           },
           {
             "name": "hand.jpg",
-            "words": ["hand"]
+            "words": [
+              "hand"
+            ]
           },
           {
             "name": "ponytail.jpg",
-            "words": ["ponytail"]
+            "words": [
+              "ponytail"
+            ]
           },
           {
             "name": "dimple.jpg",
-            "words": ["dimple"]
+            "words": [
+              "dimple"
+            ]
           },
           {
             "name": "bald.jpg",
-            "words": ["bald"]
+            "words": [
+              "bald"
+            ]
           },
           {
             "name": "freckle.jpg",
-            "words": ["freckle"]
+            "words": [
+              "freckle"
+            ]
           },
           {
             "name": "straight hair.jpg",
-            "words": ["straight hair"]
+            "words": [
+              "straight hair"
+            ]
           },
           {
             "name": "thin.jpg",
-            "words": ["thin", "silm"]
+            "words": [
+              "thin",
+              "silm"
+            ]
           },
           {
             "name": "fat.jpg",
-            "words": ["fat", "overweight"]
+            "words": [
+              "fat",
+              "overweight"
+            ]
           },
           {
             "name": "average build.jpg",
-            "words": ["average build"]
+            "words": [
+              "average build"
+            ]
           },
           {
             "name": "muscular.jpg",
-            "words": ["muscular"]
+            "words": [
+              "muscular"
+            ]
           },
           {
             "name": "chubby.jpg",
-            "words": ["chubby"]
+            "words": [
+              "chubby"
+            ]
           },
           {
             "name": "mustache.jpg",
-            "words": ["mustache"]
+            "words": [
+              "mustache"
+            ]
           },
           {
             "name": "beard.jpg",
-            "words": ["beard"]
+            "words": [
+              "beard"
+            ]
           },
           {
             "name": "goatee.jpg",
-            "words": ["goatee"]
+            "words": [
+              "goatee"
+            ]
           },
           {
             "name": "sideburns.jpg",
-            "words": ["sideburns"]
+            "words": [
+              "sideburns"
+            ]
           },
           {
             "name": "clean shaven.jpg",
-            "words": ["clean shaven"]
+            "words": [
+              "clean shaven"
+            ]
           },
           {
             "name": "shoulder length hair.jpg",
-            "words": ["shoulder length hair"]
+            "words": [
+              "shoulder length hair"
+            ]
           },
           {
             "name": "curly hair.jpg",
-            "words": ["curly hair"]
+            "words": [
+              "curly hair"
+            ]
           },
           {
             "name": "wavy hair.jpg",
-            "words": ["wavy hair"]
+            "words": [
+              "wavy hair"
+            ]
           },
           {
             "name": "braids.jpg",
-            "words": ["braids"]
+            "words": [
+              "braids"
+            ]
           },
           {
             "name": "bun.jpg",
-            "words": ["bun"]
+            "words": [
+              "bun"
+            ]
           },
           {
             "name": "wrinkles.jpg",
-            "words": ["wrinkles"]
+            "words": [
+              "wrinkles"
+            ]
           },
           {
             "name": "pimples.jpg",
-            "words": ["pimples"]
+            "words": [
+              "pimples"
+            ]
           },
           {
             "name": "mole.jpg",
-            "words": ["mole"]
+            "words": [
+              "mole"
+            ]
           },
           {
             "name": "scar.jpg",
-            "words": ["scar"]
+            "words": [
+              "scar"
+            ]
           },
           {
             "name": "stomach.jpg",
-            "words": ["stomach"]
+            "words": [
+              "stomach"
+            ]
           },
           {
             "name": "calf.jpg",
-            "words": ["calf"]
+            "words": [
+              "calf"
+            ]
           }
         ]
       },
@@ -537,99 +799,151 @@
         "pictureFiles": [
           {
             "name": "toothache.jpg",
-            "words": ["toothache"]
+            "words": [
+              "toothache"
+            ]
           },
           {
             "name": "earache.jpg",
-            "words": ["earache"]
+            "words": [
+              "earache"
+            ]
           },
           {
             "name": "stomachache.jpg",
-            "words": ["stomachache"]
+            "words": [
+              "stomachache"
+            ]
           },
           {
             "name": "backache.jpg",
-            "words": ["backache"]
+            "words": [
+              "backache"
+            ]
           },
           {
             "name": "sore throa.jpg",
-            "words": ["sore throa", "laryngitis"]
+            "words": [
+              "sore throa",
+              "laryngitis"
+            ]
           },
           {
             "name": "nasal congestion.jpg",
-            "words": ["nasal congestion"]
+            "words": [
+              "nasal congestion"
+            ]
           },
           {
             "name": "fever.jpg",
-            "words": ["fever", "temperature"]
+            "words": [
+              "fever",
+              "temperature"
+            ]
           },
           {
             "name": "chills.jpg",
-            "words": ["chills"]
+            "words": [
+              "chills"
+            ]
           },
           {
             "name": "rash.jpg",
-            "words": ["rash"]
+            "words": [
+              "rash"
+            ]
           },
           {
             "name": "cough.jpg",
-            "words": ["cough"]
+            "words": [
+              "cough"
+            ]
           },
           {
             "name": "sneeze.jpg",
-            "words": ["sneeze"]
+            "words": [
+              "sneeze"
+            ]
           },
           {
             "name": "feel dizzy.jpg",
-            "words": ["feel dizzy", "headache"]
+            "words": [
+              "feel dizzy",
+              "headache"
+            ]
           },
           {
             "name": "feel nauseous.jpg",
-            "words": ["feel nauseous"]
+            "words": [
+              "feel nauseous"
+            ]
           },
           {
             "name": "throw up.jpg",
-            "words": ["throw up", "vomit"]
+            "words": [
+              "throw up",
+              "vomit"
+            ]
           },
           {
             "name": "stiff neck.jpg",
-            "words": ["stiff neck"]
+            "words": [
+              "stiff neck"
+            ]
           },
           {
             "name": "cramp.jpg",
-            "words": ["cramp"]
+            "words": [
+              "cramp"
+            ]
           },
           {
             "name": "bruise.jpg",
-            "words": ["bruise"]
+            "words": [
+              "bruise"
+            ]
           },
           {
             "name": "sprain.jpg",
-            "words": ["sprain"]
+            "words": [
+              "sprain"
+            ]
           },
           {
             "name": "scrape.jpg",
-            "words": ["scrape"]
+            "words": [
+              "scrape"
+            ]
           },
           {
             "name": "diarrhea.jpg",
-            "words": ["diarrhea"]
+            "words": [
+              "diarrhea"
+            ]
           },
           {
             "name": "callous.jpg",
-            "words": ["callous"]
+            "words": [
+              "callous"
+            ]
           },
           {
             "name": "medicines.jpg",
-            "words": ["medicines"]
+            "words": [
+              "medicines"
+            ]
           },
           {
             "name": "treat sick people.jpg",
-            "words": ["treat sick people"]
+            "words": [
+              "treat sick people"
+            ]
           },
           {
             "name": "pharmacy.jpg",
-            "words": ["pharmacy"]
+            "words": [
+              "pharmacy"
+            ]
           }
         ]
       },
@@ -638,47 +952,70 @@
         "pictureFiles": [
           {
             "name": "patient.jpg",
-            "words": ["patient"]
+            "words": [
+              "patient"
+            ]
           },
           {
             "name": "pharmacist.jpg",
-            "words": ["pharmacist"]
+            "words": [
+              "pharmacist"
+            ]
           },
           {
             "name": "prescription.jpg",
-            "words": ["prescription"]
+            "words": [
+              "prescription"
+            ]
           },
           {
             "name": "prescription medicine.jpg",
-            "words": ["prescription medicine", "prescription drug"]
+            "words": [
+              "prescription medicine",
+              "prescription drug"
+            ]
           },
           {
             "name": "wheelchair.jpg",
-            "words": ["wheelchair"]
+            "words": [
+              "wheelchair"
+            ]
           },
           {
             "name": "pill.jpg",
-            "words": ["pill"]
+            "words": [
+              "pill"
+            ]
           },
           {
             "name": "tablet.jpg",
-            "words": ["tablet"]
+            "words": [
+              "tablet"
+            ]
           },
           {
             "name": "capsule.jpg",
-            "words": ["capsule"]
+            "words": [
+              "capsule"
+            ]
           },
           {
             "name": "ointment.jpg",
-            "words": ["ointment"]
+            "words": [
+              "ointment"
+            ]
           },
           {
             "name": "cream.jpg",
-            "words": ["cream"]
+            "words": [
+              "cream"
+            ]
           },
           {
             "name": "prescribe.jpg",
-            "words": ["prescribe"]
+            "words": [
+              "prescribe"
+            ]
           }
         ]
       }
@@ -692,39 +1029,59 @@
         "pictureFiles": [
           {
             "name": "Raccoon.jpg",
-            "words": ["Raccoon"]
+            "words": [
+              "Raccoon"
+            ]
           },
           {
             "name": "moose.jpg",
-            "words": ["moose"]
+            "words": [
+              "moose"
+            ]
           },
           {
             "name": "wolf.jpg",
-            "words": ["wolf"]
+            "words": [
+              "wolf"
+            ]
           },
           {
             "name": "beaver.jpg",
-            "words": ["beaver"]
+            "words": [
+              "beaver"
+            ]
           },
           {
             "name": "deer.jpg",
-            "words": ["deer"]
+            "words": [
+              "deer"
+            ]
           },
           {
             "name": "buffalo.jpg",
-            "words": ["buffalo", "bison"]
+            "words": [
+              "buffalo",
+              "bison"
+            ]
           },
           {
             "name": "armadillo.jpg",
-            "words": ["armadillo"]
+            "words": [
+              "armadillo"
+            ]
           },
           {
             "name": "skunk.jpg",
-            "words": ["skunk"]
+            "words": [
+              "skunk"
+            ]
           },
           {
             "name": "groundhog.jpg",
-            "words": ["groundhog", "rodent"]
+            "words": [
+              "groundhog",
+              "rodent"
+            ]
           }
         ]
       },
@@ -733,67 +1090,99 @@
         "pictureFiles": [
           {
             "name": "plants.jpg",
-            "words": ["plants"]
+            "words": [
+              "plants"
+            ]
           },
           {
             "name": "soil.jpg",
-            "words": ["soil"]
+            "words": [
+              "soil"
+            ]
           },
           {
             "name": "rock.jpg",
-            "words": ["rock"]
+            "words": [
+              "rock"
+            ]
           },
           {
             "name": "flowers.jpg",
-            "words": ["flowers"]
+            "words": [
+              "flowers"
+            ]
           },
           {
             "name": "mammals.jpg",
-            "words": ["mammals"]
+            "words": [
+              "mammals"
+            ]
           },
           {
             "name": "insects.jpg",
-            "words": ["insects"]
+            "words": [
+              "insects"
+            ]
           },
           {
             "name": "nest.jpg",
-            "words": ["nest"]
+            "words": [
+              "nest"
+            ]
           },
           {
             "name": "pine.jpg",
-            "words": ["pine"]
+            "words": [
+              "pine"
+            ]
           },
           {
             "name": "scent.jpg",
-            "words": ["scent"]
+            "words": [
+              "scent"
+            ]
           },
           {
             "name": "river.jpg",
-            "words": ["river"]
+            "words": [
+              "river"
+            ]
           },
           {
             "name": "dragonfly.jpg",
-            "words": ["dragonfly"]
+            "words": [
+              "dragonfly"
+            ]
           },
           {
             "name": "butterfly.jpg",
-            "words": ["butterfly"]
+            "words": [
+              "butterfly"
+            ]
           },
           {
             "name": "grasshopper.jpg",
-            "words": ["grasshopper"]
+            "words": [
+              "grasshopper"
+            ]
           },
           {
             "name": "an ear of corn.jpg",
-            "words": ["an ear of corn"]
+            "words": [
+              "an ear of corn"
+            ]
           },
           {
             "name": "stump.jpg",
-            "words": ["stump"]
+            "words": [
+              "stump"
+            ]
           },
           {
             "name": "burrow.jpg",
-            "words": ["burrow"]
+            "words": [
+              "burrow"
+            ]
           }
         ]
       }
@@ -807,75 +1196,112 @@
         "pictureFiles": [
           {
             "name": "downhill skiing.jpg",
-            "words": ["downhill skiing"]
+            "words": [
+              "downhill skiing"
+            ]
           },
           {
             "name": "snowboarding.jpg",
-            "words": ["snowboarding"]
+            "words": [
+              "snowboarding"
+            ]
           },
           {
             "name": "cross-country skiing.jpg",
-            "words": ["cross-country skiing"]
+            "words": [
+              "cross-country skiing"
+            ]
           },
           {
             "name": "ice skating.jpg",
-            "words": ["ice skating"]
+            "words": [
+              "ice skating"
+            ]
           },
           {
             "name": "figure skating.jpg",
-            "words": ["figure skating"]
+            "words": [
+              "figure skating"
+            ]
           },
           {
             "name": "sledding.jpg",
-            "words": ["sledding", "tobogganing"]
+            "words": [
+              "sledding",
+              "tobogganing"
+            ]
           },
           {
             "name": "tubing.jpg",
-            "words": ["tubing"]
+            "words": [
+              "tubing"
+            ]
           },
           {
             "name": "waterskiing.jpg",
-            "words": ["waterskiing"]
+            "words": [
+              "waterskiing"
+            ]
           },
           {
             "name": "sailing.jpg",
-            "words": ["sailing"]
+            "words": [
+              "sailing"
+            ]
           },
           {
             "name": "surfing.jpg",
-            "words": ["surfing"]
+            "words": [
+              "surfing"
+            ]
           },
           {
             "name": "windsurfing.jpg",
-            "words": ["windsurfing"]
+            "words": [
+              "windsurfing"
+            ]
           },
           {
             "name": "snorkeling.jpg",
-            "words": ["snorkeling"]
+            "words": [
+              "snorkeling"
+            ]
           },
           {
             "name": "scuba diving.jpg",
-            "words": ["scuba diving"]
+            "words": [
+              "scuba diving"
+            ]
           },
           {
             "name": "skidoo.jpg",
-            "words": ["skidoo"]
+            "words": [
+              "skidoo"
+            ]
           },
           {
             "name": "seadoo.jpg",
-            "words": ["seadoo"]
+            "words": [
+              "seadoo"
+            ]
           },
           {
             "name": "kayak.jpg",
-            "words": ["kayak"]
+            "words": [
+              "kayak"
+            ]
           },
           {
             "name": "canoe.jpg",
-            "words": ["canoe"]
+            "words": [
+              "canoe"
+            ]
           },
           {
             "name": "surfboard.jpg",
-            "words": ["surfboard"]
+            "words": [
+              "surfboard"
+            ]
           }
         ]
       },
@@ -884,55 +1310,83 @@
         "pictureFiles": [
           {
             "name": "marathon.jpg",
-            "words": ["marathon"]
+            "words": [
+              "marathon"
+            ]
           },
           {
             "name": "hike.jpg",
-            "words": ["hike"]
+            "words": [
+              "hike"
+            ]
           },
           {
             "name": "snooker.jpg",
-            "words": ["snooker", "billiards", "pool"]
+            "words": [
+              "snooker",
+              "billiards",
+              "pool"
+            ]
           },
           {
             "name": "archery.jpg",
-            "words": ["archery"]
+            "words": [
+              "archery"
+            ]
           },
           {
             "name": "badminton.jpg",
-            "words": ["badminton"]
+            "words": [
+              "badminton"
+            ]
           },
           {
             "name": "fencing.jpg",
-            "words": ["fencing"]
+            "words": [
+              "fencing"
+            ]
           },
           {
             "name": "foil fencing.jpg",
-            "words": ["foil fencing"]
+            "words": [
+              "foil fencing"
+            ]
           },
           {
             "name": "sabre fencing.jpg",
-            "words": ["sabre fencing"]
+            "words": [
+              "sabre fencing"
+            ]
           },
           {
             "name": "epee fencing.jpg",
-            "words": ["épée fencing"]
+            "words": [
+              "épée fencing"
+            ]
           },
           {
             "name": "skateboarding.jpg",
-            "words": ["skateboarding"]
+            "words": [
+              "skateboarding"
+            ]
           },
           {
             "name": "racqueball.jpg",
-            "words": ["racqueball"]
+            "words": [
+              "racqueball"
+            ]
           },
           {
             "name": "tennis.jpg",
-            "words": ["tennis"]
+            "words": [
+              "tennis"
+            ]
           },
           {
             "name": "table tennis.jpg",
-            "words": ["table tennis"]
+            "words": [
+              "table tennis"
+            ]
           }
         ]
       }
@@ -946,311 +1400,472 @@
         "pictureFiles": [
           {
             "name": "young.jpg",
-            "words": ["young"]
+            "words": [
+              "young"
+            ]
           },
           {
             "name": "old.jpg",
-            "words": ["old"]
+            "words": [
+              "old"
+            ]
           },
           {
             "name": "middle age.jpg",
-            "words": ["middle age"]
+            "words": [
+              "middle age"
+            ]
           },
           {
             "name": "garbage.jpg",
-            "words": ["garbage"]
+            "words": [
+              "garbage"
+            ]
           },
           {
             "name": "rummage.jpg",
-            "words": ["rummage"]
+            "words": [
+              "rummage"
+            ]
           },
           {
             "name": "predator.jpg",
-            "words": ["predator"]
+            "words": [
+              "predator"
+            ]
           },
           {
             "name": "catch.jpg",
-            "words": ["catch"]
+            "words": [
+              "catch"
+            ]
           },
           {
             "name": "apart.jpg",
-            "words": ["apart"]
+            "words": [
+              "apart"
+            ]
           },
           {
             "name": "together.jpg",
-            "words": ["together"]
+            "words": [
+              "together"
+            ]
           },
           {
             "name": "pleasant.jpg",
-            "words": ["pleasant"]
+            "words": [
+              "pleasant"
+            ]
           },
           {
             "name": "criminal justice.jpg",
-            "words": ["criminal justice"]
+            "words": [
+              "criminal justice"
+            ]
           },
           {
             "name": "reach end.jpg",
-            "words": ["reach end"]
+            "words": [
+              "reach end"
+            ]
           },
           {
             "name": "adult school.jpg",
-            "words": ["adult school"]
+            "words": [
+              "adult school"
+            ]
           },
           {
             "name": "volunteer.jpg",
-            "words": ["volunteer"]
+            "words": [
+              "volunteer"
+            ]
           },
           {
             "name": "vocational courses.jpg",
-            "words": ["vocational courses"]
+            "words": [
+              "vocational courses"
+            ]
           },
           {
             "name": "spend.jpg",
-            "words": ["spend"]
+            "words": [
+              "spend"
+            ]
           },
           {
             "name": "clothes.jpg",
-            "words": ["clothes"]
+            "words": [
+              "clothes"
+            ]
           },
           {
             "name": "haircut.jpg",
-            "words": ["haircut"]
+            "words": [
+              "haircut"
+            ]
           },
           {
             "name": "graduation.jpg",
-            "words": ["graduation"]
+            "words": [
+              "graduation"
+            ]
           },
           {
             "name": "damage.jpg",
-            "words": ["damage"]
+            "words": [
+              "damage"
+            ]
           },
           {
             "name": "nowhere to shelter.jpg",
-            "words": ["nowhere to shelter"]
+            "words": [
+              "nowhere to shelter"
+            ]
           },
           {
             "name": "get wet.jpg",
-            "words": ["get wet"]
+            "words": [
+              "get wet"
+            ]
           },
           {
             "name": "unexpected.jpg",
-            "words": ["unexpected"]
+            "words": [
+              "unexpected"
+            ]
           },
           {
             "name": "prize.jpg",
-            "words": ["prize", "trophy"]
+            "words": [
+              "prize",
+              "trophy"
+            ]
           },
           {
             "name": "journey.jpg",
-            "words": ["journey"]
+            "words": [
+              "journey",
+              "tourist"
+            ]
           },
           {
             "name": "picnic.jpg",
-            "words": ["picnic"]
+            "words": [
+              "picnic"
+            ]
           },
           {
             "name": "thirsty.jpg",
-            "words": ["thirsty"]
+            "words": [
+              "thirsty"
+            ]
           },
           {
             "name": "veggies.jpg",
-            "words": ["veggies"]
+            "words": [
+              "veggies"
+            ]
           },
           {
             "name": "cut grass.jpg",
-            "words": ["cut grass"]
+            "words": [
+              "cut grass"
+            ]
           },
           {
             "name": "explode.jpg",
-            "words": ["explode"]
+            "words": [
+              "explode"
+            ]
           },
           {
             "name": "boring.jpg",
-            "words": ["boring"]
+            "words": [
+              "boring"
+            ]
           },
           {
             "name": "bit messy.jpg",
-            "words": ["bit messy"]
+            "words": [
+              "bit messy"
+            ]
           },
           {
             "name": "difficult.jpg",
-            "words": ["difficult"]
+            "words": [
+              "difficult"
+            ]
           },
           {
             "name": "quiz.jpg",
-            "words": ["quiz"]
+            "words": [
+              "quiz"
+            ]
           },
           {
             "name": "female.jpg",
-            "words": ["female"]
+            "words": [
+              "female"
+            ]
           },
           {
             "name": "male.jpg",
-            "words": ["male"]
+            "words": [
+              "male"
+            ]
           },
           {
             "name": "blouse.jpg",
-            "words": ["blouse"]
+            "words": [
+              "blouse"
+            ]
           },
           {
             "name": "laundry.jpg",
-            "words": ["laundry"]
+            "words": [
+              "laundry"
+            ]
           },
           {
             "name": "mad.jpg",
-            "words": ["mad"]
+            "words": [
+              "mad"
+            ]
           },
           {
             "name": "Grand Canyon.jpg",
-            "words": ["Grand Canyon", "wilderness"]
+            "words": [
+              "Grand Canyon",
+              "wilderness"
+            ]
           },
           {
             "name": "decorate.jpg",
-            "words": ["decorate"]
+            "words": [
+              "decorate"
+            ]
           },
           {
             "name": "give a presentation.jpg",
-            "words": ["give a presentation"]
+            "words": [
+              "give a presentation"
+            ]
           },
           {
             "name": "drill.jpg",
-            "words": ["drill"]
+            "words": [
+              "drill"
+            ]
           },
           {
             "name": "encyclopedia.jpg",
-            "words": ["encyclopedia"]
+            "words": [
+              "encyclopedia"
+            ]
           },
           {
             "name": "alphabetical.jpg",
-            "words": ["alphabetical"]
+            "words": [
+              "alphabetical"
+            ]
           },
           {
             "name": "material.jpg",
-            "words": ["material"]
+            "words": [
+              "material"
+            ]
           },
           {
             "name": "journal.jpg",
-            "words": ["journal"]
+            "words": [
+              "journal"
+            ]
           },
           {
             "name": "journalist.jpg",
-            "words": ["journalist"]
+            "words": [
+              "journalist"
+            ]
           },
           {
             "name": "odd number.jpg",
-            "words": ["odd number"]
+            "words": [
+              "odd number"
+            ]
           },
           {
             "name": "even number.jpg",
-            "words": ["even number"]
+            "words": [
+              "even number"
+            ]
           },
           {
             "name": "tasty food.jpg",
-            "words": ["tasty food", "delicous"]
+            "words": [
+              "tasty food",
+              "delicous"
+            ]
           },
           {
             "name": "gift certificate.jpg",
-            "words": ["gift certificate"]
+            "words": [
+              "gift certificate"
+            ]
           },
           {
             "name": "flat tire.jpg",
-            "words": ["flat tire"]
+            "words": [
+              "flat tire"
+            ]
           },
           {
             "name": "take a nap.jpg",
-            "words": ["take a nap"]
+            "words": [
+              "take a nap"
+            ]
           },
           {
             "name": "vet.jpg",
-            "words": ["vet"]
+            "words": [
+              "vet"
+            ]
           },
           {
             "name": "sightseeing.jpg",
-            "words": ["sightseeing"]
+            "words": [
+              "sightseeing"
+            ]
           },
           {
             "name": "physical activity.jpg",
-            "words": ["physical activity"]
+            "words": [
+              "physical activity"
+            ]
           },
           {
             "name": "burritos.jpg",
-            "words": ["burritos"]
+            "words": [
+              "burritos"
+            ]
           },
           {
             "name": "lottery.jpg",
-            "words": ["lottery"]
+            "words": [
+              "lottery"
+            ]
           },
           {
             "name": "dentist.jpg",
-            "words": ["dentist"]
+            "words": [
+              "dentist"
+            ]
           },
           {
             "name": "floss.jpg",
-            "words": ["floss"]
+            "words": [
+              "floss"
+            ]
           },
           {
             "name": "timid.jpg",
-            "words": ["timid"]
+            "words": [
+              "timid"
+            ]
           },
           {
             "name": "hop.jpg",
-            "words": ["hop"]
+            "words": [
+              "hop"
+            ]
           },
           {
             "name": "bathtub.jpg",
-            "words": ["bathtub"]
+            "words": [
+              "bathtub"
+            ]
           },
           {
             "name": "splash.jpg",
-            "words": ["splash"]
+            "words": [
+              "splash"
+            ]
           },
           {
             "name": "tire blow.jpg",
-            "words": ["tire blow"]
+            "words": [
+              "tire blow"
+            ]
           },
           {
             "name": "grill.jpg",
-            "words": ["grill"]
+            "words": [
+              "grill"
+            ]
           },
           {
             "name": "chore.jpg",
-            "words": ["chore"]
+            "words": [
+              "chore"
+            ]
           },
           {
             "name": "fed.jpg",
-            "words": ["fed", "feed"]
+            "words": [
+              "fed",
+              "feed"
+            ]
           },
           {
             "name": "treasure.jpg",
-            "words": ["treasure", "reserve", "fortune"]
+            "words": [
+              "treasure",
+              "reserve",
+              "fortune"
+            ]
           },
           {
             "name": "swing.jpg",
-            "words": ["swing"]
+            "words": [
+              "swing"
+            ]
           },
           {
             "name": "sneak.jpg",
-            "words": ["sneak"]
+            "words": [
+              "sneak"
+            ]
           },
           {
             "name": "seesaw.jpg",
-            "words": ["seesaw"]
+            "words": [
+              "seesaw"
+            ]
           },
           {
             "name": "crawl.jpg",
-            "words": ["crawl"]
+            "words": [
+              "crawl"
+            ]
           },
           {
             "name": "pirate.jpg",
-            "words": ["pirate"]
+            "words": [
+              "pirate"
+            ]
           },
           {
             "name": "shout.jpg",
-            "words": ["shout"]
+            "words": [
+              "shout"
+            ]
           },
           {
             "name": "atlas.jpg",
-            "words": ["atlas"]
+            "words": [
+              "atlas"
+            ]
           }
         ]
       },
@@ -1259,51 +1874,76 @@
         "pictureFiles": [
           {
             "name": "elementary education.jpg",
-            "words": ["elementary education"]
+            "words": [
+              "elementary education"
+            ]
           },
           {
             "name": "striped.jpg",
-            "words": ["striped"]
+            "words": [
+              "striped"
+            ]
           },
           {
             "name": "checked.jpg",
-            "words": ["checked", "checker pattern"]
+            "words": [
+              "checked",
+              "checker pattern"
+            ]
           },
           {
             "name": "plaid.jpg",
-            "words": ["plaid"]
+            "words": [
+              "plaid"
+            ]
           },
           {
             "name": "crumple.jpg",
-            "words": ["crumple"]
+            "words": [
+              "crumple"
+            ]
           },
           {
             "name": "rip.jpg",
-            "words": ["rip"]
+            "words": [
+              "rip"
+            ]
           },
           {
             "name": "tear down.jpg",
-            "words": ["tear down"]
+            "words": [
+              "tear down"
+            ]
           },
           {
             "name": "tear.jpg",
-            "words": ["tear"]
+            "words": [
+              "tear"
+            ]
           },
           {
             "name": "camouflage.jpg",
-            "words": ["camouflage"]
+            "words": [
+              "camouflage"
+            ]
           },
           {
             "name": "puffy cloud.jpg",
-            "words": ["puffy cloud"]
+            "words": [
+              "puffy cloud"
+            ]
           },
           {
             "name": "beat making.jpg",
-            "words": ["beat making"]
+            "words": [
+              "beat making"
+            ]
           },
           {
             "name": "chemical.jpg",
-            "words": ["chemical"]
+            "words": [
+              "chemical"
+            ]
           },
           {
             "name": "prediction.jpg",
@@ -1317,15 +1957,21 @@
           },
           {
             "name": "held high.jpg",
-            "words": ["held high"]
+            "words": [
+              "held high"
+            ]
           },
           {
             "name": "shadow.jpg",
-            "words": ["shadow"]
+            "words": [
+              "shadow"
+            ]
           },
           {
             "name": "hibernate.jpg",
-            "words": ["hibernate"]
+            "words": [
+              "hibernate"
+            ]
           },
           {
             "name": "fed up with.jpg",
@@ -1339,167 +1985,327 @@
           },
           {
             "name": "peek.jpg",
-            "words": ["peek", "to become visible", "emerge"]
+            "words": [
+              "peek",
+              "to become visible",
+              "emerge"
+            ]
           },
           {
             "name": "crossed fingers.jpg",
-            "words": ["crossed fingers", "wish for luck"]
+            "words": [
+              "crossed fingers",
+              "wish for luck"
+            ]
           },
           {
             "name": "signature.jpg",
-            "words": ["signature"]
+            "words": [
+              "signature"
+            ]
           },
           {
             "name": "deposited.jpg",
-            "words": ["deposited"]
+            "words": [
+              "deposited",
+              "credit"
+            ]
           },
           {
             "name": "withdraw.jpg",
-            "words": ["withdraw", "withdrawal"]
+            "words": [
+              "withdraw",
+              "withdrawal",
+              "debit"
+            ]
           },
           {
             "name": "teller.jpg",
-            "words": ["teller"]
+            "words": [
+              "teller"
+            ]
           },
           {
             "name": "bills.jpg",
-            "words": ["bills"]
+            "words": [
+              "bills"
+            ]
           },
           {
             "name": "coins.jpg",
-            "words": ["coins"]
+            "words": [
+              "coins"
+            ]
           },
           {
             "name": "cheque.jpg",
-            "words": ["cheque", "check"]
+            "words": [
+              "cheque",
+              "check"
+            ]
           },
           {
             "name": "currency.jpg",
-            "words": ["currency"]
+            "words": [
+              "currency"
+            ]
           },
           {
             "name": "silent.jpg",
-            "words": ["silent", "quiet"]
+            "words": [
+              "silent",
+              "quiet"
+            ]
           },
           {
             "name": "sentences.jpg",
-            "words": ["sentences"]
+            "words": [
+              "sentences"
+            ]
           },
           {
             "name": "jewelry.jpg",
-            "words": ["jewelry"]
+            "words": [
+              "jewelry"
+            ]
           },
           {
             "name": "safety deposit box.jpg",
-            "words": ["safety deposit box"]
+            "words": [
+              "safety deposit box"
+            ]
           },
           {
             "name": "security guard.jpg",
-            "words": ["security guard"]
+            "words": [
+              "security guard"
+            ]
           },
           {
             "name": "robber.jpg",
-            "words": ["robber", "thief", "steal", "thieves"]
+            "words": [
+              "robber",
+              "thief",
+              "steal",
+              "thieves"
+            ]
           },
           {
             "name": "acronym.jpg",
-            "words": ["acronym"]
+            "words": [
+              "acronym",
+              "stand for"
+            ]
           },
           {
             "name": "advantage.jpg",
-            "words": ["advantage", "like"]
+            "words": [
+              "advantage",
+              "like"
+            ]
           },
           {
             "name": "disadvantage.jpg",
-            "words": ["disadvantage", "dislike"]
+            "words": [
+              "disadvantage",
+              "dislike"
+            ]
           },
           {
             "name": "fill.jpg",
-            "words": ["fill"]
+            "words": [
+              "fill"
+            ]
           },
           {
             "name": "till.jpg",
-            "words": ["till", "moneybox", "cash register"]
+            "words": [
+              "till",
+              "moneybox",
+              "cash register"
+            ]
           },
           {
             "name": "purse.jpg",
-            "words": ["purse"]
+            "words": [
+              "purse"
+            ]
           },
           {
             "name": "purchase.jpg",
-            "words": ["purchase"]
+            "words": [
+              "purchase"
+            ]
           },
           {
             "name": "annual ring.jpg",
-            "words": ["annual ring"]
+            "words": [
+              "annual ring"
+            ]
           },
           {
             "name": "lend.jpg",
-            "words": ["lend", "borrow", "earn", "loan"]
+            "words": [
+              "lend",
+              "borrow",
+              "earn",
+              "loan"
+            ]
           },
           {
             "name": "opinion.jpg",
-            "words": ["opinion"]
+            "words": [
+              "opinion"
+            ]
           },
           {
             "name": "caribou.jpg",
-            "words": ["caribou"]
+            "words": [
+              "caribou"
+            ]
           },
           {
             "name": "stapler.jpg",
-            "words": ["stapler"]
+            "words": [
+              "stapler"
+            ]
           },
           {
             "name": "monorail.jpg",
-            "words": ["monorail"]
+            "words": [
+              "monorail"
+            ]
           },
           {
             "name": "red envelope.jpg",
-            "words": ["red envelope"]
+            "words": [
+              "red envelope"
+            ]
           },
           {
             "name": "cheer.jpg",
-            "words": ["cheer", "cheerful"]
+            "words": [
+              "cheer",
+              "cheerful"
+            ]
           },
           {
             "name": "alcohol.jpg",
-            "words": ["alcohol"]
+            "words": [
+              "alcohol"
+            ]
           },
           {
             "name": "yacht.jpg",
-            "words": ["yacht"]
+            "words": [
+              "yacht"
+            ]
           },
           {
             "name": "casinos.jpg",
-            "words": ["casinos"]
+            "words": [
+              "casinos"
+            ]
           },
           {
             "name": "Cupid.jpg",
-            "words": ["Cupid", "valentine's day", "romance", "archer"]
+            "words": [
+              "Cupid",
+              "valentine's day",
+              "romance",
+              "archer"
+            ]
           },
           {
             "name": "gestures.jpg",
-            "words": ["gestures"]
+            "words": [
+              "gestures"
+            ]
           },
           {
             "name": "doves.jpg",
-            "words": ["doves"]
+            "words": [
+              "doves"
+            ]
           },
           {
             "name": "fireworks.jpg",
-            "words": ["fireworks"]
+            "words": [
+              "fireworks"
+            ]
           },
           {
             "name": "whisper.jpg",
-            "words": ["whisper"]
+            "words": [
+              "whisper"
+            ]
           },
           {
             "name": "saint.jpg",
-            "words": ["saint"]
+            "words": [
+              "saint"
+            ]
           },
           {
             "name": "hug.jpg",
-            "words": ["hug"]
+            "words": [
+              "hug"
+            ]
+          },
+          {
+            "name": "jackpot.jpg",
+            "words": [
+              "jackpot"
+            ]
+          },
+          {
+            "name": "grand.jpg",
+            "words": [
+              "grand",
+              "thousand"
+            ]
+          },
+          {
+            "name": "engagement ring.jpg",
+            "words": [
+              "engagement ring"
+            ]
+          },
+          {
+            "name": "electronics store.jpg",
+            "words": [
+              "electronics store"
+            ]
+          },
+          {
+            "name": "church.jpg",
+            "words": [
+              "church"
+            ]
+          },
+          {
+            "name": "piggy bank.jpg",
+            "words": [
+              "piggy bank"
+            ]
+          },
+          {
+            "name": "yoga.jpg",
+            "words": [
+              "yoga"
+            ]
+          },
+          {
+            "name": "slot.jpg",
+            "words": [
+              "slot"
+            ]
+          },
+          {
+            "name": "surgery.jpg",
+            "words": [
+              "surgery"
+            ]
           }
         ]
       }
