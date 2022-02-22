@@ -416,6 +416,21 @@
             "words": [
               "spend"
             ]
+          },
+          {
+            "name": "lend.jpg",
+            "words": [
+              "lend",
+              "borrow",
+              "earn",
+              "loan"
+            ]
+          },
+          {
+            "name": "slot.jpg",
+            "words": [
+              "slot"
+            ]
           }
         ]
       }
@@ -996,7 +1011,8 @@
             "name": "fat.jpg",
             "words": [
               "fat",
-              "overweight"
+              "overweight",
+              "heavy"
             ]
           },
           {
@@ -1111,6 +1127,62 @@
             "name": "calf.jpg",
             "words": [
               "calf"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "People",
+    "topics": [
+      {
+        "name": "Adults and Children",
+        "pictureFiles": [
+          {
+            "name": "young.jpg",
+            "words": [
+              "young",
+              "teenager",
+              "teen"
+            ]
+          },
+          {
+            "name": "old.jpg",
+            "words": [
+              "old",
+              "elderly"
+            ]
+          },
+          {
+            "name": "middle age.jpg",
+            "words": [
+              "middle age",
+              "female"
+            ]
+          },
+          {
+            "name": "toddler.jpg",
+            "words": [
+              "toddler"
+            ]
+          },
+          {
+            "name": "male.jpg",
+            "words": [
+              "male"
+            ]
+          },
+          {
+            "name": "pregnant.jpg",
+            "words": [
+              "pregnant"
+            ]
+          },
+          {
+            "name": "infant.jpg",
+            "words": [
+              "infant"
             ]
           }
         ]
@@ -1699,15 +1771,6 @@
             ]
           },
           {
-            "name": "lend.jpg",
-            "words": [
-              "lend",
-              "borrow",
-              "earn",
-              "loan"
-            ]
-          },
-          {
             "name": "opinion.jpg",
             "words": [
               "opinion"
@@ -1839,12 +1902,6 @@
             ]
           },
           {
-            "name": "slot.jpg",
-            "words": [
-              "slot"
-            ]
-          },
-          {
             "name": "surgery.jpg",
             "words": [
               "surgery"
@@ -1855,24 +1912,6 @@
       {
         "name": "Undefined",
         "pictureFiles": [
-          {
-            "name": "young.jpg",
-            "words": [
-              "young"
-            ]
-          },
-          {
-            "name": "old.jpg",
-            "words": [
-              "old"
-            ]
-          },
-          {
-            "name": "middle age.jpg",
-            "words": [
-              "middle age"
-            ]
-          },
           {
             "name": "garbage.jpg",
             "words": [
@@ -2053,18 +2092,6 @@
             "name": "quiz.jpg",
             "words": [
               "quiz"
-            ]
-          },
-          {
-            "name": "female.jpg",
-            "words": [
-              "female"
-            ]
-          },
-          {
-            "name": "male.jpg",
-            "words": [
-              "male"
             ]
           },
           {
