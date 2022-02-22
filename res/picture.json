@@ -494,6 +494,12 @@
             ]
           },
           {
+            "name": "transaction.jpg",
+            "words": [
+              "transaction"
+            ]
+          },
+          {
             "name": "signature.jpg",
             "words": [
               "signature"
