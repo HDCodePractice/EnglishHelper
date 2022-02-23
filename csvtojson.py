@@ -7,7 +7,8 @@ from utils import fileproc
 with open("res/iverbs.csv", "r") as iverb_csvfile:
     with open("res/inouns.csv", "r") as inouns_csvfile:
         word_dict = {}
-        word_dict = fileproc.gen_irregular_dict_from_csv(iverb_csvfile, inouns_csvfile)
+        word_dict = fileproc.gen_irregular_dict_from_csv(
+            iverb_csvfile, inouns_csvfile)
         print(f"Irregular单词条目：{len(word_dict)}个")
         fileproc.save_word_dict("word_dict.json", word_dict)
         s = badge(left_text="Irregular Words", right_text=f"{len(word_dict)}")
