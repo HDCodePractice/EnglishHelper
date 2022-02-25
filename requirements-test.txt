@@ -8,3 +8,6 @@ requests
 pronouncing
 pybadges
 nltk
+google_spreadsheet
+google-auth-oauthlib
+panadas
