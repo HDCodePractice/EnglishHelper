@@ -37,7 +37,7 @@ Community,Downtown,bank,bank.jpg,https://freesvg.org/bank
 Community,Downtown,police station,police station.jpg,https://pixabay.com/zh/photos/usa-new-york-nypd-vehicles-2664918/
 Community,Downtown,bus station,bus station.jpg,https://unsplash.com/photos/eDk6B7070Qc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,city hall,city hall.jpg,https://www.flickr.com/photos/caribb/86227954
-Community,Downtown,hospital,hospital.jpg,https://unsplash.com/photos/DE6rYp1nAho?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Community,Downtown,hospital/clinic,hospital.jpg,https://unsplash.com/photos/DE6rYp1nAho?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,gas station,gas station.jpg,https://unsplash.com/photos/t8bDFvkhNQY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,post office,post office.jpg,https://unsplash.com/photos/N2EKGTgu5-k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Community,Downtown,fire station,fire station.jpg,https://unsplash.com/photos/HAZ0uomHB38?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -51,7 +51,7 @@ Community,The Bank,teller,teller.jpg,https://pixabay.com/zh/illustrations/bank-t
 Community,The Bank,issue a fine,issue a fine.jpg,https://unsplash.com/photos/crGG3QXuyPc
 Community,The Bank,safety deposit box/safe box,safety deposit box.jpg,https://unsplash.com/photos/Uf-c4u1usFQ
 Community,The Bank,security guard,security guard.jpg,https://unsplash.com/photos/JEBeXUHm1c4
-Community,The Bank,robber/thief/steal/thieves,robber.jpg,https://pixabay.com/zh/photos/money-heist-thieves-robbery-gun-6632767/
+Community,The Bank,robber/thief/steal/thieves/burglar/crime/thief,robber.jpg,https://pixabay.com/zh/photos/money-heist-thieves-robbery-gun-6632767/
 Community,The Bank,vault,vault.jpg,https://unsplash.com/photos/3wPJxh-piRw
 Community,The Bank,deposited/deposit,deposited.jpg,hd
 Community,The Bank,withdraw/withdrew/withdrawal,withdraw.jpg,hd
@@ -68,7 +68,7 @@ Community,The Bank,red envelope,red envelope.jpg,https://pixabay.com/zh/vectors/
 Community,The Bank,piggy bank,piggy bank.jpg,https://unsplash.com/photos/EmGF98ckNSU
 Community,The Bank,spend,spend.jpg,https://pixabay.com/zh/illustrations/invoice-cash-payments-concept-3739354/
 Community,The Bank,lend/borrow/loan,lend.jpg,https://pixabay.com/zh/illustrations/salary-payout-donation-payroll-man-3038325/
-Community,The Bank,earn/payroll,earn.jpg,hd
+Community,The Bank,earn/payroll/income/salary,earn.jpg,hd
 Community,The Bank,consuming,consuming.jpg,hd
 Community,The Bank,slot,slot.jpg,https://unsplash.com/photos/QtTKfb23nBc
 Community,The Bank,pay it off/payback/owe/debt/due,pay it off.jpg,hd
@@ -119,29 +119,35 @@ Health,A Pharmacy,ointment,ointment.jpg,jessie
 Health,A Pharmacy,cream,cream.jpg,https://unsplash.com/photos/MpNXD5txHIc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,A Pharmacy,prescribe,prescribe.jpg,https://libreshot.com/doctor-writes-a-prescription/
 Health,Symptoms and Injuries,toothache,toothache.jpg,https://unsplash.com/photos/G3CcxmXGmmo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Health,Symptoms and Injuries,earache,earache.jpg,https://www.flickr.com/photos/30478819@N08/51184090571
-Health,Symptoms and Injuries,stomachache,stomachache.jpg,https://pixabay.com/zh/vectors/stomach-pain-stomachache-6615937/
+Health,Symptoms and Injuries,earache/ear infection,earache.jpg,https://www.flickr.com/photos/30478819@N08/51184090571
+Health,Symptoms and Injuries,stomachache/heartburn/upset stomach,stomachache.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392164/
 Health,Symptoms and Injuries,backache,backache.jpg,https://pixabay.com/zh/illustrations/back-pain-pain-body-backache-5308969/
-Health,Symptoms and Injuries,sore throa/laryngitis,sore throa.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392161/
+Health,Symptoms and Injuries,sore throat/laryngitis,sore throat.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392161/
 Health,Symptoms and Injuries,nasal congestion,nasal congestion.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Nasal_Congestion.png
 Health,Symptoms and Injuries,fever/temperature,fever.jpg,https://pixabay.com/zh/vectors/fever-sick-thermometer-woman-bed-310721/
-Health,Symptoms and Injuries,chills,chills.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392162/
+Health,Symptoms and Injuries,chills/a cold,chills.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392162/
 Health,Symptoms and Injuries,rash/allergy,rash.jpg,https://www.flickr.com/photos/75491103@N00/2271711501
 Health,Symptoms and Injuries,cough,cough.jpg,https://unsplash.com/photos/_S0XzuaZLas?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,Symptoms and Injuries,sneeze,sneeze.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392137/
-Health,Symptoms and Injuries,feel dizzy/headache,feel dizzy.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_feeling_dizzy.png
+Health,Symptoms and Injuries,headache/feel dizzy/dizziness,headache.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392164/
 Health,Symptoms and Injuries,feel nauseous,feel nauseous.jpg,https://pixabay.com/zh/illustrations/emotiguy-sad-thoughtful-face-1654864/
 Health,Symptoms and Injuries,throw up/vomit,throw up.jpg,https://pixabay.com/zh/illustrations/nausea-smiley-kotzender-vomiting-1876470/
 Health,Symptoms and Injuries,stiff neck,stiff neck.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392172/
 Health,Symptoms and Injuries,cramp,cramp.jpg,https://pixabay.com/zh/photos/boo-swindon-town-football-pain-2399974/
 Health,Symptoms and Injuries,bruise,bruise.jpg,https://unsplash.com/photos/hs6XhCjBMz0
-Health,Symptoms and Injuries,sprain,sprain.jpg,https://unsplash.com/photos/YGE42qjlWjE
+Health,Symptoms and Injuries,sprain/a sprained ankle,sprain.jpg,https://unsplash.com/photos/YGE42qjlWjE
 Health,Symptoms and Injuries,scrape,scrape.jpg,https://pixabay.com/zh/photos/injury-arm-injured-hurt-man-elbow-199025/
 Health,Symptoms and Injuries,diarrhea,diarrhea.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Diarrhea.png
 Health,Symptoms and Injuries,callous,callous.jpg,https://unsplash.com/photos/OUULalUWP3o
 Health,Symptoms and Injuries,medicines,medicines.jpg,https://unsplash.com/photos/FEPfs43yiPE
 Health,Symptoms and Injuries,treat sick people,treat sick people.jpg,https://unsplash.com/photos/IFKv3LESkVg
 Health,Symptoms and Injuries,pharmacy,pharmacy.jpg,https://unsplash.com/photos/747NDboAWNY
+Health,Symptoms and Injuries,wrist pain,wrist pain.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392170/
+Health,Symptoms and Injuries,chest pains,chest pains.jpg,https://pixabay.com/zh/photos/man-heartache-chest-pain-hurt-pain-1846050/
+Health,Symptoms and Injuries,a injured hand,a injured hand.jpg,https://pixabay.com/zh/vectors/bandage-hand-bandaged-tape-first-37364/
+Health,Symptoms and Injuries,crutches,crutches.jpg,https://unsplash.com/photos/rxV0_gPzX8I
+Health,Symptoms and Injuries,broken bones/X-ray,broken bones.jpg,https://unsplash.com/photos/ouyjDk-KdfY
+Health,Symptoms and Injuries,accident,accident.jpg,https://unsplash.com/photos/ipHlSSaC3vk
 Health,Symptoms and Injuries,surgery,surgery.jpg,https://unsplash.com/photos/tMFeatBSS4s
 Health,The Body,head,head.jpg,https://unsplash.com/photos/bhoj9tHlsiY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,hair,hair.jpg,https://unsplash.com/photos/dnpa8k6TGRE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -151,7 +157,7 @@ Health,The Body,back,back.jpg,https://unsplash.com/photos/MThIIpW8rpU?utm_source
 Health,The Body,nose,nose.jpg,https://unsplash.com/photos/jgLvmlyXelc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,mouth,mouth.jpg,https://unsplash.com/photos/x7Xn9yMyf30?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,foot/feet/toe,foot.jpg,https://unsplash.com/photos/jyyNiSEcCl4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-Health,The Body,leg,leg.jpg,https://unsplash.com/photos/CvYZwRRifzo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+Health,The Body,leg/knee,leg.jpg,https://unsplash.com/photos/CvYZwRRifzo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,eye,eye.jpg,https://unsplash.com/photos/iXspFCVXoaw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,ear,ear.jpg,https://unsplash.com/photos/WaMMo0it6Vg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 Health,The Body,shoulder,shoulder.jpg,https://unsplash.com/photos/5TcVAZmmxpY
@@ -367,4 +373,6 @@ Undefined,Undefined,crawl,crawl.jpg,https://unsplash.com/photos/-d6sy-eKQ8s
 Undefined,Undefined,pirate,pirate.jpg,https://pixabay.com/zh/photos/woman-model-portrait-costume-6079989/
 Undefined,Undefined,shout,shout.jpg,https://unsplash.com/photos/oxQ17xPcEeM
 Undefined,Undefined,atlas,atlas.jpg,https://unsplash.com/photos/o0l-M8W_7wA
-Undefined,New this week,bullying,bullying.jpg,https://pixabay.com/zh/illustrations/bully-bullying-boys-624747/
+Undefined,New this week,bullying/bullied/bully/victim/target,bullying.jpg,https://pixabay.com/zh/illustrations/bully-bullying-boys-624747/
+Undefined,New this week,stand up for/support/defense,stand up for.jpg,https://unsplash.com/photos/2P6Q7_uiDr0
+Undefined,New this week,ladder,ladder.jpg,https://unsplash.com/photos/BFO8xXD__gM
