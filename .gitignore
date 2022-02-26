@@ -132,3 +132,4 @@ local.env
 .DS_Store
 .vscode
 tmp
+secret.json
