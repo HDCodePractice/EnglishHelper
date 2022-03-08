@@ -115,6 +115,7 @@ Health,A Pharmacy,wheelchair,wheelchair.jpg,https://unsplash.com/photos/zBsdRTHI
 Health,A Pharmacy,pill,pill.jpg,https://unsplash.com/photos/jYhYhljoinU
 Health,A Pharmacy,tablet,tablet.jpg,https://unsplash.com/photos/kkysaOcVE94
 Health,A Pharmacy,capsule,capsule.jpg,https://unsplash.com/photos/WHSnkIwWpec
+Health,A Pharmacy,vitamin,vitamin.jpg,https://www.flaticon.com/free-icon/vitamin-c_2927436
 Health,A Pharmacy,ointment,ointment.jpg,jessie
 Health,A Pharmacy,cream,cream.jpg,https://unsplash.com/photos/MpNXD5txHIc
 Health,A Pharmacy,prescribe,prescribe.jpg,https://libreshot.com/doctor-writes-a-prescription/
@@ -134,6 +135,7 @@ Health,Medical Care,put on some aloe vera,put on some aloe vera.jpg,https://unsp
 Health,Medical Care,put on a band aid,put on a band aid.jpg,https://unsplash.com/photos/SwWjCbIIoFE
 Health,Medical Care,put on a cast/use crutches,put on a cast.jpg,https://unsplash.com/photos/5z8fGuV36UY
 Health,Medical Care,drink cough syrup,drink cough syrup.jpg,https://pixabay.com/zh/photos/cough-syrup-medicine-spoon-2557629/
+Health,Medical Care,acupuncture,acupuncture.jpg,https://unsplash.com/photos/QgcdtM9rA5s
 Health,Medical Care,get som rest,get som rest.jpg,https://unsplash.com/photos/6sNQftdA3Zs
 Health,Symptoms and Injuries,teeth are crooked,teeth are crooked.jpg,https://unsplash.com/photos/VC5lS43bwJo
 Health,Symptoms and Injuries,swollen ankle,swollen ankle.jpg,https://icons8.com/icons/set/swollen-ankle
@@ -143,6 +145,7 @@ Health,Symptoms and Injuries,tired/sleepy,tired.jpg,https://unsplash.com/photos/
 Health,Symptoms and Injuries,stomachache/heartburn/upset stomach,stomachache.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392164/
 Health,Symptoms and Injuries,backache/sore back,backache.jpg,https://pixabay.com/zh/illustrations/back-pain-pain-body-backache-5308969/
 Health,Symptoms and Injuries,sore throat/laryngitis,sore throat.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392161/
+Health,Symptoms and Injuries,high blood pressure,high blood pressure.jpg,https://unsplash.com/photos/LbUOh89q4Es
 Health,Symptoms and Injuries,nasal congestion,nasal congestion.jpg,https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Nasal_Congestion.png
 Health,Symptoms and Injuries,fever/temperature,fever.jpg,https://pixabay.com/zh/vectors/fever-sick-thermometer-woman-bed-310721/
 Health,Symptoms and Injuries,chills/a cold,chills.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392136/
@@ -162,11 +165,15 @@ Health,Symptoms and Injuries,callous,callous.jpg,https://unsplash.com/photos/OUU
 Health,Symptoms and Injuries,medicines,medicines.jpg,https://unsplash.com/photos/FEPfs43yiPE
 Health,Symptoms and Injuries,treat sick people,treat sick people.jpg,https://unsplash.com/photos/IFKv3LESkVg
 Health,Symptoms and Injuries,pharmacy,pharmacy.jpg,https://unsplash.com/photos/747NDboAWNY
-Health,Symptoms and Injuries,wrist pain,wrist pain.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392170/
+Health,Symptoms and Injuries,wrist pain/a sore wrist,wrist pain.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392170/
 Health,Symptoms and Injuries,chest pains,chest pains.jpg,https://pixabay.com/zh/photos/man-heartache-chest-pain-hurt-pain-1846050/
 Health,Symptoms and Injuries,an injured hand,an injured hand.jpg,https://pixabay.com/zh/vectors/bandage-hand-bandaged-tape-first-37364/
 Health,Symptoms and Injuries,virus,virus.jpg,https://unsplash.com/photos/k0KRNtqcjfw
 Health,Symptoms and Injuries,accident,accident.jpg,https://unsplash.com/photos/ipHlSSaC3vk
+Health,Symptoms and Injuries,a swollen knee,a swollen knee.jpg,https://icons8.com/icon/5vqZBWCuAnCq/knee
+Health,Symptoms and Injuries,asthma,asthma.jpg,https://www.flaticon.com/premium-icon/asthma_3954104
+Health,Symptoms and Injuries,dehydrat,dehydrat.jpg,https://unsplash.com/photos/iWj1UICQKUc
+Health,Symptoms and Injuries,dog bite,dog bite.jpg,https://unsplash.com/photos/PE69hOLm8H4
 Health,Symptoms and Injuries,a burn,a burn.jpg,https://unsplash.com/photos/4zIkrpG6Waw
 Health,The Body,chin,chin.jpg,https://unsplash.com/photos/NCDE-45v35Q
 Health,The Body,head,head.jpg,https://unsplash.com/photos/bhoj9tHlsiY
@@ -180,17 +187,19 @@ Health,The Body,nose,nose.jpg,https://unsplash.com/photos/jgLvmlyXelc
 Health,The Body,mouth,mouth.jpg,https://unsplash.com/photos/x7Xn9yMyf30
 Health,The Body,foot/feet/toe,foot.jpg,https://unsplash.com/photos/jyyNiSEcCl4
 Health,The Body,leg/knee,leg.jpg,https://unsplash.com/photos/CvYZwRRifzo
+Health,The Body,eyebrew,eyebrew.jpg,https://unsplash.com/photos/t809JJ6r9KA
 Health,The Body,eye,eye.jpg,https://unsplash.com/photos/iXspFCVXoaw
 Health,The Body,ear,ear.jpg,https://unsplash.com/photos/WaMMo0it6Vg
 Health,The Body,shoulder,shoulder.jpg,https://unsplash.com/photos/5TcVAZmmxpY
-Health,The Body,arm/elbow,arm.jpg,https://unsplash.com/photos/iXspFCVXoaw
+Health,The Body,arm,arm.jpg,https://unsplash.com/photos/5W2WbZhc2oY
+Health,The Body,elbow,elbow.jpg,https://unsplash.com/photos/5W2WbZhc2oY
 Health,The Body,hand,hand.jpg,https://unsplash.com/photos/iXspFCVXoaw
 Health,The Body,ponytail,ponytail.jpg,https://unsplash.com/photos/GecWh_zEHPI
 Health,The Body,dimple,dimple.jpg,https://unsplash.com/photos/ELtPwu3KuBw
 Health,The Body,bald,bald.jpg,https://unsplash.com/photos/ttCxuHlS03M
 Health,The Body,freckle,freckle.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,straight hair,straight hair.jpg,https://unsplash.com/photos/-6lGrOUTQBw
-Health,The Body,thin/silm,thin.jpg,https://unsplash.com/photos/-6lGrOUTQBw
+Health,The Body,thin/slim,thin.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,fat/overweight/heavy,fat.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,average build,average build.jpg,https://unsplash.com/photos/rga1zrpJd8o
 Health,The Body,muscular,muscular.jpg,https://unsplash.com/photos/22L7do1cOho
