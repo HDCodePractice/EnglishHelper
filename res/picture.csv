@@ -107,6 +107,7 @@ Everyday Language,Weather,hurricanes,hurricanes.jpg,https://unsplash.com/photos/
 Everyday Language,Weather,heat wave,heat wave.jpg,https://pixabay.com/zh/vectors/fever-hot-temp-thermometer-1300516/
 Everyday Language,Weather,cloudy,cloudy.jpg,https://unsplash.com/photos/MnnXMvs4cQo
 Everyday Language,Weather,warm,warm.jpg,https://unsplash.com/photos/A7nK49HCqSI
+Health,A Pharmacy,eye drops,eye drops.jpg,https://unsplash.com/photos/6F2mPewg2RA
 Health,A Pharmacy,patient,patient.jpg,https://unsplash.com/photos/DjrtjX-obcE
 Health,A Pharmacy,pharmacist,pharmacist.jpg,https://unsplash.com/photos/NNpo-liY5aU
 Health,A Pharmacy,prescription,prescription.jpg,https://commons.wikimedia.org/wiki/File:Typical_Doctors_Prescription.jpg
@@ -124,7 +125,7 @@ Health,A Pharmacy,first aid kit,first aid kit.jpg,https://unsplash.com/photos/Ma
 Health,A Pharmacy,vaccine/injection,vaccine.jpg,https://unsplash.com/photos/fi3zHLxWrYw
 Health,A Pharmacy,crutches,crutches.jpg,https://unsplash.com/photos/rxV0_gPzX8I
 Health,Medical Care,use a puffer/inhaler,use a puffer.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392146/
-Health,Medical Care,broken bones/X-ray,broken bones.jpg,https://unsplash.com/photos/ouyjDk-KdfY
+Health,Medical Care,broken bones/X-ray/break,broken bones.jpg,https://unsplash.com/photos/ouyjDk-KdfY
 Health,Medical Care,surgery,surgery.jpg,https://unsplash.com/photos/tMFeatBSS4s
 Health,Medical Care,get a needle,get a needle.jpg,https://unsplash.com/photos/r6u-fhltchE
 Health,Medical Care,get some stitches,get some stitches.jpg,https://unsplash.com/photos/GjAj2aNKw7E
@@ -138,6 +139,8 @@ Health,Medical Care,drink cough syrup,drink cough syrup.jpg,https://pixabay.com/
 Health,Medical Care,acupuncture,acupuncture.jpg,https://unsplash.com/photos/QgcdtM9rA5s
 Health,Medical Care,emergency/ambulance/urgent,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
 Health,Medical Care,get som rest,get som rest.jpg,https://unsplash.com/photos/6sNQftdA3Zs
+Health,Symptoms and Injuries,gargle,gargle.jpg,https://www.flaticon.com/free-icon/mouthwash_6565829
+Health,Symptoms and Injuries,faint,faint.jpg,https://www.flaticon.com/premium-icon/fainting_5730099
 Health,Symptoms and Injuries,teeth are crooked,teeth are crooked.jpg,https://unsplash.com/photos/VC5lS43bwJo
 Health,Symptoms and Injuries,swollen ankle,swollen ankle.jpg,https://icons8.com/icons/set/swollen-ankle
 Health,Symptoms and Injuries,toothache,toothache.jpg,https://unsplash.com/photos/G3CcxmXGmmo
@@ -168,6 +171,7 @@ Health,Symptoms and Injuries,medicines,medicines.jpg,https://unsplash.com/photos
 Health,Symptoms and Injuries,treat sick people,treat sick people.jpg,https://unsplash.com/photos/IFKv3LESkVg
 Health,Symptoms and Injuries,pharmacy,pharmacy.jpg,https://unsplash.com/photos/747NDboAWNY
 Health,Symptoms and Injuries,wrist pain/a sore wrist,wrist pain.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392170/
+Health,Symptoms and Injuries,bite,bite.jpg,https://pixabay.com/zh/photos/mosquito-insect-mosquito-bite-49141/
 Health,Symptoms and Injuries,chest pains/heart attack,chest pains.jpg,https://pixabay.com/zh/photos/man-heartache-chest-pain-hurt-pain-1846050/
 Health,Symptoms and Injuries,an injured hand,an injured hand.jpg,https://pixabay.com/zh/vectors/bandage-hand-bandaged-tape-first-37364/
 Health,Symptoms and Injuries,virus,virus.jpg,https://unsplash.com/photos/k0KRNtqcjfw
@@ -178,10 +182,13 @@ Health,Symptoms and Injuries,dehydrat,dehydrat.jpg,https://unsplash.com/photos/i
 Health,Symptoms and Injuries,dog bite,dog bite.jpg,https://unsplash.com/photos/PE69hOLm8H4
 Health,Symptoms and Injuries,decongestant,decongestant.jpg,https://www.flaticon.com/premium-icon/decongestants_2265381
 Health,Symptoms and Injuries,dislocated,dislocated.jpg,https://www.flaticon.com/premium-icon/collarbone_6045701
+Health,Symptoms and Injuries,burp/hiccup,burp.jpg,https://www.flaticon.com/free-icon/burp_5238336
+Health,Symptoms and Injuries,cavity,cavity.jpg,https://pixabay.com/zh/illustrations/dentist-icon-cavity-dental-tooth-913014/
 Health,Symptoms and Injuries,sunburn,sunburn.jpg,https://unsplash.com/photos/W_dZ-EF70e4
+Health,The Body,hip,hip.jpg,https://unsplash.com/photos/EyxoNGO6-Ks
+Health,The Body,finger,finger.jpg,https://unsplash.com/photos/ukDEbYnyDsU
 Health,The Body,chin,chin.jpg,https://unsplash.com/photos/NCDE-45v35Q
 Health,The Body,head,head.jpg,https://unsplash.com/photos/bhoj9tHlsiY
-Health,The Body,hair,hair.jpg,https://unsplash.com/photos/dnpa8k6TGRE
 Health,The Body,thumb,thumb.jpg,https://unsplash.com/photos/uYmF6ncEgLY
 Health,The Body,forehead,forehead.jpg,https://unsplash.com/photos/m7U6Zk-wU4M
 Health,The Body,neck,neck.jpg,https://unsplash.com/photos/gUPznplBsLI
@@ -197,7 +204,7 @@ Health,The Body,ear,ear.jpg,https://unsplash.com/photos/WaMMo0it6Vg
 Health,The Body,shoulder,shoulder.jpg,https://unsplash.com/photos/5TcVAZmmxpY
 Health,The Body,arm,arm.jpg,https://unsplash.com/photos/5W2WbZhc2oY
 Health,The Body,elbow,elbow.jpg,https://unsplash.com/photos/5W2WbZhc2oY
-Health,The Body,hand,hand.jpg,https://unsplash.com/photos/iXspFCVXoaw
+Health,The Body,hand,hand.jpg,https://unsplash.com/photos/7OeiQTVXvnQ
 Health,The Body,ponytail,ponytail.jpg,https://unsplash.com/photos/GecWh_zEHPI
 Health,The Body,dimple,dimple.jpg,https://unsplash.com/photos/ELtPwu3KuBw
 Health,The Body,bald,bald.jpg,https://unsplash.com/photos/ttCxuHlS03M
@@ -205,11 +212,14 @@ Health,The Body,freckle,freckle.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,straight hair,straight hair.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,brain,brain.jpg,https://unsplash.com/photos/58Z17lnVS4U
 Health,The Body,wrist,wrist.jpg,https://unsplash.com/photos/cJd0I67ZQK4
+Health,The Body,bum/butt,bum.jpg,https://unsplash.com/photos/dGeJNL7Pl6o
 Health,The Body,tongue,tongue.jpg,https://unsplash.com/photos/2BalskDOoLg
 Health,The Body,ankle,ankle.jpg,https://unsplash.com/photos/mhJds2UrLH8
 Health,The Body,thin/slim,thin.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,fat/overweight/heavy,fat.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Health,The Body,average build,average build.jpg,https://unsplash.com/photos/rga1zrpJd8o
+Health,The Body,vein,vein.jpg,https://www.flaticon.com/premium-icon/veins_3817935
+Health,The Body,artery,artery.jpg,https://www.flaticon.com/premium-icon/artery_3816798
 Health,The Body,thighs,thighs.jpg,https://unsplash.com/photos/ZUxdy0-FoYg
 Health,The Body,muscular,muscular.jpg,https://unsplash.com/photos/22L7do1cOho
 Health,The Body,chubby,chubby.jpg,https://unsplash.com/photos/gX-bQbm37ZI
