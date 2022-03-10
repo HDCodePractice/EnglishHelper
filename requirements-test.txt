@@ -11,3 +11,4 @@ nltk
 google_spreadsheet
 google-auth-oauthlib
 panadas
+azure-cognitiveservices-speech

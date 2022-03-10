@@ -94,6 +94,8 @@ class ENV:
     DATA_DIR = env.str("DATA_DIR", default="/data/user_dict")
     # 存储NLTK数据的文件夹
     NLTK_DATA_DIR = env.str("NLTK_DATA_DIR", default=None)
+    # 存储MS服务的TOKEN
+    MS_TOKEN = env.str("MS_TOKEN", default="")
 
 
 if __name__ == "__main__":
