@@ -25,8 +25,15 @@ synthesizer = SpeechSynthesizer(
 
 def gen_speak(text, filename):
     result = synthesizer.speak_text_async(text).get()
+    if result.reason == speechsdk.ResultReason.Canceled:
+        cancellation_details = result.cancellation_details
+        print(f"Speech synthesis canceled: {cancellation_details.reason}")
+        if cancellation_details.reason == speechsdk.CancellationReason.Error:
+            print(f"Error details: {cancellation_details.error_details}")
+        return False
     stream = AudioDataStream(result)
     stream.save_to_wav_file(filename)
+    return True
 
 
 count = 0
@@ -59,14 +66,12 @@ with open("res/picture.csv", "r") as csvfile:
                 # touch file
                 if empty_count == 0:
                     print("gen audio", filename)
-                    gen_speak(word, str(filename))
-                    if filename.stat().st_size == 0:
-                        empty_count += 1
-                        print("empty file", empty_count, filename)
-                        filename.unlink()
-                    else:
+                    if gen_speak(word, str(filename)):
                         count += 1
                         print("success", count, filename)
+                    else:
+                        empty_count += 1
+                        print("empty file", empty_count, filename)
     shutil.rmtree("res/audio_bak", ignore_errors=True)
     print(
         f"move {move_count} files, gen {count} files, empty {empty_count} files")
