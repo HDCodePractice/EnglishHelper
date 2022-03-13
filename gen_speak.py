@@ -55,7 +55,7 @@ with open("res/picture.csv", "r") as csvfile:
                     print(f"{backup_filename} is empty")
             else:
                 # touch file
-                if count < 21:
+                if empty_count == 0:
                     print("gen audio", filename)
                     gen_speak(word, str(filename))
                     if filename.stat().st_size == 0:
