@@ -65,7 +65,5 @@ with open("res/picture.csv", "r") as csvfile:
                     else:
                         count += 1
                         print("success", count, filename)
-
-            # gen_speak(word, filename)
     shutil.rmtree("res/audio_bak", ignore_errors=True)
     # gen_speak("runny nose", "file.wav")
