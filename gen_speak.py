@@ -31,6 +31,7 @@ def gen_speak(text, filename):
 
 count = 0
 empty_count = 0
+move_count = 0
 with open("res/picture.csv", "r") as csvfile:
     reader = csv.DictReader(csvfile)
     shutil.rmtree("res/audio_bak", ignore_errors=True)
@@ -51,6 +52,7 @@ with open("res/picture.csv", "r") as csvfile:
                 # mv backup to new dir
                 if backup_filename.stat().st_size > 0:
                     backup_filename.rename(filename)
+                    move_count += 1
                 else:
                     print(f"{backup_filename} is empty")
             else:
@@ -66,4 +68,5 @@ with open("res/picture.csv", "r") as csvfile:
                         count += 1
                         print("success", count, filename)
     shutil.rmtree("res/audio_bak", ignore_errors=True)
-    # gen_speak("runny nose", "file.wav")
+    print(
+        f"move {move_count} files, gen {count} files, empty {empty_count} files")
