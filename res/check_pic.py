@@ -25,6 +25,7 @@ def check_csv(existing_file, csv_file):
 
 
 def get_theory_path(res_file, file_chapter, file_topic, file_name):
+    # 检查文件是否存在，返回图片路径
     image_path = Path(res_file, file_chapter, file_topic, file_name)
     if not image_path.exists():
         print(f"{image_path} not exists")
@@ -41,7 +42,9 @@ def find_file_using_name(file_name, file_library):
 with open("res/picture.csv", newline="") as f:
     reader = csv.DictReader(f)
     theoty_path_list = []
+    print("========================! ( ⊙ o ⊙ ) !===========================")
     for row in reader:
+        # 检查csv中的图片是否都存在
         theoty_path_list.append(
             get_theory_path(
                 "res/pictures", row["Chapter"], row["Topic"], row["File Name"]
