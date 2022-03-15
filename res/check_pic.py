@@ -24,11 +24,11 @@ def check_csv(existing_file, csv_file):
     return exclude_list
 
 
-def get_theory_path(res_file, file_chapter, file_topic, file_name):
+def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
     # 检查文件是否存在，返回图片路径
     image_path = Path(res_file, file_chapter, file_topic, file_name)
     if not image_path.exists():
-        print(f"{image_path} not exists")
+        print(f"{image_path} not exists, PLS download from {down_link}")
     return image_path
 
 
@@ -47,7 +47,7 @@ with open("res/picture.csv", newline="") as f:
         # 检查csv中的图片是否都存在
         theoty_path_list.append(
             get_theory_path(
-                "res/pictures", row["Chapter"], row["Topic"], row["File Name"]
+                "res/pictures", row["Chapter"], row["Topic"], row["File Name"], row["From"]
             )
         )
     print("========================! ( ⊙ o ⊙ ) !===========================")
