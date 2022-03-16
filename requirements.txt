@@ -6,5 +6,5 @@ pybadges
 nltk
 google_spreadsheet
 google-auth-oauthlib
-panadas
+pandas
 azure-cognitiveservices-speech
