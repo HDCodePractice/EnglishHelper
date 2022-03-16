@@ -29,14 +29,14 @@ Areas of study,School and Subjects,high school/band/team,high school.jpg,https:/
 Areas of study,School and Subjects,university/CGEP/attend class/college,university.jpg,https://unsplash.com/photos/YRMWVcdyhmI
 Areas of study,School and Subjects,history,history.jpg,https://unsplash.com/photos/e1mSmviBa0E
 Areas of study,School and Subjects,bathroom/restroom/toilet/washroom,bathroom.jpg,https://unsplash.com/photos/8mMUnl_exqY
-Areas of study,School and Subjects,chemical/science,chemical.jpg,https://unsplash.com/photos/H9t723yPjYI
+Areas of study,School and Subjects,chemical/chemistry/science,chemical.jpg,https://unsplash.com/photos/H9t723yPjYI
 Areas of study,School and Subjects,cafeteria,cafeteria.jpg,https://unsplash.com/photos/PkbyxvkGWcU
 Areas of study,School and Subjects,lunch/lunch box,lunch.jpg,https://unsplash.com/photos/zxPLJJz2o_c
 Areas of study,School and Subjects,quiz/practise/exam,quiz.jpg,https://unsplash.com/photos/cbEvoHbJnIE
 Areas of study,School and Subjects,adult school,adult school.jpg,https://unsplash.com/photos/1-aA2Fadydc
 Areas of study,School and Subjects,vocabulary/word/pronunciation,vocabulary.jpg,https://unsplash.com/photos/k-P2ow0S6o4
 Areas of study,School and Subjects,physical education/P.E.,physical education.jpg,https://unsplash.com/photos/atSaEOeE8Nk
-Areas of study,School and Subjects,gym,gym.jpg,https://unsplash.com/photos/hEQpoeUuJXA
+Areas of study,School and Subjects,gym/gymnasivm,gym.jpg,https://unsplash.com/photos/hEQpoeUuJXA
 Areas of study,School and Subjects,locker,locker.jpg,https://unsplash.com/photos/VLaKsTkmVhk
 Areas of study,School and Subjects,correct/check/positive,correct.jpg,https://www.flaticon.com/premium-icon/accept_2550322
 Areas of study,School and Subjects,odd number,odd number.jpg,https://unsplash.com/photos/zty84NY_FOY
@@ -54,7 +54,7 @@ Areas of study,School and Subjects,scissors,scissors.jpg,https://unsplash.com/ph
 Areas of study,School and Subjects,ruler,ruler.jpg,https://unsplash.com/photos/WahfNoqbYnM
 Areas of study,School and Subjects,eraser/raser,eraser.jpg,https://unsplash.com/photos/7Xw9yEA8rqQ
 Areas of study,School and Subjects,graduation,graduation.jpg,https://unsplash.com/photos/8CqDvPuo_kI
-Areas of study,School and Subjects,glue,glue.jpg,https://unsplash.com/photos/AJIJ6Gmy0KM
+Areas of study,School and Subjects,glue stick,glue stick.jpg,https://unsplash.com/photos/AJIJ6Gmy0KM
 Areas of study,School and Subjects,introduce,introduce.jpg,https://pixabay.com/illustrations/my-name-is-name-hello-tag-meeting-1185862/
 Areas of study,School and Subjects,shake hands,shake hands.jpg,https://unsplash.com/photos/n95VMLxqM2I
 Areas of study,School and Subjects,smile,smile.jpg,https://unsplash.com/photos/IF9TK5Uy-KI
@@ -63,7 +63,7 @@ Areas of study,School and Subjects,wave,wave.jpg,https://unsplash.com/photos/SwM
 Areas of study,School and Subjects,sign,sign.jpg,https://pixabay.com/zh/photos/business-signature-contract-962355/
 Areas of study,School and Subjects,quad,quad.jpg,https://pixabay.com/zh/photos/trinity-quad-quadrangle-school-1450326/
 Areas of study,School and Subjects,field,field.jpg,https://unsplash.com/photos/KWQ2kQtxiKE
-Areas of study,School and Subjects,bleachers,bleachers.jpg,https://unsplash.com/photos/_N5Rqf-2vU0
+Areas of study,School and Subjects,bleachers/grandstand,bleachers.jpg,https://unsplash.com/photos/_N5Rqf-2vU0
 Areas of study,School and Subjects,principal,principal.jpg,https://unsplash.com/photos/C6-GjBAOtZc
 Areas of study,School and Subjects,classroom,classroom.jpg,https://unsplash.com/photos/zFSo6bnZJTw
 Areas of study,School and Subjects,hallway,hallway.jpg,https://unsplash.com/photos/nbk-hwLDCOA
@@ -93,10 +93,9 @@ Areas of study,School and Subjects,notebook,notebook.jpg,https://unsplash.com/ph
 Areas of study,School and Subjects,dictionary,dictionary.jpg,https://unsplash.com/photos/FQvadXmA524
 Areas of study,School and Subjects,workbook,workbook.jpg,https://unsplash.com/photos/Xvyb4f6gZLw
 Areas of study,School and Subjects,look up,look up.jpg,https://pixabay.com/zh/illustrations/search-icon-search-icon-find-6748664/
-Areas of study,School and Subjects,discuss,discuss.jpg,https://unsplash.com/photos/LQZQM_z1b-s
+Areas of study,School and Subjects,discuss/conversation,discuss.jpg,https://unsplash.com/photos/LQZQM_z1b-s
 Areas of study,School and Subjects,dictate,dictate.jpg,https://pixabay.com/zh/photos/studies-student-dictation-pen-text-921885/
 Areas of study,School and Subjects,practice,practice.jpg,https://unsplash.com/photos/u1NUc6wb9Cg
-Areas of study,School and Subjects,conversation,,
 Clothing,Everyday Clothes,toque/ski hat,toque.jpg,https://unsplash.com/photos/aw8vJEabA2o
 Clothing,Everyday Clothes,shirt,shirt.jpg,https://unsplash.com/photos/hMMXhKSZk7k
 Clothing,Everyday Clothes,sneakers/runing shoes/trainers/athletic shoes,sneakers.jpg,https://unsplash.com/photos/SD9Jyl1xNQ4
@@ -435,7 +434,7 @@ Recreation,Winter and Water Sports,canoe,canoe.jpg,https://unsplash.com/photos/k
 Recreation,Winter and Water Sports,surfboard,surfboard.jpg,https://unsplash.com/photos/4rvc6HWITpY
 Transportation,Basic Transportation,backpack,backpack.jpg,https://unsplash.com/photos/_H0fjILH5Vw
 Transportation,Basic Transportation,luggage,luggage.jpg,https://unsplash.com/photos/5SWgIJSsVJo
-Transportation,Basic Transportation,bicycle,bicycle.jpg,https://unsplash.com/photos/TsB03tz5030
+Transportation,Basic Transportation,bicycle/bike,bicycle.jpg,https://unsplash.com/photos/TsB03tz5030
 Transportation,Basic Transportation,bus,bus.jpg,https://unsplash.com/photos/jtpcrnqP2Mc
 Transportation,Basic Transportation,bus stop,bus stop.jpg,https://unsplash.com/photos/Kg_B2LMPTLs
 Transportation,Basic Transportation,subway station,subway station.jpg,https://unsplash.com/photos/h43nNjuz_As
@@ -445,11 +444,11 @@ Transportation,Basic Transportation,airport runway,airport runway.jpg,https://un
 Transportation,Basic Transportation,airport terminal,airport terminal.jpg,https://unsplash.com/photos/DpwWav9DhKk
 Transportation,Basic Transportation,plane/airplane,plane.jpg,https://unsplash.com/photos/8KLLgqHMAv4
 Transportation,Basic Transportation,truck/pickup truck,truck.jpg,https://unsplash.com/photos/YscocmXUTUM
-Transportation,Basic Transportation,motorcycle,motorcycle.jpg,https://unsplash.com/photos/-5rcxih1e44
+Transportation,Basic Transportation,motorcycle/motobike,motorcycle.jpg,https://unsplash.com/photos/-5rcxih1e44
 Transportation,Basic Transportation,yacht,yacht.jpg,https://unsplash.com/photos/Zexjl0v3MRU
 Transportation,Basic Transportation,train/train station,train.jpg,https://unsplash.com/photos/PHyF2mCMei0
 Transportation,Basic Transportation,itinerary,itinerary.jpg,https://unsplash.com/photos/CMoxzoMsUfE
-Transportation,Basic Transportation,passenger,passenger.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
+Transportation,Basic Transportation,passengers,passengers.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
 Undefined,New this week,striped,striped.jpg,https://unsplash.com/photos/GtPrK_jsNeY
 Undefined,New this week,checked/checker pattern,checked.jpg,https://unsplash.com/photos/tTM1K94ZzhE
 Undefined,New this week,plaid,plaid.jpg,https://unsplash.com/photos/DklaS1faCkI
@@ -500,7 +499,7 @@ Undefined,New this week,hair falls out,hair falls out.jpg,https://pixabay.com/zh
 Undefined,New this week,shed fur,shed fur.jpg,https://unsplash.com/photos/Da6O5ujM6Fk
 Undefined,New this week,claws,claws.jpg,https://unsplash.com/photos/9iFSiYzPduU
 Undefined,New this week,pickle,pickle.jpg,https://unsplash.com/photos/fl06AH9eq0w
-Transportation,Basic Transportation,helicopter,helicopter.jpg,https://unsplash.com/photos/BibxoLzkbg4
+Transportation,Basic Transportation,helicopter/chopper,helicopter.jpg,https://unsplash.com/photos/BibxoLzkbg4
 Undefined,Undefined,hibernate,hibernate.jpg,https://unsplash.com/photos/WxmZT3sIe4g
 Undefined,Undefined,garbage,garbage.jpg,https://unsplash.com/photos/DR2jtLy8Fe4
 Undefined,Undefined,rummage,rummage.jpg,https://unsplash.com/photos/9Y1PYmvutb0
