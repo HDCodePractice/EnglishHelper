@@ -185,6 +185,18 @@ Everyday Language,Weather,hurricanes,hurricanes.jpg,https://unsplash.com/photos/
 Everyday Language,Weather,heat wave,heat wave.jpg,https://pixabay.com/zh/vectors/fever-hot-temp-thermometer-1300516/
 Everyday Language,Weather,cloudy,cloudy.jpg,https://unsplash.com/photos/MnnXMvs4cQo
 Everyday Language,Weather,warm,warm.jpg,https://unsplash.com/photos/A7nK49HCqSI
+Food,Back from the Market,pasta,pasta.jpg,https://unsplash.com/photos/SJ7uORconic
+Food,Back from the Market,shopping list,shopping list.jpg,https://unsplash.com/photos/C4FbCe4L_pw
+Food,Back from the Market,soda/soft drinks,soda.jpg,https://unsplash.com/photos/sQNq223Rr54
+Food,Back from the Market,bread,bread.jpg,https://unsplash.com/photos/N4gtuEZ5gWc
+Food,Back from the Market,rice,rice.jpg,https://unsplash.com/photos/-LdilhDx3sk
+Food,Back from the Market,fruit,fruit.jpg,https://unsplash.com/photos/5JQH9Iqnm9o
+Food,Back from the Market,butter,butter.jpg,https://unsplash.com/photos/094mP_CBdpM
+Food,Back from the Market,meat,meat.jpg,https://unsplash.com/photos/MEnlQv-EQvY
+Food,Back from the Market,alcohol,alcohol.jpg,https://unsplash.com/photos/6UIonphZA5o
+Food,Back from the Market,snack,snack.jpg,https://unsplash.com/photos/PTv-B97DHNI
+Food,Back from the Market,vegetables/veggies,vegetables.jpg,https://unsplash.com/photos/-gOUx23DNks
+Food,Back from the Market,pickle,pickle.jpg,https://unsplash.com/photos/fl06AH9eq0w
 Health,A Pharmacy,fill/refill,fill.jpg,https://unsplash.com/photos/RiLzlQzwzik
 Health,A Pharmacy,lotion,lotion.jpg,https://unsplash.com/photos/y_CSTKJ0bEs
 Health,A Pharmacy,eye drops,eye drops.jpg,https://unsplash.com/photos/6F2mPewg2RA
@@ -347,6 +359,7 @@ Health,The Body,stomach,stomach.jpg,https://pixabay.com/zh/vectors/stomach-icon-
 Health,The Body,cheek,cheek.jpg,https://unsplash.com/photos/fhgHBH_GcH8
 Health,The Body,calf,calf.jpg,https://unsplash.com/photos/uJfqMbcrfNM
 Health,The Body,tear,tear.jpg,https://pixabay.com/zh/vectors/cry-eye-crying-depression-sad-6681054/
+Health,Symptoms and Injuries,hair falls out,hair falls out.jpg,https://pixabay.com/zh/photos/problem-hair-comb-brush-lost-5146272/
 People,Adults and Children,young/teenager/teen,young.jpg,https://unsplash.com/photos/MMrkoReI4d8
 People,Adults and Children,old/elderly,old.jpg,https://unsplash.com/photos/cKT0oJL9vMI
 People,Adults and Children,middle age/female,middle age.jpg,https://unsplash.com/photos/SJvDxw0azqw
@@ -393,6 +406,8 @@ Recreation,Individual Sports,racqueball,racqueball.jpg,https://pixabay.com/zh/ph
 Recreation,Individual Sports,tennis,tennis.jpg,https://unsplash.com/photos/6D2Lmtv_X8A
 Recreation,Individual Sports,table tennis,table tennis.jpg,https://unsplash.com/photos/ITFi--ljkKU
 Recreation,Individual Sports,mountain climbing,mountain climbing.jpg,https://unsplash.com/photos/FZ0qzjVF_-c
+Recreation,Places to Go,country,country.jpg,https://unsplash.com/photos/XemjjFd_4qE
+Recreation,Places to Go,cruise ship,cruise ship.jpg,https://unsplash.com/photos/xEJoSsDCnR8
 Recreation,Places to Go,performing kareoke,performing kareoke.jpg,https://pixabay.com/zh/photos/girl-holding-karaoke-mic-15754/
 Recreation,Places to Go,parachuting/sky diving,parachuting.jpg,https://unsplash.com/photos/OSfCunpfKsE
 Recreation,Places to Go,playing beach volleyball,playing beach volleyball.jpg,https://unsplash.com/photos/Q8CYby1UFDo
@@ -450,6 +465,7 @@ Transportation,Basic Transportation,yacht,yacht.jpg,https://unsplash.com/photos/
 Transportation,Basic Transportation,train/train station,train.jpg,https://unsplash.com/photos/PHyF2mCMei0
 Transportation,Basic Transportation,itinerary,itinerary.jpg,https://unsplash.com/photos/CMoxzoMsUfE
 Transportation,Basic Transportation,passengers,passengers.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
+Transportation,Basic Transportation,helicopter/chopper,helicopter.jpg,https://unsplash.com/photos/BibxoLzkbg4
 Undefined,New this week,striped,striped.jpg,https://unsplash.com/photos/GtPrK_jsNeY
 Undefined,New this week,checked/checker pattern,checked.jpg,https://unsplash.com/photos/tTM1K94ZzhE
 Undefined,New this week,plaid,plaid.jpg,https://unsplash.com/photos/DklaS1faCkI
@@ -478,7 +494,6 @@ Undefined,New this week,opinion,opinion.jpg,https://pixabay.com/zh/illustrations
 Undefined,New this week,caribou,caribou.jpg,https://unsplash.com/photos/9lau4mL-FAE
 Undefined,New this week,monorail,monorail.jpg,https://pixabay.com/zh/photos/monorail-tram-transport-railway-1636401/
 Undefined,New this week,cheer/cheerful,cheer.jpg,https://unsplash.com/photos/oTweoxMKdkA
-Undefined,New this week,alcohol,alcohol.jpg,https://unsplash.com/photos/6UIonphZA5o
 Undefined,New this week,Cupid/valentine's day/romance/archer,Cupid.jpg,https://unsplash.com/photos/iUXUi14vX_I
 Undefined,New this week,gestures,gestures.jpg,https://unsplash.com/photos/Pw5uvsFcGF4
 Undefined,New this week,doves,doves.jpg,https://unsplash.com/photos/6XcziMmkNgQ
@@ -494,13 +509,8 @@ Undefined,New this week,yoga,yoga.jpg,https://unsplash.com/photos/wmZNEGkcsmw
 Undefined,New this week,bullying/bullied/bully/victim/target,bullying.jpg,https://pixabay.com/zh/illustrations/bully-bullying-boys-624747/
 Undefined,New this week,stand up for/support/defense,stand up for.jpg,https://unsplash.com/photos/2P6Q7_uiDr0
 Undefined,New this week,ladder,ladder.jpg,https://unsplash.com/photos/BFO8xXD__gM
-Undefined,New this week,snack,snack.jpg,https://unsplash.com/photos/PTv-B97DHNI
-Undefined,New this week,vegetable,vegetable.jpg,https://unsplash.com/photos/-gOUx23DNks
-Undefined,New this week,hair falls out,hair falls out.jpg,https://pixabay.com/zh/photos/problem-hair-comb-brush-lost-5146272/
 Undefined,New this week,shed fur,shed fur.jpg,https://unsplash.com/photos/Da6O5ujM6Fk
 Undefined,New this week,claws,claws.jpg,https://unsplash.com/photos/9iFSiYzPduU
-Undefined,New this week,pickle,pickle.jpg,https://unsplash.com/photos/fl06AH9eq0w
-Transportation,Basic Transportation,helicopter/chopper,helicopter.jpg,https://unsplash.com/photos/BibxoLzkbg4
 Undefined,Undefined,hibernate,hibernate.jpg,https://unsplash.com/photos/WxmZT3sIe4g
 Undefined,Undefined,garbage,garbage.jpg,https://unsplash.com/photos/DR2jtLy8Fe4
 Undefined,Undefined,rummage,rummage.jpg,https://unsplash.com/photos/9Y1PYmvutb0
@@ -522,7 +532,6 @@ Undefined,Undefined,unexpected,unexpected.jpg,https://pixabay.com/zh/photos/mist
 Undefined,Undefined,prize/trophy,prize.jpg,https://unsplash.com/photos/HkN64BISuQA
 Undefined,Undefined,journey/tourist,journey.jpg,https://unsplash.com/photos/_g1WdcKcV3w
 Undefined,Undefined,thirsty,thirsty.jpg,https://unsplash.com/photos/c01oPaDbxWw
-Undefined,Undefined,veggies,veggies.jpg,https://unsplash.com/photos/bRdRUUtbxO0
 Undefined,Undefined,cut grass,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
 Undefined,Undefined,explode,explode.jpg,https://unsplash.com/photos/-lLWCvEoFJM
 Undefined,Undefined,boring/boredom,boring.jpg,https://unsplash.com/photos/XLRivrl9mNI
@@ -561,3 +570,4 @@ Undefined,Undefined,crawl,crawl.jpg,https://unsplash.com/photos/-d6sy-eKQ8s
 Undefined,Undefined,pirate,pirate.jpg,https://pixabay.com/zh/photos/woman-model-portrait-costume-6079989/
 Undefined,Undefined,shout,shout.jpg,https://unsplash.com/photos/oxQ17xPcEeM
 Undefined,Undefined,atlas,atlas.jpg,https://unsplash.com/photos/o0l-M8W_7wA
+Undefined,New this week,noise,noise.jpg,https://unsplash.com/photos/uAm_c9heHxo
