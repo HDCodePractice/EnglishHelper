@@ -212,6 +212,13 @@ Food,Fruit,bananas,bananas.jpg,https://unsplash.com/photos/DkTuGvgPotA
 Food,Fruit,grapes,grapes.jpg,https://unsplash.com/photos/WD5DErY3zWM
 Food,Fruit,pears,pears.jpg,https://unsplash.com/photos/3zmVSZQIozA
 Food,Fruit,apples,apples.jpg,https://unsplash.com/photos/P2X7NDx_GP0
+Food,Chinese Restaurant,sugar-coated haws on a stick,sugar-coated haws on a stick.jpg,https://unsplash.com/photos/EPY0J0tbOKM
+Food,Chinese Restaurant,Yangzhou Fried Rice,Yangzhou Fried Rice.jpg,https://pixabay.com/zh/photos/fried-rice-exotic-food-philippines-2098037/
+Food,Chinese Restaurant,Chow Mein,Chow Mein.jpg,https://unsplash.com/photos/e2-SLgEmzyg
+Food,Chinese Restaurant,Kung Pao chicken,Kung Pao chicken.jpg,https://pixabay.com/zh/photos/kung-pao-chicken-rice-tea-flat-lay-5700078/
+Food,Chinese Restaurant,covered rice,covered rice.jpg,https://unsplash.com/photos/FheBw4BfRpQ
+Food,Chinese Restaurant,ramen,ramen.jpg,https://unsplash.com/photos/mE6kjov4rTg
+Food,Chinese Restaurant,dumplings,dumplings.jpg,https://unsplash.com/photos/D-vDQMTfAAU
 Health,A Pharmacy,fill/refill,fill.jpg,https://unsplash.com/photos/RiLzlQzwzik
 Health,A Pharmacy,lotion,lotion.jpg,https://unsplash.com/photos/y_CSTKJ0bEs
 Health,A Pharmacy,eye drops,eye drops.jpg,https://unsplash.com/photos/6F2mPewg2RA
@@ -422,7 +429,7 @@ Recreation,Individual Sports,tennis,tennis.jpg,https://unsplash.com/photos/6D2Lm
 Recreation,Individual Sports,table tennis,table tennis.jpg,https://unsplash.com/photos/ITFi--ljkKU
 Recreation,Individual Sports,mountain climbing,mountain climbing.jpg,https://unsplash.com/photos/FZ0qzjVF_-c
 Recreation,Places to Go,country,country.jpg,https://unsplash.com/photos/XemjjFd_4qE
-Recreation,Places to Go,cruise ship,cruise ship.jpg,https://unsplash.com/photos/xEJoSsDCnR8
+Recreation,Places to Go,cruise ship/cruise vessel,cruise ship.jpg,https://unsplash.com/photos/xEJoSsDCnR8
 Recreation,Places to Go,performing kareoke,performing kareoke.jpg,https://pixabay.com/zh/photos/girl-holding-karaoke-mic-15754/
 Recreation,Places to Go,parachuting/sky diving,parachuting.jpg,https://unsplash.com/photos/OSfCunpfKsE
 Recreation,Places to Go,playing beach volleyball,playing beach volleyball.jpg,https://unsplash.com/photos/Q8CYby1UFDo
@@ -590,3 +597,4 @@ Undefined,New this week,shamrock,shamrock.jpg,https://unsplash.com/photos/Fk0v7X
 Undefined,New this week,parade/festival,parade.jpg,https://unsplash.com/photos/YavHUvSfOQw
 Undefined,New this week,harp,harp.jpg,https://unsplash.com/photos/1J9dYe4wkEI
 Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
+Undefined,New this week,a well,a well.jpg,https://pixabay.com/zh/photos/fountain-old-stone-wall-wall-round-788430/
