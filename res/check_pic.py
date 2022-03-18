@@ -1,11 +1,9 @@
 import csv
 from pathlib import Path
-
+import shutil
+import requests
 
 def unsplash_downloader(url, file_name):
-    import shutil
-
-    import requests
 
     res = requests.get(f"{url}/download?force=true&w=640", stream=True)
 
@@ -15,6 +13,29 @@ def unsplash_downloader(url, file_name):
         print('Image sucessfully Downloaded: ', file_name)
     else:
         print('Image Couldn\'t be retrieved', url)
+
+
+def pixabay_downloader(url, file_name):
+    # 转换URL为下载链接
+    img_suffix = "jpg"
+    #url后面的‘/’不能少
+    if not url.endswith("/"):
+        url = url + "/"
+
+    url_split = url.split('/')[-2]
+    name_split = url_split.split('-')
+
+    #有一些是矢量图png
+    if url.find("vectors") == 0:
+        img_suffix = "png"
+
+    url_down = "https://pixabay.com/zh/images/download/" + name_split[1] + "-" + name_split[2] + "-" + name_split[-1] + "_640." + img_suffix + "?attachment"
+
+    res = requests.get(url_down, stream=True)
+    with open(file_name, 'wb') as f:
+        shutil.copyfileobj(res.raw, f)
+    print('Image sucessfully Downloaded: ', file_name)
+
 
 
 def find_all_file(src_dir) -> list:
@@ -45,8 +66,11 @@ def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
     if not image_path.exists():
         # 如果down_link为unsplash的图片，则下载
         if down_link.startswith("https://unsplash.com/photos/"):
-            print(f"{image_path} not exists, downloading...")
+            print(f"{image_path} not exists, downloading from unsplash...")
             unsplash_downloader(down_link, str(image_path))
+        elif down_link.startswith("https://pixabay.com/"):
+            print(f"{image_path} not exists, downloading from pixabay...")
+            pixabay_downloader(down_link, str(image_path))
         else:
             print(f"{image_path} not exists, PLS download from {down_link}")
     return image_path
