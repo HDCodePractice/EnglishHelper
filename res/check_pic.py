@@ -1,13 +1,11 @@
 import csv
 import requests
+import shutil
 from pathlib import Path
 
 
 def unsplash_downloader(url, file_name):
-    import shutil
-
-    import requests
-
+    
     res = requests.get(f"{url}/download?force=true&w=640", stream=True)
 
     if res.status_code == 200:
@@ -16,6 +14,17 @@ def unsplash_downloader(url, file_name):
         print('Image sucessfully Downloaded: ', file_name)
     else:
         print('Image Couldn\'t be retrieved', url)
+
+
+def pixabay_downloader(url, file_name):
+    url_split = []
+    name_split = []
+
+    url_split = url.split('/')
+    name_split = url_split[-1].split('-')
+    print(name_split[-1])
+    #res = requests.get()
+
 
 
 def find_all_file(src_dir) -> list:
@@ -44,10 +53,14 @@ def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
     # 检查文件是否存在，不存在就从指定的url下载图片
     image_path = Path(res_file, file_chapter, file_topic, file_name)
     if not image_path.exists():
-        # 如果down_link为unsplash的图片，则下载
+        # 如果down_link为unsplash的图片
         if down_link.startswith("https://unsplash.com/photos/"):
             print(f"{image_path} not exists, downloading...")
             unsplash_downloader(down_link, str(image_path))
+        # 如果down_link是pixababy的图片
+        elif down_link.startswith("https://pixabay.com/"):
+            print(f"{image_path} not exists, downloading...")
+            pixabay_downloader(down_link, str(image_path))
         else:
             print(f"{image_path} not exists, PLS download from {down_link}")
     return image_path
