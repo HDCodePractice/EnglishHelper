@@ -215,6 +215,14 @@ Food,Fruit,grapes,grapes.jpg,https://unsplash.com/photos/WD5DErY3zWM
 Food,Fruit,pears,pears.jpg,https://unsplash.com/photos/3zmVSZQIozA
 Food,Fruit,apples,apples.jpg,https://unsplash.com/photos/P2X7NDx_GP0
 Food,Fruit,wonton/mini wonton,wonton.jpg,https://unsplash.com/photos/xqiTvFFee6Y
+Food,Vegetables,iceberg lettuce,,https://unsplash.com/photos/5MU_4hPl67Y
+Food,Vegetables,romaine lettuce,,https://unsplash.com/photos/PUlsxslYryE
+Food,Vegetables,cabbage,,https://unsplash.com/photos/7iRMOXXxH7c
+Food,Vegetables,carrots,,https://unsplash.com/photos/GHRT9j21m2M
+Food,Vegetables,radishes,,https://unsplash.com/photos/B4y0dFOq510
+Food,Vegetables,green bean sprouts/mung bean sprouts,green bean sprouts.jpg,
+Food,Vegetables,soy bean sprouts,soy bean sprouts.jpg,https://unsplash.com/photos/Z9PWoOsV0uk
+Food,Chinese Restaurant,enokitake/see you tomorrow,enokitake.jpg,https://unsplash.com/photos/DWhaPE87z7A
 Food,Chinese Restaurant,steam bun,steam bun.jpg,https://unsplash.com/photos/gQC-03St0UY
 Food,Chinese Restaurant,orange chicken/orange flavored chicken/mandarin chicken,orange chicken.jpg,https://unsplash.com/photos/PelZKp07ByU
 Food,Chinese Restaurant,pot sticker,pot sticker.jpg,https://pixabay.com/zh/photos/dumplings-fried-dumplings-fried-5557529/
@@ -227,8 +235,8 @@ Food,Chinese Restaurant,steamed fish,steamed fish.jpg,https://pixabay.com/zh/pho
 Food,Chinese Restaurant,hot pot,hot pot.jpg,https://unsplash.com/photos/sWEVXvfBt6k
 Food,Chinese Restaurant,shu mai,shu mai.jpg,https://pixabay.com/zh/photos/dim-sum-breakfast-shrimp-dumplings-6903004/
 Food,Chinese Restaurant,sweet and sour pork,sweet and sour pork.jpg,https://pixabay.com/zh/photos/sweet-and-sour-pork-咕噜肉-chinese-1264563/
-Food,Chinese Restaurant,babeque pork bun,babeque pork bun.jpg,https://pixabay.com/zh/photos/steamed-bun-cha-siu-bao-snack-6757272/
-Food,Chinese Restaurant,babeque pork/Char siu,babeque pork.jpg,https://pixabay.com/zh/photos/char-siu-chinese-roast-pork-meal-5083812/
+Food,Chinese Restaurant,barbeeque pork bun,barbeeque pork bun.jpg,https://pixabay.com/zh/photos/steamed-bun-cha-siu-bao-snack-6757272/
+Food,Chinese Restaurant,barbeeque pork/Char siu,barbeeque pork.jpg,https://pixabay.com/zh/photos/char-siu-chinese-roast-pork-meal-5083812/
 Food,Chinese Restaurant,egg rolls,egg rolls.jpg,https://unsplash.com/photos/broMfoJ0Emg
 Food,Chinese Restaurant,thousand-year eggs,thousand-year eggs.jpg,https://pixabay.com/zh/photos/food-foodie-meal-healthy-plate-3350226/
 Food,Chinese Restaurant,sugar-coated haws on a stick,sugar-coated haws on a stick.jpg,https://unsplash.com/photos/EPY0J0tbOKM
