@@ -16,26 +16,25 @@ def unsplash_downloader(url, file_name):
 
 
 def pixabay_downloader(url, file_name):
-    # 转换URL为下载链接
+    
     img_suffix = "jpg"
     #url后面的‘/’不能少
     if not url.endswith("/"):
         url = url + "/"
-
+    
     url_split = url.split('/')[-2]
     name_split = url_split.split('-')
 
     #有一些是矢量图png
     if url.find("vectors") == 0:
         img_suffix = "png"
-
+    # 转换URL为下载链接
     url_down = "https://pixabay.com/zh/images/download/" + name_split[1] + "-" + name_split[2] + "-" + name_split[-1] + "_640." + img_suffix + "?attachment"
 
     res = requests.get(url_down, stream=True)
     with open(file_name, 'wb') as f:
         shutil.copyfileobj(res.raw, f)
     print('Image sucessfully Downloaded: ', file_name)
-
 
 
 def find_all_file(src_dir) -> list:
