@@ -1,11 +1,10 @@
 import csv
-import requests
-import shutil
 from pathlib import Path
-
+import shutil
+import requests
 
 def unsplash_downloader(url, file_name):
-    
+
     res = requests.get(f"{url}/download?force=true&w=640", stream=True)
 
     if res.status_code == 200:
@@ -17,14 +16,25 @@ def unsplash_downloader(url, file_name):
 
 
 def pixabay_downloader(url, file_name):
-    url_split = []
-    name_split = []
+    
+    img_suffix = "jpg"
+    #url后面的‘/’不能少
+    if not url.endswith("/"):
+        url = url + "/"
+    
+    url_split = url.split('/')[-2]
+    name_split = url_split.split('-')
 
-    url_split = url.split('/')
-    name_split = url_split[-1].split('-')
-    print(name_split[-1])
-    #res = requests.get()
+    #有一些是矢量图png
+    if url.find("vectors") == 0:
+        img_suffix = "png"
+    # 转换URL为下载链接
+    url_down = "https://pixabay.com/zh/images/download/" + name_split[1] + "-" + name_split[2] + "-" + name_split[-1] + "_640." + img_suffix + "?attachment"
 
+    res = requests.get(url_down, stream=True)
+    with open(file_name, 'wb') as f:
+        shutil.copyfileobj(res.raw, f)
+    print('Image sucessfully Downloaded: ', file_name)
 
 
 def find_all_file(src_dir) -> list:
@@ -50,16 +60,15 @@ def check_csv(existing_file, csv_file):
 
 
 def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
-    # 检查文件是否存在，不存在就从指定的url下载图片
+    # 检查文件是否存在，返回图片路径
     image_path = Path(res_file, file_chapter, file_topic, file_name)
     if not image_path.exists():
-        # 如果down_link为unsplash的图片
+        # 如果down_link为unsplash的图片，则下载
         if down_link.startswith("https://unsplash.com/photos/"):
-            print(f"{image_path} not exists, downloading...")
+            print(f"{image_path} not exists, downloading from unsplash...")
             unsplash_downloader(down_link, str(image_path))
-        # 如果down_link是pixababy的图片
         elif down_link.startswith("https://pixabay.com/"):
-            print(f"{image_path} not exists, downloading...")
+            print(f"{image_path} not exists, downloading from pixabay...")
             pixabay_downloader(down_link, str(image_path))
         else:
             print(f"{image_path} not exists, PLS download from {down_link}")
