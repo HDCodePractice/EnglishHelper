@@ -1,8 +1,21 @@
 import csv
 import requests
-from selenium import webdriver
-from selenium.webdriver import ActionChains
 from pathlib import Path
+
+
+def unsplash_downloader(url, file_name):
+    import shutil
+
+    import requests
+
+    res = requests.get(f"{url}/download?force=true&w=640", stream=True)
+
+    if res.status_code == 200:
+        with open(file_name, 'wb') as f:
+            shutil.copyfileobj(res.raw, f)
+        print('Image sucessfully Downloaded: ', file_name)
+    else:
+        print('Image Couldn\'t be retrieved', url)
 
 
 def find_all_file(src_dir) -> list:
@@ -27,41 +40,16 @@ def check_csv(existing_file, csv_file):
     return exclude_list
 
 
-def download_pic(filename,pic_url):
-    #判断图片是否来自unsplash
-    if pic_url.find('unsplash'):
-        download_pic_from_unsplash(filename,pic_url)
-    else:
-        print("Currently you can only download images from unsplash")
-    return 0
-
-
-def download_pic_from_unsplash(filename,pic_url):
-    #下载文件
-    web = webdriver.Chrome()
-    web.get(pic_url)
-
-    size_select = web.find_element_by_xpath("//button[@title = 'Choose your download size']")
-    ActionChains(web).move_to_element(size_select).click().perform()
-
-    min_size = web.find_element_by_xpath("//a[contains(text(), 'Small')]").get_attribute("href")
-    web.close
-
-    r = requests.get(min_size)
-    with open(filename, 'wb') as f:
-        f.write(r.content)
-
-    return 0
-
-
 def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
     # 检查文件是否存在，不存在就从指定的url下载图片
     image_path = Path(res_file, file_chapter, file_topic, file_name)
     if not image_path.exists():
-        print(f"{image_path} not exists, PLS download from {down_link}")
-        print("Starting download...")
-        download_pic(image_path,down_link)
-        print("Downloaded and saved")
+        # 如果down_link为unsplash的图片，则下载
+        if down_link.startswith("https://unsplash.com/photos/"):
+            print(f"{image_path} not exists, downloading...")
+            unsplash_downloader(down_link, str(image_path))
+        else:
+            print(f"{image_path} not exists, PLS download from {down_link}")
     return image_path
 
 

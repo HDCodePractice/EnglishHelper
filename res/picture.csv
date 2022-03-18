@@ -197,6 +197,8 @@ Food,Back from the Market,alcohol,alcohol.jpg,https://unsplash.com/photos/6UIonp
 Food,Back from the Market,snack,snack.jpg,https://unsplash.com/photos/PTv-B97DHNI
 Food,Back from the Market,vegetables/veggies,vegetables.jpg,https://unsplash.com/photos/-gOUx23DNks
 Food,Back from the Market,pickle,pickle.jpg,https://unsplash.com/photos/fl06AH9eq0w
+Food,Fruit,blueberries,blueberries.jpg,https://unsplash.com/photos/TdDtTu2rv4s
+Food,Fruit,raspberries,raspberries.jpg,https://unsplash.com/photos/T6yw2uxui88
 Food,Fruit,strawberries,strawberries.jpg,https://unsplash.com/photos/IXOjM_g-XBQ
 Food,Fruit,plums,plums.jpg,https://unsplash.com/photos/pifx48IFTOo
 Food,Fruit,apricots,apricots.jpg,https://unsplash.com/photos/Vjqad2cAxZw
@@ -212,6 +214,38 @@ Food,Fruit,bananas,bananas.jpg,https://unsplash.com/photos/DkTuGvgPotA
 Food,Fruit,grapes,grapes.jpg,https://unsplash.com/photos/WD5DErY3zWM
 Food,Fruit,pears,pears.jpg,https://unsplash.com/photos/3zmVSZQIozA
 Food,Fruit,apples,apples.jpg,https://unsplash.com/photos/P2X7NDx_GP0
+Food,Fruit,wonton/mini wonton,wonton.jpg,https://unsplash.com/photos/xqiTvFFee6Y
+Food,Vegetables,butter lettuce,butter lettuce.jpg,https://unsplash.com/photos/OpLaMhfqTwQ
+Food,Vegetables,iceberg lettuce,iceberg lettuce.jpg,https://unsplash.com/photos/cUntM83orfg
+Food,Vegetables,romaine lettuce,romaine lettuce.jpg,https://unsplash.com/photos/PUlsxslYryE
+Food,Vegetables,cabbage,cabbage.jpg,https://unsplash.com/photos/7iRMOXXxH7c
+Food,Vegetables,carrots,carrots.jpg,https://unsplash.com/photos/GHRT9j21m2M
+Food,Vegetables,radishes,radishes.jpg,https://unsplash.com/photos/B4y0dFOq510
+Food,Vegetables,soy bean sprouts,soy bean sprouts.jpg,https://unsplash.com/photos/Z9PWoOsV0uk
+Food,Chinese Restaurant,enokitake/see you tomorrow,enokitake.jpg,https://unsplash.com/photos/DWhaPE87z7A
+Food,Chinese Restaurant,steam bun,steam bun.jpg,https://unsplash.com/photos/gQC-03St0UY
+Food,Chinese Restaurant,orange chicken/orange flavored chicken/mandarin chicken,orange chicken.jpg,https://unsplash.com/photos/PelZKp07ByU
+Food,Chinese Restaurant,pot sticker,pot sticker.jpg,https://pixabay.com/zh/photos/dumplings-fried-dumplings-fried-5557529/
+Food,Chinese Restaurant,beef soup noodle,beef soup noodle.jpg,https://unsplash.com/photos/08aic3qPcag
+Food,Chinese Restaurant,stir-fried tomato and scrambled eggs,stir-fried tomato and scrambled eggs.jpg,https://pixabay.com/zh/photos/eggs-tomatoes-fry-mix-grilled-2925912/
+Food,Chinese Restaurant,stir fried egg,stir fried egg.jpg,https://pixabay.com/zh/photos/stir-fried-basil-a-fried-egg-6921825/
+Food,Chinese Restaurant,mapo tofu,mapo tofu.jpg,https://pixabay.com/zh/photos/mapo-tofu-green-onion-sauce-4985990/
+Food,Chinese Restaurant,pork belly,pork belly.jpg,https://unsplash.com/photos/aJ6dyiSg91g
+Food,Chinese Restaurant,steamed fish,steamed fish.jpg,https://pixabay.com/zh/photos/steamed-fish-chinese-food-perch-3495930/
+Food,Chinese Restaurant,hot pots,hot pots.jpg,https://unsplash.com/photos/kpC36hIsODQ
+Food,Chinese Restaurant,shu mai,shu mai.jpg,https://pixabay.com/zh/photos/dim-sum-breakfast-shrimp-dumplings-6903004/
+Food,Chinese Restaurant,sweet and sour pork,sweet and sour pork.jpg,https://pixabay.com/zh/photos/sweet-and-sour-pork-咕噜肉-chinese-1264563/
+Food,Chinese Restaurant,barbeeque pork bun,barbeeque pork bun.jpg,https://pixabay.com/zh/photos/steamed-bun-cha-siu-bao-snack-6757272/
+Food,Chinese Restaurant,barbeeque pork/Char siu,barbeeque pork.jpg,https://pixabay.com/zh/photos/char-siu-chinese-roast-pork-meal-5083812/
+Food,Chinese Restaurant,egg rolls,egg rolls.jpg,https://unsplash.com/photos/broMfoJ0Emg
+Food,Chinese Restaurant,thousand-year eggs,thousand-year eggs.jpg,https://pixabay.com/zh/photos/food-foodie-meal-healthy-plate-3350226/
+Food,Chinese Restaurant,sugar-coated haws on a stick,sugar-coated haws on a stick.jpg,https://unsplash.com/photos/EPY0J0tbOKM
+Food,Chinese Restaurant,Yangzhou Fried Rice,Yangzhou Fried Rice.jpg,https://pixabay.com/zh/photos/fried-rice-exotic-food-philippines-2098037/
+Food,Chinese Restaurant,Chow Mein,Chow Mein.jpg,https://unsplash.com/photos/e2-SLgEmzyg
+Food,Chinese Restaurant,Kung Pao chicken/kung bo chicken,Kung Pao chicken.jpg,https://pixabay.com/zh/photos/kung-pao-chicken-rice-tea-flat-lay-5700078/
+Food,Chinese Restaurant,covered rice,covered rice.jpg,https://unsplash.com/photos/FheBw4BfRpQ
+Food,Chinese Restaurant,ramen,ramen.jpg,https://unsplash.com/photos/mE6kjov4rTg
+Food,Chinese Restaurant,dumplings,dumplings.jpg,https://unsplash.com/photos/D-vDQMTfAAU
 Health,A Pharmacy,fill/refill,fill.jpg,https://unsplash.com/photos/RiLzlQzwzik
 Health,A Pharmacy,lotion,lotion.jpg,https://unsplash.com/photos/y_CSTKJ0bEs
 Health,A Pharmacy,eye drops,eye drops.jpg,https://unsplash.com/photos/6F2mPewg2RA
@@ -375,6 +409,7 @@ Health,The Body,cheek,cheek.jpg,https://unsplash.com/photos/fhgHBH_GcH8
 Health,The Body,calf,calf.jpg,https://unsplash.com/photos/uJfqMbcrfNM
 Health,The Body,tear,tear.jpg,https://pixabay.com/zh/vectors/cry-eye-crying-depression-sad-6681054/
 Health,Symptoms and Injuries,hair falls out,hair falls out.jpg,https://pixabay.com/zh/photos/problem-hair-comb-brush-lost-5146272/
+Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
 People,Adults and Children,young/teenager/teen,young.jpg,https://unsplash.com/photos/MMrkoReI4d8
 People,Adults and Children,old/elderly,old.jpg,https://unsplash.com/photos/cKT0oJL9vMI
 People,Adults and Children,middle age/female,middle age.jpg,https://unsplash.com/photos/SJvDxw0azqw
@@ -422,7 +457,7 @@ Recreation,Individual Sports,tennis,tennis.jpg,https://unsplash.com/photos/6D2Lm
 Recreation,Individual Sports,table tennis,table tennis.jpg,https://unsplash.com/photos/ITFi--ljkKU
 Recreation,Individual Sports,mountain climbing,mountain climbing.jpg,https://unsplash.com/photos/FZ0qzjVF_-c
 Recreation,Places to Go,country,country.jpg,https://unsplash.com/photos/XemjjFd_4qE
-Recreation,Places to Go,cruise ship,cruise ship.jpg,https://unsplash.com/photos/xEJoSsDCnR8
+Recreation,Places to Go,cruise ship/cruise vessel,cruise ship.jpg,https://unsplash.com/photos/xEJoSsDCnR8
 Recreation,Places to Go,performing kareoke,performing kareoke.jpg,https://pixabay.com/zh/photos/girl-holding-karaoke-mic-15754/
 Recreation,Places to Go,parachuting/sky diving,parachuting.jpg,https://unsplash.com/photos/OSfCunpfKsE
 Recreation,Places to Go,playing beach volleyball,playing beach volleyball.jpg,https://unsplash.com/photos/Q8CYby1UFDo
@@ -463,23 +498,28 @@ Recreation,Winter and Water Sports,seadoo,seadoo.jpg,https://unsplash.com/photos
 Recreation,Winter and Water Sports,kayak,kayak.jpg,https://unsplash.com/photos/zK049OFP4uI
 Recreation,Winter and Water Sports,canoe,canoe.jpg,https://unsplash.com/photos/koQ5FXyakWA
 Recreation,Winter and Water Sports,surfboard,surfboard.jpg,https://unsplash.com/photos/4rvc6HWITpY
+Transportation,Basic Transportation,a ticket booth,a ticket booth.jpg,https://unsplash.com/photos/2z8TwLsoei4
+Transportation,Basic Transportation,tickets,tickets.jpg,https://unsplash.com/photos/cy7OZAJJ6vU
+Transportation,Basic Transportation,departures,departures.jpg,https://unsplash.com/photos/j_12oQL6i-U
+Transportation,Basic Transportation,arrivals,arrivals.jpg,https://unsplash.com/photos/oLRc49-qjpY
+Transportation,Basic Transportation,an information desk,an information desk.jpg,https://unsplash.com/photos/iOBTE2xsYko
 Transportation,Basic Transportation,backpack,backpack.jpg,https://unsplash.com/photos/_H0fjILH5Vw
-Transportation,Basic Transportation,luggage,luggage.jpg,https://unsplash.com/photos/5SWgIJSsVJo
-Transportation,Basic Transportation,bicycle/bike,bicycle.jpg,https://unsplash.com/photos/TsB03tz5030
-Transportation,Basic Transportation,bus,bus.jpg,https://unsplash.com/photos/jtpcrnqP2Mc
+Transportation,Basic Transportation,a luggage/a suitcase,a luggage.jpg,https://unsplash.com/photos/q-4fbq8pUO4
+Transportation,Basic Transportation,ride a bicycle/ride a bike,ride a bicycle.jpg,https://unsplash.com/photos/TsB03tz5030
+Transportation,Basic Transportation,take the bus,take the bus.jpg,https://unsplash.com/photos/jtpcrnqP2Mc
 Transportation,Basic Transportation,bus stop,bus stop.jpg,https://unsplash.com/photos/Kg_B2LMPTLs
 Transportation,Basic Transportation,subway station,subway station.jpg,https://unsplash.com/photos/h43nNjuz_As
 Transportation,Basic Transportation,subway,subway.jpg,https://unsplash.com/photos/B2sNfHkjagM
-Transportation,Basic Transportation,airport lounge,airport lounge.jpg,https://unsplash.com/photos/yAV-5jb1pyA
+Transportation,Basic Transportation,airport lounge/a waiting area,airport lounge.jpg,https://unsplash.com/photos/yAV-5jb1pyA
 Transportation,Basic Transportation,airport runway,airport runway.jpg,https://unsplash.com/photos/gxvYZk4Fwjk
 Transportation,Basic Transportation,airport terminal,airport terminal.jpg,https://unsplash.com/photos/DpwWav9DhKk
 Transportation,Basic Transportation,plane/airplane,plane.jpg,https://unsplash.com/photos/8KLLgqHMAv4
-Transportation,Basic Transportation,truck/pickup truck,truck.jpg,https://unsplash.com/photos/YscocmXUTUM
+Transportation,Basic Transportation,drive the truck/pickup truck,drive the truck.jpg,https://unsplash.com/photos/YscocmXUTUM
 Transportation,Basic Transportation,motorcycle/motobike,motorcycle.jpg,https://unsplash.com/photos/-5rcxih1e44
 Transportation,Basic Transportation,yacht,yacht.jpg,https://unsplash.com/photos/Zexjl0v3MRU
 Transportation,Basic Transportation,train/train station,train.jpg,https://unsplash.com/photos/PHyF2mCMei0
 Transportation,Basic Transportation,itinerary,itinerary.jpg,https://unsplash.com/photos/CMoxzoMsUfE
-Transportation,Basic Transportation,passengers,passengers.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
+Transportation,Basic Transportation,a passenger,a passenger.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
 Transportation,Basic Transportation,helicopter/chopper,helicopter.jpg,https://unsplash.com/photos/BibxoLzkbg4
 Undefined,New this week,striped,striped.jpg,https://unsplash.com/photos/GtPrK_jsNeY
 Undefined,New this week,checked/checker pattern,checked.jpg,https://unsplash.com/photos/tTM1K94ZzhE
@@ -589,4 +629,4 @@ Undefined,New this week,noise,noise.jpg,https://unsplash.com/photos/uAm_c9heHxo
 Undefined,New this week,shamrock,shamrock.jpg,https://unsplash.com/photos/Fk0v7XcIAWw
 Undefined,New this week,parade/festival,parade.jpg,https://unsplash.com/photos/YavHUvSfOQw
 Undefined,New this week,harp,harp.jpg,https://unsplash.com/photos/1J9dYe4wkEI
-Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
+Undefined,New this week,a well,a well.jpg,https://pixabay.com/zh/photos/fountain-old-stone-wall-wall-round-788430/
