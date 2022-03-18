@@ -2,6 +2,21 @@ import csv
 from pathlib import Path
 
 
+def unsplash_downloader(url, file_name):
+    import shutil
+
+    import requests
+
+    res = requests.get(f"{url}/download?force=true&w=640", stream=True)
+
+    if res.status_code == 200:
+        with open(file_name, 'wb') as f:
+            shutil.copyfileobj(res.raw, f)
+        print('Image sucessfully Downloaded: ', file_name)
+    else:
+        print('Image Couldn\'t be retrieved', url)
+
+
 def find_all_file(src_dir) -> list:
     ignores = [".DS_Store", "Thumbs.db"]
     result = []
@@ -28,7 +43,12 @@ def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
     # 检查文件是否存在，返回图片路径
     image_path = Path(res_file, file_chapter, file_topic, file_name)
     if not image_path.exists():
-        print(f"{image_path} not exists, PLS download from {down_link}")
+        # 如果down_link为unsplash的图片，则下载
+        if down_link.startswith("https://unsplash.com/photos/"):
+            print(f"{image_path} not exists, downloading...")
+            unsplash_downloader(down_link, str(image_path))
+        else:
+            print(f"{image_path} not exists, PLS download from {down_link}")
     return image_path
 
 

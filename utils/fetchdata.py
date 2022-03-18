@@ -23,6 +23,23 @@ def save_df_to_csv(df, filename):
     df.to_csv(filename, index=False)
 
 
+def unsplash_downloader(url, file_name):
+    import shutil
+
+    import requests
+
+    res = requests.get(f"{url}/download?force=true&w=640", stream=True)
+
+    if res.status_code == 200:
+        with open(file_name, 'wb') as f:
+            shutil.copyfileobj(res.raw, f)
+        print('Image sucessfully Downloaded: ', file_name)
+    else:
+        print('Image Couldn\'t be retrieved')
+
+
 if __name__ == "__main__":
-    save_df_to_csv(get_html_data(
-        "https://www.gingersoftware.com/content/grammar-rules/verbs/list-of-phrasal-verbs/"), "data.csv")
+    # save_df_to_csv(get_html_data(
+    #     "https://www.gingersoftware.com/content/grammar-rules/verbs/list-of-phrasal-verbs/"), "data.csv")
+    # unsplash_downloader(
+    #     "https://unsplash.com/photos/EPY0J0tbOKM", "test.jpg")
