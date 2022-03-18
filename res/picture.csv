@@ -409,6 +409,7 @@ Health,The Body,cheek,cheek.jpg,https://unsplash.com/photos/fhgHBH_GcH8
 Health,The Body,calf,calf.jpg,https://unsplash.com/photos/uJfqMbcrfNM
 Health,The Body,tear,tear.jpg,https://pixabay.com/zh/vectors/cry-eye-crying-depression-sad-6681054/
 Health,Symptoms and Injuries,hair falls out,hair falls out.jpg,https://pixabay.com/zh/photos/problem-hair-comb-brush-lost-5146272/
+Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
 People,Adults and Children,young/teenager/teen,young.jpg,https://unsplash.com/photos/MMrkoReI4d8
 People,Adults and Children,old/elderly,old.jpg,https://unsplash.com/photos/cKT0oJL9vMI
 People,Adults and Children,middle age/female,middle age.jpg,https://unsplash.com/photos/SJvDxw0azqw
@@ -497,23 +498,28 @@ Recreation,Winter and Water Sports,seadoo,seadoo.jpg,https://unsplash.com/photos
 Recreation,Winter and Water Sports,kayak,kayak.jpg,https://unsplash.com/photos/zK049OFP4uI
 Recreation,Winter and Water Sports,canoe,canoe.jpg,https://unsplash.com/photos/koQ5FXyakWA
 Recreation,Winter and Water Sports,surfboard,surfboard.jpg,https://unsplash.com/photos/4rvc6HWITpY
+Transportation,Basic Transportation,a ticket booth,a ticket booth.jpg,https://unsplash.com/photos/2z8TwLsoei4
+Transportation,Basic Transportation,tickets,tickets.jpg,https://unsplash.com/photos/cy7OZAJJ6vU
+Transportation,Basic Transportation,departures,departures.jpg,https://unsplash.com/photos/j_12oQL6i-U
+Transportation,Basic Transportation,arrivals,arrivals.jpg,https://unsplash.com/photos/oLRc49-qjpY
+Transportation,Basic Transportation,an information desk,an information desk.jpg,https://unsplash.com/photos/iOBTE2xsYko
 Transportation,Basic Transportation,backpack,backpack.jpg,https://unsplash.com/photos/_H0fjILH5Vw
-Transportation,Basic Transportation,luggage,luggage.jpg,https://unsplash.com/photos/5SWgIJSsVJo
-Transportation,Basic Transportation,bicycle/bike,bicycle.jpg,https://unsplash.com/photos/TsB03tz5030
-Transportation,Basic Transportation,bus,bus.jpg,https://unsplash.com/photos/jtpcrnqP2Mc
+Transportation,Basic Transportation,a luggage/a suitcase,a luggage.jpg,https://unsplash.com/photos/q-4fbq8pUO4
+Transportation,Basic Transportation,ride a bicycle/ride a bike,ride a bicycle.jpg,https://unsplash.com/photos/TsB03tz5030
+Transportation,Basic Transportation,take the bus,take the bus.jpg,https://unsplash.com/photos/jtpcrnqP2Mc
 Transportation,Basic Transportation,bus stop,bus stop.jpg,https://unsplash.com/photos/Kg_B2LMPTLs
 Transportation,Basic Transportation,subway station,subway station.jpg,https://unsplash.com/photos/h43nNjuz_As
 Transportation,Basic Transportation,subway,subway.jpg,https://unsplash.com/photos/B2sNfHkjagM
-Transportation,Basic Transportation,airport lounge,airport lounge.jpg,https://unsplash.com/photos/yAV-5jb1pyA
+Transportation,Basic Transportation,airport lounge/a waiting area,airport lounge.jpg,https://unsplash.com/photos/yAV-5jb1pyA
 Transportation,Basic Transportation,airport runway,airport runway.jpg,https://unsplash.com/photos/gxvYZk4Fwjk
 Transportation,Basic Transportation,airport terminal,airport terminal.jpg,https://unsplash.com/photos/DpwWav9DhKk
 Transportation,Basic Transportation,plane/airplane,plane.jpg,https://unsplash.com/photos/8KLLgqHMAv4
-Transportation,Basic Transportation,truck/pickup truck,truck.jpg,https://unsplash.com/photos/YscocmXUTUM
+Transportation,Basic Transportation,drive the truck/pickup truck,drive the truck.jpg,https://unsplash.com/photos/YscocmXUTUM
 Transportation,Basic Transportation,motorcycle/motobike,motorcycle.jpg,https://unsplash.com/photos/-5rcxih1e44
 Transportation,Basic Transportation,yacht,yacht.jpg,https://unsplash.com/photos/Zexjl0v3MRU
 Transportation,Basic Transportation,train/train station,train.jpg,https://unsplash.com/photos/PHyF2mCMei0
 Transportation,Basic Transportation,itinerary,itinerary.jpg,https://unsplash.com/photos/CMoxzoMsUfE
-Transportation,Basic Transportation,passengers,passengers.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
+Transportation,Basic Transportation,a passenger,a passenger.jpg,https://unsplash.com/photos/EWmXFK7yT7Q
 Transportation,Basic Transportation,helicopter/chopper,helicopter.jpg,https://unsplash.com/photos/BibxoLzkbg4
 Undefined,New this week,striped,striped.jpg,https://unsplash.com/photos/GtPrK_jsNeY
 Undefined,New this week,checked/checker pattern,checked.jpg,https://unsplash.com/photos/tTM1K94ZzhE
@@ -623,5 +629,4 @@ Undefined,New this week,noise,noise.jpg,https://unsplash.com/photos/uAm_c9heHxo
 Undefined,New this week,shamrock,shamrock.jpg,https://unsplash.com/photos/Fk0v7XcIAWw
 Undefined,New this week,parade/festival,parade.jpg,https://unsplash.com/photos/YavHUvSfOQw
 Undefined,New this week,harp,harp.jpg,https://unsplash.com/photos/1J9dYe4wkEI
-Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
 Undefined,New this week,a well,a well.jpg,https://pixabay.com/zh/photos/fountain-old-stone-wall-wall-round-788430/
