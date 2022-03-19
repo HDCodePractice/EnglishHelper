@@ -114,6 +114,8 @@ Clothing,Everyday Clothes,jeans,jeans.jpg,https://unsplash.com/photos/zDyJOj8ZXG
 Clothing,Everyday Clothes,dress,dress.jpg,https://unsplash.com/photos/ohiyigDmlYc
 Clothing,Everyday Clothes,cap/baseball cap,cap.jpg,https://unsplash.com/photos/FEx5z_k0hss
 Clothing,Everyday Clothes,sweater,sweater.jpg,https://unsplash.com/photos/A2dLORW-gJY
+Community,Downtown,traffic light,traffic light.jpg,https://unsplash.com/photos/PN-YnI5stdQ
+Community,Downtown,stop sign,stop sign.jpg,https://unsplash.com/photos/lcQa1OQ7Exg
 Community,Downtown,parking garage,parking garage.jpg,https://unsplash.com/photos/olo97u6_j3s
 Community,Downtown,office building,office building.jpg,https://unsplash.com/photos/_jFDQJfCTyA
 Community,Downtown,hotel,hotel.jpg,https://unsplash.com/photos/6xeMf4bg0eA
@@ -482,9 +484,10 @@ Recreation,Individual Sports,racqueball,racqueball.jpg,https://pixabay.com/zh/ph
 Recreation,Individual Sports,tennis,tennis.jpg,https://unsplash.com/photos/6D2Lmtv_X8A
 Recreation,Individual Sports,table tennis,table tennis.jpg,https://unsplash.com/photos/ITFi--ljkKU
 Recreation,Individual Sports,mountain climbing,mountain climbing.jpg,https://unsplash.com/photos/FZ0qzjVF_-c
+Recreation,Places to Go,buy souvenirs,buy souvenirs.jpg,https://unsplash.com/photos/Ksq5LwpPslg
 Recreation,Places to Go,classical concert,classical concert.jpg,https://unsplash.com/photos/p60mNTW5glI
 Recreation,Places to Go,opera,opera.jpg,https://unsplash.com/photos/TwP4GjKC_3w
-Recreation,Places to Go,art museum,art museum.jpg,https://unsplash.com/photos/3GZlhROZIQg
+Recreation,Places to Go,art museum/visit an art gallery,art museum.jpg,https://unsplash.com/photos/3GZlhROZIQg
 Recreation,Places to Go,aquarium,aquarium.jpg,https://unsplash.com/photos/OYvjvIANSD0
 Recreation,Places to Go,rock concert,rock concert.jpg,https://unsplash.com/photos/HvWWo_dyFJQ
 Recreation,Places to Go,zoo,zoo.jpg,https://unsplash.com/photos/T8sYhSINRyU
@@ -503,16 +506,17 @@ Recreation,Places to Go,practicing archery,practicing archery.jpg,https://unspla
 Recreation,Places to Go,parasailing,parasailing.jpg,https://unsplash.com/photos/GFORPUwDshI
 Recreation,Places to Go,beachcombing,beachcombing.jpg,https://unsplash.com/photos/UfOaPYVbCFw
 Recreation,Places to Go,visiting historical sites,visiting historical sites.jpg,https://unsplash.com/photos/RDFW_90ppvs
-Recreation,Places to Go,walking on the beach,walking on the beach.jpg,https://unsplash.com/photos/6_pFPo2YM9c
+Recreation,Places to Go,walking on the beach/a tropical beach vacation,walking on the beach.jpg,https://unsplash.com/photos/6_pFPo2YM9c
 Recreation,Places to Go,fine dining,fine dining.jpg,https://unsplash.com/photos/gVvSNWuw6kQ
 Recreation,Places to Go,casinos,casinos.jpg,https://unsplash.com/photos/vBWsG91aR_U
 Recreation,Places to Go,fireworks,fireworks.jpg,https://unsplash.com/photos/4F4B8ohLMX0
 Recreation,Places to Go,picnic,picnic.jpg,https://unsplash.com/photos/1RWOsCxqe0k
 Recreation,Places to Go,Grand Canyon/wilderness,Grand Canyon.jpg,https://unsplash.com/photos/ZZnH4GOzDgc
-Recreation,Places to Go,go sightseeing,go sightseeing.jpg,https://unsplash.com/photos/BoBmrZ8epMA
+Recreation,Places to Go,go sightseeing/take photographs,go sightseeing.jpg,https://unsplash.com/photos/BoBmrZ8epMA
 Recreation,Places to Go,amusement park/theme park,amusement park.jpg,https://unsplash.com/photos/g3CR0UJ1CyM
 Recreation,Places to Go,high tea,high tea.jpg,https://unsplash.com/photos/G3ElLWatpwI
-Recreation,Places to Go,camp fire,camp fire.jpg,https://unsplash.com/photos/S_VbdMTsdiA
+Recreation,Places to Go,a road trip,a road trip.jpg,https://unsplash.com/photos/bFTVxTo266E
+Recreation,Places to Go,camping/camp fire,camping.jpg,https://unsplash.com/photos/1azAjl8FTnU
 Recreation,Winter and Water Sports,downhill skiing,downhill skiing.jpg,https://unsplash.com/photos/VXiG4N229uY
 Recreation,Winter and Water Sports,snowboarding,snowboarding.jpg,https://unsplash.com/photos/VBLJ-zQmlSM
 Recreation,Winter and Water Sports,cross-country skiing,cross-country skiing.jpg,https://unsplash.com/photos/PcVqr8v4XaA
