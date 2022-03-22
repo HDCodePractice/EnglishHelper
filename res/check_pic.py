@@ -67,9 +67,9 @@ def get_theory_path(res_file, file_chapter, file_topic, file_name, down_link):
         if down_link.startswith("https://unsplash.com/photos/"):
             print(f"{image_path} not exists, downloading from unsplash...")
             unsplash_downloader(down_link, str(image_path))
-        elif down_link.startswith("https://pixabay.com/"):
-            print(f"{image_path} not exists, downloading from pixabay...")
-            pixabay_downloader(down_link, str(image_path))
+#        elif down_link.startswith("https://pixabay.com/"):
+#            print(f"{image_path} not exists, downloading from pixabay...")
+#            pixabay_downloader(down_link, str(image_path))
         else:
             print(f"{image_path} not exists, PLS download from {down_link}")
     return image_path

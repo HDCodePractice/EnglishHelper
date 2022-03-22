@@ -309,7 +309,19 @@ Health,A Pharmacy,vaccine/injection,vaccine.jpg,https://unsplash.com/photos/fi3z
 Health,A Pharmacy,crutches,crutches.jpg,https://unsplash.com/photos/rxV0_gPzX8I
 Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
 Health,Medical Care,pregnant,pregnant.jpg,https://unsplash.com/photos/adP0SsdMtMA
-Health,Medical Care,dentist/dental office/dentistry/surgery,dentist.jpg,https://unsplash.com/photos/wzV17t-k3k0
+Health,Dentistry,dentist/dental office/dentistry/surgery,dentist.jpg,https://unsplash.com/photos/adP0SsdMtMA
+Health,Dentistry,dental braces/get some braces,dental braces.jpg,https://unsplash.com/photos/AgWOhGmtWxU
+Health,Dentistry,tooth decay,tooth decay.jpg,https://pixabay.com/zh/illustrations/dentist-icon-cavity-dental-tooth-913014/
+Health,Dentistry,tooth extraction/tooth removal,tooth extraction.jpg,https://pixabay.com/zh/photos/tooth-dentist-molar-wisdom-tooth-3492645/
+Health,Dentistry,orthodontics,orthodontics.jpg,https://unsplash.com/photos/V99Zl7RqihQ
+Health,Dentistry,wisdom teeth,wisdom teeth.jpg,https://www.flaticon.com/premium-icon/wisdom-tooth_2441165
+Health,Dentistry,dental cleaning,dental cleaning.jpg,https://unsplash.com/photos/vxGl2utBFRo
+Health,Dentistry,incisor,incisor.jpg,https://pixabay.com/zh/illustrations/smiley-glasses-nerd-incisor-3862620/
+Health,Dentistry,fillings,fillings.jpg,https://www.flaticon.com/free-icon/filling_5714975
+Health,Dentistry,toothache,toothache.jpg,https://unsplash.com/photos/NKTJCOHzrUM
+Health,Dentistry,gum/gum tissue,gum.jpg,https://www.flaticon.com/premium-icon/gingivitis_5594266
+Health,Dentistry,loose tooth,loose tooth.jpg,https://www.flaticon.com/premium-icon/loose_3954410
+Health,Dentistry,tartar/tooth calculus,tartar.jpg,https://pixabay.com/zh/illustrations/dental-calculus-teeth-tartar-white-3599734/
 Health,Medical Care,bend your arm,bend your arm.jpg,https://unsplash.com/photos/1hZjJh-mGeA
 Health,Medical Care,take a deep breath,take a deep breath.jpg,https://unsplash.com/photos/3TQ8I-sR9a8
 Health,Medical Care,stick out your tongue,stick out your tongue.jpg,https://unsplash.com/photos/8MIHxf9nIiI
@@ -322,7 +334,6 @@ Health,Medical Care,broken bones/X-ray/break,broken bones.jpg,https://unsplash.c
 Health,Medical Care,get a needle,get a needle.jpg,https://unsplash.com/photos/r6u-fhltchE
 Health,Medical Care,get some stitches,get some stitches.jpg,https://unsplash.com/photos/GjAj2aNKw7E
 Health,Medical Care,get an ice pack,get an ice pack.jpg,https://pixabay.com/zh/photos/girl-ice-pack-toothache-dental-5661745/
-Health,Medical Care,get some braces,get some braces.jpg,https://unsplash.com/photos/AgWOhGmtWxU
 Health,Medical Care,put on some cream,put on some cream.jpg,https://unsplash.com/photos/dFBhXJHKNeo
 Health,Medical Care,put on some aloe vera,put on some aloe vera.jpg,https://unsplash.com/photos/EzCNMT9_paM
 Health,Medical Care,put on a band aid/bandage,put on a band aid.jpg,https://unsplash.com/photos/SwWjCbIIoFE
@@ -344,7 +355,6 @@ Health,Symptoms and Injuries,gargle,gargle.jpg,https://www.flaticon.com/free-ico
 Health,Symptoms and Injuries,faint/feel dizzy/dizziness,faint.jpg,https://www.flaticon.com/premium-icon/fainting_5730099
 Health,Symptoms and Injuries,teeth are crooked,teeth are crooked.jpg,https://unsplash.com/photos/VC5lS43bwJo
 Health,Symptoms and Injuries,swollen ankle/twist,swollen ankle.jpg,https://icons8.com/icons/set/swollen-ankle
-Health,Symptoms and Injuries,toothache,toothache.jpg,https://unsplash.com/photos/G3CcxmXGmmo
 Health,Symptoms and Injuries,earache/ear infection,earache.jpg,https://www.flickr.com/photos/30478819@N08/51184090571
 Health,Symptoms and Injuries,tired/sleepy/drowsy/drowsiness,tired.jpg,https://unsplash.com/photos/dVuUM6JMtd4
 Health,Symptoms and Injuries,stomachache/upset stomach,stomachache.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392164/
@@ -454,7 +464,7 @@ Health,The Body,calf,calf.jpg,https://unsplash.com/photos/uJfqMbcrfNM
 Health,The Body,tear,tear.jpg,https://pixabay.com/zh/vectors/cry-eye-crying-depression-sad-6681054/
 People,Adults and Children,young/teenager/teen,young.jpg,https://unsplash.com/photos/MMrkoReI4d8
 People,Adults and Children,old/elderly,old.jpg,https://unsplash.com/photos/cKT0oJL9vMI
-People,Adults and Children,middle age/female,middle age.jpg,https://unsplash.com/photos/SJvDxw0azqw
+People,Adults and Children,middle age/female,middle age.jpg,
 People,Adults and Children,toddler,toddler.jpg,https://unsplash.com/photos/Br-ayoAxFuQ
 People,Adults and Children,male,male.jpg,https://unsplash.com/photos/h5cd51KXmRQ
 People,Adults and Children,pregnant,pregnant.jpg,https://unsplash.com/photos/son4VHt4Ld0
@@ -498,6 +508,9 @@ Recreation,Individual Sports,racqueball,racqueball.jpg,https://pixabay.com/zh/ph
 Recreation,Individual Sports,tennis,tennis.jpg,https://unsplash.com/photos/6D2Lmtv_X8A
 Recreation,Individual Sports,table tennis,table tennis.jpg,https://unsplash.com/photos/ITFi--ljkKU
 Recreation,Individual Sports,mountain climbing,mountain climbing.jpg,https://unsplash.com/photos/FZ0qzjVF_-c
+Recreation,Places to Go,the palace of westminster/houses of parliament/Big Ben,the palace of westminster.jpg,https://unsplash.com/photos/iXqTqC-f6jI
+Recreation,Places to Go,london eye/millennium wheel,london eye.jpg,https://unsplash.com/photos/zuizaVFvWpc
+Recreation,Places to Go,read brochure,read brochure.jpg,https://unsplash.com/photos/RX_0vwSPiWs
 Recreation,Places to Go,buy souvenirs,buy souvenirs.jpg,https://unsplash.com/photos/Ksq5LwpPslg
 Recreation,Places to Go,classical concert,classical concert.jpg,https://unsplash.com/photos/p60mNTW5glI
 Recreation,Places to Go,opera,opera.jpg,https://unsplash.com/photos/TwP4GjKC_3w
@@ -681,3 +694,7 @@ Undefined,Undefined,crawl,crawl.jpg,https://unsplash.com/photos/-d6sy-eKQ8s
 Undefined,Undefined,pirate,pirate.jpg,https://pixabay.com/zh/photos/woman-model-portrait-costume-6079989/
 Undefined,Undefined,shout,shout.jpg,https://unsplash.com/photos/oxQ17xPcEeM
 Undefined,Undefined,atlas,atlas.jpg,https://unsplash.com/photos/o0l-M8W_7wA
+,,attraction,,
+,,canals,,
+,,cobblestone,,
+,,Eifell tower,,
