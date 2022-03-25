@@ -1,5 +1,14 @@
+# Telegram BOT_TOKEN
 BOT_TOKEN=abcdefgh
+# 服务于指定的CHAT_ID群或个人
 CHATIDS=-100123456789,-100987654321
+# 管理员或管理群的CHAT_ID
 ADMIN_IDS=12345678,987654321
+# 数据存储目录
 DATA_DIR=./tmp
+# NLTK数据存储目录
 NLTK_DATA_DIR=./data/nltk_data
+# 微软TOKEN，用于生成语音文件
+MS_TOKEN=abcdefgh
+# PIXABAY_TOKEN，用于从PIXBAY下载图片
+PIXABAY_TOKEN=abcdefgh

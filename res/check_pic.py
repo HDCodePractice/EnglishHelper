@@ -1,8 +1,11 @@
 import csv
-from pathlib import Path
-import shutil
-import requests
 import json
+import shutil
+from pathlib import Path
+
+import requests
+from config import ENV
+
 
 def unsplash_downloader(url, file_name):
 
@@ -17,26 +20,26 @@ def unsplash_downloader(url, file_name):
 
 
 def pixabay_downloader(url, file_name):
-    
+
     api_url = "https://pixabay.com/api/"
-    api_key = "26214455-eb3b048aff957b767ce9ed839"
-    #url后面的‘/’不能少
+    api_key = ENV.PIXABAY_TOKEN
+    # url后面的‘/’不能少
     if not url.endswith("/"):
         url = url + "/"
-    
+
     url_split = url.split('/')[-2]
     name_split = url_split.split('-')
     pic_id = name_split[-1]
-        
-    #通过API获取下载链接
-    res = requests.get(api_url,params={
-                                   "key": api_key,
-                                   "id": pic_id
-                               })
+
+    # 通过API获取下载链接
+    res = requests.get(api_url, params={
+        "key": api_key,
+        "id": pic_id
+    })
 
     if res.status_code == 200:
         data = json.loads(res.text)
-        #选取640尺寸的图片
+        # 选取640尺寸的图片
         real_pic_url = data["hits"][0]["webformatURL"]
         pic_res = requests.get(real_pic_url)
         with open(file_name, 'wb') as f:
@@ -45,7 +48,7 @@ def pixabay_downloader(url, file_name):
         print('Image sucessfully Downloaded: ', file_name)
     else:
         print("Cannot find this picture from pixabay")
-    
+
 
 def find_all_file(src_dir) -> list:
     ignores = [".DS_Store", "Thumbs.db"]

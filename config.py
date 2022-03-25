@@ -96,6 +96,8 @@ class ENV:
     NLTK_DATA_DIR = env.str("NLTK_DATA_DIR", default=None)
     # 存储MS服务的TOKEN
     MS_TOKEN = env.str("MS_TOKEN", default="")
+    # 存储pixbay.com的API_KEY
+    PIXABAY_TOKEN = env.str("PIXABAY_TOKEN", default="")
 
 
 if __name__ == "__main__":
