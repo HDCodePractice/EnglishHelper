@@ -20,6 +20,7 @@ Areas of study,English Composition,exclamation mark,exclamation mark.jpg,apple
 Areas of study,English Composition,semicolon,semicolon.jpg,none
 Areas of study,English Composition,acronym/stand for,acronym.jpg,https://pixabay.com/zh/photos/omg-oh-my-god-texting-social-media-1934214/
 Areas of study,English Composition,spelling,spelling.jpg,https://unsplash.com/photos/vcF5y2Edm6A
+Areas of study,English Composition,tongue twister,tongue twister.jpg,hd and https://unsplash.com/photos/Ehe7ZxrCRCw
 Areas of study,English Composition,essay,essay.jpg,https://unsplash.com/photos/zIwAchjDirM
 Areas of study,Mathematics,put triangle on the right,put triangle on the right.jpg,hd
 Areas of study,Mathematics,put rectangle on the left,put rectangle on the left.jpg,hd
@@ -308,7 +309,6 @@ Health,A Pharmacy,first aid kit,first aid kit.jpg,https://unsplash.com/photos/Ma
 Health,A Pharmacy,vaccine/injection,vaccine.jpg,https://unsplash.com/photos/fi3zHLxWrYw
 Health,A Pharmacy,crutches,crutches.jpg,https://unsplash.com/photos/rxV0_gPzX8I
 Health,A Pharmacy,chlorophyll,chlorophyll.jpg,https://unsplash.com/photos/x7_bMZIXCOU
-Health,Medical Care,pregnant,pregnant.jpg,https://unsplash.com/photos/adP0SsdMtMA
 Health,Dentistry,dentist/dental office/dentistry/surgery,dentist.jpg,https://unsplash.com/photos/adP0SsdMtMA
 Health,Dentistry,dental braces/get some braces,dental braces.jpg,https://unsplash.com/photos/AgWOhGmtWxU
 Health,Dentistry,tooth decay,tooth decay.jpg,https://pixabay.com/zh/illustrations/dentist-icon-cavity-dental-tooth-913014/
@@ -322,12 +322,7 @@ Health,Dentistry,toothache,toothache.jpg,https://unsplash.com/photos/NKTJCOHzrUM
 Health,Dentistry,gum/gum tissue,gum.jpg,https://www.flaticon.com/premium-icon/gingivitis_5594266
 Health,Dentistry,loose tooth,loose tooth.jpg,https://www.flaticon.com/premium-icon/loose_3954410
 Health,Dentistry,tartar/tooth calculus,tartar.jpg,https://pixabay.com/zh/illustrations/dental-calculus-teeth-tartar-white-3599734/
-Health,Ophthalmology,myopia/short sight,myopia.jpg,https://pixabay.com/zh/vectors/eyeglasses-cartoons-black-glass-30168/
-Health,Ophthalmology,optoemtry,optoemtry.jpg,https://pixabay.com/zh/vectors/doctor-eye-check-sight-medical-34903/
-Health,Ophthalmology,retina section,retina section.jpg,https://unsplash.com/photos/ioYYWWX2fjk
-Health,Ophthalmology,astigmatism,astigmatism.jpg,https://www.flaticon.com/free-icon/astigmatism_6435648
-Health,Ophthalmology,cataract,cataract.jpg,https://www.flaticon.com/free-icon/cataract_2297157
-Health,Ophthalmology,asthenopia,asthenopia.jpg,https://pixabay.com/zh/vectors/bloodshot-eyes-face-sleeplessness-1294920/
+Health,Medical Care,pregnant,pregnant.jpg,https://unsplash.com/photos/adP0SsdMtMA
 Health,Medical Care,bend your arm,bend your arm.jpg,https://unsplash.com/photos/1hZjJh-mGeA
 Health,Medical Care,take a deep breath,take a deep breath.jpg,https://unsplash.com/photos/3TQ8I-sR9a8
 Health,Medical Care,stick out your tongue,stick out your tongue.jpg,https://unsplash.com/photos/8MIHxf9nIiI
@@ -348,6 +343,12 @@ Health,Medical Care,drink cough syrup,drink cough syrup.jpg,https://pixabay.com/
 Health,Medical Care,acupuncture,acupuncture.jpg,https://unsplash.com/photos/QgcdtM9rA5s
 Health,Medical Care,emergency/ambulance/urgent,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
 Health,Medical Care,get some rest,get some rest.jpg,https://unsplash.com/photos/6sNQftdA3Zs
+Health,Ophthalmology,myopia/short sight,myopia.jpg,https://pixabay.com/zh/vectors/eyeglasses-cartoons-black-glass-30168/
+Health,Ophthalmology,optoemtry,optoemtry.jpg,https://pixabay.com/zh/vectors/doctor-eye-check-sight-medical-34903/
+Health,Ophthalmology,retina section,retina section.jpg,https://unsplash.com/photos/ioYYWWX2fjk
+Health,Ophthalmology,astigmatism,astigmatism.jpg,https://www.flaticon.com/free-icon/astigmatism_6435648
+Health,Ophthalmology,cataract,cataract.jpg,https://www.flaticon.com/free-icon/cataract_2297157
+Health,Ophthalmology,asthenopia,asthenopia.jpg,https://pixabay.com/zh/vectors/bloodshot-eyes-face-sleeplessness-1294920/
 Health,Symptoms and Injuries,a sliver,a sliver.jpg,https://pixabay.com/zh/illustrations/cactus-sting-thorns-plant-nature-1013665/
 Health,Symptoms and Injuries,sting,sting.jpg,https://www.flaticon.com/free-icon/allergy_2038163
 Health,Symptoms and Injuries,blister/herpes,blister.jpg,https://www.flaticon.com/free-icon/herpes_6836807
@@ -500,6 +501,39 @@ Plants and Animals,Nature Center,grasshopper,grasshopper.jpg,https://unsplash.co
 Plants and Animals,Nature Center,an ear of corn,an ear of corn.jpg,https://unsplash.com/photos/1G7PGolEJUk
 Plants and Animals,Nature Center,stump,stump.jpg,https://unsplash.com/photos/8z3M2Z4rESg
 Plants and Animals,Nature Center,burrow,burrow.jpg,https://pixabay.com/zh/photos/hollow-burrow-hole-passage-shelter-802722/
+Recreation,Entertainment,gospel music,gospel music.jpg,https://unsplash.com/photos/8__esxuic9Q
+Recreation,Entertainment,R&B music/soul music,R&B music.jpg,https://unsplash.com/photos/HAAsKeZbHAc
+Recreation,Entertainment,country music,country music.jpg,https://unsplash.com/photos/OsTJNX83lC0
+Recreation,Entertainment,hip hop music,hip hop music.jpg,https://unsplash.com/photos/HPYk8X9hh34
+Recreation,Entertainment,jazz music,jazz music.jpg,https://unsplash.com/photos/ryFLoYs9YS4
+Recreation,Entertainment,pop music,pop music.jpg,https://unsplash.com/photos/dGYN1ApujRo
+Recreation,Entertainment,rock music,rock music.jpg,https://unsplash.com/photos/uCZVEo8iT9Q
+Recreation,Entertainment,classical music,classical music.jpg,https://unsplash.com/photos/NsgsQjHA1mM
+Recreation,Entertainment,blues music,blues music.jpg,https://unsplash.com/photos/BzxBE7IaKf8
+Recreation,Entertainment,martials arts,martials arts.jpg,https://unsplash.com/photos/W3szznQ8yl8
+Recreation,Entertainment,disaster,disaster.jpg,https://unsplash.com/photos/rxlx9Yi0298
+Recreation,Entertainment,documentary,documentary.jpg,https://unsplash.com/photos/ogtsL8SZsBo
+Recreation,Entertainment,historical,historical.jpg,https://unsplash.com/photos/zg0IF6DCNs0
+Recreation,Entertainment,drama/actors,drama.jpg,https://unsplash.com/photos/hFTcxZFsG6g
+Recreation,Entertainment,running time/length,running time.jpg,hd
+Recreation,Entertainment,animation/cartoon,animation.jpg,https://unsplash.com/photos/13sk8LUVwMg
+Recreation,Entertainment,adventure,adventure.jpg,https://unsplash.com/photos/xAqrT-279UA
+Recreation,Entertainment,exciting,exciting.jpg,https://unsplash.com/photos/ELkT-ms7G9c
+Recreation,Entertainment,special effects,special effects.jpg,https://unsplash.com/photos/vuwLcfHVk5Y
+Recreation,Entertainment,movie theater/cinema,movie theater.jpg,https://unsplash.com/photos/4VDRCoNuvE0
+Recreation,Entertainment,types/genre,types.jpg,https://unsplash.com/photos/XP4nC72yVWQ
+Recreation,Entertainment,popcorn,popcorn.jpg,https://unsplash.com/photos/oWrskhOkZtY
+Recreation,Entertainment,horror/thriller,horror.jpg,https://unsplash.com/photos/tcRKenPR4jg
+Recreation,Entertainment,mystery/suspense,mystery.jpg,https://unsplash.com/photos/gZpM8PjMdBo
+Recreation,Entertainment,subtitles,subtitles.jpg,hd
+Recreation,Entertainment,laugh,laugh.jpg,https://unsplash.com/photos/y3xgrWNQy-0
+Recreation,Entertainment,action,action.jpg,https://unsplash.com/photos/f86RSR2IlYw
+Recreation,Entertainment,science fiction/Sci-Fi/fantasy,science fiction.jpg,https://unsplash.com/photos/OYzbqk2y26c
+Recreation,Entertainment,western,western.jpg,https://unsplash.com/photos/3HmP1kOdACU
+Recreation,Entertainment,romance,romance.jpg,https://unsplash.com/photos/AsahNlC0VhQ
+Recreation,Entertainment,comedy,comedy.jpg,https://unsplash.com/photos/aTuAKskNy7Y
+Recreation,Entertainment,tragedy,tragedy.jpg,https://pixabay.com/zh/photos/crying-crying-man-sadness-cry-sad-4670799/
+Recreation,Entertainment,boring/boredom,boring.jpg,https://unsplash.com/photos/jZi0Ih47EDY
 Recreation,Individual Sports,marathon,marathon.jpg,https://unsplash.com/photos/QDv-uBc-poY
 Recreation,Individual Sports,hike/exploring/hiking,hike.jpg,https://unsplash.com/photos/7MrXw_o7Eo4
 Recreation,Individual Sports,snooker/billiards/pool,snooker.jpg,https://pixabay.com/zh/photos/snooker-balls-billiards-pool-game-4516624/
@@ -551,30 +585,6 @@ Recreation,Places to Go,amusement park/theme park,amusement park.jpg,https://uns
 Recreation,Places to Go,high tea,high tea.jpg,https://unsplash.com/photos/G3ElLWatpwI
 Recreation,Places to Go,a road trip,a road trip.jpg,https://unsplash.com/photos/bFTVxTo266E
 Recreation,Places to Go,camping/camp fire,camping.jpg,https://unsplash.com/photos/1azAjl8FTnU
-Recreation,Entertainment,martials arts,martials arts.jpg,https://unsplash.com/photos/W3szznQ8yl8
-Recreation,Entertainment,disaster,disaster.jpg,https://unsplash.com/photos/rxlx9Yi0298
-Recreation,Entertainment,documentary,documentary.jpg,https://unsplash.com/photos/ogtsL8SZsBo
-Recreation,Entertainment,historical,historical.jpg,https://unsplash.com/photos/zg0IF6DCNs0
-Recreation,Entertainment,drama/actor,drama.jpg,https://unsplash.com/photos/hFTcxZFsG6g
-Recreation,Entertainment,running time/length,running time.jpg,hd
-Recreation,Entertainment,animation/cartoon,animation.jpg,https://unsplash.com/photos/13sk8LUVwMg
-Recreation,Entertainment,adventure,adventure.jpg,https://unsplash.com/photos/xAqrT-279UA
-Recreation,Entertainment,exciting,exciting.jpg,https://unsplash.com/photos/ELkT-ms7G9c
-Recreation,Entertainment,special effects,special effects.jpg,https://unsplash.com/photos/vuwLcfHVk5Y
-Recreation,Entertainment,movie theater/cinema,movie theater.jpg,https://unsplash.com/photos/4VDRCoNuvE0
-Recreation,Entertainment,types/genre,types.jpg,https://unsplash.com/photos/XP4nC72yVWQ
-Recreation,Entertainment,popcorn,popcorn.jpg,https://unsplash.com/photos/oWrskhOkZtY
-Recreation,Entertainment,actor,actor.jpg,https://unsplash.com/photos/4modNup9AzI
-Recreation,Entertainment,horror/thriller,horror.jpg,https://unsplash.com/photos/tcRKenPR4jg
-Recreation,Entertainment,mystery/suspense,mystery.jpg,https://unsplash.com/photos/gZpM8PjMdBo
-Recreation,Entertainment,subtitles,subtitles.jpg,hd
-Recreation,Entertainment,laugh,laugh.jpg,https://unsplash.com/photos/y3xgrWNQy-0
-Recreation,Entertainment,action/adventure,action.jpg,https://unsplash.com/photos/f86RSR2IlYw
-Recreation,Entertainment,science fiction/Sci-Fi/fantasy,science fiction.jpg,https://unsplash.com/photos/OYzbqk2y26c
-Recreation,Entertainment,western,western.jpg,https://unsplash.com/photos/3HmP1kOdACU
-Recreation,Entertainment,romance,romance.jpg,https://unsplash.com/photos/AsahNlC0VhQ
-Recreation,Entertainment,comedy,comedy.jpg,https://unsplash.com/photos/aTuAKskNy7Y
-Recreation,Entertainment,tragedy,tragedy.jpg,https://pixabay.com/zh/photos/crying-crying-man-sadness-cry-sad-4670799/
 Recreation,Winter and Water Sports,downhill skiing,downhill skiing.jpg,https://unsplash.com/photos/VXiG4N229uY
 Recreation,Winter and Water Sports,snowboarding,snowboarding.jpg,https://unsplash.com/photos/VBLJ-zQmlSM
 Recreation,Winter and Water Sports,cross-country skiing,cross-country skiing.jpg,https://unsplash.com/photos/PcVqr8v4XaA
@@ -628,7 +638,7 @@ Undefined,New this week,beat making,beat making.jpg,https://unsplash.com/s/photo
 Undefined,New this week,prediction/foretelling/forecasting/prognostication/superstitious,prediction.jpg,https://unsplash.com/photos/D3SzBCAeMhQ
 Undefined,New this week,held high,held high.jpg,https://pixabay.com/zh/photos/sports-fitness-training-athletic-2264824/
 Undefined,New this week,shadow,shadow.jpg,https://unsplash.com/photos/pirWeToS2mA
-Undefined,New this week,fed up with/to be frustrated with/no more patience/the blues/feeling of sadness or depression,fed up with.jpg,https://unsplash.com/photos/_sh9vkVbVgo
+Undefined,New this week,fed up with/to be frustrated with/no more patience/feeling of sadness or depression,fed up with.jpg,https://unsplash.com/photos/_sh9vkVbVgo
 Undefined,New this week,peek/to become visible/emerge,peek.jpg,https://unsplash.com/photos/-J8m0X_A1a8
 Undefined,New this week,crossed fingers/wish for luck,crossed fingers.jpg,https://unsplash.com/photos/xdx5hIHGt4A
 Undefined,New this week,silent/quiet,silent.jpg,https://unsplash.com/photos/BcjdbyKWquw
@@ -689,7 +699,6 @@ Undefined,Undefined,journey/tourist,journey.jpg,https://unsplash.com/photos/_g1W
 Undefined,Undefined,thirsty,thirsty.jpg,https://unsplash.com/photos/c01oPaDbxWw
 Undefined,Undefined,cut grass,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
 Undefined,Undefined,explode,explode.jpg,https://unsplash.com/photos/-lLWCvEoFJM
-Recreation,Entertainment,boring/boredom,boring.jpg,https://unsplash.com/photos/jZi0Ih47EDY
 Undefined,Undefined,bit messy,bit messy.jpg,https://unsplash.com/photos/BL_f4gQ0TXI
 Undefined,Undefined,blouse,blouse.jpg,https://unsplash.com/photos/LLHs1CN-5UU
 Undefined,Undefined,laundry,laundry.jpg,https://unsplash.com/photos/lgrM1t4rxWQ
