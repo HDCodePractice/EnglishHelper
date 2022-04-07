@@ -476,9 +476,9 @@ People,Adults and Children,toddler,toddler.jpg,https://unsplash.com/photos/Br-ay
 People,Adults and Children,male,male.jpg,https://unsplash.com/photos/h5cd51KXmRQ
 People,Adults and Children,pregnant,pregnant.jpg,https://unsplash.com/photos/son4VHt4Ld0
 People,Adults and Children,infant,infant.jpg,https://unsplash.com/photos/0hiUWSi7jvs
-People,Life events,born,born.jpg,https://unsplash.com/photos/I0ItPtIsVEE
+People,Life events,be born,be born.jpg,https://unsplash.com/photos/I0ItPtIsVEE
 People,Life events,retired,retired.jpg,https://pixabay.com/zh/photos/grandparents-old-senior-grandmother-2807673/
-People,Life events,had a baby/became a mother,had a baby.jpg,https://unsplash.com/photos/Z4GKcFAGck4
+People,Life events,had a baby/became a mother/gave birth to a daughter/adopt a child/be adopted,had a baby.jpg,https://unsplash.com/photos/Z4GKcFAGck4
 People,Life events,met a friend,met a friend.jpg,https://unsplash.com/photos/lyiKExA4zQA
 People,Life events,fell in love/fell in love instantly,fell in love.jpg,https://unsplash.com/photos/L8-0SAy-aoQ
 People,Life events,engagement/got engaged,engagement.jpg,https://unsplash.com/photos/H53P-A_396w
@@ -489,11 +489,11 @@ People,Life events,got promoted,got promoted.jpg,https://unsplash.com/photos/Ua-
 People,Life events,immigrant/immigrated/moved to this country,immigrant.jpg,https://pixabay.com/zh/illustrations/moving-house-truck-van-cans-people-6095628/
 People,Life events,studied/went to university/started college/start English class,studied.jpg,https://unsplash.com/photos/i5nMmbr8JYg
 People,Life events,participated in the challenge,participated in the challenge.jpg,https://unsplash.com/photos/dhGFLj3rI0Q
-People,Life events,bought a house,bought a house.jpg,https://unsplash.com/photos/rgJ1J8SDEAY
+People,Life events,bought a house/bought an apartment/lived at a rental place/stay at my relative’s/own a house/share an apartment/was landlord,bought a house.jpg,https://unsplash.com/photos/rgJ1J8SDEAY
 People,Life events,got a diploma,got a diploma.jpg,https://unsplash.com/photos/A3RUe3oyoKA
 People,Life events,graduate/graduated from school,graduate.jpg,https://unsplash.com/photos/8CqDvPuo_kI
 People,Life events,found a job,found a job.jpg,https://unsplash.com/photos/n95VMLxqM2I
-People,Life events,divorce/got divorced,divorce.jpg,https://pixabay.com/zh/photos/divorce-separation-marriage-breakup-619195/
+People,Life events,divorce/got divorced/separated,divorce.jpg,https://pixabay.com/zh/photos/divorce-separation-marriage-breakup-619195/
 Plants and Animals,Mammals,Raccoon,Raccoon.jpg,https://unsplash.com/photos/lLNyzqcfcyc
 Plants and Animals,Mammals,moose,moose.jpg,https://unsplash.com/photos/Du8sGaNHVMc
 Plants and Animals,Mammals,wolf,wolf.jpg,https://unsplash.com/photos/dtfyRuKG7UY
@@ -638,7 +638,7 @@ Transportation,Basic Transportation,airport lounge/a waiting area,airport lounge
 Transportation,Basic Transportation,airport runway,airport runway.jpg,https://unsplash.com/photos/gxvYZk4Fwjk
 Transportation,Basic Transportation,airport terminal,airport terminal.jpg,https://unsplash.com/photos/DpwWav9DhKk
 Transportation,Basic Transportation,plane/airplane,plane.jpg,https://unsplash.com/photos/8KLLgqHMAv4
-Transportation,Basic Transportation,drive the truck/pickup truck,drive the truck.jpg,https://unsplash.com/photos/YscocmXUTUM
+Transportation,Basic Transportation,drive the truck/pickup truck/vehicles,drive the truck.jpg,https://unsplash.com/photos/YscocmXUTUM
 Transportation,Basic Transportation,motorcycle/motobike,motorcycle.jpg,https://unsplash.com/photos/-5rcxih1e44
 Transportation,Basic Transportation,yacht,yacht.jpg,https://unsplash.com/photos/Zexjl0v3MRU
 Transportation,Basic Transportation,train/train station,train.jpg,https://unsplash.com/photos/PHyF2mCMei0
