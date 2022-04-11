@@ -393,7 +393,7 @@ Health,Symptoms and Injuries,faint/feel dizzy/dizziness,faint.jpg,https://www.fl
 Health,Symptoms and Injuries,teeth are crooked,teeth are crooked.jpg,https://unsplash.com/photos/VC5lS43bwJo
 Health,Symptoms and Injuries,swollen ankle/twist,swollen ankle.jpg,https://icons8.com/icons/set/swollen-ankle
 Health,Symptoms and Injuries,earache/ear infection,earache.jpg,https://www.flickr.com/photos/30478819@N08/51184090571
-Health,Symptoms and Injuries,tired/sleepy/drowsy/drowsiness,tired.jpg,https://unsplash.com/photos/dVuUM6JMtd4
+Health,Symptoms and Injuries,tired/drowsiness,tired.jpg,https://unsplash.com/photos/dVuUM6JMtd4
 Health,Symptoms and Injuries,stomachache/upset stomach,stomachache.jpg,https://pixabay.com/zh/photos/disease-the-medicine-health-4392164/
 Health,Symptoms and Injuries,backache/sore back/stiff back,backache.jpg,https://pixabay.com/zh/illustrations/back-pain-pain-body-backache-5308969/
 Health,Symptoms and Injuries,sore throat/laryngitis,sore throat.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392161/
@@ -506,6 +506,8 @@ People,Adults and Children,toddler,toddler.jpg,https://unsplash.com/photos/Br-ay
 People,Adults and Children,male,male.jpg,https://unsplash.com/photos/h5cd51KXmRQ
 People,Adults and Children,pregnant,pregnant.jpg,https://unsplash.com/photos/son4VHt4Ld0
 People,Adults and Children,infant,infant.jpg,https://unsplash.com/photos/0hiUWSi7jvs
+People,Life events,passport,,https://unsplash.com/photos/eUjufrdx_bM
+People,Life events,dead,dead.jpg,https://unsplash.com/photos/Ct7SDwhQ3nc
 People,Life events,got apart/broke up,got apart.jpg,https://pixabay.com/zh/illustrations/breakup-divorce-separation-couple-3869065/
 People,Life events,be born,be born.jpg,https://unsplash.com/photos/I0ItPtIsVEE
 People,Life events,retired,retired.jpg,https://pixabay.com/zh/photos/grandparents-old-senior-grandmother-2807673/
@@ -521,7 +523,7 @@ People,Life events,immigrant/immigrated/moved to this country,immigrant.jpg,http
 People,Life events,studied/went to university/started college/started English class,studied.jpg,https://unsplash.com/photos/i5nMmbr8JYg
 People,Life events,participated in the challenge,participated in the challenge.jpg,https://unsplash.com/photos/dhGFLj3rI0Q
 People,Life events,bought a house/lived at a rental place/stayed at my relative’s/owned a house/shared an apartment/was landlord/sold my house,bought a house.jpg,https://unsplash.com/photos/rgJ1J8SDEAY
-People,Life events,got a diploma,got a diploma.jpg,https://unsplash.com/photos/A3RUe3oyoKA
+People,Life events,got a diploma/got a college degree,got a diploma.jpg,https://unsplash.com/photos/A3RUe3oyoKA
 People,Life events,graduate/graduated from school,graduate.jpg,https://unsplash.com/photos/8CqDvPuo_kI
 People,Life events,found a job,found a job.jpg,https://unsplash.com/photos/n95VMLxqM2I
 People,Life events,stay at home mom/homeworker/homemaker/full time mom,stay at home mom.jpg,https://unsplash.com/photos/7MAjXGUmaPw
@@ -529,6 +531,16 @@ People,Life events,divorce/got divorced/separated,divorce.jpg,https://pixabay.co
 People,Life events,got laid off/between jobs,got laid off.jpg,https://unsplash.com/photos/U7N4fMhJpEg
 People,Life events,started vocational courses,started vocational courses.jpg,https://unsplash.com/photos/k9Dc5zT1Gq0
 People,Life events,closed my business/sold my business,closed my business.jpg,https://unsplash.com/photos/jBK5235avoE
+People,Feelings,cold,cold.jpg,https://unsplash.com/photos/5_aBNJbDbUQ
+People,Feelings,sleepy/drowsy,sleepy.jpg,https://unsplash.com/photos/mkP0mmP3rug
+People,Feelings,mad,mad.jpg,https://unsplash.com/photos/_LZbDkRaedE
+People,Feelings,hot,hot.jpg,https://unsplash.com/photos/cxK8AoqYO60
+People,Feelings,thirsty,thirsty.jpg,https://unsplash.com/photos/c01oPaDbxWw
+People,Feelings,noise,noise.jpg,https://unsplash.com/photos/uAm_c9heHxo
+People,Feelings,cheer/cheerful,cheer.jpg,https://unsplash.com/photos/oTweoxMKdkA
+People,Feelings,fed up with/to be frustrated with/no more patience/feeling of sadness or depression,fed up with.jpg,https://unsplash.com/photos/_sh9vkVbVgo
+People,Feelings,shout,shout.jpg,https://unsplash.com/photos/oxQ17xPcEeM
+People,Feelings,pleasant,pleasant.jpg,https://pixabay.com/zh/photos/people-jumping-happiness-happy-fun-821624/
 Plants and Animals,Mammals,caribou,caribou.jpg,https://unsplash.com/photos/9lau4mL-FAE
 Plants and Animals,Mammals,Raccoon,Raccoon.jpg,https://unsplash.com/photos/lLNyzqcfcyc
 Plants and Animals,Mammals,moose,moose.jpg,https://unsplash.com/photos/Du8sGaNHVMc
@@ -694,7 +706,6 @@ Undefined,Undefined,beat making,beat making.jpg,https://unsplash.com/s/photos/be
 Undefined,Undefined,prediction/foretelling/forecasting/prognostication/superstitious,prediction.jpg,https://unsplash.com/photos/D3SzBCAeMhQ
 Undefined,Undefined,held high,held high.jpg,https://pixabay.com/zh/photos/sports-fitness-training-athletic-2264824/
 Undefined,Undefined,shadow,shadow.jpg,https://unsplash.com/photos/pirWeToS2mA
-Undefined,Undefined,fed up with/to be frustrated with/no more patience/feeling of sadness or depression,fed up with.jpg,https://unsplash.com/photos/_sh9vkVbVgo
 Undefined,Undefined,peek/to become visible/emerge,peek.jpg,https://unsplash.com/photos/-J8m0X_A1a8
 Undefined,Undefined,crossed fingers/wish for luck,crossed fingers.jpg,https://unsplash.com/photos/xdx5hIHGt4A
 Undefined,Undefined,silent/quiet,silent.jpg,https://unsplash.com/photos/BcjdbyKWquw
@@ -707,7 +718,6 @@ Undefined,Undefined,purchase,purchase.jpg,https://unsplash.com/photos/_3Q3tsJ01n
 Undefined,Undefined,annual ring,annual ring.jpg,https://unsplash.com/photos/XzMoJbV8el8
 Undefined,Undefined,opinion,opinion.jpg,https://pixabay.com/zh/illustrations/feedback-group-communication-2044700/
 Undefined,Undefined,monorail,monorail.jpg,https://pixabay.com/zh/photos/monorail-tram-transport-railway-1636401/
-Undefined,Undefined,cheer/cheerful,cheer.jpg,https://unsplash.com/photos/oTweoxMKdkA
 Undefined,Undefined,Cupid/valentine's day/romance/archer,Cupid.jpg,https://unsplash.com/photos/iUXUi14vX_I
 Undefined,Undefined,gestures,gestures.jpg,https://unsplash.com/photos/Pw5uvsFcGF4
 Undefined,Undefined,doves,doves.jpg,https://unsplash.com/photos/6XcziMmkNgQ
@@ -723,7 +733,6 @@ Undefined,Undefined,stand up for/support/defense,stand up for.jpg,https://unspla
 Undefined,Undefined,ladder,ladder.jpg,https://unsplash.com/photos/BFO8xXD__gM
 Undefined,Undefined,shed fur,shed fur.jpg,https://unsplash.com/photos/Da6O5ujM6Fk
 Undefined,Undefined,claws,claws.jpg,https://unsplash.com/photos/9iFSiYzPduU
-Undefined,Undefined,noise,noise.jpg,https://unsplash.com/photos/uAm_c9heHxo
 Undefined,Undefined,shamrock,shamrock.jpg,https://unsplash.com/photos/Fk0v7XcIAWw
 Undefined,Undefined,harp,harp.jpg,https://unsplash.com/photos/1J9dYe4wkEI
 Undefined,Undefined,a well,a well.jpg,https://pixabay.com/zh/photos/fountain-old-stone-wall-wall-round-788430/
@@ -733,10 +742,9 @@ Undefined,Undefined,rummage,rummage.jpg,https://unsplash.com/photos/9Y1PYmvutb0
 Undefined,Undefined,predator,predator.jpg,https://unsplash.com/photos/OjE4RtaibFc
 Undefined,Undefined,catch,catch.jpg,https://unsplash.com/photos/2VH0ymGTpCI
 Undefined,Undefined,together,together.jpg,https://unsplash.com/photos/Y5bvRlcCx8k
-Undefined,Undefined,pleasant,pleasant.jpg,https://pixabay.com/zh/photos/people-jumping-happiness-happy-fun-821624/
 Undefined,Undefined,criminal justice,criminal justice.jpg,https://unsplash.com/photos/lb7q0iLOaSE
 Undefined,Undefined,reach end,reach end.jpg,https://pixabay.com/zh/photos/swimming-swimmer-pool-race-79593/
-Undefined,Undefined,volunteer,volunteer.jpg,https://unsplash.com/photos/bWAArZ5M4Ag
+People,Life events,volunteer,volunteer.jpg,https://unsplash.com/photos/bWAArZ5M4Ag
 Undefined,Undefined,clothes,clothes.jpg,https://unsplash.com/photos/TS--uNw-JqE
 Undefined,Undefined,haircut,haircut.jpg,https://unsplash.com/photos/sS3qRFsKZlg
 Undefined,Undefined,damage,damage.jpg,https://unsplash.com/photos/AuPRHJe8Mhs
@@ -745,13 +753,12 @@ Undefined,Undefined,get wet,get wet.jpg,https://unsplash.com/photos/FtZL0r4DZYk
 Undefined,Undefined,unexpected,unexpected.jpg,https://pixabay.com/zh/photos/mistake-spill-slip-up-accident-876597/
 Undefined,Undefined,prize/trophy,prize.jpg,https://unsplash.com/photos/HkN64BISuQA
 Undefined,Undefined,journey/tourist,journey.jpg,https://unsplash.com/photos/_g1WdcKcV3w
-Undefined,Undefined,thirsty,thirsty.jpg,https://unsplash.com/photos/c01oPaDbxWw
+,,,,
 Undefined,Undefined,cut grass,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
 Undefined,Undefined,explode,explode.jpg,https://unsplash.com/photos/-lLWCvEoFJM
 Undefined,Undefined,bit messy,bit messy.jpg,https://unsplash.com/photos/BL_f4gQ0TXI
 Undefined,Undefined,blouse,blouse.jpg,https://unsplash.com/photos/LLHs1CN-5UU
 Undefined,Undefined,laundry,laundry.jpg,https://unsplash.com/photos/lgrM1t4rxWQ
-Undefined,Undefined,mad,mad.jpg,https://unsplash.com/photos/_LZbDkRaedE
 Undefined,Undefined,decorate,decorate.jpg,https://unsplash.com/photos/CTukx4jfWac
 Undefined,Undefined,give a presentation,give a presentation.jpg,https://unsplash.com/photos/K_VeavYEfdA
 Undefined,Undefined,drill,drill.jpg,https://pixabay.com/zh/photos/heavy-water-factory-1053775/
@@ -779,7 +786,6 @@ Undefined,Undefined,sneak,sneak.jpg,https://unsplash.com/photos/SrAnT6OtADY
 Undefined,Undefined,seesaw,seesaw.jpg,https://unsplash.com/photos/RwWW0BIgFuQ
 Undefined,Undefined,crawl,crawl.jpg,https://unsplash.com/photos/-d6sy-eKQ8s
 Undefined,Undefined,pirate,pirate.jpg,https://pixabay.com/zh/photos/woman-model-portrait-costume-6079989/
-Undefined,Undefined,shout,shout.jpg,https://unsplash.com/photos/oxQ17xPcEeM
 Undefined,Undefined,atlas,atlas.jpg,https://unsplash.com/photos/o0l-M8W_7wA
 Undefined,Undefined,dog groomer,dog groomer.jpg,https://unsplash.com/photos/l0Gq4BmboYY
 Undefined,Undefined,poo/excrement/faces,poo.jpg,https://pixabay.com/zh/photos/dog-grass-defecating-pooping-5928690/
