@@ -69,7 +69,6 @@ Areas of study,School and Subjects,graduation,graduation.jpg,https://unsplash.co
 Areas of study,School and Subjects,glue stick/glue,glue stick.jpg,https://unsplash.com/photos/AJIJ6Gmy0KM
 Areas of study,School and Subjects,introduce,introduce.jpg,https://pixabay.com/illustrations/my-name-is-name-hello-tag-meeting-1185862/
 Areas of study,School and Subjects,shake hands,shake hands.jpg,https://unsplash.com/photos/n95VMLxqM2I
-Areas of study,School and Subjects,smile,smile.jpg,https://unsplash.com/photos/IF9TK5Uy-KI
 Areas of study,School and Subjects,hug,hug.jpg,https://unsplash.com/photos/L4nwL3195U0
 Areas of study,School and Subjects,wave,wave.jpg,https://unsplash.com/photos/SwMgX1d0Kmw
 Areas of study,School and Subjects,sign,sign.jpg,https://pixabay.com/zh/photos/business-signature-contract-962355/
@@ -90,7 +89,7 @@ Areas of study,School and Subjects,screen,screen.jpg,https://unsplash.com/photos
 Areas of study,School and Subjects,headphones/headset,headphones.jpg,https://unsplash.com/photos/LSNJ-pltdu8
 Areas of study,School and Subjects,projector,projector.jpg,https://unsplash.com/photos/MAYsdoYpGuk
 Areas of study,School and Subjects,raise your hand,raise your hand.jpg,https://unsplash.com/photos/2C4yHmZnnNk
-Areas of study,School and Subjects,sit down,sit down.jpg,https://unsplash.com/photos/0QhYFfIEl2A
+Areas of study,School and Subjects,sit down/smile,sit down.jpg,https://unsplash.com/photos/0QhYFfIEl2A
 Areas of study,School and Subjects,listen/stand up,listen.jpg,https://unsplash.com/photos/a1axIWxQxxM
 Areas of study,School and Subjects,pick up,pick up.jpg,https://unsplash.com/photos/jgAMefX4zl4
 Areas of study,School and Subjects,put down,put down.jpg,https://pixabay.com/zh/illustrations/puzzle-last-part-part-puzzle-piece-2856320/
@@ -117,6 +116,7 @@ Clothing,Everyday Clothes,jeans,jeans.jpg,https://unsplash.com/photos/zDyJOj8ZXG
 Clothing,Everyday Clothes,dress,dress.jpg,https://unsplash.com/photos/ohiyigDmlYc
 Clothing,Everyday Clothes,cap/baseball cap,cap.jpg,https://unsplash.com/photos/FEx5z_k0hss
 Clothing,Everyday Clothes,sweater,sweater.jpg,https://unsplash.com/photos/A2dLORW-gJY
+Community,Downtown,elevator,elevator.jpg,https://unsplash.com/photos/UlH5Bj0-9aU
 Community,Downtown,electronics store,electronics store.jpg,https://unsplash.com/photos/5W3JkWpA_wU
 Community,Downtown,traffic light,traffic light.jpg,https://unsplash.com/photos/PN-YnI5stdQ
 Community,Downtown,stop sign,stop sign.jpg,https://unsplash.com/photos/lcQa1OQ7Exg
@@ -214,7 +214,7 @@ Everyday Language,Weather,evaporation/vapor,evaporation.jpg,https://unsplash.com
 Everyday Language,Weather,sunny/clear,sunny.jpg,https://unsplash.com/photos/zjoydJb17mE
 Everyday Language,Weather,lightning/thunderstorm,lightning.jpg,https://unsplash.com/photos/nbqlWhOVu6k
 Everyday Language,Weather,hailstorm/hail,hailstorm.jpg,https://pixabay.com/zh/photos/first-snow-hail-summerotakoeleto-1821255/
-Everyday Language,Weather,foggy,foggy.jpg,https://unsplash.com/photos/NLGtLHoP8UY
+Everyday Language,Weather,foggy/haze,foggy.jpg,https://unsplash.com/photos/NLGtLHoP8UY
 Everyday Language,Weather,icy/slippery,icy.jpg,https://unsplash.com/photos/Lq6R5kUG0cQ
 Everyday Language,Weather,smoggy,smoggy.jpg,https://unsplash.com/photos/x18KXZZi790
 Everyday Language,Weather,snowstorm/blizzard,snowstorm.jpg,https://unsplash.com/photos/auKUoQcwQfs
@@ -321,7 +321,7 @@ Food,Vegetables,cilantro/coriander,cilantro.jpg,https://unsplash.com/photos/9rt6
 Health,A Pharmacy,fill/refill,fill.jpg,https://unsplash.com/photos/RiLzlQzwzik
 Health,A Pharmacy,lotion,lotion.jpg,https://unsplash.com/photos/y_CSTKJ0bEs
 Health,A Pharmacy,eye drops,eye drops.jpg,https://unsplash.com/photos/6F2mPewg2RA
-Health,A Pharmacy,patient,patient.jpg,https://unsplash.com/photos/DjrtjX-obcE
+Health,A Pharmacy,patient/hospitalised,patient.jpg,https://unsplash.com/photos/DjrtjX-obcE
 Health,A Pharmacy,pharmacist,pharmacist.jpg,https://unsplash.com/photos/NNpo-liY5aU
 Health,A Pharmacy,prescription,prescription.jpg,https://commons.wikimedia.org/wiki/File:Typical_Doctors_Prescription.jpg
 Health,A Pharmacy,prescription medicine/prescription drug,prescription medicine.jpg,https://unsplash.com/photos/b9CaYHNfmho
@@ -374,7 +374,7 @@ Health,Medical Care,acupuncture,acupuncture.jpg,https://unsplash.com/photos/Qgcd
 Health,Medical Care,emergency/ambulance/urgent,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
 Health,Medical Care,get some rest,get some rest.jpg,https://unsplash.com/photos/6sNQftdA3Zs
 Health,Ophthalmology,myopia/short sight,myopia.jpg,https://pixabay.com/zh/vectors/eyeglasses-cartoons-black-glass-30168/
-Health,Ophthalmology,optoemtry,optoemtry.jpg,https://pixabay.com/zh/vectors/doctor-eye-check-sight-medical-34903/
+Health,Ophthalmology,optometry,optometry.jpg,https://pixabay.com/zh/vectors/doctor-eye-check-sight-medical-34903/
 Health,Ophthalmology,retina section,retina section.jpg,https://unsplash.com/photos/ioYYWWX2fjk
 Health,Ophthalmology,astigmatism,astigmatism.jpg,https://www.flaticon.com/free-icon/astigmatism_6435648
 Health,Ophthalmology,cataract,cataract.jpg,https://www.flaticon.com/free-icon/cataract_2297157
@@ -422,7 +422,7 @@ Health,Symptoms and Injuries,wrist pain/a sore wrist,wrist pain.jpg,https://pixa
 Health,Symptoms and Injuries,bite,bite.jpg,https://pixabay.com/zh/photos/mosquito-insect-mosquito-bite-49141/
 Health,Symptoms and Injuries,chest pains/heart attack/heartburn,chest pains.jpg,https://pixabay.com/zh/photos/man-heartache-chest-pain-hurt-pain-1846050/
 Health,Symptoms and Injuries,an injured hand,an injured hand.jpg,https://pixabay.com/zh/vectors/bandage-hand-bandaged-tape-first-37364/
-Health,Symptoms and Injuries,virus,virus.jpg,https://unsplash.com/photos/k0KRNtqcjfw
+Health,Symptoms and Injuries,virus/infect/contagious,virus.jpg,https://unsplash.com/photos/k0KRNtqcjfw
 Health,Symptoms and Injuries,accident,accident.jpg,https://unsplash.com/photos/ipHlSSaC3vk
 Health,Symptoms and Injuries,asthma,asthma.jpg,https://www.flaticon.com/premium-icon/asthma_3954104
 Health,Symptoms and Injuries,dehydrat,dehydrat.jpg,https://unsplash.com/photos/iWj1UICQKUc
@@ -520,7 +520,7 @@ People,Feelings,cheer/cheerful,cheer.jpg,https://unsplash.com/photos/oTweoxMKdkA
 People,Feelings,fed up with/to be frustrated with/no more patience/feeling of sadness or depression,fed up with.jpg,https://unsplash.com/photos/_sh9vkVbVgo
 People,Feelings,shout,shout.jpg,https://unsplash.com/photos/oxQ17xPcEeM
 People,Feelings,pleasant,pleasant.jpg,https://pixabay.com/zh/photos/people-jumping-happiness-happy-fun-821624/
-People,Life events,passport,,https://unsplash.com/photos/eUjufrdx_bM
+People,Life events,passport/civics/citizenship,passport.jpg,https://unsplash.com/photos/eUjufrdx_bM
 People,Life events,dead,dead.jpg,https://unsplash.com/photos/Ct7SDwhQ3nc
 People,Life events,got apart/broke up,got apart.jpg,https://pixabay.com/zh/illustrations/breakup-divorce-separation-couple-3869065/
 People,Life events,be born,be born.jpg,https://unsplash.com/photos/I0ItPtIsVEE
@@ -565,7 +565,7 @@ Plants and Animals,Nature Center,insects,insects.jpg,https://unsplash.com/photos
 Plants and Animals,Nature Center,nest,nest.jpg,https://unsplash.com/photos/_UQgnpzyVo0
 Plants and Animals,Nature Center,pine,pine.jpg,https://unsplash.com/photos/JQzNAoy9fTA
 Plants and Animals,Nature Center,scent,scent.jpg,https://unsplash.com/photos/t0ZfzT8FopE
-Plants and Animals,Nature Center,river,river.jpg,https://unsplash.com/photos/HtUBBdNDxpQ
+Plants and Animals,Nature Center,river/canals,river.jpg,https://unsplash.com/photos/HtUBBdNDxpQ
 Plants and Animals,Nature Center,dragonfly,dragonfly.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Plants and Animals,Nature Center,butterfly,butterfly.jpg,https://unsplash.com/photos/-6lGrOUTQBw
 Plants and Animals,Nature Center,grasshopper,grasshopper.jpg,https://unsplash.com/photos/Kt1jIAdkwa0
@@ -796,5 +796,4 @@ Undefined,Undefined,witch,witch.jpg,https://unsplash.com/photos/UScFXZ0CeR0
 Undefined,Undefined,lipstick,lipstick.jpg,https://unsplash.com/photos/Yh9FrbN5Bts
 Undefined,Undefined,strips,strips.jpg,https://unsplash.com/photos/H_fH_VPk4Yo
 Undefined,Undefined,acquisition/acquire,acquisition.jpg,https://unsplash.com/photos/qgHGDbbSNm8
-,,federal,,
-,,provincial,,
+Undefined,Undefined,struggle/fight hard,struggle.jpg,https://unsplash.com/photos/7MRajrPiTqw
