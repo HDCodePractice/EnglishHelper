@@ -7,4 +7,3 @@ nltk
 google_spreadsheet
 google-auth-oauthlib
 pandas
-azure-cognitiveservices-speech
