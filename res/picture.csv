@@ -322,7 +322,7 @@ Food,Vegetables,cilantro/coriander,cilantro.jpg,https://unsplash.com/photos/9rt6
 Health,A Pharmacy,fill/refill,fill.jpg,https://unsplash.com/photos/RiLzlQzwzik
 Health,A Pharmacy,lotion,lotion.jpg,https://unsplash.com/photos/y_CSTKJ0bEs
 Health,A Pharmacy,eye drops,eye drops.jpg,https://unsplash.com/photos/6F2mPewg2RA
-Health,A Pharmacy,patient/hospitalised,patient.jpg,https://unsplash.com/photos/DjrtjX-obcE
+Health,A Pharmacy,a patient/hospitalised,a patient.jpg,https://unsplash.com/photos/DjrtjX-obcE
 Health,A Pharmacy,pharmacist,pharmacist.jpg,https://unsplash.com/photos/NNpo-liY5aU
 Health,A Pharmacy,prescription,prescription.jpg,https://commons.wikimedia.org/wiki/File:Typical_Doctors_Prescription.jpg
 Health,A Pharmacy,prescription medicine/prescription drug,prescription medicine.jpg,https://unsplash.com/photos/b9CaYHNfmho
@@ -372,7 +372,7 @@ Health,Medical Care,put on a band aid/bandage,put on a band aid.jpg,https://unsp
 Health,Medical Care,put on a cast/use crutches,put on a cast.jpg,https://unsplash.com/photos/5z8fGuV36UY
 Health,Medical Care,drink cough syrup,drink cough syrup.jpg,https://pixabay.com/zh/photos/cough-syrup-medicine-spoon-2557629/
 Health,Medical Care,acupuncture,acupuncture.jpg,https://unsplash.com/photos/QgcdtM9rA5s
-Health,Medical Care,emergency/ambulance/urgent,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
+Health,Medical Care,emergency/ambulance/urgent/sirens,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
 Health,Medical Care,get some rest,get some rest.jpg,https://unsplash.com/photos/6sNQftdA3Zs
 Health,Ophthalmology,myopia/short sight,myopia.jpg,https://pixabay.com/zh/vectors/eyeglasses-cartoons-black-glass-30168/
 Health,Ophthalmology,optometry,optometry.jpg,https://pixabay.com/zh/vectors/doctor-eye-check-sight-medical-34903/
@@ -547,13 +547,18 @@ People,Life events,got laid off/between jobs,got laid off.jpg,https://unsplash.c
 People,Life events,started vocational courses,started vocational courses.jpg,https://unsplash.com/photos/k9Dc5zT1Gq0
 People,Life events,closed my business/sold my business,closed my business.jpg,https://unsplash.com/photos/jBK5235avoE
 People,Life events,volunteer,volunteer.jpg,https://unsplash.com/photos/bWAArZ5M4Ag
+People,Personality Adjectives,strength,strength.jpg,https://unsplash.com/photos/aZVpxRydiJk
+People,Personality Adjectives,creative/inventive,creative.jpg,https://unsplash.com/photos/7esRPTt38nI
+People,Personality Adjectives,punctual,punctual.jpg,https://unsplash.com/photos/9jLYl1TmZAg
+People,Personality Adjectives,tech-savvy,tech-savvy.jpg,https://unsplash.com/photos/VzJjPuk53sk
+People,Personality Adjectives,reliable,reliable.jpg,https://unsplash.com/photos/Y5bvRlcCx8k
 People,Personality Adjectives,pessimistic,pessimistic.jpg,https://unsplash.com/photos/qURl6R7uS2U
 People,Personality Adjectives,jealous,jealous.jpg,https://unsplash.com/photos/0GFNAelMPZA
-People,Personality Adjectives,careful,careful.jpg,https://unsplash.com/photos/Xn8nhug7BYM
+People,Personality Adjectives,careful/detail-oriented/cautious,careful.jpg,https://unsplash.com/photos/Xn8nhug7BYM
 People,Personality Adjectives,stubborn,stubborn.jpg,https://unsplash.com/photos/cSsvUtTVr0Q
 People,Personality Adjectives,flexible,flexible.jpg,https://unsplash.com/photos/02SDUKEZMzU
 People,Personality Adjectives,tidy,tidy.jpg,https://unsplash.com/photos/6CszxGveP8U
-People,Personality Adjectives,patients/thoughtful/satisfied,patients.jpg,https://unsplash.com/photos/gO-iULv-qbU
+People,Personality Adjectives,be patient/thoughtful/satisfied/easy going,be patient.jpg,https://unsplash.com/photos/gO-iULv-qbU
 People,Personality Adjectives,mean,mean.jpg,https://pixabay.com/zh/photos/scrooge-figure-wealth-money-1001336/
 People,Personality Adjectives,generous,generous.jpg,https://unsplash.com/photos/lVFoIi3SJq8
 People,Personality Adjectives,honest,honest.jpg,https://unsplash.com/photos/xurNTAct1f4
@@ -561,7 +566,8 @@ People,Personality Adjectives,talkative,talkative.jpg,https://unsplash.com/photo
 People,Personality Adjectives,silent/quiet,silent.jpg,https://unsplash.com/photos/BcjdbyKWquw
 People,Personality Adjectives,hardworking,hardworking.jpg,https://unsplash.com/photos/eWiTil2CAvA
 People,Personality Adjectives,lazy,lazy.jpg,https://unsplash.com/photos/Gx1raEg_3Zw
-People,Personality Adjectives,outgoing/optimistic,outgoing.jpg,https://unsplash.com/photos/e3OUQGT9bWU
+People,Personality Adjectives,outgoing/optimistic/open-minded,outgoing.jpg,https://unsplash.com/photos/e3OUQGT9bWU
+People,Personality Adjectives,nervous/frightened,nervous.jpg,https://unsplash.com/photos/bza-TEcrXfw
 People,Personality Adjectives,shy,shy.jpg,https://unsplash.com/photos/XLKJMWV0JYo
 People,Personality Adjectives,rude,rude.jpg,https://unsplash.com/photos/kSeVsoPDQYM
 People,Personality Adjectives,polite,polite.jpg,https://unsplash.com/photos/9cd8qOgeNIY
