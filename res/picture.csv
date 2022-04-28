@@ -141,6 +141,19 @@ Community,Downtown,library,library.jpg,https://unsplash.com/photos/ln_slYqaMiI
 Community,Downtown,museum,museum.jpg,https://unsplash.com/photos/tXmc2mVDxJc
 Community,Downtown,stadium,stadium.jpg,https://unsplash.com/photos/bY4cqxp7vos
 Community,Downtown,movie theater,movie theater.jpg,https://unsplash.com/photos/23LET4Hxj_U
+Community,Emergency,fire truck,fire truck.jpg,https://unsplash.com/photos/Y2ZJ5XqRB1s
+Community,Emergency,earthquake,earthquake.jpg,https://unsplash.com/photos/4pc1GpZhJP0
+Community,Emergency,explosion/explode,explosion.jpg,https://unsplash.com/photos/Oi31uKsnM1Q
+Community,Emergency,lost child,lost child.jpg,https://unsplash.com/photos/H566W24FyL8
+Community,Emergency,operator,operator.jpg,https://unsplash.com/photos/mHusyBu4bxM
+Community,Emergency,hurt,hurt.jpg,https://unsplash.com/photos/Zcl9rMwflmw
+Community,Emergency,robbery,robbery.jpg,https://unsplash.com/photos/PEJHULxUHZs
+Community,Emergency,police officer,police officer.jpg,https://unsplash.com/photos/ZbFINckE8Io
+Community,Emergency,paramedic/CPR,paramedic.jpg,https://unsplash.com/photos/fSO8pdTu8Pk
+Community,Emergency,stretcher/be level,stretcher.jpg,https://pixabay.com/zh/photos/stretcher-litter-emergency-hospital-1685611/
+Community,Emergency,firefighter,firefighter.jpg,https://unsplash.com/photos/mJWzX7U_q78
+Community,Emergency,accident,accident.jpg,https://unsplash.com/photos/ipHlSSaC3vk
+Community,Emergency,ambulance/sirens,ambulance.jpg,https://unsplash.com/photos/vGu08RYjO-s
 Community,The Bank,teller,teller.jpg,https://pixabay.com/zh/illustrations/bank-teller-bank-service-6330466/
 Community,The Bank,issue a fine,issue a fine.jpg,https://unsplash.com/photos/crGG3QXuyPc
 Community,The Bank,safety deposit box/safe box,safety deposit box.jpg,https://unsplash.com/photos/Uf-c4u1usFQ
@@ -378,7 +391,7 @@ Health,Medical Care,put on a band aid/bandage,put on a band aid.jpg,https://unsp
 Health,Medical Care,put on a cast/use crutches,put on a cast.jpg,https://unsplash.com/photos/5z8fGuV36UY
 Health,Medical Care,drink cough syrup,drink cough syrup.jpg,https://pixabay.com/zh/photos/cough-syrup-medicine-spoon-2557629/
 Health,Medical Care,acupuncture,acupuncture.jpg,https://unsplash.com/photos/QgcdtM9rA5s
-Health,Medical Care,emergency/ambulance/urgent/sirens,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
+Health,Medical Care,emergency/urgent,emergency.jpg,https://unsplash.com/photos/vGu08RYjO-s
 Health,Medical Care,get some rest,get some rest.jpg,https://unsplash.com/photos/6sNQftdA3Zs
 Health,Ophthalmology,myopia/short sight,myopia.jpg,https://pixabay.com/zh/vectors/eyeglasses-cartoons-black-glass-30168/
 Health,Ophthalmology,optometry,optometry.jpg,https://pixabay.com/zh/vectors/doctor-eye-check-sight-medical-34903/
@@ -430,7 +443,6 @@ Health,Symptoms and Injuries,bite,bite.jpg,https://pixabay.com/zh/photos/mosquit
 Health,Symptoms and Injuries,chest pains/heart attack/heartburn,chest pains.jpg,https://pixabay.com/zh/photos/man-heartache-chest-pain-hurt-pain-1846050/
 Health,Symptoms and Injuries,an injured hand,an injured hand.jpg,https://pixabay.com/zh/vectors/bandage-hand-bandaged-tape-first-37364/
 Health,Symptoms and Injuries,virus/infect/contagious,virus.jpg,https://unsplash.com/photos/k0KRNtqcjfw
-Health,Symptoms and Injuries,accident,accident.jpg,https://unsplash.com/photos/ipHlSSaC3vk
 Health,Symptoms and Injuries,asthma,asthma.jpg,https://www.flaticon.com/premium-icon/asthma_3954104
 Health,Symptoms and Injuries,dehydrat,dehydrat.jpg,https://unsplash.com/photos/iWj1UICQKUc
 Health,Symptoms and Injuries,dog bite,dog bite.jpg,https://unsplash.com/photos/PE69hOLm8H4
@@ -797,7 +809,6 @@ Undefined,Undefined,unexpected,unexpected.jpg,https://pixabay.com/zh/photos/mist
 Undefined,Undefined,prize/trophy,prize.jpg,https://unsplash.com/photos/HkN64BISuQA
 Undefined,Undefined,journey/tourist,journey.jpg,https://unsplash.com/photos/_g1WdcKcV3w
 Undefined,Undefined,cut grass,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
-Undefined,Undefined,explode,explode.jpg,https://unsplash.com/photos/-lLWCvEoFJM
 Undefined,Undefined,bit messy,bit messy.jpg,https://unsplash.com/photos/BL_f4gQ0TXI
 Undefined,Undefined,blouse,blouse.jpg,https://unsplash.com/photos/LLHs1CN-5UU
 Undefined,Undefined,laundry,laundry.jpg,https://unsplash.com/photos/lgrM1t4rxWQ
