@@ -83,7 +83,7 @@ Areas of study,School and Subjects,bleachers/grandstand,bleachers.jpg,https://un
 Areas of study,School and Subjects,principal,principal.jpg,https://unsplash.com/photos/C6-GjBAOtZc
 Areas of study,School and Subjects,classroom,classroom.jpg,https://unsplash.com/photos/zFSo6bnZJTw
 Areas of study,School and Subjects,hallway,hallway.jpg,https://unsplash.com/photos/nbk-hwLDCOA
-Areas of study,School and Subjects,clerk,clerk.jpg,https://unsplash.com/photos/-Ox-nqpEUqM
+Areas of study,School and Subjects,clerk,clerk.jpg,https://unsplash.com/photos/8YG31Xn4dSw
 Areas of study,School and Subjects,coach,coach.jpg,https://unsplash.com/photos/nKcx6jbFE-A
 Areas of study,School and Subjects,auditorium,auditorium.jpg,https://unsplash.com/photos/COWf-5ZtZ6w
 Areas of study,School and Subjects,recess/raise your hand,recess.jpg,https://unsplash.com/photos/TRrBszDmuWE
@@ -142,6 +142,7 @@ Community,Downtown,library,library.jpg,https://unsplash.com/photos/ln_slYqaMiI
 Community,Downtown,museum,museum.jpg,https://unsplash.com/photos/tXmc2mVDxJc
 Community,Downtown,stadium,stadium.jpg,https://unsplash.com/photos/bY4cqxp7vos
 Community,Downtown,movie theater,movie theater.jpg,https://unsplash.com/photos/23LET4Hxj_U
+Community,Emergency,flat tire/tire blowout,flat tire.jpg,https://unsplash.com/photos/omJsJSHVCUk
 Community,Emergency,fire truck/fire engine,fire truck.jpg,https://unsplash.com/photos/Y2ZJ5XqRB1s
 Community,Emergency,earthquake,earthquake.jpg,https://unsplash.com/photos/4pc1GpZhJP0
 Community,Emergency,explosion/explode,explosion.jpg,https://unsplash.com/photos/Oi31uKsnM1Q
@@ -316,7 +317,7 @@ Food,Vegetables,chili peppers,chili peppers.jpg,https://unsplash.com/photos/DkiD
 Food,Vegetables,parsley,parsley.jpg,https://unsplash.com/photos/ROLioAWYkhM
 Food,Vegetables,asparagus,asparagus.jpg,https://unsplash.com/photos/KCZ7RdByMp0
 Food,Vegetables,zucchini,zucchini.jpg,https://unsplash.com/photos/ttyJGdk2kmU
-Food,Vegetables,squashs,squashs.jpg,https://unsplash.com/photos/02hwpDlWeGI
+Food,Vegetables,squashes,squashes.jpg,https://unsplash.com/photos/02hwpDlWeGI
 Food,Vegetables,eggplants,eggplants.jpg,https://unsplash.com/photos/4pjNDw_Qvfk
 Food,Vegetables,artichokes,artichokes.jpg,https://unsplash.com/photos/J84yENp4O9w
 Food,Vegetables,peas,peas.jpg,https://unsplash.com/photos/iwKlrhVbGzA
@@ -395,7 +396,7 @@ Health,Medical Care,sling,sling.jpg,https://www.flaticon.com/free-icon/sling_276
 Health,Medical Care,IV/intravenous line/intravenous,IV.jpg,https://unsplash.com/photos/6pcGTJDuf6M
 Health,Medical Care,use a puffer/inhaler,use a puffer.jpg,https://pixabay.com/zh/photos/disease-cold-flu-the-medicine-4392146/
 Health,Medical Care,broken bones/X-ray/break,broken bones.jpg,https://unsplash.com/photos/ouyjDk-KdfY
-Health,Medical Care,get a needle,get a needle.jpg,https://unsplash.com/photos/r6u-fhltchE
+Health,Medical Care,get a needle/get a shot/get an injection,get a needle.jpg,https://unsplash.com/photos/r6u-fhltchE
 Health,Medical Care,get some stitches,get some stitches.jpg,https://unsplash.com/photos/GjAj2aNKw7E
 Health,Medical Care,get an ice pack,get an ice pack.jpg,https://pixabay.com/zh/photos/girl-ice-pack-toothache-dental-5661745/
 Health,Medical Care,put on some cream,put on some cream.jpg,https://unsplash.com/photos/dFBhXJHKNeo
@@ -584,7 +585,7 @@ People,Life events,got laid off/between jobs,got laid off.jpg,https://unsplash.c
 People,Life events,started vocational courses,started vocational courses.jpg,https://unsplash.com/photos/k9Dc5zT1Gq0
 People,Life events,closed my business/sold my business,closed my business.jpg,https://unsplash.com/photos/jBK5235avoE
 People,Life events,volunteer,volunteer.jpg,https://unsplash.com/photos/bWAArZ5M4Ag
-People,Love,bouquet flower,bouquet flower.jpg,https://unsplash.com/photos/01Wa3tPoQQ8
+People,Love,flower bouquet/a bouquet of flowers,flower bouquet.jpg,https://unsplash.com/photos/01Wa3tPoQQ8
 People,Love,fell in love instantly/at first sight,fell in love instantly.jpg,https://unsplash.com/photos/sitjgGsVIAs
 People,Love,bear with me/endure/tolerate,bear with me.jpg,https://unsplash.com/photos/KQCXf_zvdaU
 People,Love,inner beauty,inner beauty.jpg,https://pixabay.com/zh/illustrations/symbolic-inner-beauty-dear-adorable-2062579/
@@ -751,15 +752,15 @@ Recreation,Winter and Water Sports,cross-country skiing,cross-country skiing.jpg
 Recreation,Winter and Water Sports,ice skating,ice skating.jpg,https://unsplash.com/photos/mNLTL_8IU3g
 Recreation,Winter and Water Sports,figure skating,figure skating.jpg,https://unsplash.com/photos/aEH0lGHMgDs
 Recreation,Winter and Water Sports,sledding/tobogganing,sledding.jpg,https://unsplash.com/photos/w-hKT1_Ba1I
-Recreation,Winter and Water Sports,tubing,tubing.jpg,https://pixabay.com/zh/photos/snow-tubing-sled-sledding-snow-93024/
+Recreation,Winter and Water Sports,snow tubing,snow tubing.jpg,https://pixabay.com/zh/photos/snow-tubing-sled-sledding-snow-93024/
 Recreation,Winter and Water Sports,waterskiing,waterskiing.jpg,https://unsplash.com/photos/a6f968XpMRo
 Recreation,Winter and Water Sports,sailing,sailing.jpg,https://unsplash.com/photos/hXPG0Bk6JiM
 Recreation,Winter and Water Sports,surfing,surfing.jpg,https://unsplash.com/photos/_CFv3bntQlQ
 Recreation,Winter and Water Sports,windsurfing,windsurfing.jpg,https://unsplash.com/photos/9gPiru4XC-8
 Recreation,Winter and Water Sports,snorkeling,snorkeling.jpg,https://unsplash.com/photos/DZtrCR-vtE0
 Recreation,Winter and Water Sports,scuba diving,scuba diving.jpg,https://unsplash.com/photos/AY1UVjZCI4Q
-Recreation,Winter and Water Sports,skidoo/jet skiing,skidoo.jpg,https://unsplash.com/photos/TBRVu6ScH6c
-Recreation,Winter and Water Sports,seadoo,seadoo.jpg,https://unsplash.com/photos/ynRImHi8LnY
+Recreation,Winter and Water Sports,seadoo/jet skiing,seadoo.jpg,https://unsplash.com/photos/ynRImHi8LnY
+Recreation,Winter and Water Sports,skidoo/snow mobile/motor sled,skidoo.jpg,https://unsplash.com/photos/TBRVu6ScH6c
 Recreation,Winter and Water Sports,kayak,kayak.jpg,https://unsplash.com/photos/zK049OFP4uI
 Recreation,Winter and Water Sports,canoe,canoe.jpg,https://unsplash.com/photos/koQ5FXyakWA
 Recreation,Winter and Water Sports,surfboard,surfboard.jpg,https://unsplash.com/photos/4rvc6HWITpY
@@ -851,7 +852,6 @@ Undefined,Undefined,journal,journal.jpg,https://unsplash.com/photos/tcyW6Im5Uug
 Undefined,Undefined,journalist,journalist.jpg,https://unsplash.com/photos/56XYfmP-NGs
 Undefined,Undefined,tasty food/delicious,tasty food.jpg,https://unsplash.com/photos/mVZ_gjm_TOk
 Undefined,Undefined,gift certificate,gift certificate.jpg,https://unsplash.com/photos/90NNkvqBdtE
-Undefined,Undefined,flat tire/tire blow,flat tire.jpg,https://unsplash.com/photos/omJsJSHVCUk
 Undefined,Undefined,take a nap,take a nap.jpg,https://unsplash.com/photos/uhnZZUaTIOs
 Undefined,Undefined,vet/veterinarian,vet.jpg,https://pixabay.com/zh/photos/health-hospital-medicine-nurse-4385852/
 Undefined,Undefined,physical activity,physical activity.jpg,https://unsplash.com/photos/J154nEkpzlQ
