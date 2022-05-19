@@ -6,7 +6,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # here enter the id of your google sheet
 SAMPLE_SPREADSHEET_ID_input = '1rn20U7MOQmzPerJcqyOEQM2RRXsWRhXWkK0Lz9ulVCE'
-SAMPLE_RANGE_NAME = 'A1:AA1000'
+SAMPLE_RANGE_NAME = 'A1:AA2000'
 
 
 def main():
