@@ -1,4 +1,5 @@
 import csv
+import hashlib
 from json import dump
 
 
@@ -135,9 +136,16 @@ def gen_picture_dict_from_csv(csvfile, picwords_dict=[]):
             for key in topic_dict:
                 file_name = key
                 words = topic_dict[key]
-                file_name_list.append({'name': file_name, 'words': words})
+                id = hashlib.md5(
+                    f"{topic_name}|{file_name}".encode('utf-8')).hexdigest()
+                file_name_list.append({
+                    'id': id,
+                    'name': file_name,
+                    'words': words
+                })
             topic_list.append(
-                {'name': topic_name, 'pictureFiles': file_name_list})
+                {'name': topic_name, 'pictureFiles': file_name_list}
+            )
         picwords_dict.append({'name': chapter_name, 'topics': topic_list})
     return picwords_dict
 
