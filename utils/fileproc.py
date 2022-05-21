@@ -139,7 +139,6 @@ def gen_picture_dict_from_csv(csvfile, picwords_dict=[]):
                 id = hashlib.md5(
                     f"{topic_name}|{file_name}".encode('utf-8')).hexdigest()
                 file_name_list.append({
-                    'id': id,
                     'name': file_name,
                     'words': words
                 })
