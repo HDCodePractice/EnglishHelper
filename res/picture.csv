@@ -644,11 +644,32 @@ Housing,Finding a Home,submit an application,submit an application.jpg,https://u
 Housing,Finding a Home,furnished apartment,furnished apartment.jpg,https://unsplash.com/photos/U-k6XLlml1I
 Housing,Finding a Home,unfurnished apartment,unfurnished apartment.jpg,https://unsplash.com/photos/Cu2xZLKgn10
 Housing,Finding a Home,Internet listing,Internet listing.jpg,hd
+Housing,A House and Yard,cut grass/lawn,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
+Housing,A House and Yard,vegetable garden,vegetable garden.jpg,https://unsplash.com/photos/hkN0yoPrpM4
+Housing,A House and Yard,compost pile,compost pile.jpg,https://unsplash.com/photos/FwW5fhFKM6k
+Housing,A House and Yard,hammock,hammock.jpg,https://unsplash.com/photos/KYTT8L5JLDs
+Housing,A House and Yard,sprinkler,sprinkler.jpg,https://unsplash.com/photos/CTfcm6sZi0I
+Housing,A House and Yard,hose,hose.jpg,https://unsplash.com/photos/EyvNE_rXtSg
+Housing,A House and Yard,flower bed,flower bed.jpg,https://unsplash.com/photos/63j8unc6U3A
+Housing,A House and Yard,sliding glass door,sliding glass door.jpg,https://unsplash.com/photos/fv2jr89ajTE
+Housing,A House and Yard,grill,grill.jpg,https://unsplash.com/photos/9nLjKD8youM
+Housing,A House and Yard,patio/patio furniture,patio.jpg,https://unsplash.com/photos/SiOhyoER3kE
+Housing,A House and Yard,doorbell,doorbell.jpg,https://unsplash.com/photos/A9wbeTxMBeU
+Housing,A House and Yard,porch light,porch light.jpg,https://unsplash.com/photos/eomLWSJphQA
+Housing,A House and Yard,doorknob,doorknob.jpg,https://unsplash.com/photos/S6usVd4NOaw
+Housing,A House and Yard,front door,front door.jpg,https://unsplash.com/photos/z1uhic2f7Tg
+Housing,A House and Yard,gate,gate.jpg,https://unsplash.com/photos/jHcwBHPQjs8
+Housing,A House and Yard,driveway/garage door,driveway.jpg,https://unsplash.com/photos/3Ignkeds3w8
+Housing,A House and Yard,satellite dish,satellite dish.jpg,https://unsplash.com/photos/hbcumWpWywY
+Housing,A House and Yard,chimney,chimney.jpg,https://unsplash.com/photos/RJ5H9iK6AFA
+Housing,A House and Yard,gutter,gutter.jpg,https://unsplash.com/photos/gvt-wjGk4S4
+Housing,A House and Yard,steps,steps.jpg,https://unsplash.com/photos/GsqktN5IdVs
+Housing,A House and Yard,mailbox,mailbox.jpg,https://unsplash.com/photos/iozza2qsWOA
+Housing,A House and Yard,trash can/garbage can/litter,trash can.jpg,https://unsplash.com/photos/t06aN6vewaQ
 Housing,The Home,couch,couch.jpg,https://unsplash.com/photos/fZuleEfeA1Q
 Housing,The Home,rug,rug.jpg,https://unsplash.com/photos/gB9hryu1q40
 Housing,The Home,ladder,ladder.jpg,https://unsplash.com/photos/BFO8xXD__gM
 Housing,The Home,bathtub,bathtub.jpg,https://unsplash.com/photos/EAMWa3QSaKg
-Housing,The Home,trash can/garbage/litter,trash can.jpg,https://unsplash.com/s/photos/trash-can
 Housing,The Home,laundry room,laundry room.jpg,https://unsplash.com/photos/FXpJW_wdMdk
 Housing,The Home,fence,fence.jpg,https://unsplash.com/photos/07dDz_PI05k
 Housing,The Home,garage,garage.jpg,https://unsplash.com/photos/KbG-h4wLVPc
@@ -787,6 +808,7 @@ Plants and Animals,Mammals,deer,deer.jpg,https://unsplash.com/photos/favQn8WgRyk
 Plants and Animals,Mammals,buffalo/bison,buffalo.jpg,https://unsplash.com/photos/Rr24aBqhq9k
 Plants and Animals,Mammals,armadillo,armadillo.jpg,https://unsplash.com/photos/vCvLfnvUGJw
 Plants and Animals,Mammals,skunk,skunk.jpg,https://unsplash.com/photos/Tm-EWw4403w
+Plants and Animals,Mammals,elephant,elephant.jpg,https://unsplash.com/photos/EvuwEKi1b1A
 Plants and Animals,Mammals,groundhog/rodent,groundhog.jpg,https://pixabay.com/zh/photos/groundhog-animal-cute-nature-4688628/
 Plants and Animals,Nature Center,plants,plants.jpg,https://unsplash.com/photos/S7viz8JWxwY
 Plants and Animals,Nature Center,soil,soil.jpg,https://unsplash.com/photos/jin4W1HqgL4
@@ -992,7 +1014,6 @@ Undefined,Undefined,get wet,get wet.jpg,https://unsplash.com/photos/FtZL0r4DZYk
 Undefined,Undefined,unexpected,unexpected.jpg,https://pixabay.com/zh/photos/mistake-spill-slip-up-accident-876597/
 Undefined,Undefined,prize/trophy,prize.jpg,https://unsplash.com/photos/HkN64BISuQA
 Undefined,Undefined,journey/tourist,journey.jpg,https://unsplash.com/photos/_g1WdcKcV3w
-Undefined,Undefined,cut grass,cut grass.jpg,https://unsplash.com/photos/8vBpYpTGo90
 Undefined,Undefined,bit messy,bit messy.jpg,https://unsplash.com/photos/BL_f4gQ0TXI
 Undefined,Undefined,blouse,blouse.jpg,https://unsplash.com/photos/LLHs1CN-5UU
 Undefined,Undefined,laundry,laundry.jpg,https://unsplash.com/photos/lgrM1t4rxWQ
@@ -1030,3 +1051,12 @@ Undefined,Undefined,federal,federal.jpg,https://unsplash.com/photos/gtCWBwbZNpM
 Undefined,Undefined,provincial,provincial.jpg,https://unsplash.com/photos/hAJhORQHk94
 Undefined,Undefined,saves the day,saves the day.jpg,https://unsplash.com/photos/7-ToFEHzMNw
 Undefined,Undefined,coal mine/gold mine,coal mine.jpg,https://unsplash.com/photos/4Gf51uY0YQE
+Undefined,Undefined,spoons,spoons.jpg,https://unsplash.com/photos/F3svh7bKb6I
+Undefined,Undefined,Buddhist/Monk,Buddhist.jpg,https://unsplash.com/photos/KBkEzdNn03o
+Undefined,Undefined,musicians,musicians.jpg,https://unsplash.com/photos/qYHyn4ztNkc
+Undefined,Undefined,India,India.jpg,https://unsplash.com/photos/iWMfiInivp4
+Undefined,Undefined,Japan,Japan.jpg,https://unsplash.com/photos/SBK40fdKbAg
+Undefined,Undefined,temple,temple.jpg,https://unsplash.com/photos/n_PVcRPKCJ0
+Undefined,Undefined,Brazil,Brazil.jpg,https://unsplash.com/photos/o-bc8wuY29c
+Undefined,Undefined,Italy,Italy.jpg,https://unsplash.com/photos/1naE8177_bI
+Undefined,Undefined,Russia,Russia.jpg,https://unsplash.com/photos/QJ2HGuSSQz0
