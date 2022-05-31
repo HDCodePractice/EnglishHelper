@@ -41,7 +41,14 @@ with open("res/grammar.csv", "r") as csvfile:
     fileproc.save_word_dict("res/grammar_dict.json", grammar_list)
 
 with open("res/picture.csv", "r") as csvfile:
-    # 生成ios app的json文件
+    # 生成ios app的picture game json文件
     picwords_dict = []
     picwords_dict = fileproc.gen_picture_dict_from_csv(csvfile)
     fileproc.save_word_dict("res/picture.json", picwords_dict)
+
+
+with open("res/iverbs.csv", "r") as iverb_csvfile:
+    # 生成ios app的iverbs.json文件
+    iverbs_dict = []
+    iverbs_dict = fileproc.gen_iverbs_dict_from_csv(iverb_csvfile)
+    fileproc.save_word_dict("res/iverbs.json", iverbs_dict)

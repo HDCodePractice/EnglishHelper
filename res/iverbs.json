@@ -1,0 +1,320 @@
+[
+  {
+    "baseFrom": "arise",
+    "simplePast": ["arose"],
+    "pastParticiple": ["arisen"]
+  },
+  {
+    "baseFrom": "awake",
+    "simplePast": ["awoke"],
+    "pastParticiple": ["awoken"]
+  },
+  {
+    "baseFrom": "be",
+    "simplePast": ["was", "were"],
+    "pastParticiple": ["been"]
+  },
+  { "baseFrom": "beat", "simplePast": ["beat"], "pastParticiple": ["beaten"] },
+  {
+    "baseFrom": "become",
+    "simplePast": ["became"],
+    "pastParticiple": ["become"]
+  },
+  { "baseFrom": "begin", "simplePast": ["began"], "pastParticiple": ["begun"] },
+  { "baseFrom": "bend", "simplePast": ["bent"], "pastParticiple": ["bent"] },
+  { "baseFrom": "bet", "simplePast": ["bet"], "pastParticiple": ["bet"] },
+  { "baseFrom": "bite", "simplePast": ["bit"], "pastParticiple": ["bitten"] },
+  { "baseFrom": "bleed", "simplePast": ["bled"], "pastParticiple": ["bled"] },
+  { "baseFrom": "blow", "simplePast": ["blew"], "pastParticiple": ["blown"] },
+  {
+    "baseFrom": "break",
+    "simplePast": ["broke"],
+    "pastParticiple": ["broken"]
+  },
+  {
+    "baseFrom": "bring",
+    "simplePast": ["brought"],
+    "pastParticiple": ["brought"]
+  },
+  {
+    "baseFrom": "broadcast",
+    "simplePast": ["broadcast"],
+    "pastParticiple": ["broadcast"]
+  },
+  { "baseFrom": "build", "simplePast": ["built"], "pastParticiple": ["built"] },
+  {
+    "baseFrom": "burn",
+    "simplePast": ["burned", "burnt"],
+    "pastParticiple": ["burned", "burnt"]
+  },
+  { "baseFrom": "burst", "simplePast": ["burst"], "pastParticiple": ["burst"] },
+  { "baseFrom": "buy", "simplePast": ["bought"], "pastParticiple": ["bought"] },
+  {
+    "baseFrom": "catch",
+    "simplePast": ["caught"],
+    "pastParticiple": ["caught"]
+  },
+  {
+    "baseFrom": "choose",
+    "simplePast": ["chose"],
+    "pastParticiple": ["chosen"]
+  },
+  { "baseFrom": "cling", "simplePast": ["clung"], "pastParticiple": ["clung"] },
+  { "baseFrom": "come", "simplePast": ["came"], "pastParticiple": ["come"] },
+  { "baseFrom": "cost", "simplePast": ["cost"], "pastParticiple": ["cost"] },
+  { "baseFrom": "creep", "simplePast": ["crept"], "pastParticiple": ["crept"] },
+  { "baseFrom": "cut", "simplePast": ["cut"], "pastParticiple": ["cut"] },
+  { "baseFrom": "deal", "simplePast": ["dealt"], "pastParticiple": ["dealt"] },
+  { "baseFrom": "dig", "simplePast": ["dug"], "pastParticiple": ["dug"] },
+  {
+    "baseFrom": "dive",
+    "simplePast": ["dived", "dove"],
+    "pastParticiple": ["dived"]
+  },
+  { "baseFrom": "do", "simplePast": ["did"], "pastParticiple": ["done"] },
+  { "baseFrom": "draw", "simplePast": ["drew"], "pastParticiple": ["drawn"] },
+  {
+    "baseFrom": "dream",
+    "simplePast": ["dreamed", "dreamt"],
+    "pastParticiple": ["dreamed", "dreamt"]
+  },
+  { "baseFrom": "drink", "simplePast": ["drank"], "pastParticiple": ["drunk"] },
+  {
+    "baseFrom": "drive",
+    "simplePast": ["drove"],
+    "pastParticiple": ["driven"]
+  },
+  { "baseFrom": "eat", "simplePast": ["ate"], "pastParticiple": ["eaten"] },
+  { "baseFrom": "fall", "simplePast": ["fell"], "pastParticiple": ["fallen"] },
+  { "baseFrom": "feed", "simplePast": ["fed"], "pastParticiple": ["fed"] },
+  { "baseFrom": "feel", "simplePast": ["felt"], "pastParticiple": ["felt"] },
+  {
+    "baseFrom": "fight",
+    "simplePast": ["fought"],
+    "pastParticiple": ["fought"]
+  },
+  { "baseFrom": "find", "simplePast": ["found"], "pastParticiple": ["found"] },
+  { "baseFrom": "fit", "simplePast": ["fit"], "pastParticiple": ["fit"] },
+  { "baseFrom": "flee", "simplePast": ["fled"], "pastParticiple": ["fled"] },
+  { "baseFrom": "fling", "simplePast": ["flung"], "pastParticiple": ["flung"] },
+  { "baseFrom": "fly", "simplePast": ["flew"], "pastParticiple": ["flown"] },
+  {
+    "baseFrom": "forbid",
+    "simplePast": ["forbade", "forbad"],
+    "pastParticiple": ["forbidden"]
+  },
+  {
+    "baseFrom": "forget",
+    "simplePast": ["forgot"],
+    "pastParticiple": ["forgotten"]
+  },
+  {
+    "baseFrom": "forgive",
+    "simplePast": ["forgave"],
+    "pastParticiple": ["forgiven"]
+  },
+  {
+    "baseFrom": "freeze",
+    "simplePast": ["froze"],
+    "pastParticiple": ["frozen"]
+  },
+  {
+    "baseFrom": "get",
+    "simplePast": ["got"],
+    "pastParticiple": ["gotten", "got"]
+  },
+  { "baseFrom": "give", "simplePast": ["gave"], "pastParticiple": ["given"] },
+  { "baseFrom": "go", "simplePast": ["went"], "pastParticiple": ["gone"] },
+  {
+    "baseFrom": "grind",
+    "simplePast": ["gound"],
+    "pastParticiple": ["ground"]
+  },
+  { "baseFrom": "grow", "simplePast": ["grew"], "pastParticiple": ["grown"] },
+  { "baseFrom": "hang", "simplePast": ["hung"], "pastParticiple": ["hung"] },
+  { "baseFrom": "have", "simplePast": ["had"], "pastParticiple": ["had"] },
+  { "baseFrom": "hear", "simplePast": ["heard"], "pastParticiple": ["heard"] },
+  { "baseFrom": "hide", "simplePast": ["hid"], "pastParticiple": ["hidden"] },
+  { "baseFrom": "hit", "simplePast": ["hit"], "pastParticiple": ["hit"] },
+  { "baseFrom": "hold", "simplePast": ["held"], "pastParticiple": ["held"] },
+  { "baseFrom": "hurt", "simplePast": ["hurt"], "pastParticiple": ["hurt"] },
+  { "baseFrom": "keep", "simplePast": ["kept"], "pastParticiple": ["kept"] },
+  { "baseFrom": "kneel", "simplePast": ["knelt"], "pastParticiple": ["knelt"] },
+  {
+    "baseFrom": "knit",
+    "simplePast": ["knit", "knitted"],
+    "pastParticiple": ["knit", "knitted"]
+  },
+  { "baseFrom": "know", "simplePast": ["knew"], "pastParticiple": ["known"] },
+  { "baseFrom": "lay", "simplePast": ["laid"], "pastParticiple": ["laid"] },
+  { "baseFrom": "lead", "simplePast": ["led"], "pastParticiple": ["led"] },
+  { "baseFrom": "leap", "simplePast": ["leapt"], "pastParticiple": ["leapt"] },
+  {
+    "baseFrom": "learn",
+    "simplePast": ["learned", "learnt"],
+    "pastParticiple": ["learned", "learnt"]
+  },
+  { "baseFrom": "leave", "simplePast": ["left"], "pastParticiple": ["left"] },
+  { "baseFrom": "lend", "simplePast": ["lent"], "pastParticiple": ["lent"] },
+  { "baseFrom": "let", "simplePast": ["let"], "pastParticiple": ["let"] },
+  { "baseFrom": "lie", "simplePast": ["lay"], "pastParticiple": ["lain"] },
+  {
+    "baseFrom": "light",
+    "simplePast": ["lit", "lighted"],
+    "pastParticiple": ["lit", "lighted"]
+  },
+  { "baseFrom": "lose", "simplePast": ["lost"], "pastParticiple": ["lost"] },
+  { "baseFrom": "make", "simplePast": ["made"], "pastParticiple": ["made"] },
+  { "baseFrom": "mean", "simplePast": ["meant"], "pastParticiple": ["meant"] },
+  { "baseFrom": "meet", "simplePast": ["met"], "pastParticiple": ["met"] },
+  { "baseFrom": "must", "simplePast": ["had to"], "pastParticiple": [""] },
+  { "baseFrom": "pay", "simplePast": ["paid"], "pastParticiple": ["paid"] },
+  {
+    "baseFrom": "prove",
+    "simplePast": ["proved"],
+    "pastParticiple": ["proved", "proven"]
+  },
+  { "baseFrom": "put", "simplePast": ["put"], "pastParticiple": ["put"] },
+  { "baseFrom": "quit", "simplePast": ["quit"], "pastParticiple": ["quit"] },
+  { "baseFrom": "read", "simplePast": ["read"], "pastParticiple": ["read"] },
+  { "baseFrom": "ride", "simplePast": ["rode"], "pastParticiple": ["ridden"] },
+  { "baseFrom": "ring", "simplePast": ["rang"], "pastParticiple": ["rung"] },
+  { "baseFrom": "rise", "simplePast": ["rose"], "pastParticiple": ["risen"] },
+  { "baseFrom": "run", "simplePast": ["ran"], "pastParticiple": ["run"] },
+  { "baseFrom": "say", "simplePast": ["said"], "pastParticiple": ["said"] },
+  { "baseFrom": "see", "simplePast": ["saw"], "pastParticiple": ["seen"] },
+  {
+    "baseFrom": "seek",
+    "simplePast": ["sought"],
+    "pastParticiple": ["sought"]
+  },
+  { "baseFrom": "sell", "simplePast": ["sold"], "pastParticiple": ["sold"] },
+  { "baseFrom": "send", "simplePast": ["sent"], "pastParticiple": ["sent"] },
+  { "baseFrom": "set", "simplePast": ["set"], "pastParticiple": ["set"] },
+  {
+    "baseFrom": "sew",
+    "simplePast": ["sewed"],
+    "pastParticiple": ["sewn", "sewed"]
+  },
+  {
+    "baseFrom": "shake",
+    "simplePast": ["shook"],
+    "pastParticiple": ["shaken"]
+  },
+  {
+    "baseFrom": "shave",
+    "simplePast": ["shaved"],
+    "pastParticiple": ["shaved", "shaven"]
+  },
+  { "baseFrom": "shine", "simplePast": ["shone"], "pastParticiple": ["shone"] },
+  { "baseFrom": "shoot", "simplePast": ["shot"], "pastParticiple": ["shot"] },
+  { "baseFrom": "show", "simplePast": ["showed"], "pastParticiple": ["shown"] },
+  {
+    "baseFrom": "shrink",
+    "simplePast": ["shrank", "shrunk"],
+    "pastParticiple": ["shrunk", "shrunken"]
+  },
+  { "baseFrom": "shut", "simplePast": ["shut"], "pastParticiple": ["shut"] },
+  { "baseFrom": "sing", "simplePast": ["sang"], "pastParticiple": ["sung"] },
+  { "baseFrom": "sink", "simplePast": ["sank"], "pastParticiple": ["sunk"] },
+  { "baseFrom": "sit", "simplePast": ["sat"], "pastParticiple": ["sat"] },
+  { "baseFrom": "sleep", "simplePast": ["slept"], "pastParticiple": ["slept"] },
+  { "baseFrom": "slide", "simplePast": ["slid"], "pastParticiple": ["slid"] },
+  {
+    "baseFrom": "smell",
+    "simplePast": ["smelled", "smelt"],
+    "pastParticiple": ["smelled", "smelt"]
+  },
+  {
+    "baseFrom": "speak",
+    "simplePast": ["spoke"],
+    "pastParticiple": ["spoken"]
+  },
+  { "baseFrom": "speed", "simplePast": ["sped"], "pastParticiple": ["sped"] },
+  { "baseFrom": "spend", "simplePast": ["spent"], "pastParticiple": ["spent"] },
+  {
+    "baseFrom": "spill",
+    "simplePast": ["spilled", "spilt"],
+    "pastParticiple": ["spilled", "spilt"]
+  },
+  { "baseFrom": "spin", "simplePast": ["spun"], "pastParticiple": ["spun"] },
+  {
+    "baseFrom": "spit",
+    "simplePast": ["spit", "spat"],
+    "pastParticiple": ["spat"]
+  },
+  { "baseFrom": "split", "simplePast": ["split"], "pastParticiple": ["split"] },
+  {
+    "baseFrom": "spread",
+    "simplePast": ["spread"],
+    "pastParticiple": ["spread"]
+  },
+  {
+    "baseFrom": "spring",
+    "simplePast": ["sprang"],
+    "pastParticiple": ["sprung"]
+  },
+  { "baseFrom": "stand", "simplePast": ["stood"], "pastParticiple": ["stood"] },
+  {
+    "baseFrom": "steal",
+    "simplePast": ["stole"],
+    "pastParticiple": ["stolen"]
+  },
+  { "baseFrom": "stick", "simplePast": ["stuck"], "pastParticiple": ["stuck"] },
+  { "baseFrom": "sting", "simplePast": ["stung"], "pastParticiple": ["stung"] },
+  {
+    "baseFrom": "stink",
+    "simplePast": ["stank", "stunk"],
+    "pastParticiple": ["stunk"]
+  },
+  {
+    "baseFrom": "strike",
+    "simplePast": ["struck"],
+    "pastParticiple": ["struck"]
+  },
+  { "baseFrom": "swear", "simplePast": ["swore"], "pastParticiple": ["sworn"] },
+  { "baseFrom": "sweep", "simplePast": ["swept"], "pastParticiple": ["swept"] },
+  { "baseFrom": "swim", "simplePast": ["swam"], "pastParticiple": ["swum"] },
+  { "baseFrom": "swing", "simplePast": ["swung"], "pastParticiple": ["swung"] },
+  { "baseFrom": "take", "simplePast": ["took"], "pastParticiple": ["taken"] },
+  {
+    "baseFrom": "teach",
+    "simplePast": ["taught"],
+    "pastParticiple": ["taught"]
+  },
+  { "baseFrom": "tear", "simplePast": ["tore"], "pastParticiple": ["torn"] },
+  { "baseFrom": "tell", "simplePast": ["told"], "pastParticiple": ["told"] },
+  {
+    "baseFrom": "think",
+    "simplePast": ["thought"],
+    "pastParticiple": ["thought"]
+  },
+  {
+    "baseFrom": "throw",
+    "simplePast": ["threw"],
+    "pastParticiple": ["thrown"]
+  },
+  {
+    "baseFrom": "understand",
+    "simplePast": ["understood"],
+    "pastParticiple": ["understood"]
+  },
+  { "baseFrom": "upset", "simplePast": ["upset"], "pastParticiple": ["upset"] },
+  { "baseFrom": "wake", "simplePast": ["woke"], "pastParticiple": ["woken"] },
+  { "baseFrom": "wear", "simplePast": ["wore"], "pastParticiple": ["worn"] },
+  { "baseFrom": "weave", "simplePast": ["wove"], "pastParticiple": ["woven"] },
+  { "baseFrom": "weep", "simplePast": ["wept"], "pastParticiple": ["wept"] },
+  { "baseFrom": "win", "simplePast": ["won"], "pastParticiple": ["won"] },
+  { "baseFrom": "wind", "simplePast": ["wound"], "pastParticiple": ["wound"] },
+  {
+    "baseFrom": "withdraw",
+    "simplePast": ["withdrew"],
+    "pastParticiple": ["withdrawn"]
+  },
+  { "baseFrom": "wring", "simplePast": ["wrung"], "pastParticiple": ["wrung"] },
+  {
+    "baseFrom": "write",
+    "simplePast": ["wrote"],
+    "pastParticiple": ["written"]
+  }
+]

@@ -1,5 +1,6 @@
 import csv
 import hashlib
+from asyncore import read
 from json import dump
 
 
@@ -96,16 +97,25 @@ def gen_iospic_dict_from_csv(csvfile, picwords_dict=[]):
             for word in pre_word.split('/'):    # 一个图有多个单词会使用/分割
                 w = {'index': num, 'name': word}
                 ws.append(w)
-        picwords_dict.append(
-            {
-                'name': filenumber,
-                'chapter': chapter,
-                'topic': topic,
-                'filename': filename,
-                'words': ws
-            }
-        )
+        picwords_dict.append({
+            'name': filenumber,
+            'chapter': chapter,
+            'topic': topic,
+            'filename': filename,
+            'words': ws
+        })
     return picwords_dict
+
+
+def gen_iverbs_dict_from_csv(csvfile, iverbs_dict=[]):
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        iverbs_dict.append({
+            'baseFrom': row['Base From'],
+            'simplePast': row['Simple Past'].split('/'),
+            'pastParticiple': row['Past Participle'].split('/'),
+        })
+    return iverbs_dict
 
 
 def gen_picture_dict_from_csv(csvfile, picwords_dict=[]):
