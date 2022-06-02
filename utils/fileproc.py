@@ -112,8 +112,8 @@ def gen_iverbs_dict_from_csv(csvfile, iverbs_dict=[]):
     for row in reader:
         iverbs_dict.append({
             'baseForm': row['Base Form'],
-            'simplePast': row['Simple Past'].split('/'),
-            'pastParticiple': row['Past Participle'].split('/'),
+            'simplePast': row['Simple Past'],
+            'pastParticiple': row['Past Participle'],
         })
     return iverbs_dict
 
