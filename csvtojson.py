@@ -52,3 +52,9 @@ with open("res/iverbs.csv", "r") as iverb_csvfile:
     iverbs_dict = []
     iverbs_dict = fileproc.gen_iverbs_dict_from_csv(iverb_csvfile)
     fileproc.save_word_dict("res/iverbs.json", iverbs_dict)
+
+with open("res/inouns.csv", "r") as inouns_csvfile:
+    # 生成ios app的inouns.json文件
+    inouns_dict = []
+    inouns_dict = fileproc.gen_inouns_dict_from_csv(inouns_csvfile)
+    fileproc.save_word_dict("res/inouns.json", inouns_dict)

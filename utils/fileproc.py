@@ -113,9 +113,19 @@ def gen_iverbs_dict_from_csv(csvfile, iverbs_dict=[]):
         iverbs_dict.append({
             'baseForm': row['Base Form'],
             'simplePast': row['Simple Past'],
-            'pastParticiple': row['Past Participle'],
+            'pastParticiple': row['Past Participle']
         })
     return iverbs_dict
+
+
+def gen_inouns_dict_from_csv(csvfile, inouns_dict=[]):
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        inouns_dict.append({
+            'singular': row['singular'],
+            'plural': row['plural']
+        })
+    return inouns_dict
 
 
 def gen_picture_dict_from_csv(csvfile, picwords_dict=[]):
